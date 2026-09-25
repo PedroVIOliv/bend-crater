@@ -148,7 +148,8 @@ One page, plain HTML/JS, no build step, no framework.
   `dep_missing` retry, ordering.
 - `hub.ts`: tests against a recorded `/packages.json` page, including paging.
 - Integration (opt-in, network): real 2.0.8, 2.0.27 and 2.0.28 on
-  `0x1f4d6c03…/json.bend` (pass on all three) and `0x0bc665d2…/json.bend`
+  `0x1f4d6c03…/json.bend` (pass on 2.0.8 and 2.0.27, fail on 2.0.28: `Nat.read.fit`
+  no longer resolves) and `0x0bc665d2…/json.bend`
   (unsafe on 2.0.8, pass on 2.0.27, fail on 2.0.28).
 - Site: `data/fixtures/` with a hand-written small data set; the site loads
   it via `?data=fixtures`.
