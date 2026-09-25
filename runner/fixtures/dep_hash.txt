@@ -1,0 +1,6 @@
+Error:
+- message  : a file at https://hub.bend-lang.com/0x00000000000000000000000000000000/manifest hashing to 00000000000000000000000000000000
+Location:
+1>| import 0x00000000000000000000000000000000/x.bend as P
+2 | 
+bend 2.0.28 is available: run bend update

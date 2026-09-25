@@ -1,0 +1,11 @@
+{
+  "name": "bend-crater",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "bun test",
+    "crater": "bun runner/main.ts",
+    "serve": "bun serve.ts"
+  },
+  "devDependencies": { "@types/bun": "latest" }
+}

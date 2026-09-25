@@ -1,0 +1,6 @@
+Error:
+- message  : no such file: nonexistent-pkg-zzzz@1.0.0.0/x.bend
+Location:
+1>| import nonexistent-pkg-zzzz@1.0.0.0/x.bend as P
+2 | 
+bend 2.0.28 is available: run bend update

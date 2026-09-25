@@ -1,0 +1,7 @@
+Error:
+- expected : a fresh constructor name (duplicate declaration: Zero)
+- observed : '{'
+Location:
+192 |   Minus{}
+193>|   Zero{}
+194 |   Integer{}

@@ -1,0 +1,2 @@
+All terms check.
+bend 2.0.28 is available: run bend update

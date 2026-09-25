@@ -1,0 +1,2 @@
+TypeError: Unable to connect. Is the computer able to access the url?
+bend 2.0.28 is available: run bend update
