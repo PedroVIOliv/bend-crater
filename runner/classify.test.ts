@@ -56,3 +56,8 @@ test("timeout wins over whatever was printed", async () => {
 test("exit 0 without the check line is a fail", () => {
   expect(classify("", 0, false)!.status).toBe("fail");
 });
+
+test("connection words inside quoted package source are still a fail", () => {
+  const out = "Error:\n- expected : Bool\n- detected : U32\nLocation:\n12>|   case ECONNREFUSED: \"fetch failed\"\n";
+  expect(classify(out, 1, false)!.status).toBe("fail");
+});

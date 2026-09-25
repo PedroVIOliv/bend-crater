@@ -20,6 +20,6 @@ export function classify(
   if (code === 0 && /All terms check, with \d+ unsafe annotation/.test(text))
     return { status: "unsafe", error: "" };
   if (code === 0 && /All terms check\./.test(text)) return { status: "pass", error: "" };
-  if (OFFLINE.test(text)) return null;
+  if (OFFLINE.test(lines.find((l) => l.trim()) ?? "")) return null;
   return { status: DEP.test(text) ? "dep_missing" : "fail", error: excerpt(lines) };
 }
