@@ -44,7 +44,8 @@ unreleased `bend` commits, an API beyond the committed JSON.
 - Unsafe annotations exit 0 with `All terms check, with N unsafe
   annotation(s).`
 - Real regression: `bend-anthropic-sdk` (`0x0bc665d2…/json.bend`) checks on
-  2.0.8 (1 unsafe) and fails on 2.0.27 with `duplicate declaration: Zero`.
+  2.0.8 (1 unsafe) and 2.0.27, and fails on 2.0.28 with `duplicate
+  declaration: Zero`.
 
 ## Layout
 
@@ -101,9 +102,14 @@ site/          static; reads data/, never writes it
    - killed at the timeout -> `timeout`
    - exit 0 and `with N unsafe annotation` -> `unsafe`
    - exit 0 and `All terms check.` -> `pass`
-   - output shows a failed hub fetch or an unknown package name ->
+   - `Unable to connect` (or another connection error) -> not recorded;
+     the cell stays missing and is retried next run
+   - the hub serves no manifest for a hash (`a file at <hub>/<hash>/manifest
+     hashing to ...`) or no such name (`a package named X on <hub>`) ->
      `dep_missing`
-   - anything else -> `fail`
+   - anything else -> `fail`, including a release before 2.0.26 that cannot
+     read a named import (`no such file: name@1.0.0.0/...`): that package
+     truly does not check there
 5. Append results; rewrite `packages.json` and `releases.json`.
 
 Errors:
@@ -141,9 +147,9 @@ One page, plain HTML/JS, no build step, no framework.
 - `plan.ts`: pure; tests for missing cells, the `runner` bump, the
   `dep_missing` retry, ordering.
 - `hub.ts`: tests against a recorded `/packages.json` page, including paging.
-- Integration (opt-in, network): real 2.0.8 and 2.0.27 on
-  `0x1f4d6c03…/json.bend` (pass on both) and `0x0bc665d2…/json.bend`
-  (unsafe on 2.0.8, fail on 2.0.27).
+- Integration (opt-in, network): real 2.0.8, 2.0.27 and 2.0.28 on
+  `0x1f4d6c03…/json.bend` (pass on all three) and `0x0bc665d2…/json.bend`
+  (unsafe on 2.0.8, pass on 2.0.27, fail on 2.0.28).
 - Site: `data/fixtures/` with a hand-written small data set; the site loads
   it via `?data=fixtures`.
 
