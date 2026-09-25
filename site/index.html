@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bend Crater</title>
+<meta name="description" content="Every Bend hub package, type-checked against every bend release.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Bend Crater</h1>
+  <p class="lede">Every package on the <a href="https://hub.bend-lang.com">Bend hub</a>, type-checked against every <code>bend</code> release. Checking only: no package code runs.</p>
+  <p id="news" class="news"></p>
+</header>
+<nav class="filters">
+  <input id="q" type="search" placeholder="Search name, hash or description" aria-label="Search">
+  <select id="status" aria-label="Status on the newest release">
+    <option value="">Any status on the newest release</option>
+    <option value="ok">Checks</option>
+    <option value="bad">Does not check</option>
+  </select>
+  <label><input id="named" type="checkbox"> Named packages only</label>
+</nav>
+<div class="legend" id="legend"></div>
+<main id="grid" aria-live="polite">Loading…</main>
+<footer>Updated hourly. Statuses come from <code>bend</code> type-checking only; see the README for the method.</footer>
+<script type="module" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+{
+  "0x0bc665d2ca2b4a7f7df0c8b32cfaa356": { "hash": "0x0bc665d2ca2b4a7f7df0c8b32cfaa356", "files": { "anthropic.bend": 1, "json.bend": 1, "LICENSE": 1 }, "name": "bend-anthropic-sdk", "version": "0.1.0.0", "desc": "An unofficial Anthropic SDK for Bend.", "ts": 1790289598443, "dependents": 0 },
+  "0x1f4d6c03caf955232d0b0dc6e6f36cf4": { "hash": "0x1f4d6c03caf955232d0b0dc6e6f36cf4", "files": { "json.bend": 1 }, "name": null, "version": null, "desc": "JSON parser and serializer with formal proofs", "ts": 1758000000000, "dependents": 3 },
+  "0x39cbd6b8923682f1e4deba6ee6056b43": { "hash": "0x39cbd6b8923682f1e4deba6ee6056b43", "files": { "http.c": 1, "LICENSE": 1 }, "name": null, "version": null, "desc": "C-only package", "ts": 1790276809012, "dependents": 0 }
+}
