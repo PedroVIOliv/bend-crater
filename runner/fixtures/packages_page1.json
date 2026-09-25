@@ -1,0 +1,4 @@
+{"total":3,"packages":[
+ {"hash":"0x0bc665d2ca2b4a7f7df0c8b32cfaa356","files":{"LICENSE":1101,"anthropic.bend":9671,"json.bend":16187},"bytes":26959,"ts":1790289598443,"desc":"An unofficial Anthropic SDK for Bend.","name":"bend-anthropic-sdk","version":"0.1.0.0","dependents":0,"mentions":0,"score":0,"hot":140.9,"license":{"file":"LICENSE","id":"MIT"}},
+ {"hash":"0x39cbd6b8923682f1e4deba6ee6056b43","files":{"LICENSE":11381,"http.bend":574,"http.c":11221},"bytes":23176,"ts":1790276809012,"desc":"SPDX-License-Identifier: Apache-2.0","name":null,"version":null,"dependents":0,"mentions":0,"score":0,"hot":140.9,"license":{"file":"LICENSE","id":"Apache-2.0"}}
+]}
