@@ -1,0 +1,58 @@
+name: crater
+on:
+  schedule: [{ cron: "17 * * * *" }]
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["site/**"]
+concurrency: crater
+
+jobs:
+  check:
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    permissions: { contents: read }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+      - run: bun install --frozen-lockfile
+      - run: bun test
+      - uses: actions/cache@v4
+        with:
+          path: cache
+          key: crater-${{ github.run_id }}
+          restore-keys: crater-
+      - run: bun runner/main.ts --budget-min 45
+      - uses: actions/upload-artifact@v4
+        with: { name: data, path: data, include-hidden-files: false }
+
+  commit:
+    needs: check
+    runs-on: ubuntu-latest
+    permissions: { contents: write }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { name: data, path: data }
+      - run: |
+          git config user.name "bend-crater"
+          git config user.email "bend-crater@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Results $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
+
+  deploy:
+    needs: [commit]
+    if: always() && (needs.commit.result == 'success' || github.event_name == 'push')
+    runs-on: ubuntu-latest
+    permissions: { pages: write, id-token: write, contents: read }
+    environment: { name: github-pages, url: "${{ steps.pages.outputs.page_url }}" }
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - run: mkdir _site && cp site/*.html site/*.css site/*.js _site/ && cp -r data _site/data
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: _site }
+      - id: pages
+        uses: actions/deploy-pages@v4
