@@ -1,4 +1,378 @@
 {
+  "0x8a66b9708c43d13d24a12fc9e9d76f69": {
+    "hash": "0x8a66b9708c43d13d24a12fc9e9d76f69",
+    "files": {
+      "http.bend": 107760
+    },
+    "name": "bend-kit-http",
+    "version": "0.15.0.4",
+    "desc": "HTTP/1.1 client and server for http and https, with DNS and TLS. Source: https://github.com/paymog/bend-kit/tree/main/http",
+    "ts": 1790404319547,
+    "dependents": 0
+  },
+  "0xbf27a4a8ac7865535426a7da95de418f": {
+    "hash": "0xbf27a4a8ac7865535426a7da95de418f",
+    "files": {
+      "http.bend": 106158
+    },
+    "name": "bend-kit-http",
+    "version": "0.15.0.3",
+    "desc": "HTTP/1.1 client and server for http and https, with DNS and TLS. Source: https://github.com/paymog/bend-kit/tree/main/http",
+    "ts": 1790403473924,
+    "dependents": 0
+  },
+  "0x9ed9d2a83d17c8cb5d268ff52c77412d": {
+    "hash": "0x9ed9d2a83d17c8cb5d268ff52c77412d",
+    "files": {
+      "main.bend": 5163
+    },
+    "name": null,
+    "version": null,
+    "desc": "",
+    "ts": 1790402295123,
+    "dependents": 0
+  },
+  "0x00b25beeb5f3d0fd48e0c335c5999e89": {
+    "hash": "0x00b25beeb5f3d0fd48e0c335c5999e89",
+    "files": {
+      "http.bend": 105684
+    },
+    "name": "bend-kit-http",
+    "version": "0.15.0.1",
+    "desc": "HTTP/1.1 client and server for http and https, with DNS and TLS. Source: https://github.com/paymog/bend-kit/tree/main/http",
+    "ts": 1790401181354,
+    "dependents": 0
+  },
+  "0x0826261f6dc5a61da47ff8908a941ce1": {
+    "hash": "0x0826261f6dc5a61da47ff8908a941ce1",
+    "files": {
+      "LICENSE": 1118,
+      "domain/architecture/LAWS.bend": 254,
+      "domain/architecture/PROOF.bend": 386,
+      "domain/architecture/category/type.bend": 792,
+      "domain/architecture/environment/agreement/ops.bend": 2829,
+      "domain/architecture/environment/agreement/type.bend": 686,
+      "domain/architecture/environment/constraint/type.bend": 180,
+      "domain/architecture/environment/external/type.bend": 497,
+      "domain/architecture/environment/inventory/ops.bend": 684,
+      "domain/architecture/environment/inventory/type.bend": 341,
+      "domain/architecture/environment/party/type.bend": 545,
+      "domain/architecture/environment/type.bend": 527,
+      "domain/architecture/ops.bend": 21057,
+      "domain/architecture/relationship/type.bend": 318,
+      "domain/architecture/system/container/component/type.bend": 414,
+      "domain/architecture/system/container/effects.bend": 3573,
+      "domain/architecture/system/container/ops.bend": 9326,
+      "domain/architecture/system/container/type.bend": 1123,
+      "domain/architecture/system/deployment/azure/effects.bend": 5065,
+      "domain/architecture/system/deployment/azure/ops.bend": 7586,
+      "domain/architecture/system/deployment/azure/type.bend": 1139,
+      "domain/architecture/system/deployment/host/type.bend": 201,
+      "domain/architecture/system/deployment/nix_darwin/brew/effects.bend": 4463,
+      "domain/architecture/system/deployment/nix_darwin/brew/ops.bend": 6194,
+      "domain/architecture/system/deployment/nix_darwin/brew/type.bend": 252,
+      "domain/architecture/system/deployment/nix_darwin/effects.bend": 12046,
+      "domain/architecture/system/deployment/nix_darwin/ops.bend": 6265,
+      "domain/architecture/system/deployment/nix_darwin/service/ops.bend": 3052,
+      "domain/architecture/system/deployment/nix_darwin/service/type.bend": 730,
+      "domain/architecture/system/deployment/nix_darwin/setting/effects.bend": 13769,
+      "domain/architecture/system/deployment/nix_darwin/setting/ops.bend": 31681,
+      "domain/architecture/system/deployment/nix_darwin/setting/type.bend": 556,
+      "domain/architecture/system/deployment/nix_darwin/type.bend": 1099,
+      "domain/architecture/system/deployment/ops.bend": 3226,
+      "domain/architecture/system/deployment/type.bend": 1127,
+      "domain/architecture/system/effects.bend": 14793,
+      "domain/architecture/system/effs/io.bend": 4019,
+      "domain/architecture/system/effs/program_run.c": 2162,
+      "domain/architecture/system/effs/program_run.js": 771,
+      "domain/architecture/system/ops.bend": 509,
+      "domain/architecture/system/plan/ops.bend": 3655,
+      "domain/architecture/system/plan/type.bend": 1163,
+      "domain/architecture/system/release/ops.bend": 5122,
+      "domain/architecture/system/release/type.bend": 482,
+      "domain/architecture/system/type.bend": 352,
+      "domain/architecture/type.bend": 493,
+      "domain/architecture/view/effects.bend": 978,
+      "domain/architecture/view/ops.bend": 12483,
+      "domain/architecture/view/type.bend": 652,
+      "general/compound/edge/type.bend": 191,
+      "general/compound/ops.bend": 3299,
+      "general/compound/type.bend": 266,
+      "general/rose/LAWS.bend": 206,
+      "general/rose/PROOF.bend": 171,
+      "general/rose/ops.bend": 1491,
+      "general/rose/type.bend": 183,
+      "v.bend": 564
+    },
+    "name": "near-v-framework",
+    "version": "0.3.0.1",
+    "desc": "",
+    "ts": 1790400665144,
+    "dependents": 0
+  },
+  "0x635d6b0e0ec6a1b1f1319bf06aa496d9": {
+    "hash": "0x635d6b0e0ec6a1b1f1319bf06aa496d9",
+    "files": {
+      "LICENSE": 1118,
+      "domain/architecture/LAWS.bend": 254,
+      "domain/architecture/PROOF.bend": 386,
+      "domain/architecture/category/type.bend": 792,
+      "domain/architecture/environment/agreement/ops.bend": 2829,
+      "domain/architecture/environment/agreement/type.bend": 686,
+      "domain/architecture/environment/constraint/type.bend": 180,
+      "domain/architecture/environment/external/type.bend": 497,
+      "domain/architecture/environment/inventory/ops.bend": 684,
+      "domain/architecture/environment/inventory/type.bend": 341,
+      "domain/architecture/environment/party/type.bend": 545,
+      "domain/architecture/environment/type.bend": 527,
+      "domain/architecture/ops.bend": 21057,
+      "domain/architecture/relationship/type.bend": 318,
+      "domain/architecture/system/container/component/type.bend": 414,
+      "domain/architecture/system/container/effects.bend": 3573,
+      "domain/architecture/system/container/ops.bend": 9326,
+      "domain/architecture/system/container/type.bend": 1123,
+      "domain/architecture/system/deployment/azure/effects.bend": 5065,
+      "domain/architecture/system/deployment/azure/ops.bend": 7586,
+      "domain/architecture/system/deployment/azure/type.bend": 1139,
+      "domain/architecture/system/deployment/host/type.bend": 201,
+      "domain/architecture/system/deployment/nix_darwin/brew/effects.bend": 4463,
+      "domain/architecture/system/deployment/nix_darwin/brew/ops.bend": 6194,
+      "domain/architecture/system/deployment/nix_darwin/brew/type.bend": 252,
+      "domain/architecture/system/deployment/nix_darwin/effects.bend": 12046,
+      "domain/architecture/system/deployment/nix_darwin/ops.bend": 6265,
+      "domain/architecture/system/deployment/nix_darwin/service/ops.bend": 3052,
+      "domain/architecture/system/deployment/nix_darwin/service/type.bend": 730,
+      "domain/architecture/system/deployment/nix_darwin/setting/effects.bend": 13769,
+      "domain/architecture/system/deployment/nix_darwin/setting/ops.bend": 31681,
+      "domain/architecture/system/deployment/nix_darwin/setting/type.bend": 556,
+      "domain/architecture/system/deployment/nix_darwin/type.bend": 1099,
+      "domain/architecture/system/deployment/ops.bend": 3226,
+      "domain/architecture/system/deployment/type.bend": 1127,
+      "domain/architecture/system/effects.bend": 13893,
+      "domain/architecture/system/effs/io.bend": 4019,
+      "domain/architecture/system/effs/program_run.c": 2162,
+      "domain/architecture/system/effs/program_run.js": 771,
+      "domain/architecture/system/ops.bend": 509,
+      "domain/architecture/system/plan/ops.bend": 3655,
+      "domain/architecture/system/plan/type.bend": 1163,
+      "domain/architecture/system/release/ops.bend": 5122,
+      "domain/architecture/system/release/type.bend": 482,
+      "domain/architecture/system/type.bend": 352,
+      "domain/architecture/type.bend": 493,
+      "domain/architecture/view/effects.bend": 978,
+      "domain/architecture/view/ops.bend": 12483,
+      "domain/architecture/view/type.bend": 652,
+      "general/compound/edge/type.bend": 191,
+      "general/compound/ops.bend": 3299,
+      "general/compound/type.bend": 266,
+      "general/rose/LAWS.bend": 206,
+      "general/rose/PROOF.bend": 171,
+      "general/rose/ops.bend": 1491,
+      "general/rose/type.bend": 183,
+      "v.bend": 564
+    },
+    "name": "near-v-framework",
+    "version": "0.3.0.0",
+    "desc": "",
+    "ts": 1790400550443,
+    "dependents": 0
+  },
+  "0x3965e42284fae3ef14ee9cdd7149a39a": {
+    "hash": "0x3965e42284fae3ef14ee9cdd7149a39a",
+    "files": {
+      "main.bend": 70
+    },
+    "name": null,
+    "version": null,
+    "desc": "",
+    "ts": 1790400190921,
+    "dependents": 0
+  },
+  "0x99674294dda9fcad3d3e64a42002e3f7": {
+    "hash": "0x99674294dda9fcad3d3e64a42002e3f7",
+    "files": {
+      "http.bend": 104923
+    },
+    "name": "bend-kit-http",
+    "version": "0.15.0.0",
+    "desc": "HTTP/1.1 client and server for http and https, with DNS and TLS. Source: https://github.com/paymog/bend-kit/tree/main/http",
+    "ts": 1790399919943,
+    "dependents": 0
+  },
+  "0xc10a5eaaa9c896e1570e279945f4241e": {
+    "hash": "0xc10a5eaaa9c896e1570e279945f4241e",
+    "files": {
+      "dns.bend": 17933,
+      "effs/dns.c": 1646,
+      "effs/dns.js": 2050
+    },
+    "name": "bend-kit-dns",
+    "version": "0.3.2.1",
+    "desc": "DNS codec and host lookup. Source: https://github.com/paymog/bend-kit/tree/main/dns",
+    "ts": 1790398912789,
+    "dependents": 4
+  },
+  "0x096635686408886b7d907f16c4550317": {
+    "hash": "0x096635686408886b7d907f16c4550317",
+    "files": {
+      "effs/wire.c": 19603,
+      "effs/wire.js": 12045,
+      "wire.bend": 2907
+    },
+    "name": "bend-kit-wire",
+    "version": "0.4.0.3",
+    "desc": "Byte-exact TCP, UDP, and TLS sockets. Source: https://github.com/paymog/bend-kit/tree/main/wire",
+    "ts": 1790398532969,
+    "dependents": 5
+  },
+  "0xb9c171843853f26eb0a0cfd88782e4d3": {
+    "hash": "0xb9c171843853f26eb0a0cfd88782e4d3",
+    "files": {
+      "effs/process.c": 21515,
+      "effs/process.js": 9868,
+      "process.bend": 2865
+    },
+    "name": "bend-kit-process",
+    "version": "0.1.0.1",
+    "desc": "Subprocesses and process-level OS access, with byte-exact input and output.",
+    "ts": 1790398493405,
+    "dependents": 0
+  },
+  "0xa9d8dfccdb396356924785d43e105c3d": {
+    "hash": "0xa9d8dfccdb396356924785d43e105c3d",
+    "files": {
+      "dns.bend": 17933,
+      "effs/dns.c": 1646,
+      "effs/dns.js": 2050
+    },
+    "name": "bend-kit-dns",
+    "version": "0.3.2.0",
+    "desc": "DNS codec and host lookup. Source: https://github.com/paymog/bend-kit/tree/main/dns",
+    "ts": 1790397050093,
+    "dependents": 0
+  },
+  "0x0ae7ac793853e753f5f74c16e06ee078": {
+    "hash": "0x0ae7ac793853e753f5f74c16e06ee078",
+    "files": {
+      "LICENSE": 1506,
+      "mylsm.bend": 6228,
+      "src/BitTree.bend": 8180,
+      "src/Console.bend": 422,
+      "src/CrashPoint.bend": 1247,
+      "src/Db.bend": 15874,
+      "src/Decimal.bend": 5372,
+      "src/Fs.bend": 2781,
+      "src/Keys.bend": 4968,
+      "src/Manifest.bend": 5752,
+      "src/MemTable.bend": 7867,
+      "src/MergeIter.bend": 2669,
+      "src/SortedRun.bend": 13314,
+      "src/SstChecksum.bend": 426,
+      "src/SstFile.bend": 568,
+      "src/SstFileV2.bend": 16403,
+      "src/Sstable.bend": 20664,
+      "src/Wal.bend": 14861,
+      "src/effs/chmod.c": 578,
+      "src/effs/chmod.js": 285,
+      "src/effs/crash_point.c": 938,
+      "src/effs/crash_point.js": 872,
+      "src/effs/exists.c": 579,
+      "src/effs/exists.js": 386,
+      "src/effs/file_size.c": 564,
+      "src/effs/file_size.js": 354,
+      "src/effs/fsync.c": 854,
+      "src/effs/fsync.js": 394,
+      "src/effs/get_env.c": 536,
+      "src/effs/get_env.js": 317,
+      "src/effs/make_dir.c": 524,
+      "src/effs/make_dir.js": 267,
+      "src/effs/read_dir.c": 1717,
+      "src/effs/read_dir.js": 845,
+      "src/effs/read_line.c": 1341,
+      "src/effs/read_line.js": 663,
+      "src/effs/read_utf8_chunk.c": 2022,
+      "src/effs/read_utf8_chunk.js": 1320,
+      "src/effs/remove.c": 489,
+      "src/effs/remove.js": 253,
+      "src/effs/rename.c": 551,
+      "src/effs/rename.js": 288,
+      "src/hub_sha/core.bend": 109511,
+      "src/hub_sha/sha256.bend": 1751,
+      "src/hub_sha/state.bend": 317
+    },
+    "name": "mylsm-lsm-store",
+    "version": "0.3.1.0",
+    "desc": "",
+    "ts": 1790394600784,
+    "dependents": 0
+  },
+  "0xcfc8be7b076f41f95c8e118383892d55": {
+    "hash": "0xcfc8be7b076f41f95c8e118383892d55",
+    "files": {
+      "encoding.bend": 5243
+    },
+    "name": "bend-kit-encoding",
+    "version": "0.3.0.0",
+    "desc": "UTF-8 encoding and decoding between text and Bytes. Source: https://github.com/paymog/bend-kit/tree/main/encoding",
+    "ts": 1790387586048,
+    "dependents": 4
+  },
+  "0xb13667d52aa56e002b4d09883d7fce3e": {
+    "hash": "0xb13667d52aa56e002b4d09883d7fce3e",
+    "files": {
+      "LAWS.bend": 8462,
+      "LICENSE": 1066,
+      "PROOF.bend": 56428,
+      "ac.bend": 4012,
+      "mul.bend": 3013,
+      "nat.bend": 5277,
+      "word.bend": 2015
+    },
+    "name": null,
+    "version": null,
+    "desc": "wordlib: laws about Base's fixed-width words. Word(n) is n Bools,",
+    "ts": 1790386736875,
+    "dependents": 0
+  },
+  "0x738b30530890e825e0ab81092b94cbfc": {
+    "hash": "0x738b30530890e825e0ab81092b94cbfc",
+    "files": {
+      "LICENSE": 1066,
+      "check.bend": 14051
+    },
+    "name": null,
+    "version": null,
+    "desc": "bendcheck: property-based testing for Bend.",
+    "ts": 1790386605582,
+    "dependents": 0
+  },
+  "0x028439ae3c7614b8a470815572d7aa60": {
+    "hash": "0x028439ae3c7614b8a470815572d7aa60",
+    "files": {
+      "regex.bend": 25162
+    },
+    "name": null,
+    "version": null,
+    "desc": "Linear-time regular expressions: RE2 syntax, Pike VM, capture groups. Source: https://github.com/paymog/bend-kit/tree/main/regex",
+    "ts": 1790385414866,
+    "dependents": 0
+  },
+  "0x340691c4c9cfde2764a3ed46e48d644a": {
+    "hash": "0x340691c4c9cfde2764a3ed46e48d644a",
+    "files": {
+      "LAWS.bend": 7130,
+      "LICENSE": 1066,
+      "PROOF.bend": 43749,
+      "ac.bend": 4012,
+      "nat.bend": 5277,
+      "word.bend": 1354
+    },
+    "name": null,
+    "version": null,
+    "desc": "wordlib: laws about Base's fixed-width words. Word(n) is n Bools,",
+    "ts": 1790384917920,
+    "dependents": 0
+  },
   "0xeef3a8486d410ea6f25709aac90dbf40": {
     "hash": "0xeef3a8486d410ea6f25709aac90dbf40",
     "files": {
@@ -327,7 +701,7 @@
     "version": null,
     "desc": "Generated by gen.py from UCD 17.0.0. Do not edit.",
     "ts": 1790362349414,
-    "dependents": 0
+    "dependents": 1
   },
   "0x675b00007c6529c96bc50fe604cbdba2": {
     "hash": "0x675b00007c6529c96bc50fe604cbdba2",
@@ -345,8 +719,8 @@
     "files": {
       "dns.bend": 17082
     },
-    "name": null,
-    "version": null,
+    "name": "bend-kit-dns",
+    "version": "0.3.1.1",
     "desc": "DNS A-record lookup over UDP. Source: https://github.com/paymog/bend-kit/tree/main/dns",
     "ts": 1790360980629,
     "dependents": 1
@@ -358,11 +732,11 @@
       "effs/wire.js": 12045,
       "wire.bend": 2907
     },
-    "name": null,
-    "version": null,
+    "name": "bend-kit-wire",
+    "version": "0.4.0.2",
     "desc": "Byte-exact TCP, UDP, and TLS sockets. Source: https://github.com/paymog/bend-kit/tree/main/wire",
     "ts": 1790360775907,
-    "dependents": 2
+    "dependents": 3
   },
   "0x902b9f92801b87d6be0bcd03919d01bb": {
     "hash": "0x902b9f92801b87d6be0bcd03919d01bb",
@@ -371,11 +745,11 @@
       "effs/files.js": 2308,
       "files.bend": 7956
     },
-    "name": null,
-    "version": null,
+    "name": "bend-kit-files",
+    "version": "0.1.0.0",
     "desc": "POSIX paths plus directory and metadata effects. Source: https://github.com/paymog/bend-kit/tree/main/files",
     "ts": 1790360759850,
-    "dependents": 0
+    "dependents": 2
   },
   "0xd67ee1b575573853ce410b78eaa83587": {
     "hash": "0xd67ee1b575573853ce410b78eaa83587",
@@ -384,8 +758,8 @@
       "effs/process.js": 9868,
       "process.bend": 2865
     },
-    "name": null,
-    "version": null,
+    "name": "bend-kit-process",
+    "version": "0.1.0.0",
     "desc": "Subprocesses and process-level OS access, with byte-exact input and output.",
     "ts": 1790360609246,
     "dependents": 0
@@ -412,7 +786,7 @@
     "version": "0.3.0.0",
     "desc": "Byte buffers packed four bytes to a U32, with bounds-checked access. Source: https://github.com/paymog/bend-kit/tree/main/bytes",
     "ts": 1790360288347,
-    "dependents": 0
+    "dependents": 5
   },
   "0xe4067e0d858024083f36a7abe7281e89": {
     "hash": "0xe4067e0d858024083f36a7abe7281e89",
@@ -1000,8 +1374,8 @@
     "files": {
       "router.bend": 1688
     },
-    "name": null,
-    "version": null,
+    "name": "bend-kit-router",
+    "version": "0.1.1.0",
     "desc": "Match an HTTP method and path to a handler. Source: https://github.com/paymog/bend-kit/tree/main/router",
     "ts": 1790298005134,
     "dependents": 0
@@ -1015,7 +1389,7 @@
     "version": null,
     "desc": "DEFLATE, gzip, and zlib decoding (RFC 1951, 1952, 1950) over byte strings. Source: https://github.com/paymog/bend-kit/tree/main/zlib",
     "ts": 1790297999493,
-    "dependents": 2
+    "dependents": 6
   },
   "0xaec630f7a2f6b6ef96750f95d6e4195b": {
     "hash": "0xaec630f7a2f6b6ef96750f95d6e4195b",
@@ -1037,7 +1411,7 @@
     "version": "0.3.0.0",
     "desc": "JSON values, parsed and encoded as RFC 8259. Source: https://github.com/paymog/bend-kit/tree/main/json",
     "ts": 1790297997607,
-    "dependents": 2
+    "dependents": 6
   },
   "0xd248560355ba8929ae030bc9c72f40be": {
     "hash": "0xd248560355ba8929ae030bc9c72f40be",
@@ -1048,7 +1422,7 @@
     "version": "0.4.0.0",
     "desc": "URL parsing, resolution, and percent-encoding (RFC 3986). Source: https://github.com/paymog/bend-kit/tree/main/url",
     "ts": 1790297994920,
-    "dependents": 2
+    "dependents": 6
   },
   "0x8a1034c8824c5fdecbaa2e3d762aadad": {
     "hash": "0x8a1034c8824c5fdecbaa2e3d762aadad",
@@ -1072,7 +1446,7 @@
     "version": "0.2.0.0",
     "desc": "Byte buffers packed four bytes to a U32, with bounds-checked access. Source: https://github.com/paymog/bend-kit/tree/main/bytes",
     "ts": 1790297977009,
-    "dependents": 3
+    "dependents": 4
   },
   "0x6ee8b4f8d8a8f10e385dccb59e74e665": {
     "hash": "0x6ee8b4f8d8a8f10e385dccb59e74e665",
@@ -1217,7 +1591,7 @@
     "version": "0.4.0.0",
     "desc": "URL parsing, resolution, and percent-encoding (RFC 3986).",
     "ts": 1790296622597,
-    "dependents": 3
+    "dependents": 5
   },
   "0x1c3bee00e79d90afdfd0ca2806cab2ab": {
     "hash": "0x1c3bee00e79d90afdfd0ca2806cab2ab",
@@ -1416,7 +1790,7 @@
     "version": "0.3.0.0",
     "desc": "JSON values, parsed and encoded as RFC 8259.",
     "ts": 1790271869643,
-    "dependents": 3
+    "dependents": 5
   },
   "0xc09c37851f45c571c2992d5a7025b443": {
     "hash": "0xc09c37851f45c571c2992d5a7025b443",
@@ -1681,7 +2055,7 @@
     "version": null,
     "desc": "",
     "ts": 1790191042430,
-    "dependents": 2
+    "dependents": 3
   },
   "0x9fc0cec754888f0fecabce899ddf2ee5": {
     "hash": "0x9fc0cec754888f0fecabce899ddf2ee5",
