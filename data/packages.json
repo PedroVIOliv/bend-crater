@@ -1,4 +1,98 @@
 {
+  "0xb840f3eebe5e51739a9b3b4be210b968": {
+    "hash": "0xb840f3eebe5e51739a9b3b4be210b968",
+    "files": {
+      "LICENSE": 941,
+      "effs/sqlite.c": 28263,
+      "effs/sqlite.js": 4532,
+      "sqlite.bend": 22735
+    },
+    "name": "bend-over-sqlite",
+    "version": "0.1.0.0",
+    "desc": "SQLite connections, typed values, prepared statements and transactions for C and Wasm.",
+    "ts": 1790461104355,
+    "dependents": 0
+  },
+  "0x646b2235ccfcef3a8f09e7c110d7ed14": {
+    "hash": "0x646b2235ccfcef3a8f09e7c110d7ed14",
+    "files": {
+      "LICENSE": 941,
+      "eval.js": 1378,
+      "js.bend": 977
+    },
+    "name": "bend-over-js-eval",
+    "version": "0.1.0.0",
+    "desc": "",
+    "ts": 1790461088065,
+    "dependents": 0
+  },
+  "0xc4f31b1cf377fad1ed5191443ddd1c20": {
+    "hash": "0xc4f31b1cf377fad1ed5191443ddd1c20",
+    "files": {
+      "LICENSE": 1118,
+      "domain/architecture/LAWS.bend": 254,
+      "domain/architecture/PROOF.bend": 386,
+      "domain/architecture/category/type.bend": 792,
+      "domain/architecture/environment/agreement/ops.bend": 2829,
+      "domain/architecture/environment/agreement/type.bend": 686,
+      "domain/architecture/environment/constraint/type.bend": 180,
+      "domain/architecture/environment/external/type.bend": 497,
+      "domain/architecture/environment/inventory/ops.bend": 684,
+      "domain/architecture/environment/inventory/type.bend": 341,
+      "domain/architecture/environment/party/type.bend": 545,
+      "domain/architecture/environment/type.bend": 527,
+      "domain/architecture/ops.bend": 21057,
+      "domain/architecture/relationship/type.bend": 318,
+      "domain/architecture/system/container/component/type.bend": 414,
+      "domain/architecture/system/container/effects.bend": 3573,
+      "domain/architecture/system/container/ops.bend": 9326,
+      "domain/architecture/system/container/type.bend": 1123,
+      "domain/architecture/system/deployment/azure/effects.bend": 5065,
+      "domain/architecture/system/deployment/azure/ops.bend": 7586,
+      "domain/architecture/system/deployment/azure/type.bend": 1139,
+      "domain/architecture/system/deployment/host/type.bend": 201,
+      "domain/architecture/system/deployment/nix_darwin/brew/effects.bend": 4463,
+      "domain/architecture/system/deployment/nix_darwin/brew/ops.bend": 6194,
+      "domain/architecture/system/deployment/nix_darwin/brew/type.bend": 252,
+      "domain/architecture/system/deployment/nix_darwin/effects.bend": 12046,
+      "domain/architecture/system/deployment/nix_darwin/ops.bend": 6265,
+      "domain/architecture/system/deployment/nix_darwin/service/ops.bend": 3052,
+      "domain/architecture/system/deployment/nix_darwin/service/type.bend": 730,
+      "domain/architecture/system/deployment/nix_darwin/setting/effects.bend": 13769,
+      "domain/architecture/system/deployment/nix_darwin/setting/ops.bend": 31681,
+      "domain/architecture/system/deployment/nix_darwin/setting/type.bend": 556,
+      "domain/architecture/system/deployment/nix_darwin/type.bend": 1099,
+      "domain/architecture/system/deployment/ops.bend": 3226,
+      "domain/architecture/system/deployment/type.bend": 1127,
+      "domain/architecture/system/effects.bend": 20759,
+      "domain/architecture/system/effs/io.bend": 4019,
+      "domain/architecture/system/effs/program_run.c": 2162,
+      "domain/architecture/system/effs/program_run.js": 771,
+      "domain/architecture/system/ops.bend": 586,
+      "domain/architecture/system/plan/ops.bend": 5003,
+      "domain/architecture/system/plan/type.bend": 1630,
+      "domain/architecture/system/release/ops.bend": 5750,
+      "domain/architecture/system/release/type.bend": 984,
+      "domain/architecture/system/type.bend": 352,
+      "domain/architecture/type.bend": 493,
+      "domain/architecture/view/effects.bend": 978,
+      "domain/architecture/view/ops.bend": 12483,
+      "domain/architecture/view/type.bend": 652,
+      "general/compound/edge/type.bend": 191,
+      "general/compound/ops.bend": 3299,
+      "general/compound/type.bend": 266,
+      "general/rose/LAWS.bend": 206,
+      "general/rose/PROOF.bend": 171,
+      "general/rose/ops.bend": 1491,
+      "general/rose/type.bend": 183,
+      "v.bend": 564
+    },
+    "name": "near-v-framework",
+    "version": "0.4.0.0",
+    "desc": "",
+    "ts": 1790459063436,
+    "dependents": 0
+  },
   "0x07516e23611e5287ce89bcff661be83f": {
     "hash": "0x07516e23611e5287ce89bcff661be83f",
     "files": {
@@ -997,7 +1091,7 @@
     "version": "0.1.0.0",
     "desc": "POSIX paths plus directory and metadata effects. Source: https://github.com/paymog/bend-kit/tree/main/files",
     "ts": 1790360759850,
-    "dependents": 3
+    "dependents": 4
   },
   "0xd67ee1b575573853ce410b78eaa83587": {
     "hash": "0xd67ee1b575573853ce410b78eaa83587",
@@ -1659,7 +1753,7 @@
     "version": "0.3.0.0",
     "desc": "JSON values, parsed and encoded as RFC 8259. Source: https://github.com/paymog/bend-kit/tree/main/json",
     "ts": 1790297997607,
-    "dependents": 7
+    "dependents": 8
   },
   "0xd248560355ba8929ae030bc9c72f40be": {
     "hash": "0xd248560355ba8929ae030bc9c72f40be",
@@ -1839,7 +1933,7 @@
     "version": "0.4.0.0",
     "desc": "URL parsing, resolution, and percent-encoding (RFC 3986).",
     "ts": 1790296622597,
-    "dependents": 6
+    "dependents": 7
   },
   "0x1c3bee00e79d90afdfd0ca2806cab2ab": {
     "hash": "0x1c3bee00e79d90afdfd0ca2806cab2ab",
@@ -2038,7 +2132,7 @@
     "version": "0.3.0.0",
     "desc": "JSON values, parsed and encoded as RFC 8259.",
     "ts": 1790271869643,
-    "dependents": 6
+    "dependents": 7
   },
   "0xc09c37851f45c571c2992d5a7025b443": {
     "hash": "0xc09c37851f45c571c2992d5a7025b443",
