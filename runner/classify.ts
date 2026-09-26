@@ -17,7 +17,7 @@ export function classify(
   const lines = out.split("\n").filter((l) => !NOTICE.test(l));
   const text = lines.join("\n");
   if (timedOut) return { status: "timeout", error: "" };
-  if (code === 0 && /All terms check, with \d+ unsafe annotation/.test(text))
+  if (code === 0 && /All terms check, (with \d+ unsafe annotation|but \d+ defs? relies? on unsafe)/.test(text))
     return { status: "unsafe", error: "" };
   if (code === 0 && /All terms check\./.test(text)) return { status: "pass", error: "" };
   if (OFFLINE.test(lines.find((l) => l.trim()) ?? "")) return null;

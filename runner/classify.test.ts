@@ -61,3 +61,7 @@ test("connection words inside quoted package source are still a fail", () => {
   const out = "Error:\n- expected : Bool\n- detected : U32\nLocation:\n12>|   case ECONNREFUSED: \"fetch failed\"\n";
   expect(classify(out, 1, false)!.status).toBe("fail");
 });
+
+test("from 2.0.28 unsafe reads as defs relying on unsafe or foreign code", async () => {
+  expect(classify(await fx("unsafe_foreign"), 0, false)).toEqual({ status: "unsafe", error: "" });
+});
