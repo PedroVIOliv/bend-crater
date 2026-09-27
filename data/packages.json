@@ -1,4 +1,271 @@
 {
+  "0x9d101c075b333e2b07242347f7c35b1c": {
+    "hash": "0x9d101c075b333e2b07242347f7c35b1c",
+    "files": {
+      "effs/zlib.c": 13136,
+      "effs/zlib.js": 9762,
+      "zlib.bend": 37601
+    },
+    "name": "bend-kit-zlib",
+    "version": "0.1.3.0",
+    "desc": "DEFLATE, gzip, and zlib encoding and decoding (RFC 1951, 1952, 1950) over byte strings, plus gzip, zstd, and brotli through the C libraries. Source: https://github.com/paymog/bend-kit/tree/main/zlib",
+    "ts": 1790514178168,
+    "dependents": 0
+  },
+  "0x6fa820747435b3188e7e4f3d1ffc0325": {
+    "hash": "0x6fa820747435b3188e7e4f3d1ffc0325",
+    "files": {
+      "regex.bend": 65209
+    },
+    "name": "bend-kit-regex",
+    "version": "0.6.0.0",
+    "desc": "Linear-time regular expressions: RE2 syntax, Pike VM, capture groups. Source: https://github.com/paymog/bend-kit/tree/main/regex",
+    "ts": 1790513831940,
+    "dependents": 0
+  },
+  "0x64e1b9e0466cf913fa57e70aeb11c176": {
+    "hash": "0x64e1b9e0466cf913fa57e70aeb11c176",
+    "files": {
+      "LICENSE": 1101,
+      "grounds.bend": 541,
+      "http/LICENSE": 1101,
+      "http/headers.bend": 2587,
+      "http/http.bend": 316,
+      "http/method.bend": 1056,
+      "http/query.bend": 2492,
+      "http/request.bend": 1609,
+      "http/response.bend": 1459,
+      "http/status.bend": 2145,
+      "http/text.bend": 1606,
+      "http1/LICENSE": 1101,
+      "http1/bytes.bend": 3557,
+      "http1/http1.bend": 19344,
+      "http_json/LICENSE": 1101,
+      "http_json/http_json.bend": 4336,
+      "http_router/LICENSE": 1101,
+      "http_router/router.bend": 7798,
+      "http_server/LICENSE": 1101,
+      "http_server/http_server.bend": 194,
+      "http_server/middleware.bend": 4835,
+      "http_server/server.bend": 7386,
+      "io/LICENSE": 1101,
+      "io/io.bend": 2560,
+      "json/LICENSE": 1101,
+      "json/json.bend": 50625,
+      "utf8/LICENSE": 1101,
+      "utf8/utf8.bend": 4764,
+      "wire/LICENSE": 1101,
+      "wire/effs/wire.c": 3889,
+      "wire/effs/wire.js": 2405,
+      "wire/wire.bend": 1671
+    },
+    "name": null,
+    "version": null,
+    "desc": "",
+    "ts": 1790504224786,
+    "dependents": 0
+  },
+  "0x33fa1e8e9ce79cb0b4983b81c36ecdd3": {
+    "hash": "0x33fa1e8e9ce79cb0b4983b81c36ecdd3",
+    "files": {
+      "http/LICENSE": 1101,
+      "http/headers.bend": 2587,
+      "http/method.bend": 1056,
+      "http/query.bend": 2492,
+      "http/request.bend": 1609,
+      "http/response.bend": 1459,
+      "http/status.bend": 2145,
+      "http/text.bend": 1606,
+      "http_json/LICENSE": 1101,
+      "http_json/http_json.bend": 4336,
+      "json/LICENSE": 1101,
+      "json/json.bend": 50625,
+      "utf8/LICENSE": 1101,
+      "utf8/utf8.bend": 4764
+    },
+    "name": null,
+    "version": null,
+    "desc": "",
+    "ts": 1790504147041,
+    "dependents": 0
+  },
+  "0x7232384c42402f977ceed3b85efc3adc": {
+    "hash": "0x7232384c42402f977ceed3b85efc3adc",
+    "files": {
+      "http/LICENSE": 1101,
+      "http/headers.bend": 2587,
+      "http/method.bend": 1056,
+      "http/query.bend": 2492,
+      "http/request.bend": 1609,
+      "http/response.bend": 1459,
+      "http/status.bend": 2145,
+      "http/text.bend": 1606,
+      "http1/LICENSE": 1101,
+      "http1/bytes.bend": 3557,
+      "http1/http1.bend": 19344,
+      "http_server/LICENSE": 1101,
+      "http_server/http_server.bend": 194,
+      "http_server/middleware.bend": 4835,
+      "http_server/server.bend": 7386,
+      "utf8/LICENSE": 1101,
+      "utf8/utf8.bend": 4764,
+      "wire/LICENSE": 1101,
+      "wire/effs/wire.c": 3889,
+      "wire/effs/wire.js": 2405,
+      "wire/wire.bend": 1671
+    },
+    "name": null,
+    "version": null,
+    "desc": "",
+    "ts": 1790504117729,
+    "dependents": 0
+  },
+  "0x90b8f1a2bac415251e8ad069cd6d29ec": {
+    "hash": "0x90b8f1a2bac415251e8ad069cd6d29ec",
+    "files": {
+      "http/LICENSE": 1101,
+      "http/headers.bend": 2587,
+      "http/method.bend": 1056,
+      "http/query.bend": 2492,
+      "http/request.bend": 1609,
+      "http/text.bend": 1606,
+      "http_router/LICENSE": 1101,
+      "http_router/router.bend": 7798,
+      "utf8/LICENSE": 1101,
+      "utf8/utf8.bend": 4764
+    },
+    "name": null,
+    "version": null,
+    "desc": "",
+    "ts": 1790504100122,
+    "dependents": 0
+  },
+  "0x4198ac9516630627ad267983294b8fad": {
+    "hash": "0x4198ac9516630627ad267983294b8fad",
+    "files": {
+      "http/LICENSE": 1101,
+      "http/headers.bend": 2587,
+      "http/method.bend": 1056,
+      "http/query.bend": 2492,
+      "http/request.bend": 1609,
+      "http/response.bend": 1459,
+      "http/status.bend": 2145,
+      "http/text.bend": 1606,
+      "http1/LICENSE": 1101,
+      "http1/bytes.bend": 3557,
+      "http1/http1.bend": 19344,
+      "utf8/LICENSE": 1101,
+      "utf8/utf8.bend": 4764
+    },
+    "name": null,
+    "version": null,
+    "desc": "",
+    "ts": 1790504090417,
+    "dependents": 0
+  },
+  "0xc881aca5522201b79e03cfebccc53018": {
+    "hash": "0xc881aca5522201b79e03cfebccc53018",
+    "files": {
+      "http/LICENSE": 1101,
+      "http/headers.bend": 2587,
+      "http/http.bend": 316,
+      "http/method.bend": 1056,
+      "http/query.bend": 2492,
+      "http/request.bend": 1609,
+      "http/response.bend": 1459,
+      "http/status.bend": 2145,
+      "http/text.bend": 1606,
+      "utf8/LICENSE": 1101,
+      "utf8/utf8.bend": 4764
+    },
+    "name": null,
+    "version": null,
+    "desc": "",
+    "ts": 1790504083971,
+    "dependents": 0
+  },
+  "0xf33f70afa849b331f76f524b6d1629ec": {
+    "hash": "0xf33f70afa849b331f76f524b6d1629ec",
+    "files": {
+      "LICENSE": 1101,
+      "effs/wire.c": 3889,
+      "effs/wire.js": 2405,
+      "wire.bend": 1671
+    },
+    "name": null,
+    "version": null,
+    "desc": "",
+    "ts": 1790504070321,
+    "dependents": 0
+  },
+  "0xca47b110029aa12cfc4d84615cad4ec1": {
+    "hash": "0xca47b110029aa12cfc4d84615cad4ec1",
+    "files": {
+      "LICENSE": 1101,
+      "io.bend": 2560
+    },
+    "name": null,
+    "version": null,
+    "desc": "",
+    "ts": 1790504047845,
+    "dependents": 0
+  },
+  "0x8b91ddb61d8feadeb79809e42245b488": {
+    "hash": "0x8b91ddb61d8feadeb79809e42245b488",
+    "files": {
+      "json/LICENSE": 1101,
+      "json/json.bend": 50625,
+      "utf8/LICENSE": 1101,
+      "utf8/utf8.bend": 4764
+    },
+    "name": null,
+    "version": null,
+    "desc": "",
+    "ts": 1790503997125,
+    "dependents": 0
+  },
+  "0x3161253b0faa968bcbea78a196fb0a67": {
+    "hash": "0x3161253b0faa968bcbea78a196fb0a67",
+    "files": {
+      "LICENSE": 1101,
+      "utf8.bend": 4764
+    },
+    "name": null,
+    "version": null,
+    "desc": "",
+    "ts": 1790503972483,
+    "dependents": 0
+  },
+  "0x38c59765d1dfcdb7e4b4aa026bafb649": {
+    "hash": "0x38c59765d1dfcdb7e4b4aa026bafb649",
+    "files": {
+      "bendana.bend": 408,
+      "sol.bend": 34790,
+      "sysvar.bend": 2698,
+      "token.bend": 1479,
+      "types.bend": 43141
+    },
+    "name": null,
+    "version": null,
+    "desc": "",
+    "ts": 1790499898496,
+    "dependents": 0
+  },
+  "0xe03885ed80ec3da089076b8dd6f8e83f": {
+    "hash": "0xe03885ed80ec3da089076b8dd6f8e83f",
+    "files": {
+      "bendana.bend": 396,
+      "sol.bend": 34790,
+      "sysvar.bend": 2698,
+      "token.bend": 1479,
+      "types.bend": 43141
+    },
+    "name": null,
+    "version": null,
+    "desc": "",
+    "ts": 1790499861069,
+    "dependents": 0
+  },
   "0x785d1b078f7f99a4ee2b9c7798398bc9": {
     "hash": "0x785d1b078f7f99a4ee2b9c7798398bc9",
     "files": {
@@ -321,8 +588,8 @@
     "files": {
       "int.bend": 34679
     },
-    "name": null,
-    "version": null,
+    "name": "bend-kit-int",
+    "version": "0.1.0.0",
     "desc": "Fixed-width integers U8, U16, U64, I32 and I64: wrapping, checked and saturating arithmetic.",
     "ts": 1790475099045,
     "dependents": 0
@@ -1500,7 +1767,7 @@
     "version": "0.1.0.0",
     "desc": "Generated by gen.py from UCD 17.0.0. Do not edit.",
     "ts": 1790362349414,
-    "dependents": 6
+    "dependents": 7
   },
   "0x675b00007c6529c96bc50fe604cbdba2": {
     "hash": "0x675b00007c6529c96bc50fe604cbdba2",
@@ -1585,7 +1852,7 @@
     "version": "0.3.0.0",
     "desc": "Byte buffers packed four bytes to a U32, with bounds-checked access. Source: https://github.com/paymog/bend-kit/tree/main/bytes",
     "ts": 1790360288347,
-    "dependents": 8
+    "dependents": 9
   },
   "0xe4067e0d858024083f36a7abe7281e89": {
     "hash": "0xe4067e0d858024083f36a7abe7281e89",
