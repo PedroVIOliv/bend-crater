@@ -1,4 +1,26 @@
 {
+  "0xc08d4d9781d7c7b9ddadc591c40f407e": {
+    "hash": "0xc08d4d9781d7c7b9ddadc591c40f407e",
+    "files": {
+      "http.bend": 152508
+    },
+    "name": "bend-kit-http",
+    "version": "0.20.1.0",
+    "desc": "HTTP/1.1 and HTTP/2 client, with an HTTP/1.1 server. Source: https://github.com/paymog/bend-kit/tree/main/http",
+    "ts": 1790544839463,
+    "dependents": 0
+  },
+  "0x9c5a51d7f05acfc6ef075fa6810ffa30": {
+    "hash": "0x9c5a51d7f05acfc6ef075fa6810ffa30",
+    "files": {
+      "concurrency.bend": 12603
+    },
+    "name": "bend-kit-concurrency",
+    "version": "0.1.0.0",
+    "desc": "Parallel map and reduce over lists and arrays, a worker pool, select over channels, and timeouts.",
+    "ts": 1790544767165,
+    "dependents": 0
+  },
   "0x942157943655d6226602bfa15f1ffe5b": {
     "hash": "0x942157943655d6226602bfa15f1ffe5b",
     "files": {
@@ -21,7 +43,7 @@
     "version": "0.1.2.0",
     "desc": "RFC 7541 HPACK header blocks with a bounded dynamic table.",
     "ts": 1790539768591,
-    "dependents": 1
+    "dependents": 2
   },
   "0x9c94dd62a275a2a52aba6d0315b7bb60": {
     "hash": "0x9c94dd62a275a2a52aba6d0315b7bb60",
@@ -117,7 +139,7 @@
     "version": "0.1.5.0",
     "desc": "DEFLATE, gzip, and zlib encoding and decoding (RFC 1951, 1952, 1950) over byte strings, plus gzip, zstd, and brotli through the C libraries. Source: https://github.com/paymog/bend-kit/tree/main/zlib",
     "ts": 1790529232131,
-    "dependents": 3
+    "dependents": 4
   },
   "0x4fa754ce7474d53824c1fa96e1909b46": {
     "hash": "0x4fa754ce7474d53824c1fa96e1909b46",
@@ -150,7 +172,7 @@
     "version": "0.4.1.0",
     "desc": "URL parsing, resolution, and percent-encoding (RFC 3986). Source: https://github.com/paymog/bend-kit/tree/main/url",
     "ts": 1790526635864,
-    "dependents": 4
+    "dependents": 5
   },
   "0xa3dc0f6e3963608e4608a1017272cf4f": {
     "hash": "0xa3dc0f6e3963608e4608a1017272cf4f",
@@ -163,7 +185,7 @@
     "version": "0.4.2.0",
     "desc": "Byte-exact TCP, UDP, and TLS sockets. Source: https://github.com/paymog/bend-kit/tree/main/wire",
     "ts": 1790526524168,
-    "dependents": 4
+    "dependents": 5
   },
   "0xcd9eb2c24e7c1d3b2c89eb681085f7fe": {
     "hash": "0xcd9eb2c24e7c1d3b2c89eb681085f7fe",
@@ -327,7 +349,7 @@
     "version": "0.4.0.1",
     "desc": "DNS codec and host lookup. Source: https://github.com/paymog/bend-kit/tree/main/dns",
     "ts": 1790520760170,
-    "dependents": 4
+    "dependents": 5
   },
   "0x584fc27920487ceab242392391418d7f": {
     "hash": "0x584fc27920487ceab242392391418d7f",
@@ -338,7 +360,7 @@
     "version": "0.5.0.1",
     "desc": "JSON values, parsed and encoded as RFC 8259. Source: https://github.com/paymog/bend-kit/tree/main/json",
     "ts": 1790520727495,
-    "dependents": 6
+    "dependents": 7
   },
   "0xcdde0eac97319e908732c0dba1108f3b": {
     "hash": "0xcdde0eac97319e908732c0dba1108f3b",
@@ -362,7 +384,7 @@
     "version": "0.1.0.0",
     "desc": "Clocks, Duration and Instant, Gregorian dates, RFC 3339 and HTTP-date text, and TZif time zones. Source: https://github.com/paymog/bend-kit/tree/main/time",
     "ts": 1790520378315,
-    "dependents": 0
+    "dependents": 1
   },
   "0x9f95eaeefad4a8a2fe1a559163ffb14a": {
     "hash": "0x9f95eaeefad4a8a2fe1a559163ffb14a",
@@ -399,7 +421,7 @@
     "version": "0.3.1.0",
     "desc": "Byte buffers packed four bytes to a U32, with bounds-checked access. Source: https://github.com/paymog/bend-kit/tree/main/bytes",
     "ts": 1790519418599,
-    "dependents": 4
+    "dependents": 5
   },
   "0x0fab7442f5a423ac9ee7dc17899842b0": {
     "hash": "0x0fab7442f5a423ac9ee7dc17899842b0",
@@ -447,7 +469,7 @@
     "version": "0.2.0.0",
     "desc": "Fixed-width integers U8, U16, U64, I32 and I64: wrapping, checked and saturating arithmetic, and text in radix 2 to 36.",
     "ts": 1790516996356,
-    "dependents": 2
+    "dependents": 3
   },
   "0xea2956cd4e05ac318643319cb7fb3c29": {
     "hash": "0xea2956cd4e05ac318643319cb7fb3c29",
@@ -1853,7 +1875,7 @@
     "version": "0.3.0.0",
     "desc": "UTF-8 encoding and decoding between text and Bytes. Source: https://github.com/paymog/bend-kit/tree/main/encoding",
     "ts": 1790387586048,
-    "dependents": 12
+    "dependents": 13
   },
   "0xb13667d52aa56e002b4d09883d7fce3e": {
     "hash": "0xb13667d52aa56e002b4d09883d7fce3e",
@@ -2324,7 +2346,7 @@
     "version": "0.3.0.0",
     "desc": "Byte buffers packed four bytes to a U32, with bounds-checked access. Source: https://github.com/paymog/bend-kit/tree/main/bytes",
     "ts": 1790360288347,
-    "dependents": 20
+    "dependents": 21
   },
   "0xe4067e0d858024083f36a7abe7281e89": {
     "hash": "0xe4067e0d858024083f36a7abe7281e89",
