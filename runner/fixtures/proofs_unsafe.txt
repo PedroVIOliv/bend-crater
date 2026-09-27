@@ -1,0 +1,3 @@
+SOME PROOFS FAIL
+Error: 1 def relies on unsafe or foreign code:
+- 0x28f6ecc344c73ee11f306ee894f311ba/vf01_unsafe_empty.boom

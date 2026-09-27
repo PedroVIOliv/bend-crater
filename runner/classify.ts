@@ -19,7 +19,11 @@ export function classify(
   if (timedOut) return { status: "timeout", error: "" };
   if (code === 0 && /All terms check, (with \d+ unsafe annotation|but \d+ defs? relies? on unsafe)/.test(text))
     return { status: "unsafe", error: "" };
-  if (code === 0 && /All terms check\./.test(text)) return { status: "pass", error: "" };
+  if (code === 0 && /All terms check\.|^ALL PROOFS CHECK$/m.test(text)) return { status: "pass", error: "" };
+  // From 2.0.32 unsafe code is reported as an error and exits 1.
+  const errors = lines.filter((l) => l.startsWith("Error"));
+  if (errors.length > 0 && errors.every((l) => /^Error: \d+ defs? rel(y|ies) on unsafe or foreign code:$/.test(l)))
+    return { status: "unsafe", error: "" };
   if (OFFLINE.test(lines.find((l) => l.trim()) ?? "")) return null;
   return { status: DEP.test(text) ? "dep_missing" : "fail", error: excerpt(lines) };
 }

@@ -65,3 +65,22 @@ test("connection words inside quoted package source are still a fail", () => {
 test("from 2.0.28 unsafe reads as defs relying on unsafe or foreign code", async () => {
   expect(classify(await fx("unsafe_foreign"), 0, false)).toEqual({ status: "unsafe", error: "" });
 });
+
+test("from 2.0.32 a check reads ALL PROOFS CHECK", async () => {
+  expect(classify(await fx("proofs_pass"), 0, false)).toEqual({ status: "pass", error: "" });
+});
+
+test("from 2.0.32 unsafe exits 1 with only the unsafe list as its error", async () => {
+  expect(classify(await fx("proofs_unsafe"), 1, false)).toEqual({ status: "unsafe", error: "" });
+});
+
+test("from 2.0.32 a type error is a fail", async () => {
+  const r = classify(await fx("proofs_fail"), 1, false)!;
+  expect(r.status).toBe("fail");
+  expect(r.error.split("\n")[0]).toBe("Error:");
+});
+
+test("unsafe code next to another error is a fail", () => {
+  const out = "SOME PROOFS FAIL\nError: 1 TODO found.\nError: 1 def relies on unsafe or foreign code:\n- 0xab/x.f\n";
+  expect(classify(out, 1, false)!.status).toBe("fail");
+});
