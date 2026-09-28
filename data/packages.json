@@ -1,4 +1,74 @@
 {
+  "0x604607e4df359ba51bcfcbab355479de": {
+    "hash": "0x604607e4df359ba51bcfcbab355479de",
+    "files": {
+      "ex1.bend": 36
+    },
+    "name": null,
+    "version": null,
+    "desc": "",
+    "ts": 1790573981012,
+    "dependents": 0
+  },
+  "0x3ce6d24a9280c01a2032d333116bd6c8": {
+    "hash": "0x3ce6d24a9280c01a2032d333116bd6c8",
+    "files": {
+      "notch.bend": 7825
+    },
+    "name": null,
+    "version": null,
+    "desc": "Leveled, structured logging: a logger value, key-value fields, and logfmt or JSON-lines output. Source: https://github.com/paymog/bend-kit/tree/main/notch",
+    "ts": 1790559082378,
+    "dependents": 0
+  },
+  "0xfbc61a0d1aed5a9252de78ef4ae7a756": {
+    "hash": "0xfbc61a0d1aed5a9252de78ef4ae7a756",
+    "files": {
+      "crypto.bend": 2568,
+      "effs/crypto.c": 11245,
+      "effs/crypto.js": 7240
+    },
+    "name": "bend-kit-crypto",
+    "version": "0.1.1.0",
+    "desc": "Hashes, HMAC, HKDF, and secure random bytes through OpenSSL 3 libcrypto. Source: https://github.com/paymog/bend-kit/tree/main/crypto",
+    "ts": 1790558699733,
+    "dependents": 0
+  },
+  "0x6999cd3df5515b2fac39eb2342ea27c7": {
+    "hash": "0x6999cd3df5515b2fac39eb2342ea27c7",
+    "files": {
+      "cbor.bend": 24227
+    },
+    "name": "bend-kit-cbor",
+    "version": "0.1.0.0",
+    "desc": "CBOR (RFC 8949) values encoded and decoded over Bytes. Source: https://github.com/paymog/bend-kit/tree/main/cbor",
+    "ts": 1790558031627,
+    "dependents": 0
+  },
+  "0xc44bda2e3431d17209e2df2adb8b59d8": {
+    "hash": "0xc44bda2e3431d17209e2df2adb8b59d8",
+    "files": {
+      "csv.bend": 10406
+    },
+    "name": "bend-kit-csv",
+    "version": "0.1.0.0",
+    "desc": "CSV (RFC 4180) over bytes: a record cursor, a whole-document parse, and an encoder. Source: https://github.com/paymog/bend-kit/tree/main/csv",
+    "ts": 1790557970114,
+    "dependents": 0
+  },
+  "0x7888b0f73f36c6ac233e30ca25f8c108": {
+    "hash": "0x7888b0f73f36c6ac233e30ca25f8c108",
+    "files": {
+      "effs/time.c": 1035,
+      "effs/time.js": 672,
+      "time.bend": 22200
+    },
+    "name": "bend-kit-time",
+    "version": "0.1.1.0",
+    "desc": "Clocks, Duration and Instant, Gregorian dates, RFC 3339 and HTTP-date text, and TZif time zones. Source: https://github.com/paymog/bend-kit/tree/main/time",
+    "ts": 1790557541241,
+    "dependents": 0
+  },
   "0x141c738a983c7ae3f35a5401f546168e": {
     "hash": "0x141c738a983c7ae3f35a5401f546168e",
     "files": {
@@ -417,7 +487,7 @@
     "version": "0.1.0.0",
     "desc": "Clocks, Duration and Instant, Gregorian dates, RFC 3339 and HTTP-date text, and TZif time zones. Source: https://github.com/paymog/bend-kit/tree/main/time",
     "ts": 1790520378315,
-    "dependents": 4
+    "dependents": 5
   },
   "0x9f95eaeefad4a8a2fe1a559163ffb14a": {
     "hash": "0x9f95eaeefad4a8a2fe1a559163ffb14a",
@@ -502,7 +572,7 @@
     "version": "0.2.0.0",
     "desc": "Fixed-width integers U8, U16, U64, I32 and I64: wrapping, checked and saturating arithmetic, and text in radix 2 to 36.",
     "ts": 1790516996356,
-    "dependents": 6
+    "dependents": 7
   },
   "0xea2956cd4e05ac318643319cb7fb3c29": {
     "hash": "0xea2956cd4e05ac318643319cb7fb3c29",
@@ -513,7 +583,7 @@
     "version": "0.1.0.0",
     "desc": "Text formatting: a string builder, format, padding, and shortest F32 printing.",
     "ts": 1790516925033,
-    "dependents": 1
+    "dependents": 2
   },
   "0xa32ae93500a5dfaef6edb45d6e7bcc3b": {
     "hash": "0xa32ae93500a5dfaef6edb45d6e7bcc3b",
@@ -2379,7 +2449,7 @@
     "version": "0.3.0.0",
     "desc": "Byte buffers packed four bytes to a U32, with bounds-checked access. Source: https://github.com/paymog/bend-kit/tree/main/bytes",
     "ts": 1790360288347,
-    "dependents": 24
+    "dependents": 27
   },
   "0xe4067e0d858024083f36a7abe7281e89": {
     "hash": "0xe4067e0d858024083f36a7abe7281e89",
