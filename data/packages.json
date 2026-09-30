@@ -1,4 +1,45 @@
 {
+  "0xd2e0b2819dcc854bda21f542b308ada3": {
+    "hash": "0xd2e0b2819dcc854bda21f542b308ada3",
+    "files": {
+      "LICENSE": 1101,
+      "anthropic.bend": 9671,
+      "docs.bend": 15525,
+      "json.bend": 16202,
+      "transport.bend": 3599
+    },
+    "name": "bend-anthropic-sdk",
+    "version": "0.1.0.1",
+    "desc": "An unofficial Anthropic SDK for Bend, with typed requests, streaming, and tool calling.",
+    "ts": 1790786131813,
+    "dependents": 0
+  },
+  "0xbfb6718181103ac566eb0ff5308d47ac": {
+    "hash": "0xbfb6718181103ac566eb0ff5308d47ac",
+    "files": {
+      "LICENSE": 1101,
+      "docs.bend": 16612,
+      "json.bend": 16202,
+      "openai.bend": 9764,
+      "transport.bend": 3599
+    },
+    "name": "bend-openai-sdk",
+    "version": "0.1.0.1",
+    "desc": "An unofficial OpenAI SDK for Bend, with typed requests, streaming, and tool calling.",
+    "ts": 1790786109206,
+    "dependents": 0
+  },
+  "0x5d1df91c572021ceb1e6a56e51680028": {
+    "hash": "0x5d1df91c572021ceb1e6a56e51680028",
+    "files": {
+      "stream.bend": 7065
+    },
+    "name": "bend-kit-stream",
+    "version": "0.1.0.0",
+    "desc": "Bounded packed-byte transfers between files and TCP/TLS sockets.",
+    "ts": 1790776400643,
+    "dependents": 0
+  },
   "0x993b989cb899a5e5c6facb3d6fbccf8f": {
     "hash": "0x993b989cb899a5e5c6facb3d6fbccf8f",
     "files": {
@@ -1505,8 +1546,8 @@
       "archive/archive.bend": 17565,
       "bytes/bytes.bend": 33172
     },
-    "name": null,
-    "version": null,
+    "name": "bend-kit-archive",
+    "version": "0.2.0.0",
     "desc": "ZIP archives read over Bytes: stored and DEFLATE entries, checked against their CRC-32 and sizes. Source: https://github.com/paymog/bend-kit/tree/main/archive",
     "ts": 1790737274161,
     "dependents": 0
@@ -2252,8 +2293,8 @@
     "files": {
       "webhooks.bend": 22171
     },
-    "name": null,
-    "version": null,
+    "name": "bend-kit-webhooks",
+    "version": "0.1.0.0",
     "desc": "Webhook signatures: Standard Webhooks sign and verify, Stripe and GitHub verify, over the raw body. Source: https://github.com/paymog/bend-kit/tree/main/webhooks",
     "ts": 1790687342448,
     "dependents": 0
@@ -2438,7 +2479,7 @@
     "version": "0.1.1.0",
     "desc": "POSIX paths plus directory and metadata effects. Source: https://github.com/paymog/bend-kit/tree/main/files",
     "ts": 1790646627439,
-    "dependents": 0
+    "dependents": 1
   },
   "0xb6eebf6253ee268a21f3e308b12cacba": {
     "hash": "0xb6eebf6253ee268a21f3e308b12cacba",
@@ -2685,7 +2726,7 @@
     "version": "0.4.3.0",
     "desc": "Byte-exact TCP, UDP, and TLS sockets. Source: https://github.com/paymog/bend-kit/tree/main/wire",
     "ts": 1790620207365,
-    "dependents": 2
+    "dependents": 3
   },
   "0x19246c2d3d82e756322a18d7212c64a2": {
     "hash": "0x19246c2d3d82e756322a18d7212c64a2",
