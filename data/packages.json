@@ -1,4 +1,147 @@
 {
+  "0x57618559b9b26dd8415f821176a3e692": {
+    "hash": "0x57618559b9b26dd8415f821176a3e692",
+    "files": {
+      "LICENSE": 1074,
+      "main.bend": 10903,
+      "src/crc.bend": 1124,
+      "src/inflate.bend": 50552,
+      "src/jpeg.bend": 71984,
+      "src/jpeg_enc.bend": 55648,
+      "src/png.bend": 50472
+    },
+    "name": "emerging-ezimg",
+    "version": "1.2.0.0",
+    "desc": "ezimg: images for Bend 2, with PNG and baseline JPEG decode and encode",
+    "ts": 1790727336640,
+    "dependents": 0
+  },
+  "0x8fb95168b7719a8faec16af7ee47b246": {
+    "hash": "0x8fb95168b7719a8faec16af7ee47b246",
+    "files": {
+      "LICENSE": 1074,
+      "main.bend": 186964
+    },
+    "name": "emerging-eztoml",
+    "version": "0.8.0.0",
+    "desc": "eztoml: TOML for Bend 2, a proven parser and renderer for TOML documents.",
+    "ts": 1790727136734,
+    "dependents": 0
+  },
+  "0xf1c957a470368870a6d1d62a8c0cbe32": {
+    "hash": "0xf1c957a470368870a6d1d62a8c0cbe32",
+    "files": {
+      "LICENSE": 1074,
+      "main.bend": 4822,
+      "src/auth.bend": 560,
+      "src/b64.bend": 2564,
+      "src/body.bend": 1478,
+      "src/cache.bend": 5277,
+      "src/client.bend": 3445,
+      "src/cookie.bend": 17153,
+      "src/cors.bend": 10591,
+      "src/effs/wire.c": 11872,
+      "src/effs/wire.js": 8964,
+      "src/http.bend": 28342,
+      "src/server.bend": 8631,
+      "src/url.bend": 5364,
+      "src/wire.bend": 883,
+      "src/wirespec.bend": 620
+    },
+    "name": "emerging-ezhttp",
+    "version": "0.8.0.0",
+    "desc": "ezhttp: HTTP/1.1 client and server for Bend 2, with auth, cookie and CORS helpers.",
+    "ts": 1790727132781,
+    "dependents": 0
+  },
+  "0x9137a47f23b329cb0d636ed271d4bfb2": {
+    "hash": "0x9137a47f23b329cb0d636ed271d4bfb2",
+    "files": {
+      "main.bend": 6349,
+      "mp3.bend": 16270,
+      "mp3_dec.bend": 29003,
+      "mp3_enc.bend": 43988,
+      "mp3_syn.bend": 54544,
+      "mp3_tab.bend": 115218,
+      "wav.bend": 14417
+    },
+    "name": "emerging-ezaudio",
+    "version": "0.3.0.0",
+    "desc": "ezaudio: audio for Bend 2, reading and writing WAV (RIFF PCM) and MP3 (MPEG-1 Layer III).",
+    "ts": 1790726844081,
+    "dependents": 0
+  },
+  "0xcab8a7a189cec2b51e8db0484f69c593": {
+    "hash": "0xcab8a7a189cec2b51e8db0484f69c593",
+    "files": {
+      "LICENSE": 1074,
+      "main.bend": 7270,
+      "src/args.bend": 910,
+      "src/check.bend": 6237,
+      "src/cli.bend": 49602
+    },
+    "name": "shake",
+    "version": "0.4.0.0",
+    "desc": "shake: a proven command-line argument parser for Bend 2, with subcommands and help.",
+    "ts": 1790726818885,
+    "dependents": 0
+  },
+  "0x4afaf2f58f67e5fd7f1096ab1d08c6d2": {
+    "hash": "0x4afaf2f58f67e5fd7f1096ab1d08c6d2",
+    "files": {
+      "LICENSE": 1074,
+      "main.bend": 186886
+    },
+    "name": "emerging-eztoml",
+    "version": "0.7.0.0",
+    "desc": "eztoml reads and writes TOML documents. Values are strings, integers, floats,",
+    "ts": 1790725862576,
+    "dependents": 0
+  },
+  "0x63d5fd78a2a52f082c7824372390170c": {
+    "hash": "0x63d5fd78a2a52f082c7824372390170c",
+    "files": {
+      "LICENSE": 11381,
+      "algebra.bend": 17106,
+      "all.bend": 525,
+      "bool.bend": 18892,
+      "equal.bend": 1237,
+      "list.bend": 101829,
+      "maybe.bend": 11847,
+      "nat.bend": 129893,
+      "order.bend": 3221,
+      "perm.bend": 17309,
+      "sort.bend": 20511,
+      "string.bend": 25063
+    },
+    "name": "bend-mathlib",
+    "version": "0.7.0.0",
+    "desc": "bend-mathlib/algebra.bend: abstract associativity/commutativity theorems and their Nat/Bool/List instances.",
+    "ts": 1790722331889,
+    "dependents": 0
+  },
+  "0x0eaaf505a355d14d67066b86c801e960": {
+    "hash": "0x0eaaf505a355d14d67066b86c801e960",
+    "files": {
+      "LICENSE": 11381,
+      "algebra.bend": 17106,
+      "all.bend": 518,
+      "bool.bend": 18892,
+      "equal.bend": 1237,
+      "list.bend": 75216,
+      "maybe.bend": 4080,
+      "nat.bend": 93607,
+      "order.bend": 3221,
+      "perm.bend": 17309,
+      "sort.bend": 20511,
+      "string.bend": 15383
+    },
+    "name": "bend-mathlib",
+    "version": "0.6.0.0",
+    "desc": "bend-mathlib/algebra.bend: abstract associativity/commutativity theorems and their Nat/Bool/List instances.",
+    "ts": 1790717506119,
+    "dependents": 0
+  },
   "0x2a888ea481604c8ab4f68a408f625503": {
     "hash": "0x2a888ea481604c8ab4f68a408f625503",
     "files": {
@@ -2982,8 +3125,8 @@
       "src/start.c": 2902,
       "src/start.js": 621
     },
-    "name": null,
-    "version": null,
+    "name": "snap",
+    "version": "1.1.0.0",
     "desc": "snap: run programs from Bend 2 with argv as a list of strings, no shell.",
     "ts": 1790368610829,
     "dependents": 0
@@ -3521,7 +3664,7 @@
     "version": "1.0.0.0",
     "desc": "bendlib-kernel-list: frozen step-list permutations over List, generic over -A: Data.",
     "ts": 1790347513536,
-    "dependents": 3
+    "dependents": 5
   },
   "0x0a372da4a053652f70ded7d6e0d19330": {
     "hash": "0x0a372da4a053652f70ded7d6e0d19330",
@@ -3557,8 +3700,8 @@
       "mp3_tab.bend": 115218,
       "wav.bend": 14417
     },
-    "name": null,
-    "version": null,
+    "name": "emerging-ezaudio",
+    "version": "0.2.9.0",
     "desc": "ezaudio: a Clip is a sample rate, a channel count, a sample format, and",
     "ts": 1790346600452,
     "dependents": 0
@@ -3627,8 +3770,8 @@
       "src/pull.bend": 50076,
       "src/value.bend": 12757
     },
-    "name": null,
-    "version": null,
+    "name": "emerging-ezjson",
+    "version": "1.1.0.0",
     "desc": "ezjson: JSON for Bend 2, with a parser, a printer and a pull cursor",
     "ts": 1790346514326,
     "dependents": 2
