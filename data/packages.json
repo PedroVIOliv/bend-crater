@@ -1,4 +1,72 @@
 {
+  "0xd1de66b5d9157913a654c39186289f3d": {
+    "hash": "0xd1de66b5d9157913a654c39186289f3d",
+    "files": {
+      "algorithm.bend": 20171,
+      "bounds.bend": 1387,
+      "individual.bend": 4837,
+      "lib.bend": 1848,
+      "non_dominated_sort.bend": 8566,
+      "normalization.bend": 23587,
+      "polynomial_mutation.bend": 4990,
+      "problems.bend": 18810,
+      "reference_directions.bend": 3930,
+      "rng.bend": 2536,
+      "sbx.bend": 7137,
+      "survival.bend": 46178,
+      "tournament.bend": 9979,
+      "util.bend": 9542
+    },
+    "name": "unified-nsga-iii",
+    "version": "0.2.2.0",
+    "desc": "Unsga3Algorithm.Run — C# Unsga3.Algorithm.Unsga3Algorithm.",
+    "ts": 1790851980664,
+    "dependents": 0
+  },
+  "0x5d092e40b48ee431bc4b160e8797f9d5": {
+    "hash": "0x5d092e40b48ee431bc4b160e8797f9d5",
+    "files": {
+      "LICENSE": 11339,
+      "date.bend": 11409,
+      "datetime.bend": 11305,
+      "duration.bend": 9522,
+      "format.bend": 15804,
+      "instant.bend": 5232,
+      "iso8601.bend": 25332,
+      "package.bend": 268,
+      "period.bend": 4796,
+      "week.bend": 4078
+    },
+    "name": "bend-time-lib",
+    "version": "0.4.0.1",
+    "desc": "",
+    "ts": 1790851959234,
+    "dependents": 0
+  },
+  "0x2bc7fb472c80bd6a0e04725c117edb2a": {
+    "hash": "0x2bc7fb472c80bd6a0e04725c117edb2a",
+    "files": {
+      "algorithm.bend": 20171,
+      "bounds.bend": 1387,
+      "individual.bend": 4837,
+      "lib.bend": 1848,
+      "non_dominated_sort.bend": 8566,
+      "normalization.bend": 23587,
+      "polynomial_mutation.bend": 4990,
+      "problems.bend": 18810,
+      "reference_directions.bend": 3930,
+      "rng.bend": 2536,
+      "sbx.bend": 7137,
+      "survival.bend": 40381,
+      "tournament.bend": 9979,
+      "util.bend": 9542
+    },
+    "name": "unified-nsga-iii",
+    "version": "0.2.1.0",
+    "desc": "Unsga3Algorithm.Run — C# Unsga3.Algorithm.Unsga3Algorithm.",
+    "ts": 1790837293506,
+    "dependents": 0
+  },
   "0xd2e0b2819dcc854bda21f542b308ada3": {
     "hash": "0xd2e0b2819dcc854bda21f542b308ada3",
     "files": {
@@ -7656,7 +7724,7 @@
     "version": "0.1.0.0",
     "desc": "",
     "ts": 1789895097014,
-    "dependents": 4
+    "dependents": 5
   },
   "0xa2d32c1d530e8aafaf6450baaef38f01": {
     "hash": "0xa2d32c1d530e8aafaf6450baaef38f01",
