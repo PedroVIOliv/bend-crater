@@ -1,4 +1,40 @@
 {
+  "0xc517d5d3635f5bc3ec47170caccaebf0": {
+    "hash": "0xc517d5d3635f5bc3ec47170caccaebf0",
+    "files": {
+      "blocks.bend": 20197,
+      "minecraft.bend": 58070,
+      "mobs.bend": 4262,
+      "physics.bend": 14223,
+      "player.bend": 23025,
+      "render.bend": 11800,
+      "world.bend": 21712
+    },
+    "name": null,
+    "version": null,
+    "desc": "",
+    "ts": 1790876805599,
+    "dependents": 0
+  },
+  "0x665ae73e3f32ce98f72c7cf6844cfd3f": {
+    "hash": "0x665ae73e3f32ce98f72c7cf6844cfd3f",
+    "files": {
+      "LICENSE": 1097,
+      "entropy.bend": 953,
+      "entropy/native.c": 954,
+      "entropy/webcrypto.js": 1562,
+      "generation.bend": 6429,
+      "native_http.bend": 7743,
+      "src/digits.bend": 7119,
+      "src/hex.bend": 6580,
+      "trace_context.bend": 175204
+    },
+    "name": "bend-trace-context",
+    "version": "0.2.0.0",
+    "desc": "W3C Trace Context Level 2 propagation, with its rules proved as laws. Source: https://github.com/LucasGois1/bend-trace-context",
+    "ts": 1790861627299,
+    "dependents": 0
+  },
   "0xd1de66b5d9157913a654c39186289f3d": {
     "hash": "0xd1de66b5d9157913a654c39186289f3d",
     "files": {
