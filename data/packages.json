@@ -1,4 +1,33 @@
 {
+  "0x0b4f68372ee8cbe03f4a66931f85cfdc": {
+    "hash": "0x0b4f68372ee8cbe03f4a66931f85cfdc",
+    "files": {
+      "LAWS.bend": 9188,
+      "PROOF.bend": 16922,
+      "bend_libs.bend": 271,
+      "libs/JSON.bend": 54885,
+      "libs/URL.bend": 2005,
+      "libs/wire/effs/wire.c": 30384,
+      "libs/wire/effs/wire.js": 19671,
+      "libs/wire/wire.bend": 5255,
+      "proof/JSON_AssemblyProof.bend": 14743,
+      "proof/JSON_LexWhitespaceProof.bend": 44577,
+      "proof/JSON_ListProof.bend": 4733,
+      "proof/JSON_NumberLexProof.bend": 33944,
+      "proof/JSON_ParallelProof.bend": 3019,
+      "proof/JSON_PrimitiveProof.bend": 3646,
+      "proof/JSON_RenderLexProof.bend": 43070,
+      "proof/JSON_SourceProof.bend": 127593,
+      "proof/JSON_StringProof.bend": 425139,
+      "usage/JSON_GPU.bend": 1336,
+      "usage/JSON_SafeTest.bend": 1799
+    },
+    "name": "qasim-bend-kit",
+    "version": "0.1.0.1",
+    "desc": "Library correctness laws and integration obligations.",
+    "ts": 1790944264871,
+    "dependents": 0
+  },
   "0x1b64bb5828eb2210a4a61a1ba480631a": {
     "hash": "0x1b64bb5828eb2210a4a61a1ba480631a",
     "files": {
