@@ -1,4 +1,69 @@
 {
+  "0x3d2147650fe101ae3c3e4a95333b4238": {
+    "hash": "0x3d2147650fe101ae3c3e4a95333b4238",
+    "files": {
+      "LAWS.bend": 54114,
+      "PROOF.bend": 16775,
+      "bend_libs.bend": 616,
+      "libs/HTTPClient.bend": 94064,
+      "libs/JSON.bend": 54885,
+      "libs/SQL.bend": 7998,
+      "libs/wire/deps/bytes.bend": 30820,
+      "libs/wire/deps/int.bend": 43806,
+      "libs/wire/dns.bend": 28361,
+      "libs/wire/dns_eff/dns.c": 3015,
+      "libs/wire/dns_eff/dns.js": 2977,
+      "libs/wire/effs/wire.c": 30384,
+      "libs/wire/effs/wire.js": 19671,
+      "libs/wire/wire.bend": 5255,
+      "proof/HTTPClientProof.bend": 36488,
+      "proof/JSON_AssemblyProof.bend": 14743,
+      "proof/JSON_LexWhitespaceProof.bend": 44577,
+      "proof/JSON_ListProof.bend": 4733,
+      "proof/JSON_NumberLexProof.bend": 33944,
+      "proof/JSON_ParallelProof.bend": 3019,
+      "proof/JSON_PrimitiveProof.bend": 3646,
+      "proof/JSON_RenderLexProof.bend": 43070,
+      "proof/JSON_SourceProof.bend": 127593,
+      "proof/JSON_StringProof.bend": 425139,
+      "usage/HTTP.bend": 348,
+      "usage/HTTP_Decode.bend": 291,
+      "usage/HTTP_Encode.bend": 402,
+      "usage/HTTP_GPU.bend": 2581,
+      "usage/HTTP_JSON.bend": 250,
+      "usage/HTTP_Send.bend": 2710,
+      "usage/HTTP_URL.bend": 352,
+      "usage/JSON_GPU.bend": 1336,
+      "usage/JSON_SafeTest.bend": 1799
+    },
+    "name": null,
+    "version": null,
+    "desc": "Library correctness laws and integration obligations.",
+    "ts": 1790893754354,
+    "dependents": 0
+  },
+  "0x3c446c5bcf57d1eef89775ba0b411fc6": {
+    "hash": "0x3c446c5bcf57d1eef89775ba0b411fc6",
+    "files": {
+      "LICENSE": 11381,
+      "algebra.bend": 20182,
+      "all.bend": 564,
+      "bool.bend": 18892,
+      "equal.bend": 1237,
+      "list.bend": 102036,
+      "maybe.bend": 11847,
+      "nat.bend": 140870,
+      "order.bend": 3221,
+      "perm.bend": 17714,
+      "sort.bend": 20826,
+      "string.bend": 25063
+    },
+    "name": "bend-mathlib",
+    "version": "0.7.1.0",
+    "desc": "bend-mathlib/algebra.bend: abstract associativity/commutativity theorems and their Nat/Bool/List instances.",
+    "ts": 1790891974242,
+    "dependents": 0
+  },
   "0xc517d5d3635f5bc3ec47170caccaebf0": {
     "hash": "0xc517d5d3635f5bc3ec47170caccaebf0",
     "files": {
@@ -3278,7 +3343,7 @@
     "version": "0.4.1.0",
     "desc": "URL parsing, resolution, and percent-encoding (RFC 3986). Source: https://github.com/paymog/bend-kit/tree/main/url",
     "ts": 1790526635864,
-    "dependents": 21
+    "dependents": 22
   },
   "0xa3dc0f6e3963608e4608a1017272cf4f": {
     "hash": "0xa3dc0f6e3963608e4608a1017272cf4f",
@@ -4981,7 +5046,7 @@
     "version": "0.3.0.0",
     "desc": "UTF-8 encoding and decoding between text and Bytes. Source: https://github.com/paymog/bend-kit/tree/main/encoding",
     "ts": 1790387586048,
-    "dependents": 30
+    "dependents": 31
   },
   "0xb13667d52aa56e002b4d09883d7fce3e": {
     "hash": "0xb13667d52aa56e002b4d09883d7fce3e",
@@ -5452,7 +5517,7 @@
     "version": "0.3.0.0",
     "desc": "Byte buffers packed four bytes to a U32, with bounds-checked access. Source: https://github.com/paymog/bend-kit/tree/main/bytes",
     "ts": 1790360288347,
-    "dependents": 53
+    "dependents": 54
   },
   "0xe4067e0d858024083f36a7abe7281e89": {
     "hash": "0xe4067e0d858024083f36a7abe7281e89",
@@ -5753,7 +5818,7 @@
     "version": "1.0.0.0",
     "desc": "bendlib-kernel-list: frozen step-list permutations over List, generic over -A: Data.",
     "ts": 1790347513536,
-    "dependents": 5
+    "dependents": 6
   },
   "0x0a372da4a053652f70ded7d6e0d19330": {
     "hash": "0x0a372da4a053652f70ded7d6e0d19330",
