@@ -1,4 +1,19 @@
 {
+  "0x1b64bb5828eb2210a4a61a1ba480631a": {
+    "hash": "0x1b64bb5828eb2210a4a61a1ba480631a",
+    "files": {
+      "LICENSE": 1074,
+      "main.bend": 8793,
+      "src/args.bend": 1913,
+      "src/check.bend": 6253,
+      "src/cli.bend": 65260
+    },
+    "name": "shake",
+    "version": "0.5.0.0",
+    "desc": "shake: a proven command-line argument parser for Bend 2, with subcommands and help.",
+    "ts": 1790908781621,
+    "dependents": 0
+  },
   "0x3d2147650fe101ae3c3e4a95333b4238": {
     "hash": "0x3d2147650fe101ae3c3e4a95333b4238",
     "files": {
