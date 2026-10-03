@@ -1,4 +1,24 @@
 {
+  "0x4c3090ea8722081700f9d99ea7503e43": {
+    "hash": "0x4c3090ea8722081700f9d99ea7503e43",
+    "files": {
+      "bits.bend": 5421,
+      "logic.bend": 6390,
+      "math.bend": 6153,
+      "mathlib.bend": 3395,
+      "mlib_linalg.bend": 3226,
+      "nat.bend": 8378,
+      "num.bend": 4453,
+      "rat.bend": 5681,
+      "series.bend": 15747,
+      "set.bend": 3836
+    },
+    "name": null,
+    "version": null,
+    "desc": "",
+    "ts": 1791000454208,
+    "dependents": 0
+  },
   "0x0b4f68372ee8cbe03f4a66931f85cfdc": {
     "hash": "0x0b4f68372ee8cbe03f4a66931f85cfdc",
     "files": {
