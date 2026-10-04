@@ -1,4 +1,397 @@
 {
+  "0x449abff091641d732d7b9f0780df40ae": {
+    "hash": "0x449abff091641d732d7b9f0780df40ae",
+    "files": {
+      "LICENSE": 11381,
+      "algebra.bend": 20182,
+      "all.bend": 564,
+      "bool.bend": 18892,
+      "equal.bend": 1237,
+      "list.bend": 104775,
+      "maybe.bend": 11847,
+      "nat.bend": 142347,
+      "order.bend": 3221,
+      "perm.bend": 17714,
+      "sort.bend": 20826,
+      "string.bend": 25063
+    },
+    "name": "bend-mathlib",
+    "version": "0.7.2.0",
+    "desc": "bend-mathlib/algebra.bend: abstract associativity/commutativity theorems and their Nat/Bool/List instances.",
+    "ts": 1791141735599,
+    "dependents": 0
+  },
+  "0xa78e1f1609ed090d0092c5fff6f9bac7": {
+    "hash": "0xa78e1f1609ed090d0092c5fff6f9bac7",
+    "files": {
+      "LICENSE": 1072,
+      "main.bend": 31537
+    },
+    "name": "bend-ml-tensor-array",
+    "version": "0.1.3.0",
+    "desc": "bend-ml-tensor-array: tensors over a flat Array<F32>, with the shape in the type.",
+    "ts": 1791140324992,
+    "dependents": 0
+  },
+  "0xdf198d67659100c90a58ecd6b01d034d": {
+    "hash": "0xdf198d67659100c90a58ecd6b01d034d",
+    "files": {
+      "LAWS.bend": 29922,
+      "LICENSE": 1101,
+      "PROOF.bend": 10351,
+      "bonded.bend": 14549,
+      "force.bend": 10843,
+      "geom.bend": 2246,
+      "lib.bend": 801,
+      "par.bend": 1650,
+      "pbc.bend": 3112,
+      "pdb.bend": 22252,
+      "protein.bend": 4923,
+      "rmsd.bend": 2076,
+      "rng.bend": 657,
+      "sasa.bend": 2797,
+      "sim.bend": 9938,
+      "templates.bend": 20580,
+      "topology.bend": 4534,
+      "tpl.bend": 3926
+    },
+    "name": null,
+    "version": null,
+    "desc": "",
+    "ts": 1791134485306,
+    "dependents": 0
+  },
+  "0x2731c2a5d4185b57cf5353061639642e": {
+    "hash": "0x2731c2a5d4185b57cf5353061639642e",
+    "files": {
+      "LICENSE": 1061,
+      "src/LAWS.bend": 894,
+      "src/PROOF.bend": 866,
+      "src/app.bend": 7021,
+      "src/effects/json.c": 14197,
+      "src/effects/server.c": 50797,
+      "src/effects/stiff.c": 17155,
+      "src/effects/store.c": 27149,
+      "src/effects/url.c": 5800,
+      "src/http.bend": 2104,
+      "src/io.bend": 2160,
+      "src/json.bend": 1940,
+      "src/router.bend": 3970,
+      "src/schema.bend": 6436,
+      "src/server.bend": 8151,
+      "src/store.bend": 2021,
+      "src/url.bend": 505,
+      "stiff.bend": 2058
+    },
+    "name": null,
+    "version": null,
+    "desc": "",
+    "ts": 1791117127002,
+    "dependents": 0
+  },
+  "0xc23e1aa6a6d82ae7d54c58cdae918105": {
+    "hash": "0xc23e1aa6a6d82ae7d54c58cdae918105",
+    "files": {
+      "camber.bend": 59718,
+      "input.bend": 13912,
+      "notices.bend": 1471,
+      "response.bend": 2107
+    },
+    "name": "bend-kit-camber",
+    "version": "0.6.0.0",
+    "desc": "Fixed prepared HTTP applications and bounded affine dependency bundles.",
+    "ts": 1791115790881,
+    "dependents": 0
+  },
+  "0x590fca4aa3daca2d7174e432e34554ca": {
+    "hash": "0x590fca4aa3daca2d7174e432e34554ca",
+    "files": {
+      "camber.bend": 53258,
+      "input.bend": 13912,
+      "response.bend": 2107
+    },
+    "name": "bend-kit-camber",
+    "version": "0.5.0.0",
+    "desc": "Fixed prepared HTTP applications and bounded affine dependency bundles.",
+    "ts": 1791111973383,
+    "dependents": 0
+  },
+  "0x8bc87dd4d1e610fe1bf336b567537a8c": {
+    "hash": "0x8bc87dd4d1e610fe1bf336b567537a8c",
+    "files": {
+      "admission.bend": 8122,
+      "completion.bend": 1774,
+      "http.bend": 260367
+    },
+    "name": "bend-kit-http",
+    "version": "0.30.0.0",
+    "desc": "Private bounded transport accounting. Replies contain copied data, never resources.",
+    "ts": 1791107569255,
+    "dependents": 2
+  },
+  "0x1435aec27074c8141b74747909079afc": {
+    "hash": "0x1435aec27074c8141b74747909079afc",
+    "files": {
+      "effs/wire.c": 30205,
+      "effs/wire.js": 19475,
+      "wire.bend": 5053
+    },
+    "name": "bend-kit-wire",
+    "version": "0.4.5.0",
+    "desc": "Byte-exact TCP, UDP, and TLS sockets. Source: https://github.com/paymog/bend-kit/tree/main/wire",
+    "ts": 1791100805208,
+    "dependents": 1
+  },
+  "0x8c8d90d5c08f57bf4aa756aa551bd63c": {
+    "hash": "0x8c8d90d5c08f57bf4aa756aa551bd63c",
+    "files": {
+      "admission.bend": 5603,
+      "completion.bend": 1774,
+      "http.bend": 251951
+    },
+    "name": "bend-kit-http",
+    "version": "0.29.0.0",
+    "desc": "Private bounded transport accounting. Replies contain copied data, never resources.",
+    "ts": 1791098021891,
+    "dependents": 0
+  },
+  "0x0ed882696c6c048c64c66242a999a426": {
+    "hash": "0x0ed882696c6c048c64c66242a999a426",
+    "files": {
+      "LICENSE": 1072,
+      "main.bend": 12821
+    },
+    "name": "bend-ml-autograd",
+    "version": "0.1.1.0",
+    "desc": "bend-ml-autograd: automatic differentiation with a proved law.",
+    "ts": 1791095999843,
+    "dependents": 0
+  },
+  "0x83d7a8813f8d06d870224fde14ffb05a": {
+    "hash": "0x83d7a8813f8d06d870224fde14ffb05a",
+    "files": {
+      "LICENSE": 1072,
+      "main.bend": 24771
+    },
+    "name": "bend-ml-tensor-array",
+    "version": "0.1.2.0",
+    "desc": "bend-ml-tensor-array: tensors over a flat Array<F32>, with the shape in the type.",
+    "ts": 1791095997016,
+    "dependents": 0
+  },
+  "0x48e80e20946abebea50e06561806a40d": {
+    "hash": "0x48e80e20946abebea50e06561806a40d",
+    "files": {
+      "LICENSE": 1072,
+      "main.bend": 14970
+    },
+    "name": "bend-ml-tensor",
+    "version": "0.1.2.0",
+    "desc": "bend-ml-tensor: tensors with the shape in the TYPE. A shape error is a type error.",
+    "ts": 1791095993677,
+    "dependents": 0
+  },
+  "0xa071a92aabcffe6fc04dc3a60f0096ba": {
+    "hash": "0xa071a92aabcffe6fc04dc3a60f0096ba",
+    "files": {
+      "LICENSE": 1072,
+      "main.bend": 29422
+    },
+    "name": "bend-ml-bpe-tokenizer",
+    "version": "0.1.2.0",
+    "desc": "bend-ml-bpe-tokenizer: byte-level BPE with a proved roundtrip.",
+    "ts": 1791095989547,
+    "dependents": 0
+  },
+  "0x2bbe4207657ea8b1158567d930651411": {
+    "hash": "0x2bbe4207657ea8b1158567d930651411",
+    "files": {
+      "LICENSE": 1102,
+      "main.bend": 7227
+    },
+    "name": "bend-ml-nat-lemmas",
+    "version": "0.1.1.0",
+    "desc": "bend-ml-nat-lemmas: Nat and List lemmas, proved, that Bend's Base does not have.",
+    "ts": 1791095984744,
+    "dependents": 0
+  },
+  "0xbce52aed55d81f3c75dfd6518c9bcbdd": {
+    "hash": "0xbce52aed55d81f3c75dfd6518c9bcbdd",
+    "files": {
+      "LICENSE": 1072,
+      "main.bend": 29502
+    },
+    "name": "bend-ml-bpe-tokenizer",
+    "version": "0.1.1.0",
+    "desc": "bend-ml-bpe-tokenizer: BPE byte-level com roundtrip provado.",
+    "ts": 1791094631166,
+    "dependents": 0
+  },
+  "0x52546eabfdaff99acd3ccd759c45cd9f": {
+    "hash": "0x52546eabfdaff99acd3ccd759c45cd9f",
+    "files": {
+      "LICENSE": 1072,
+      "main.bend": 24815
+    },
+    "name": "bend-ml-tensor-array",
+    "version": "0.1.1.0",
+    "desc": "bend-ml-tensor-array: tensores sobre Array<F32> plano, com a shape no tipo.",
+    "ts": 1791093619850,
+    "dependents": 0
+  },
+  "0x11d97125d04a371763283ef9f67fd926": {
+    "hash": "0x11d97125d04a371763283ef9f67fd926",
+    "files": {
+      "LICENSE": 1072,
+      "main.bend": 21734
+    },
+    "name": "bend-ml-tensor-array",
+    "version": "0.1.0.0",
+    "desc": "bend-ml-tensor-array: tensores sobre Array<F32> plano, com a shape no tipo.",
+    "ts": 1791093486042,
+    "dependents": 0
+  },
+  "0x66f3e61148842acfb1374b9040cdf1b8": {
+    "hash": "0x66f3e61148842acfb1374b9040cdf1b8",
+    "files": {
+      "admission.bend": 5603,
+      "http.bend": 243384
+    },
+    "name": "bend-kit-http",
+    "version": "0.28.0.0",
+    "desc": "Private bounded transport accounting. Replies contain copied data, never resources.",
+    "ts": 1791092009147,
+    "dependents": 0
+  },
+  "0xac62bba3114de68207da619b7873c839": {
+    "hash": "0xac62bba3114de68207da619b7873c839",
+    "files": {
+      "camber.bend": 37271,
+      "input.bend": 13912,
+      "response.bend": 2107
+    },
+    "name": "bend-kit-camber",
+    "version": "0.4.0.0",
+    "desc": "Fixed prepared HTTP applications and bounded affine dependency bundles.",
+    "ts": 1791091212232,
+    "dependents": 0
+  },
+  "0x0a7f1547fef2ab87a6914f5d5086bcd9": {
+    "hash": "0x0a7f1547fef2ab87a6914f5d5086bcd9",
+    "files": {
+      "camber.bend": 35983,
+      "response.bend": 2107
+    },
+    "name": "bend-kit-camber",
+    "version": "0.3.0.0",
+    "desc": "Fixed prepared HTTP applications and bounded affine dependency bundles.",
+    "ts": 1791083935256,
+    "dependents": 0
+  },
+  "0x28f53dfe9eb8ab6c7c06dbc7bdee1b69": {
+    "hash": "0x28f53dfe9eb8ab6c7c06dbc7bdee1b69",
+    "files": {
+      "http.bend": 231549
+    },
+    "name": "bend-kit-http",
+    "version": "0.27.0.0",
+    "desc": "HTTP/1.1 and HTTP/2 client, with an HTTP/1.1 server. Source: https://github.com/paymog/bend-kit/tree/main/http",
+    "ts": 1791082650680,
+    "dependents": 0
+  },
+  "0xa8848701c52b7deefbe5646dbfce55ff": {
+    "hash": "0xa8848701c52b7deefbe5646dbfce55ff",
+    "files": {
+      "camber.bend": 22470,
+      "response.bend": 2107
+    },
+    "name": "bend-kit-camber",
+    "version": "0.2.0.0",
+    "desc": "Fixed prepared HTTP applications and bounded affine dependency bundles.",
+    "ts": 1791080505748,
+    "dependents": 0
+  },
+  "0xb65f13a70d5efb22a09a5b9d69148c23": {
+    "hash": "0xb65f13a70d5efb22a09a5b9d69148c23",
+    "files": {
+      "http.bend": 219026
+    },
+    "name": "bend-kit-http",
+    "version": "0.26.0.0",
+    "desc": "HTTP/1.1 and HTTP/2 client, with an HTTP/1.1 server. Source: https://github.com/paymog/bend-kit/tree/main/http",
+    "ts": 1791079673369,
+    "dependents": 0
+  },
+  "0x3bd8bfdb248d1f62977e60d556199f03": {
+    "hash": "0x3bd8bfdb248d1f62977e60d556199f03",
+    "files": {
+      "camber.bend": 20440
+    },
+    "name": "bend-kit-camber",
+    "version": "0.1.1.0",
+    "desc": "Fixed prepared HTTP applications and bounded affine dependency bundles.",
+    "ts": 1791078848112,
+    "dependents": 0
+  },
+  "0x226e306d339156dbcc425897c04bc1a9": {
+    "hash": "0x226e306d339156dbcc425897c04bc1a9",
+    "files": {
+      "camber.bend": 12594
+    },
+    "name": "bend-kit-camber",
+    "version": "0.1.0.0",
+    "desc": "Bounded affine dependency bundles with typed concurrent operations and explicit close.",
+    "ts": 1791078149286,
+    "dependents": 0
+  },
+  "0x247a5ed9b007fd4a3007e764c6b14986": {
+    "hash": "0x247a5ed9b007fd4a3007e764c6b14986",
+    "files": {
+      "effs/wire.c": 28784,
+      "effs/wire.js": 18405,
+      "wire.bend": 4656
+    },
+    "name": "bend-kit-wire",
+    "version": "0.4.4.0",
+    "desc": "Byte-exact TCP, UDP, and TLS sockets. Source: https://github.com/paymog/bend-kit/tree/main/wire",
+    "ts": 1791077342066,
+    "dependents": 3
+  },
+  "0xc57af2d86db2e94187b6fb2ac4976fc9": {
+    "hash": "0xc57af2d86db2e94187b6fb2ac4976fc9",
+    "files": {
+      "json.bend": 33451
+    },
+    "name": "bend-kit-json",
+    "version": "0.5.1.0",
+    "desc": "JSON values, parsed and encoded as RFC 8259. Source: https://github.com/paymog/bend-kit/tree/main/json",
+    "ts": 1791077175265,
+    "dependents": 5
+  },
+  "0x9606cc4b1afb0de13a7da7c0f6fc3a82": {
+    "hash": "0x9606cc4b1afb0de13a7da7c0f6fc3a82",
+    "files": {
+      "router.bend": 19392,
+      "target.bend": 7184
+    },
+    "name": "bend-kit-router",
+    "version": "0.2.0.0",
+    "desc": "Prepared HTTP routes with exact paths, validated registration, and path-first method selection. Source: https://github.com/paymog/bend-kit/tree/main/router",
+    "ts": 1791074936903,
+    "dependents": 6
+  },
+  "0xdbe1000ee6707b4d38c0ad7eb1287363": {
+    "hash": "0xdbe1000ee6707b4d38c0ad7eb1287363",
+    "files": {
+      "LICENSE": 1072,
+      "main.bend": 15014
+    },
+    "name": "bend-ml-tensor",
+    "version": "0.1.1.0",
+    "desc": "bend-ml-tensor: tensores com a shape no TIPO. Erro de shape é erro de tipo.",
+    "ts": 1791074524520,
+    "dependents": 0
+  },
   "0x174ef0d27bc1c621ddb9961c7f224de1": {
     "hash": "0x174ef0d27bc1c621ddb9961c7f224de1",
     "files": {
@@ -21,7 +414,7 @@
     "version": "0.1.0.0",
     "desc": "bend-ml-tensor: tensores com a shape no TIPO. Erro de shape é erro de tipo.",
     "ts": 1791073586106,
-    "dependents": 1
+    "dependents": 2
   },
   "0x3333bd5274f4ce66fdf8fe0c26c6b532": {
     "hash": "0x3333bd5274f4ce66fdf8fe0c26c6b532",
@@ -45,7 +438,7 @@
     "version": "0.1.0.0",
     "desc": "bend-ml-nat-lemmas: lemas provados de Nat e List que a Base do Bend não tem.",
     "ts": 1791071657851,
-    "dependents": 3
+    "dependents": 8
   },
   "0x57bb52acf8b29a1505a8641f7d8f9690": {
     "hash": "0x57bb52acf8b29a1505a8641f7d8f9690",
@@ -2509,7 +2902,7 @@
     "version": "0.25.0.2",
     "desc": "HTTP/1.1 and HTTP/2 client, with an HTTP/1.1 server. Source: https://github.com/paymog/bend-kit/tree/main/http",
     "ts": 1790699634226,
-    "dependents": 0
+    "dependents": 4
   },
   "0x9abf4483e85cdd9418700acfbda3e5a0": {
     "hash": "0x9abf4483e85cdd9418700acfbda3e5a0",
@@ -2534,7 +2927,7 @@
     "version": "0.2.0.0",
     "desc": "DEFLATE, gzip, and zlib encoding and decoding (RFC 1951, 1952, 1950) over byte strings, plus gzip, zstd, and brotli through the C libraries. Source: https://github.com/paymog/bend-kit/tree/main/zlib",
     "ts": 1790695788528,
-    "dependents": 1
+    "dependents": 6
   },
   "0x93d94e676e81df7c0c1a0e8f66ffa209": {
     "hash": "0x93d94e676e81df7c0c1a0e8f66ffa209",
@@ -2593,7 +2986,7 @@
     "version": "0.5.0.0",
     "desc": "DNS codec and host lookup. Source: https://github.com/paymog/bend-kit/tree/main/dns",
     "ts": 1790690049362,
-    "dependents": 4
+    "dependents": 9
   },
   "0x47370f6eaec04e4f1aa9598b3d00e3f0": {
     "hash": "0x47370f6eaec04e4f1aa9598b3d00e3f0",
@@ -3225,7 +3618,7 @@
     "version": "0.1.0.0",
     "desc": "Leveled, structured logging: a logger value, key-value fields, and logfmt or JSON-lines output. Source: https://github.com/paymog/bend-kit/tree/main/notch",
     "ts": 1790559082378,
-    "dependents": 0
+    "dependents": 1
   },
   "0xfbc61a0d1aed5a9252de78ef4ae7a756": {
     "hash": "0xfbc61a0d1aed5a9252de78ef4ae7a756",
@@ -3328,7 +3721,7 @@
     "version": "0.1.0.0",
     "desc": "Parallel map and reduce over lists and arrays, a worker pool, select over channels, and timeouts.",
     "ts": 1790544767165,
-    "dependents": 12
+    "dependents": 17
   },
   "0x942157943655d6226602bfa15f1ffe5b": {
     "hash": "0x942157943655d6226602bfa15f1ffe5b",
@@ -3352,7 +3745,7 @@
     "version": "0.1.2.0",
     "desc": "RFC 7541 HPACK header blocks with a bounded dynamic table.",
     "ts": 1790539768591,
-    "dependents": 15
+    "dependents": 20
   },
   "0x9c94dd62a275a2a52aba6d0315b7bb60": {
     "hash": "0x9c94dd62a275a2a52aba6d0315b7bb60",
@@ -3481,7 +3874,7 @@
     "version": "0.4.1.0",
     "desc": "URL parsing, resolution, and percent-encoding (RFC 3986). Source: https://github.com/paymog/bend-kit/tree/main/url",
     "ts": 1790526635864,
-    "dependents": 22
+    "dependents": 31
   },
   "0xa3dc0f6e3963608e4608a1017272cf4f": {
     "hash": "0xa3dc0f6e3963608e4608a1017272cf4f",
@@ -3494,7 +3887,7 @@
     "version": "0.4.2.0",
     "desc": "Byte-exact TCP, UDP, and TLS sockets. Source: https://github.com/paymog/bend-kit/tree/main/wire",
     "ts": 1790526524168,
-    "dependents": 23
+    "dependents": 24
   },
   "0xcd9eb2c24e7c1d3b2c89eb681085f7fe": {
     "hash": "0xcd9eb2c24e7c1d3b2c89eb681085f7fe",
@@ -3669,7 +4062,7 @@
     "version": "0.5.0.1",
     "desc": "JSON values, parsed and encoded as RFC 8259. Source: https://github.com/paymog/bend-kit/tree/main/json",
     "ts": 1790520727495,
-    "dependents": 24
+    "dependents": 29
   },
   "0xcdde0eac97319e908732c0dba1108f3b": {
     "hash": "0xcdde0eac97319e908732c0dba1108f3b",
@@ -3693,7 +4086,7 @@
     "version": "0.1.0.0",
     "desc": "Clocks, Duration and Instant, Gregorian dates, RFC 3339 and HTTP-date text, and TZif time zones. Source: https://github.com/paymog/bend-kit/tree/main/time",
     "ts": 1790520378315,
-    "dependents": 19
+    "dependents": 25
   },
   "0x9f95eaeefad4a8a2fe1a559163ffb14a": {
     "hash": "0x9f95eaeefad4a8a2fe1a559163ffb14a",
@@ -3730,7 +4123,7 @@
     "version": "0.3.1.0",
     "desc": "Byte buffers packed four bytes to a U32, with bounds-checked access. Source: https://github.com/paymog/bend-kit/tree/main/bytes",
     "ts": 1790519418599,
-    "dependents": 27
+    "dependents": 32
   },
   "0x0fab7442f5a423ac9ee7dc17899842b0": {
     "hash": "0x0fab7442f5a423ac9ee7dc17899842b0",
@@ -3778,7 +4171,7 @@
     "version": "0.2.0.0",
     "desc": "Fixed-width integers U8, U16, U64, I32 and I64: wrapping, checked and saturating arithmetic, and text in radix 2 to 36.",
     "ts": 1790516996356,
-    "dependents": 22
+    "dependents": 28
   },
   "0xea2956cd4e05ac318643319cb7fb3c29": {
     "hash": "0xea2956cd4e05ac318643319cb7fb3c29",
@@ -5184,7 +5577,7 @@
     "version": "0.3.0.0",
     "desc": "UTF-8 encoding and decoding between text and Bytes. Source: https://github.com/paymog/bend-kit/tree/main/encoding",
     "ts": 1790387586048,
-    "dependents": 31
+    "dependents": 36
   },
   "0xb13667d52aa56e002b4d09883d7fce3e": {
     "hash": "0xb13667d52aa56e002b4d09883d7fce3e",
@@ -5655,7 +6048,7 @@
     "version": "0.3.0.0",
     "desc": "Byte buffers packed four bytes to a U32, with bounds-checked access. Source: https://github.com/paymog/bend-kit/tree/main/bytes",
     "ts": 1790360288347,
-    "dependents": 54
+    "dependents": 63
   },
   "0xe4067e0d858024083f36a7abe7281e89": {
     "hash": "0xe4067e0d858024083f36a7abe7281e89",
@@ -5956,7 +6349,7 @@
     "version": "1.0.0.0",
     "desc": "bendlib-kernel-list: frozen step-list permutations over List, generic over -A: Data.",
     "ts": 1790347513536,
-    "dependents": 6
+    "dependents": 7
   },
   "0x0a372da4a053652f70ded7d6e0d19330": {
     "hash": "0x0a372da4a053652f70ded7d6e0d19330",
