@@ -1,4 +1,52 @@
 {
+  "0x174ef0d27bc1c621ddb9961c7f224de1": {
+    "hash": "0x174ef0d27bc1c621ddb9961c7f224de1",
+    "files": {
+      "LICENSE": 1072,
+      "main.bend": 12796
+    },
+    "name": "bend-ml-autograd",
+    "version": "0.1.0.0",
+    "desc": "bend-ml-autograd: diferenciação automática com uma lei provada.",
+    "ts": 1791073828983,
+    "dependents": 0
+  },
+  "0xf9837737d2c3f58ae1d0c5df42255584": {
+    "hash": "0xf9837737d2c3f58ae1d0c5df42255584",
+    "files": {
+      "LICENSE": 1072,
+      "main.bend": 14643
+    },
+    "name": "bend-ml-tensor",
+    "version": "0.1.0.0",
+    "desc": "bend-ml-tensor: tensores com a shape no TIPO. Erro de shape é erro de tipo.",
+    "ts": 1791073586106,
+    "dependents": 1
+  },
+  "0x3333bd5274f4ce66fdf8fe0c26c6b532": {
+    "hash": "0x3333bd5274f4ce66fdf8fe0c26c6b532",
+    "files": {
+      "LICENSE": 1072,
+      "main.bend": 25021
+    },
+    "name": "bend-ml-bpe-tokenizer",
+    "version": "0.1.0.0",
+    "desc": "bend-ml-bpe-tokenizer: BPE byte-level com roundtrip provado.",
+    "ts": 1791073311482,
+    "dependents": 0
+  },
+  "0xa7aa06c09e97c6747c12cc64bb5203d9": {
+    "hash": "0xa7aa06c09e97c6747c12cc64bb5203d9",
+    "files": {
+      "LICENSE": 1102,
+      "main.bend": 7183
+    },
+    "name": "bend-ml-nat-lemmas",
+    "version": "0.1.0.0",
+    "desc": "bend-ml-nat-lemmas: lemas provados de Nat e List que a Base do Bend não tem.",
+    "ts": 1791071657851,
+    "dependents": 3
+  },
   "0x57bb52acf8b29a1505a8641f7d8f9690": {
     "hash": "0x57bb52acf8b29a1505a8641f7d8f9690",
     "files": {
