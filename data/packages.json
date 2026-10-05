@@ -1,4 +1,16 @@
 {
+  "0xa9f0119b329387bd12ab09578428fd3d": {
+    "hash": "0xa9f0119b329387bd12ab09578428fd3d",
+    "files": {
+      "LICENSE": 1094,
+      "core.bend": 54801
+    },
+    "name": "bend-schema-lib",
+    "version": "0.1.0.0",
+    "desc": "",
+    "ts": 1791181897639,
+    "dependents": 0
+  },
   "0x449abff091641d732d7b9f0780df40ae": {
     "hash": "0x449abff091641d732d7b9f0780df40ae",
     "files": {
