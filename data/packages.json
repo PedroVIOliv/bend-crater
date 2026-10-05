@@ -1,4 +1,142 @@
 {
+  "0x00e7af2de246c3a4c341d9ee49e68747": {
+    "hash": "0x00e7af2de246c3a4c341d9ee49e68747",
+    "files": {
+      "LICENSE": 1070,
+      "addr.bend": 9142,
+      "core.bend": 32781,
+      "dkim.bend": 8783,
+      "idna.bend": 5379,
+      "md5.bend": 6208,
+      "mime.bend": 19302,
+      "net.bend": 3281,
+      "net.c": 35882,
+      "net.js": 1651,
+      "reply.bend": 2861,
+      "smtp.bend": 30663,
+      "text.bend": 2165
+    },
+    "name": null,
+    "version": null,
+    "desc": "Addresses and mailboxes. An address is local@domain, a dot-atom (RFC",
+    "ts": 1791220114281,
+    "dependents": 0
+  },
+  "0x4ee0ec16258e9b8ad6ef37e5b8c4f95e": {
+    "hash": "0x4ee0ec16258e9b8ad6ef37e5b8c4f95e",
+    "files": {
+      "LICENSE": 1061,
+      "src/CONTRACTS_PROOF.bend": 3015,
+      "src/LAWS.bend": 894,
+      "src/PROOF.bend": 909,
+      "src/app.bend": 7021,
+      "src/contracts.bend": 6278,
+      "src/effects/json.c": 14197,
+      "src/effects/server.c": 50797,
+      "src/effects/stiff.c": 17155,
+      "src/effects/store.c": 27149,
+      "src/effects/url.c": 5800,
+      "src/http.bend": 2104,
+      "src/io.bend": 2160,
+      "src/json.bend": 1940,
+      "src/router.bend": 3970,
+      "src/schema.bend": 6436,
+      "src/server.bend": 8151,
+      "src/store.bend": 2021,
+      "src/url.bend": 505,
+      "stiff.bend": 2099
+    },
+    "name": null,
+    "version": null,
+    "desc": "",
+    "ts": 1791215088068,
+    "dependents": 0
+  },
+  "0xfd64aefef43747d3eaeea50c10a112e5": {
+    "hash": "0xfd64aefef43747d3eaeea50c10a112e5",
+    "files": {
+      "LICENSE": 1070,
+      "addr.bend": 9142,
+      "core.bend": 29999,
+      "dkim.bend": 8755,
+      "idna.bend": 5379,
+      "md5.bend": 6208,
+      "mime.bend": 17573,
+      "net.bend": 3281,
+      "net.c": 35882,
+      "net.js": 1651,
+      "reply.bend": 2861,
+      "smtp.bend": 30677,
+      "text.bend": 2165
+    },
+    "name": null,
+    "version": null,
+    "desc": "Addresses and mailboxes. An address is local@domain, a dot-atom (RFC",
+    "ts": 1791213699678,
+    "dependents": 0
+  },
+  "0x571fd57004366c423dfd4b51196743b5": {
+    "hash": "0x571fd57004366c423dfd4b51196743b5",
+    "files": {
+      "LICENSE": 1506,
+      "mylsm.bend": 6462,
+      "src/BitTree.bend": 9333,
+      "src/Compact.bend": 16647,
+      "src/CompactIo.bend": 6202,
+      "src/Console.bend": 515,
+      "src/CrashPoint.bend": 972,
+      "src/CrashPointPolicy.bend": 448,
+      "src/Db.bend": 15995,
+      "src/DbIo.bend": 5600,
+      "src/Flush.bend": 16073,
+      "src/FlushPolicy.bend": 165,
+      "src/Fs.bend": 4732,
+      "src/Keys.bend": 5291,
+      "src/Manifest.bend": 20392,
+      "src/MemTable.bend": 8710,
+      "src/MergeIter.bend": 2817,
+      "src/Recover.bend": 24556,
+      "src/RecoverPure.bend": 5427,
+      "src/SortedRun.bend": 15733,
+      "src/SstFile.bend": 52873,
+      "src/SstStreamIo.bend": 18269,
+      "src/Sstable.bend": 24219,
+      "src/StorageBytes.bend": 8121,
+      "src/Wal.bend": 14787,
+      "src/effs/chmod.c": 578,
+      "src/effs/chmod.js": 285,
+      "src/effs/crash_point.c": 938,
+      "src/effs/crash_point.js": 872,
+      "src/effs/exists.c": 579,
+      "src/effs/exists.js": 368,
+      "src/effs/file_size.c": 564,
+      "src/effs/file_size.js": 354,
+      "src/effs/fsync.c": 854,
+      "src/effs/fsync.js": 394,
+      "src/effs/get_env.c": 536,
+      "src/effs/get_env.js": 317,
+      "src/effs/make_dir.c": 524,
+      "src/effs/make_dir.js": 267,
+      "src/effs/read_dir.c": 1717,
+      "src/effs/read_dir.js": 845,
+      "src/effs/read_line.c": 1341,
+      "src/effs/read_line.js": 663,
+      "src/effs/remove.c": 489,
+      "src/effs/remove.js": 253,
+      "src/effs/rename.c": 551,
+      "src/effs/rename.js": 288,
+      "src/effs/truncate.c": 531,
+      "src/effs/truncate.js": 359,
+      "src/hub_sha/core.bend": 128533,
+      "src/hub_sha/sha256.bend": 7328,
+      "src/hub_sha/state.bend": 317
+    },
+    "name": "mylsm-lsm-store",
+    "version": "0.4.0.0",
+    "desc": "",
+    "ts": 1791211991175,
+    "dependents": 0
+  },
   "0xa9f0119b329387bd12ab09578428fd3d": {
     "hash": "0xa9f0119b329387bd12ab09578428fd3d",
     "files": {
@@ -2250,7 +2388,7 @@
     "version": "0.3.2.0",
     "desc": "Byte buffers packed four bytes to a U32, with bounds-checked access. Source: https://github.com/paymog/bend-kit/tree/main/bytes",
     "ts": 1790737289169,
-    "dependents": 2
+    "dependents": 3
   },
   "0x1165a11c4b59570a35a777cf76f3a6f4": {
     "hash": "0x1165a11c4b59570a35a777cf76f3a6f4",
@@ -2815,7 +2953,7 @@
     "version": "0.7.0.0",
     "desc": "bend-mathlib/algebra.bend: abstract associativity/commutativity theorems and their Nat/Bool/List instances.",
     "ts": 1790722331889,
-    "dependents": 0
+    "dependents": 1
   },
   "0x0eaaf505a355d14d67066b86c801e960": {
     "hash": "0x0eaaf505a355d14d67066b86c801e960",
@@ -3191,7 +3329,7 @@
     "version": "0.1.1.0",
     "desc": "POSIX paths plus directory and metadata effects. Source: https://github.com/paymog/bend-kit/tree/main/files",
     "ts": 1790646627439,
-    "dependents": 1
+    "dependents": 2
   },
   "0xb6eebf6253ee268a21f3e308b12cacba": {
     "hash": "0xb6eebf6253ee268a21f3e308b12cacba",
@@ -7329,7 +7467,7 @@
     "version": null,
     "desc": "",
     "ts": 1790191042430,
-    "dependents": 4
+    "dependents": 5
   },
   "0x9fc0cec754888f0fecabce899ddf2ee5": {
     "hash": "0x9fc0cec754888f0fecabce899ddf2ee5",
