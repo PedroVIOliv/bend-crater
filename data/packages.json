@@ -4928,7 +4928,7 @@
       "sqlite.bend": 22735
     },
     "name": "bend-over-sqlite",
-    "version": "0.1.0.0",
+    "version": "0.1.0.1",
     "desc": "SQLite connections, typed values, prepared statements and transactions for C and Wasm.",
     "ts": 1790461104355,
     "dependents": 0
@@ -4941,7 +4941,7 @@
       "js.bend": 977
     },
     "name": "bend-over-js-eval",
-    "version": "0.1.0.0",
+    "version": "0.1.0.1",
     "desc": "",
     "ts": 1790461088065,
     "dependents": 0
