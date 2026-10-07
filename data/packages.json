@@ -1,4 +1,118 @@
 {
+  "0x8843bff7971fd45a4db82e4200ac8bd6": {
+    "hash": "0x8843bff7971fd45a4db82e4200ac8bd6",
+    "files": {
+      "protobuf.bend": 28909
+    },
+    "name": "bend-kit-protobuf",
+    "version": "0.1.0.0",
+    "desc": "Pure bounded protobuf wire codec over Bytes. https://github.com/paymog/bend-kit/tree/main/protobuf",
+    "ts": 1791395903135,
+    "dependents": 0
+  },
+  "0x737bc789819508f0aebd4ad15d19e26f": {
+    "hash": "0x737bc789819508f0aebd4ad15d19e26f",
+    "files": {
+      "f64.bend": 32776
+    },
+    "name": "bend-kit-f64",
+    "version": "0.1.0.0",
+    "desc": "IEEE 754 binary64 add, sub, mul, and div. Source: https://github.com/paymog/bend-kit/tree/main/f64",
+    "ts": 1791383075054,
+    "dependents": 1
+  },
+  "0x650cd729029c76d9f6151ee977dc0ae8": {
+    "hash": "0x650cd729029c76d9f6151ee977dc0ae8",
+    "files": {
+      "LICENSE": 1070,
+      "addr.bend": 9142,
+      "core.bend": 32781,
+      "dkim.bend": 8783,
+      "idna.bend": 5379,
+      "md5.bend": 6208,
+      "mime.bend": 19302,
+      "net.bend": 3281,
+      "net.c": 35840,
+      "net.js": 1651,
+      "reply.bend": 2861,
+      "send.bend": 20434,
+      "smtp.bend": 30663,
+      "text.bend": 2165
+    },
+    "name": null,
+    "version": null,
+    "desc": "Addresses and mailboxes. An address is local@domain, a dot-atom (RFC",
+    "ts": 1791374739729,
+    "dependents": 0
+  },
+  "0x2355f41b6f5561f50104a75ccca27cf7": {
+    "hash": "0x2355f41b6f5561f50104a75ccca27cf7",
+    "files": {
+      "LICENSE": 1070,
+      "amf.bend": 7204,
+      "audio.bend": 6214,
+      "b64.bend": 5758,
+      "bytes.bend": 4750,
+      "conn.bend": 5004,
+      "depay.bend": 5370,
+      "flv.bend": 10655,
+      "flvw.bend": 9836,
+      "frame.bend": 1737,
+      "md5.bend": 6208,
+      "net.bend": 1244,
+      "net.c": 16566,
+      "net.js": 603,
+      "opts.bend": 3982,
+      "pull.bend": 14211,
+      "rec.bend": 3878,
+      "rtmp.bend": 10239,
+      "rtmp_core.bend": 17986,
+      "rtp.bend": 7131,
+      "rtsp.bend": 19961,
+      "rtsp_core.bend": 24412,
+      "sha256.bend": 5288,
+      "text.bend": 2165,
+      "ts.bend": 6540
+    },
+    "name": null,
+    "version": null,
+    "desc": "AMF0, the encoding of RTMP's commands (connect, play, _result...): a",
+    "ts": 1791373449058,
+    "dependents": 0
+  },
+  "0x36c893ade1f158581b4c8c34eb3b510e": {
+    "hash": "0x36c893ade1f158581b4c8c34eb3b510e",
+    "files": {
+      "LICENSE": 1061,
+      "src/CONTRACTS_PROOF.bend": 3054,
+      "src/LAWS.bend": 894,
+      "src/PROOF.bend": 961,
+      "src/ROUTING_PROOF.bend": 21478,
+      "src/ROUTING_WITNESSES.bend": 1218,
+      "src/app.bend": 7021,
+      "src/contracts.bend": 6278,
+      "src/effects/json.c": 14197,
+      "src/effects/server.c": 50797,
+      "src/effects/stiff.c": 17155,
+      "src/effects/store.c": 27149,
+      "src/effects/url.c": 5800,
+      "src/http.bend": 2104,
+      "src/io.bend": 2160,
+      "src/json.bend": 1940,
+      "src/router.bend": 3970,
+      "src/routing_spec.bend": 4642,
+      "src/schema.bend": 6436,
+      "src/server.bend": 8151,
+      "src/store.bend": 2021,
+      "src/url.bend": 505,
+      "stiff.bend": 2099
+    },
+    "name": null,
+    "version": null,
+    "desc": "",
+    "ts": 1791370311394,
+    "dependents": 0
+  },
   "0x843c555e26e0ef1c58ea08f02bf26712": {
     "hash": "0x843c555e26e0ef1c58ea08f02bf26712",
     "files": {
@@ -2641,7 +2755,7 @@
     "version": "0.3.2.0",
     "desc": "Byte buffers packed four bytes to a U32, with bounds-checked access. Source: https://github.com/paymog/bend-kit/tree/main/bytes",
     "ts": 1790737289169,
-    "dependents": 3
+    "dependents": 4
   },
   "0x1165a11c4b59570a35a777cf76f3a6f4": {
     "hash": "0x1165a11c4b59570a35a777cf76f3a6f4",
