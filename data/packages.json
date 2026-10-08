@@ -1,4 +1,15 @@
 {
+  "0x5f8aaa5a5f52e3f77b0140072e47d78d": {
+    "hash": "0x5f8aaa5a5f52e3f77b0140072e47d78d",
+    "files": {
+      "good.bend": 42
+    },
+    "name": null,
+    "version": null,
+    "desc": "",
+    "ts": 1791414129993,
+    "dependents": 0
+  },
   "0x8843bff7971fd45a4db82e4200ac8bd6": {
     "hash": "0x8843bff7971fd45a4db82e4200ac8bd6",
     "files": {
