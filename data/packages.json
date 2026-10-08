@@ -1,4 +1,96 @@
 {
+  "0x7a52b371e038cf76c1fc2e721c75bc4e": {
+    "hash": "0x7a52b371e038cf76c1fc2e721c75bc4e",
+    "files": {
+      "LICENSE": 1094,
+      "core.bend": 66013
+    },
+    "name": "bend-schema-lib",
+    "version": "0.4.0.0",
+    "desc": "",
+    "ts": 1791473748262,
+    "dependents": 0
+  },
+  "0x4fcd94fa965aa1443134557fd075a483": {
+    "hash": "0x4fcd94fa965aa1443134557fd075a483",
+    "files": {
+      "LICENSE": 1506,
+      "mylsm.bend": 21368,
+      "src/BitTree.bend": 9333,
+      "src/Compact.bend": 16647,
+      "src/CompactIo.bend": 15058,
+      "src/Console.bend": 515,
+      "src/CrashPoint.bend": 972,
+      "src/CrashPointPolicy.bend": 448,
+      "src/Db.bend": 15995,
+      "src/DbIo.bend": 9590,
+      "src/DbLock.bend": 4338,
+      "src/DbLockPolicy.bend": 1325,
+      "src/DurableBatchPolicy.bend": 638,
+      "src/DurableCommit.bend": 1088,
+      "src/DurableDb.bend": 24078,
+      "src/DurableDbPolicy.bend": 1501,
+      "src/DurableError.bend": 4958,
+      "src/Flush.bend": 24115,
+      "src/FlushPolicy.bend": 165,
+      "src/Fs.bend": 5155,
+      "src/FsPolicy.bend": 676,
+      "src/Keys.bend": 5291,
+      "src/Manifest.bend": 23418,
+      "src/MemTable.bend": 9439,
+      "src/MergeIter.bend": 2817,
+      "src/Recover.bend": 42171,
+      "src/RecoverPure.bend": 5466,
+      "src/SortedRun.bend": 15733,
+      "src/SstFile.bend": 52873,
+      "src/SstStreamIo.bend": 19549,
+      "src/Sstable.bend": 24219,
+      "src/StorageBytes.bend": 8485,
+      "src/Wal.bend": 14919,
+      "src/effs/chmod.c": 575,
+      "src/effs/chmod.js": 285,
+      "src/effs/crash_point.c": 935,
+      "src/effs/crash_point.js": 872,
+      "src/effs/db_lock.c": 470,
+      "src/effs/db_lock.js": 114,
+      "src/effs/db_unlock.c": 411,
+      "src/effs/db_unlock.js": 120,
+      "src/effs/file_size.c": 561,
+      "src/effs/file_size.js": 354,
+      "src/effs/fsync.c": 851,
+      "src/effs/fsync.js": 394,
+      "src/effs/get_env.c": 533,
+      "src/effs/get_env.js": 317,
+      "src/effs/make_dir.c": 784,
+      "src/effs/make_dir.js": 267,
+      "src/effs/read_dir.c": 1711,
+      "src/effs/read_dir.js": 845,
+      "src/effs/read_line.c": 1338,
+      "src/effs/read_line.js": 663,
+      "src/effs/truncate.c": 528,
+      "src/effs/truncate.js": 359,
+      "src/hub_sha/core.bend": 128533,
+      "src/hub_sha/sha256.bend": 7328,
+      "src/hub_sha/state.bend": 317
+    },
+    "name": "mylsm-lsm-store",
+    "version": "0.5.0.0",
+    "desc": "",
+    "ts": 1791461777266,
+    "dependents": 0
+  },
+  "0x274bae9d62416e1995c82935332bdf2f": {
+    "hash": "0x274bae9d62416e1995c82935332bdf2f",
+    "files": {
+      "LICENSE": 1094,
+      "core.bend": 66269
+    },
+    "name": "bend-schema-lib",
+    "version": "0.3.0.0",
+    "desc": "",
+    "ts": 1791454267350,
+    "dependents": 0
+  },
   "0x5f8aaa5a5f52e3f77b0140072e47d78d": {
     "hash": "0x5f8aaa5a5f52e3f77b0140072e47d78d",
     "files": {
@@ -2766,7 +2858,7 @@
     "version": "0.3.2.0",
     "desc": "Byte buffers packed four bytes to a U32, with bounds-checked access. Source: https://github.com/paymog/bend-kit/tree/main/bytes",
     "ts": 1790737289169,
-    "dependents": 4
+    "dependents": 5
   },
   "0x1165a11c4b59570a35a777cf76f3a6f4": {
     "hash": "0x1165a11c4b59570a35a777cf76f3a6f4",
@@ -3331,7 +3423,7 @@
     "version": "0.7.0.0",
     "desc": "bend-mathlib/algebra.bend: abstract associativity/commutativity theorems and their Nat/Bool/List instances.",
     "ts": 1790722331889,
-    "dependents": 1
+    "dependents": 2
   },
   "0x0eaaf505a355d14d67066b86c801e960": {
     "hash": "0x0eaaf505a355d14d67066b86c801e960",
@@ -3707,7 +3799,7 @@
     "version": "0.1.1.0",
     "desc": "POSIX paths plus directory and metadata effects. Source: https://github.com/paymog/bend-kit/tree/main/files",
     "ts": 1790646627439,
-    "dependents": 2
+    "dependents": 3
   },
   "0xb6eebf6253ee268a21f3e308b12cacba": {
     "hash": "0xb6eebf6253ee268a21f3e308b12cacba",
@@ -7845,7 +7937,7 @@
     "version": null,
     "desc": "",
     "ts": 1790191042430,
-    "dependents": 5
+    "dependents": 6
   },
   "0x9fc0cec754888f0fecabce899ddf2ee5": {
     "hash": "0x9fc0cec754888f0fecabce899ddf2ee5",
