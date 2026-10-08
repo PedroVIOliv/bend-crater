@@ -1,4 +1,37 @@
 {
+  "0x600981079d65a285d008308db02b846c": {
+    "hash": "0x600981079d65a285d008308db02b846c",
+    "files": {
+      "LICENSE": 1061,
+      "src/CONTRACTS_PROOF.bend": 3054,
+      "src/LAWS.bend": 894,
+      "src/PROOF.bend": 961,
+      "src/ROUTING_PROOF.bend": 21478,
+      "src/ROUTING_WITNESSES.bend": 1218,
+      "src/app.bend": 7021,
+      "src/contracts.bend": 6278,
+      "src/effects/json.c": 14191,
+      "src/effects/server.c": 50752,
+      "src/effects/stiff.c": 17152,
+      "src/effects/store.c": 27137,
+      "src/effects/url.c": 5794,
+      "src/http.bend": 2104,
+      "src/io.bend": 2160,
+      "src/json.bend": 1940,
+      "src/router.bend": 3970,
+      "src/routing_spec.bend": 4642,
+      "src/schema.bend": 6436,
+      "src/server.bend": 8151,
+      "src/store.bend": 2021,
+      "src/url.bend": 505,
+      "stiff.bend": 2099
+    },
+    "name": null,
+    "version": null,
+    "desc": "",
+    "ts": 1791482166833,
+    "dependents": 0
+  },
   "0x7a52b371e038cf76c1fc2e721c75bc4e": {
     "hash": "0x7a52b371e038cf76c1fc2e721c75bc4e",
     "files": {
@@ -6,7 +39,7 @@
       "core.bend": 66013
     },
     "name": "bend-schema-lib",
-    "version": "0.4.0.0",
+    "version": "0.4.1.0",
     "desc": "",
     "ts": 1791473748262,
     "dependents": 0
