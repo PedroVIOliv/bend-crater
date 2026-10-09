@@ -1,4 +1,52 @@
 {
+  "0x793d6e22f8bd33acb2636b33544424bc": {
+    "hash": "0x793d6e22f8bd33acb2636b33544424bc",
+    "files": {
+      "LICENSE": 1072,
+      "main.bend": 48854
+    },
+    "name": "bend-ml-tensor-array",
+    "version": "0.1.6.0",
+    "desc": "bend-ml-tensor-array: tensors over a flat Array<F32>, with the shape in the type.",
+    "ts": 1791520260166,
+    "dependents": 0
+  },
+  "0x47923dd1ad3a8d9d2cddf5f98ac7ca93": {
+    "hash": "0x47923dd1ad3a8d9d2cddf5f98ac7ca93",
+    "files": {
+      "websocket.bend": 47488
+    },
+    "name": "bend-kit-websocket",
+    "version": "0.2.0.0",
+    "desc": "RFC 6455 WebSocket client: opening handshake, frames over packed Bytes, and messages over Wire. Source: https://github.com/paymog/bend-kit/tree/main/websocket",
+    "ts": 1791515291396,
+    "dependents": 0
+  },
+  "0xe00bbf72c3ff9dc6d7b077524522b3a8": {
+    "hash": "0xe00bbf72c3ff9dc6d7b077524522b3a8",
+    "files": {
+      "effs/time.c": 1029,
+      "effs/time.js": 672,
+      "time.bend": 38141
+    },
+    "name": "bend-kit-time",
+    "version": "0.1.2.1",
+    "desc": "Clocks, Duration and Instant, Gregorian dates, RFC 3339 and HTTP-date text, and TZif time zones. Source: https://github.com/paymog/bend-kit/tree/main/time",
+    "ts": 1791515136179,
+    "dependents": 0
+  },
+  "0xe5b3966bf84836ae6b7c8d505cebeeb6": {
+    "hash": "0xe5b3966bf84836ae6b7c8d505cebeeb6",
+    "files": {
+      "hairpin.bend": 16783,
+      "retry.bend": 8030
+    },
+    "name": "bend-kit-hairpin",
+    "version": "0.2.0.0",
+    "desc": "Hairpin: an HTTP client with a base URL, default headers, a pool, cookies, mTLS, redirects, and proven retries. Source: https://github.com/paymog/bend-kit/tree/main/hairpin",
+    "ts": 1791513557653,
+    "dependents": 0
+  },
   "0x65535b2ba8933ce9a1b2c0a16f1330ae": {
     "hash": "0x65535b2ba8933ce9a1b2c0a16f1330ae",
     "files": {
@@ -2927,7 +2975,7 @@
     "version": "0.3.2.0",
     "desc": "Byte buffers packed four bytes to a U32, with bounds-checked access. Source: https://github.com/paymog/bend-kit/tree/main/bytes",
     "ts": 1790737289169,
-    "dependents": 5
+    "dependents": 6
   },
   "0x1165a11c4b59570a35a777cf76f3a6f4": {
     "hash": "0x1165a11c4b59570a35a777cf76f3a6f4",
@@ -4171,7 +4219,7 @@
     "version": "0.23.0.1",
     "desc": "HTTP/1.1 and HTTP/2 client, with an HTTP/1.1 server. Source: https://github.com/paymog/bend-kit/tree/main/http",
     "ts": 1790601931547,
-    "dependents": 6
+    "dependents": 7
   },
   "0x24dc4beaaf2be48430ae7d5ece604448": {
     "hash": "0x24dc4beaaf2be48430ae7d5ece604448",
@@ -4563,7 +4611,7 @@
     "version": "0.4.1.0",
     "desc": "URL parsing, resolution, and percent-encoding (RFC 3986). Source: https://github.com/paymog/bend-kit/tree/main/url",
     "ts": 1790526635864,
-    "dependents": 33
+    "dependents": 34
   },
   "0xa3dc0f6e3963608e4608a1017272cf4f": {
     "hash": "0xa3dc0f6e3963608e4608a1017272cf4f",
@@ -4576,7 +4624,7 @@
     "version": "0.4.2.0",
     "desc": "Byte-exact TCP, UDP, and TLS sockets. Source: https://github.com/paymog/bend-kit/tree/main/wire",
     "ts": 1790526524168,
-    "dependents": 24
+    "dependents": 25
   },
   "0xcd9eb2c24e7c1d3b2c89eb681085f7fe": {
     "hash": "0xcd9eb2c24e7c1d3b2c89eb681085f7fe",
@@ -4751,7 +4799,7 @@
     "version": "0.5.0.1",
     "desc": "JSON values, parsed and encoded as RFC 8259. Source: https://github.com/paymog/bend-kit/tree/main/json",
     "ts": 1790520727495,
-    "dependents": 31
+    "dependents": 32
   },
   "0xcdde0eac97319e908732c0dba1108f3b": {
     "hash": "0xcdde0eac97319e908732c0dba1108f3b",
@@ -4775,7 +4823,7 @@
     "version": "0.1.0.0",
     "desc": "Clocks, Duration and Instant, Gregorian dates, RFC 3339 and HTTP-date text, and TZif time zones. Source: https://github.com/paymog/bend-kit/tree/main/time",
     "ts": 1790520378315,
-    "dependents": 27
+    "dependents": 28
   },
   "0x9f95eaeefad4a8a2fe1a559163ffb14a": {
     "hash": "0x9f95eaeefad4a8a2fe1a559163ffb14a",
@@ -4838,7 +4886,7 @@
     "version": "0.1.0.0",
     "desc": "Hashes, HMAC, HKDF, and secure random bytes through OpenSSL 3 libcrypto. Source: https://github.com/paymog/bend-kit/tree/main/crypto",
     "ts": 1790517584682,
-    "dependents": 2
+    "dependents": 3
   },
   "0xb046f8e1a4cca810f9fc9aa2234bbf2d": {
     "hash": "0xb046f8e1a4cca810f9fc9aa2234bbf2d",
@@ -4860,7 +4908,7 @@
     "version": "0.2.0.0",
     "desc": "Fixed-width integers U8, U16, U64, I32 and I64: wrapping, checked and saturating arithmetic, and text in radix 2 to 36.",
     "ts": 1790516996356,
-    "dependents": 30
+    "dependents": 31
   },
   "0xea2956cd4e05ac318643319cb7fb3c29": {
     "hash": "0xea2956cd4e05ac318643319cb7fb3c29",
@@ -4871,7 +4919,7 @@
     "version": "0.1.0.0",
     "desc": "Text formatting: a string builder, format, padding, and shortest F32 printing.",
     "ts": 1790516925033,
-    "dependents": 3
+    "dependents": 4
   },
   "0xa32ae93500a5dfaef6edb45d6e7bcc3b": {
     "hash": "0xa32ae93500a5dfaef6edb45d6e7bcc3b",
@@ -6737,7 +6785,7 @@
     "version": "0.3.0.0",
     "desc": "Byte buffers packed four bytes to a U32, with bounds-checked access. Source: https://github.com/paymog/bend-kit/tree/main/bytes",
     "ts": 1790360288347,
-    "dependents": 65
+    "dependents": 67
   },
   "0xe4067e0d858024083f36a7abe7281e89": {
     "hash": "0xe4067e0d858024083f36a7abe7281e89",
