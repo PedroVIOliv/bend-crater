@@ -1,4 +1,18 @@
 {
+  "0x492532af6deb895462a134d016a53dfe": {
+    "hash": "0x492532af6deb895462a134d016a53dfe",
+    "files": {
+      "LICENSE": 11381,
+      "spec_tree.bend": 1154,
+      "spin_collatz.bend": 1053,
+      "wgsl_flat_emitter.bend": 1854
+    },
+    "name": null,
+    "version": null,
+    "desc": "Shape specialisation: a non-tail binary recursion on a Nat depth that the leaf gives as a literal. WGSL has no",
+    "ts": 1791595570827,
+    "dependents": 0
+  },
   "0x2f03974bdfacdfce4ef1eb030eae486d": {
     "hash": "0x2f03974bdfacdfce4ef1eb030eae486d",
     "files": {
