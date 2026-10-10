@@ -1,4 +1,21 @@
 {
+  "0x483ba00627509c62188f937a7cfd8f76": {
+    "hash": "0x483ba00627509c62188f937a7cfd8f76",
+    "files": {
+      "Alignment.bend": 9710,
+      "AlignmentCli.bend": 3149,
+      "Cli.bend": 2142,
+      "EdlibTypes.bend": 4850,
+      "LICENSE": 35823,
+      "lib.bend": 452,
+      "main.bend": 8059
+    },
+    "name": "bend-edit-distance",
+    "version": "0.1.0.0",
+    "desc": "",
+    "ts": 1791671022624,
+    "dependents": 0
+  },
   "0x9be3b13bf249759bc81e1958bcd1a4c0": {
     "hash": "0x9be3b13bf249759bc81e1958bcd1a4c0",
     "files": {
