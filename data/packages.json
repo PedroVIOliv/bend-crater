@@ -1483,8 +1483,8 @@
       "topology.bend": 4534,
       "tpl.bend": 3926
     },
-    "name": null,
-    "version": null,
+    "name": "bend-prot",
+    "version": "0.1.0.0",
     "desc": "",
     "ts": 1791134485306,
     "dependents": 0
