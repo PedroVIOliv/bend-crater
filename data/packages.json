@@ -1,4 +1,81 @@
 {
+  "0x891f736d304e39940ae6e2ce2d49ecbe": {
+    "hash": "0x891f736d304e39940ae6e2ce2d49ecbe",
+    "files": {
+      "LICENSE": 17984,
+      "doom.bend": 3296,
+      "src/am.bend": 22009,
+      "src/automap.bend": 5632,
+      "src/bmp.bend": 1038,
+      "src/boot.bend": 9479,
+      "src/bytes.bend": 984,
+      "src/disk.bend": 4195,
+      "src/draw.bend": 22622,
+      "src/dsg.bend": 23244,
+      "src/fixed.bend": 2207,
+      "src/flow.bend": 43509,
+      "src/fx.bend": 10714,
+      "src/game.bend": 163781,
+      "src/geo.bend": 14325,
+      "src/gfx.bend": 10494,
+      "src/gm.bend": 69696,
+      "src/hud.bend": 18943,
+      "src/hudtext.bend": 41554,
+      "src/inflate.bend": 12150,
+      "src/info.bend": 42589,
+      "src/items.bend": 10012,
+      "src/level.bend": 12568,
+      "src/load.bend": 16015,
+      "src/mem.bend": 2228,
+      "src/menu.bend": 19230,
+      "src/music.bend": 62588,
+      "src/opltab.bend": 53144,
+      "src/play.bend": 11407,
+      "src/render.bend": 52961,
+      "src/rom.bend": 4643,
+      "src/screen.bend": 1411,
+      "src/setup.bend": 13518,
+      "src/sf2.bend": 22561,
+      "src/sfxinfo.bend": 1795,
+      "src/sim.bend": 4584,
+      "src/sound.bend": 12650,
+      "src/sprite.bend": 10793,
+      "src/state.bend": 164763,
+      "src/sys.bend": 367,
+      "src/tab.bend": 3205,
+      "src/tables.bend": 157265,
+      "src/wad.bend": 13675,
+      "src/world.bend": 10492
+    },
+    "name": null,
+    "version": null,
+    "desc": "",
+    "ts": 1791818531174,
+    "dependents": 0
+  },
+  "0xf5d0acdf5f312aa37c144e3e55a3cb53": {
+    "hash": "0xf5d0acdf5f312aa37c144e3e55a3cb53",
+    "files": {
+      "llm.bend": 23260,
+      "sse.bend": 10977
+    },
+    "name": "bend-kit-llm",
+    "version": "0.5.0.0",
+    "desc": "LLM client for the Anthropic Messages and OpenAI Chat Completions APIs, with SSE streaming. Source: https://github.com/paymog/bend-kit/tree/main/llm",
+    "ts": 1791812415498,
+    "dependents": 0
+  },
+  "0xeaba39b9b1c1f604da8359497a708ca8": {
+    "hash": "0xeaba39b9b1c1f604da8359497a708ca8",
+    "files": {
+      "hairpin.bend": 22251
+    },
+    "name": "bend-kit-hairpin",
+    "version": "0.5.1.0",
+    "desc": "Hairpin: an HTTP client with a base URL, default headers, a pool, cookies, mTLS, redirects, and proven retries. Source: https://github.com/paymog/bend-kit/tree/main/hairpin",
+    "ts": 1791811457828,
+    "dependents": 1
+  },
   "0xf8a2f05bbfb67041ce3d1eaece892a1a": {
     "hash": "0xf8a2f05bbfb67041ce3d1eaece892a1a",
     "files": {
@@ -112,7 +189,7 @@
     "version": "0.1.3.0",
     "desc": "Clocks, Duration and Instant, Gregorian dates, RFC 3339 and HTTP-date text, and TZif time zones. Source: https://github.com/paymog/bend-kit/tree/main/time",
     "ts": 1791771646311,
-    "dependents": 1
+    "dependents": 2
   },
   "0xceb432c443dec61cf786e2dbdebe5202": {
     "hash": "0xceb432c443dec61cf786e2dbdebe5202",
@@ -134,7 +211,7 @@
     "version": "0.1.0.0",
     "desc": "Retry policy: a shared attempt budget, an operation deadline, bounded backoff, and a circuit breaker.",
     "ts": 1791767675276,
-    "dependents": 5
+    "dependents": 7
   },
   "0xd5d0bc5368c1bc2a6fbc863a812e64a1": {
     "hash": "0xd5d0bc5368c1bc2a6fbc863a812e64a1",
@@ -484,7 +561,7 @@
     "version": "0.32.0.0",
     "desc": "Private bounded transport accounting. Replies contain copied data, never resources.",
     "ts": 1791575083807,
-    "dependents": 18
+    "dependents": 20
   },
   "0xf63ce82892c02964729ebb2a79be513f": {
     "hash": "0xf63ce82892c02964729ebb2a79be513f",
@@ -861,7 +938,7 @@
     "version": "0.1.2.1",
     "desc": "Clocks, Duration and Instant, Gregorian dates, RFC 3339 and HTTP-date text, and TZif time zones. Source: https://github.com/paymog/bend-kit/tree/main/time",
     "ts": 1791515136179,
-    "dependents": 16
+    "dependents": 17
   },
   "0xe5b3966bf84836ae6b7c8d505cebeeb6": {
     "hash": "0xe5b3966bf84836ae6b7c8d505cebeeb6",
@@ -5439,7 +5516,7 @@
     "version": "0.4.1.0",
     "desc": "URL parsing, resolution, and percent-encoding (RFC 3986). Source: https://github.com/paymog/bend-kit/tree/main/url",
     "ts": 1790526635864,
-    "dependents": 49
+    "dependents": 50
   },
   "0xa3dc0f6e3963608e4608a1017272cf4f": {
     "hash": "0xa3dc0f6e3963608e4608a1017272cf4f",
@@ -5627,7 +5704,7 @@
     "version": "0.5.0.1",
     "desc": "JSON values, parsed and encoded as RFC 8259. Source: https://github.com/paymog/bend-kit/tree/main/json",
     "ts": 1790520727495,
-    "dependents": 49
+    "dependents": 51
   },
   "0xcdde0eac97319e908732c0dba1108f3b": {
     "hash": "0xcdde0eac97319e908732c0dba1108f3b",
@@ -7142,7 +7219,7 @@
     "version": "0.3.0.0",
     "desc": "UTF-8 encoding and decoding between text and Bytes. Source: https://github.com/paymog/bend-kit/tree/main/encoding",
     "ts": 1790387586048,
-    "dependents": 55
+    "dependents": 56
   },
   "0xb13667d52aa56e002b4d09883d7fce3e": {
     "hash": "0xb13667d52aa56e002b4d09883d7fce3e",
@@ -7613,7 +7690,7 @@
     "version": "0.3.0.0",
     "desc": "Byte buffers packed four bytes to a U32, with bounds-checked access. Source: https://github.com/paymog/bend-kit/tree/main/bytes",
     "ts": 1790360288347,
-    "dependents": 97
+    "dependents": 99
   },
   "0xe4067e0d858024083f36a7abe7281e89": {
     "hash": "0xe4067e0d858024083f36a7abe7281e89",
