@@ -1,4 +1,18 @@
 {
+  "0xee5a899489dd510cc4f1027bf2cea797": {
+    "hash": "0xee5a899489dd510cc4f1027bf2cea797",
+    "files": {
+      "camber.bend": 63614,
+      "input.bend": 13900,
+      "notices.bend": 1471,
+      "response.bend": 2107
+    },
+    "name": "bend-kit-camber",
+    "version": "0.9.0.0",
+    "desc": "Fixed prepared HTTP applications and bounded affine dependency bundles.",
+    "ts": 1791906708420,
+    "dependents": 0
+  },
   "0x0c9b4ba6ffd5d745f166aece1048c08b": {
     "hash": "0x0c9b4ba6ffd5d745f166aece1048c08b",
     "files": {
@@ -109,7 +123,7 @@
     "version": "0.33.0.0",
     "desc": "HTTP/1.1 and HTTP/2 client, with an HTTP/1.1 server. Source: https://github.com/paymog/bend-kit/tree/main/http",
     "ts": 1791837520659,
-    "dependents": 7
+    "dependents": 8
   },
   "0xb1936b54bbc8b33fb34c6f2a1c988bb8": {
     "hash": "0xb1936b54bbc8b33fb34c6f2a1c988bb8",
@@ -176,7 +190,7 @@
     "version": "0.2.0.0",
     "desc": "Leveled, structured logging: a logger value, key-value fields, and logfmt or JSON-lines output. Source: https://github.com/paymog/bend-kit/tree/main/notch",
     "ts": 1791836618604,
-    "dependents": 1
+    "dependents": 2
   },
   "0x228909d5e58383594fb8ed54c2ddc150": {
     "hash": "0x228909d5e58383594fb8ed54c2ddc150",
@@ -237,7 +251,7 @@
     "version": "0.2.0.0",
     "desc": "Clocks, Duration and Instant, Gregorian dates, RFC 3339 and HTTP-date text, and TZif time zones. Source: https://github.com/paymog/bend-kit/tree/main/time",
     "ts": 1791835564784,
-    "dependents": 8
+    "dependents": 9
   },
   "0xe19ca060a437acd0d1970a44d51ba18e": {
     "hash": "0xe19ca060a437acd0d1970a44d51ba18e",
@@ -259,7 +273,7 @@
     "version": "0.6.0.0",
     "desc": "JSON values, parsed and encoded as RFC 8259. Source: https://github.com/paymog/bend-kit/tree/main/json",
     "ts": 1791835531143,
-    "dependents": 6
+    "dependents": 7
   },
   "0xb0776c613aafddb88fd284dd3c763501": {
     "hash": "0xb0776c613aafddb88fd284dd3c763501",
@@ -1355,7 +1369,7 @@
     "version": "0.1.0.0",
     "desc": "Bounded capacity pools with affine reservations: reserve, release, split, and combine.",
     "ts": 1791511862755,
-    "dependents": 5
+    "dependents": 6
   },
   "0xeaee3c88886bfae971db9dcf3cde0759": {
     "hash": "0xeaee3c88886bfae971db9dcf3cde0759",
@@ -2400,7 +2414,7 @@
     "version": "0.2.0.0",
     "desc": "Prepared HTTP routes with exact paths, validated registration, and path-first method selection. Source: https://github.com/paymog/bend-kit/tree/main/router",
     "ts": 1791074936903,
-    "dependents": 8
+    "dependents": 9
   },
   "0xdbe1000ee6707b4d38c0ad7eb1287363": {
     "hash": "0xdbe1000ee6707b4d38c0ad7eb1287363",
@@ -4260,7 +4274,7 @@
     "version": "0.3.2.0",
     "desc": "Byte buffers packed four bytes to a U32, with bounds-checked access. Source: https://github.com/paymog/bend-kit/tree/main/bytes",
     "ts": 1790737289169,
-    "dependents": 34
+    "dependents": 35
   },
   "0x1165a11c4b59570a35a777cf76f3a6f4": {
     "hash": "0x1165a11c4b59570a35a777cf76f3a6f4",
@@ -5896,7 +5910,7 @@
     "version": "0.4.1.0",
     "desc": "URL parsing, resolution, and percent-encoding (RFC 3986). Source: https://github.com/paymog/bend-kit/tree/main/url",
     "ts": 1790526635864,
-    "dependents": 55
+    "dependents": 56
   },
   "0xa3dc0f6e3963608e4608a1017272cf4f": {
     "hash": "0xa3dc0f6e3963608e4608a1017272cf4f",
@@ -6193,7 +6207,7 @@
     "version": "0.2.0.0",
     "desc": "Fixed-width integers U8, U16, U64, I32 and I64: wrapping, checked and saturating arithmetic, and text in radix 2 to 36.",
     "ts": 1790516996356,
-    "dependents": 45
+    "dependents": 46
   },
   "0xea2956cd4e05ac318643319cb7fb3c29": {
     "hash": "0xea2956cd4e05ac318643319cb7fb3c29",
