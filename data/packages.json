@@ -1,4 +1,32 @@
 {
+  "0xfdc8da256837fef81553ec8530fb7431": {
+    "hash": "0xfdc8da256837fef81553ec8530fb7431",
+    "files": {
+      "LICENSE": 11381,
+      "capture.bend": 1289,
+      "capture.c": 5366,
+      "capture.js": 359
+    },
+    "name": "bend-window-capture",
+    "version": "0.1.0.0",
+    "desc": "Read a Bend-owned X11 window's client pixels into an affine RGB array.",
+    "ts": 1791996530420,
+    "dependents": 0
+  },
+  "0x8cc463a65f479c5af6b3080035eb0836": {
+    "hash": "0x8cc463a65f479c5af6b3080035eb0836",
+    "files": {
+      "LICENSE": 11381,
+      "winref.bend": 1129,
+      "winref.c": 1024,
+      "winref.js": 361
+    },
+    "name": "bend-window-ref",
+    "version": "0.1.0.0",
+    "desc": "Export a Bend-owned window's X11 display name and resource ID without transferring ownership.",
+    "ts": 1791995827659,
+    "dependents": 0
+  },
   "0x5f2737ee4ecbd87b3f07a0b779aafea9": {
     "hash": "0x5f2737ee4ecbd87b3f07a0b779aafea9",
     "files": {
