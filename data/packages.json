@@ -1,4 +1,23 @@
 {
+  "0xd65851cd1dee629f72e346cda168bc1d": {
+    "hash": "0xd65851cd1dee629f72e346cda168bc1d",
+    "files": {
+      "EdlibTypes.bend": 6313,
+      "LICENSE": 35149,
+      "lib.bend": 887,
+      "src/Alignment.bend": 4777,
+      "src/Batch.bend": 6307,
+      "src/DistanceDP.bend": 7011,
+      "src/Myers.bend": 32645,
+      "src/Reconstruction.bend": 10788,
+      "src/Sequence.bend": 460
+    },
+    "name": "bend-edit-distance",
+    "version": "0.2.2.0",
+    "desc": "",
+    "ts": 1792019061571,
+    "dependents": 0
+  },
   "0xfdc8da256837fef81553ec8530fb7431": {
     "hash": "0xfdc8da256837fef81553ec8530fb7431",
     "files": {
