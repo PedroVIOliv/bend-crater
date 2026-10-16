@@ -1,4 +1,65 @@
 {
+  "0xcd90bcc8501745cf08bdce89fc915900": {
+    "hash": "0xcd90bcc8501745cf08bdce89fc915900",
+    "files": {
+      "LICENSE": 1072,
+      "main.bend": 69543
+    },
+    "name": "bend-ml-tensor-array",
+    "version": "0.1.11.0",
+    "desc": "bend-ml-tensor-array: tensors over a flat Array<F32>, with the shape in the type.",
+    "ts": 1792163256974,
+    "dependents": 0
+  },
+  "0x559a0abb492a951db15be435191b6d0a": {
+    "hash": "0x559a0abb492a951db15be435191b6d0a",
+    "files": {
+      "LICENSE": 1072,
+      "main.bend": 29645
+    },
+    "name": "bend-ml-bpe-tokenizer",
+    "version": "0.1.3.0",
+    "desc": "bend-ml-bpe-tokenizer: byte-level BPE with a proved roundtrip.",
+    "ts": 1792163254232,
+    "dependents": 0
+  },
+  "0x90859c4c8057ca356750f70618fd2ed4": {
+    "hash": "0x90859c4c8057ca356750f70618fd2ed4",
+    "files": {
+      "LICENSE": 1072,
+      "main.bend": 1301,
+      "read_f32.c": 1934,
+      "read_f32.js": 1551
+    },
+    "name": "bend-ml-binary-read",
+    "version": "0.1.0.0",
+    "desc": "bend-ml-binary-read: little-endian F32 numbers from a file, read straight into an Array<F32>.",
+    "ts": 1792151685238,
+    "dependents": 0
+  },
+  "0xbb78793a12728b7aa5a6f9756c65086a": {
+    "hash": "0xbb78793a12728b7aa5a6f9756c65086a",
+    "files": {
+      "LICENSE": 1072,
+      "main.bend": 68348
+    },
+    "name": "bend-ml-tensor-array",
+    "version": "0.1.10.0",
+    "desc": "bend-ml-tensor-array: tensors over a flat Array<F32>, with the shape in the type.",
+    "ts": 1792151661126,
+    "dependents": 0
+  },
+  "0x41508d9a237af9feeadc631044885e10": {
+    "hash": "0x41508d9a237af9feeadc631044885e10",
+    "files": {
+      "pure.bend": 93
+    },
+    "name": null,
+    "version": null,
+    "desc": "S17 probe: a pure main; the run prints 6n and exits 0",
+    "ts": 1792136245787,
+    "dependents": 0
+  },
   "0x4b971e2f6428dc3f80dcd5a04dedc5f2": {
     "hash": "0x4b971e2f6428dc3f80dcd5a04dedc5f2",
     "files": {
@@ -2697,7 +2758,7 @@
     "version": "0.1.0.0",
     "desc": "bend-ml-nat-lemmas: lemas provados de Nat e List que a Base do Bend não tem.",
     "ts": 1791071657851,
-    "dependents": 8
+    "dependents": 9
   },
   "0x57bb52acf8b29a1505a8641f7d8f9690": {
     "hash": "0x57bb52acf8b29a1505a8641f7d8f9690",
