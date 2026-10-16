@@ -1,4 +1,163 @@
 {
+  "0x9ba47907befd07cbb90e20f7807542f3": {
+    "hash": "0x9ba47907befd07cbb90e20f7807542f3",
+    "files": {
+      "LICENSE": 1100,
+      "ustar.bend": 15529
+    },
+    "name": null,
+    "version": null,
+    "desc": "gralha-ustar: POSIX ustar archives over gralha-byte-words. header builds",
+    "ts": 1792172255717,
+    "dependents": 0
+  },
+  "0x867d2f2af29ba5bf6de13bf733d2397c": {
+    "hash": "0x867d2f2af29ba5bf6de13bf733d2397c",
+    "files": {
+      "LICENSE": 1100,
+      "deflate.bend": 80015
+    },
+    "name": null,
+    "version": null,
+    "desc": "gralha-deflate: RFC 1951 DEFLATE over gralha-byte-words packed arrays.",
+    "ts": 1792172205248,
+    "dependents": 0
+  },
+  "0x8ba6f756b9429dce8795c1d22eb97549": {
+    "hash": "0x8ba6f756b9429dce8795c1d22eb97549",
+    "files": {
+      "LICENSE": 1100,
+      "cover.bend": 60942
+    },
+    "name": null,
+    "version": null,
+    "desc": "Analytic coverage: line lists in pixel space are scan-converted with a winding",
+    "ts": 1792172186010,
+    "dependents": 0
+  },
+  "0x6053821c66ad4107092f3cff65679fc6": {
+    "hash": "0x6053821c66ad4107092f3cff65679fc6",
+    "files": {
+      "LICENSE": 1100,
+      "image.bend": 2727
+    },
+    "name": null,
+    "version": null,
+    "desc": "Premultiplied colors and quadtree pixel buffers shared by the decoders and the renderer.",
+    "ts": 1792172142242,
+    "dependents": 0
+  },
+  "0xb4c178c822e0e37d625a581d728097d3": {
+    "hash": "0xb4c178c822e0e37d625a581d728097d3",
+    "files": {
+      "LICENSE": 1100,
+      "bytes.bend": 22593,
+      "effs/bytes_read.c": 1935,
+      "effs/bytes_read.js": 1038
+    },
+    "name": null,
+    "version": null,
+    "desc": "Bytes, bit streams, Huffman codes, DEFLATE/zlib, checksums, base64 and percent decoding.",
+    "ts": 1792172095385,
+    "dependents": 0
+  },
+  "0x823f0d97991344accc44fe457a33356a": {
+    "hash": "0x823f0d97991344accc44fe457a33356a",
+    "files": {
+      "LICENSE": 1100,
+      "xml.bend": 18125
+    },
+    "name": null,
+    "version": null,
+    "desc": "XML: tokens, element tree, entities, attributes and serialization.",
+    "ts": 1792172042731,
+    "dependents": 0
+  },
+  "0x6f51b0319916bc200dd5f3949f31668e": {
+    "hash": "0x6f51b0319916bc200dd5f3949f31668e",
+    "files": {
+      "LICENSE": 1100,
+      "game.bend": 206502,
+      "growth.bend": 6832,
+      "health.bend": 20772,
+      "kernel.bend": 944,
+      "numeric.bend": 13365,
+      "rewards.bend": 11745,
+      "vitals.bend": 14974
+    },
+    "name": "gralha-bendquest",
+    "version": "0.1.0.0",
+    "desc": "gralha-bendquest: the proof-carrying rules kernel of BendQuest, a",
+    "ts": 1792172040419,
+    "dependents": 0
+  },
+  "0x33e0e44d7df77b6181b6b022ee4d6634": {
+    "hash": "0x33e0e44d7df77b6181b6b022ee4d6634",
+    "files": {
+      "LICENSE": 1100,
+      "effs/raylib.c": 11649,
+      "raylib.bend": 4568
+    },
+    "name": "gralha-raylib",
+    "version": "0.1.0.0",
+    "desc": "gralha-raylib: a raylib window for Bend programs, driven by command lists.",
+    "ts": 1792172031179,
+    "dependents": 0
+  },
+  "0x64ec50e0e95dc751f989341bb3e39c4a": {
+    "hash": "0x64ec50e0e95dc751f989341bb3e39c4a",
+    "files": {
+      "LICENSE": 1100,
+      "crc32.bend": 2468,
+      "effs/words_crc32.c": 1844,
+      "effs/words_crc32.js": 630
+    },
+    "name": "gralha-crc32",
+    "version": "0.1.0.0",
+    "desc": "gralha-crc32: the IEEE CRC-32 (gzip's, zip's, PNG's) over bytes packed",
+    "ts": 1792172028675,
+    "dependents": 0
+  },
+  "0x365c60316ea66a6c80658fc03b4eeac5": {
+    "hash": "0x365c60316ea66a6c80658fc03b4eeac5",
+    "files": {
+      "LICENSE": 1100,
+      "effs/file_words_read_at.c": 1012,
+      "effs/file_words_read_at.js": 751,
+      "effs/file_words_write.c": 949,
+      "effs/file_words_write.js": 605,
+      "effs/output_open.c": 590,
+      "effs/output_open.js": 335,
+      "effs/stream_append.c": 2527,
+      "effs/stream_append.js": 1365,
+      "effs/words_copy_range.c": 707,
+      "effs/words_copy_range.js": 259,
+      "effs/words_fill_at.c": 1330,
+      "effs/words_fill_at.js": 900,
+      "effs/words_read.c": 1439,
+      "effs/words_read.js": 712,
+      "effs/words_write.c": 1344,
+      "effs/words_write.js": 617,
+      "words.bend": 11614
+    },
+    "name": "gralha-byte-words",
+    "version": "0.1.0.0",
+    "desc": "gralha-byte-words: bytes packed four to a U32 word, little-endian, in an",
+    "ts": 1792172018000,
+    "dependents": 2
+  },
+  "0xaff2b2d0565125a37b5df94a39451ef8": {
+    "hash": "0xaff2b2d0565125a37b5df94a39451ef8",
+    "files": {
+      "LICENSE": 1100,
+      "scan.bend": 10866
+    },
+    "name": "gralha-text-scan",
+    "version": "0.1.0.0",
+    "desc": "Text scanning, number parsing (the SVG/CSS number grammar, units, hex) and",
+    "ts": 1792171970145,
+    "dependents": 4
+  },
   "0xcd90bcc8501745cf08bdce89fc915900": {
     "hash": "0xcd90bcc8501745cf08bdce89fc915900",
     "files": {
