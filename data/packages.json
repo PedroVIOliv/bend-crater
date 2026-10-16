@@ -1,4 +1,28 @@
 {
+  "0x4b971e2f6428dc3f80dcd5a04dedc5f2": {
+    "hash": "0x4b971e2f6428dc3f80dcd5a04dedc5f2",
+    "files": {
+      "LICENSE": 1072,
+      "main.bend": 63639
+    },
+    "name": "bend-ml-tensor-array",
+    "version": "0.1.9.0",
+    "desc": "bend-ml-tensor-array: tensors over a flat Array<F32>, with the shape in the type.",
+    "ts": 1792119059125,
+    "dependents": 0
+  },
+  "0x3283e28131a46d2d98db11347f49016c": {
+    "hash": "0x3283e28131a46d2d98db11347f49016c",
+    "files": {
+      "LICENSE": 1072,
+      "main.bend": 59855
+    },
+    "name": "bend-ml-tensor-array",
+    "version": "0.1.8.0",
+    "desc": "bend-ml-tensor-array: tensors over a flat Array<F32>, with the shape in the type.",
+    "ts": 1792116870352,
+    "dependents": 0
+  },
   "0xd65851cd1dee629f72e346cda168bc1d": {
     "hash": "0xd65851cd1dee629f72e346cda168bc1d",
     "files": {
