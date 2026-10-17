@@ -1,4 +1,40 @@
 {
+  "0x8ff6f11df9bf3e5a1f5eaa324b7fef8f": {
+    "hash": "0x8ff6f11df9bf3e5a1f5eaa324b7fef8f",
+    "files": {
+      "LICENSE": 1072,
+      "main.bend": 56558
+    },
+    "name": "bend-ml-llama",
+    "version": "0.1.1.0",
+    "desc": "bend-ml-llama: Llama-architecture language models (SmolLM2 and the rest of the family) in Bend 2, with the",
+    "ts": 1792209887050,
+    "dependents": 0
+  },
+  "0xd8eb8357f30e6c7a242507aee97fab7e": {
+    "hash": "0xd8eb8357f30e6c7a242507aee97fab7e",
+    "files": {
+      "LICENSE": 1072,
+      "main.bend": 8933
+    },
+    "name": "bend-ml-tensor-fork",
+    "version": "0.1.0.0",
+    "desc": "bend-ml-tensor-fork: bend-ml-tensor-array's products, with the parallel blocks sharing their operands.",
+    "ts": 1792207675342,
+    "dependents": 0
+  },
+  "0xf94fab1939abde90f6dd66413a7964d8": {
+    "hash": "0xf94fab1939abde90f6dd66413a7964d8",
+    "files": {
+      "LICENSE": 1072,
+      "main.bend": 70069
+    },
+    "name": "bend-ml-tensor-array",
+    "version": "0.1.12.0",
+    "desc": "bend-ml-tensor-array: tensors over a flat Array<F32>, with the shape in the type.",
+    "ts": 1792206403392,
+    "dependents": 2
+  },
   "0x9ba47907befd07cbb90e20f7807542f3": {
     "hash": "0x9ba47907befd07cbb90e20f7807542f3",
     "files": {
@@ -2668,7 +2704,7 @@
     "version": "0.1.2.0",
     "desc": "bend-ml-tensor: tensors with the shape in the TYPE. A shape error is a type error.",
     "ts": 1791095993677,
-    "dependents": 1
+    "dependents": 2
   },
   "0xa071a92aabcffe6fc04dc3a60f0096ba": {
     "hash": "0xa071a92aabcffe6fc04dc3a60f0096ba",
