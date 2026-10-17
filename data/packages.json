@@ -1,4 +1,16 @@
 {
+  "0x7426570b56a9f08f09fe41b970d661b9": {
+    "hash": "0x7426570b56a9f08f09fe41b970d661b9",
+    "files": {
+      "LICENSE": 1072,
+      "main.bend": 16087
+    },
+    "name": "bend-ml-tensor-fork",
+    "version": "0.1.1.0",
+    "desc": "bend-ml-tensor-fork: bend-ml-tensor-array's products, with the parallel blocks sharing their operands; and par1..par4,",
+    "ts": 1792266481772,
+    "dependents": 0
+  },
   "0x8ff6f11df9bf3e5a1f5eaa324b7fef8f": {
     "hash": "0x8ff6f11df9bf3e5a1f5eaa324b7fef8f",
     "files": {
@@ -33,7 +45,7 @@
     "version": "0.1.12.0",
     "desc": "bend-ml-tensor-array: tensors over a flat Array<F32>, with the shape in the type.",
     "ts": 1792206403392,
-    "dependents": 2
+    "dependents": 3
   },
   "0x9ba47907befd07cbb90e20f7807542f3": {
     "hash": "0x9ba47907befd07cbb90e20f7807542f3",
