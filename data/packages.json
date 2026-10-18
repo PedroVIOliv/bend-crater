@@ -1,4 +1,16 @@
 {
+  "0xb00297062e21c56b88008f0c5387c0a0": {
+    "hash": "0xb00297062e21c56b88008f0c5387c0a0",
+    "files": {
+      "LICENSE": 1072,
+      "main.bend": 38759
+    },
+    "name": "bend-ml-tensor-gpu",
+    "version": "0.1.0.0",
+    "desc": "bend-ml-tensor-gpu: tensor-array's products on the GPU, with tensor-array's bits.",
+    "ts": 1792313972443,
+    "dependents": 0
+  },
   "0x1689e5deb278c16abd3bd45eac101ef3": {
     "hash": "0x1689e5deb278c16abd3bd45eac101ef3",
     "files": {
@@ -251,7 +263,7 @@
     "version": "0.1.12.0",
     "desc": "bend-ml-tensor-array: tensors over a flat Array<F32>, with the shape in the type.",
     "ts": 1792206403392,
-    "dependents": 3
+    "dependents": 4
   },
   "0x9ba47907befd07cbb90e20f7807542f3": {
     "hash": "0x9ba47907befd07cbb90e20f7807542f3",
