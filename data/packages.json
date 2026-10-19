@@ -1,4 +1,99 @@
 {
+  "0xaca75f7679c88e3442b04b98baf3b711": {
+    "hash": "0xaca75f7679c88e3442b04b98baf3b711",
+    "files": {
+      "LAWS.bend": 14831,
+      "LICENSE": 1098,
+      "PROOF.bend": 71749,
+      "algo.bend": 4612,
+      "bitmap.bend": 2344,
+      "bsearch.bend": 4817,
+      "check.bend": 1779,
+      "package.bend": 374,
+      "proof_bsearch.bend": 15449,
+      "proof_u32.bend": 28942
+    },
+    "name": null,
+    "version": null,
+    "desc": "bend-osdev-algo: every file of the package, so that bend --publish sends",
+    "ts": 1792439267450,
+    "dependents": 0
+  },
+  "0x4fcda21d38b51a2f03fa460c0b81cfc3": {
+    "hash": "0x4fcda21d38b51a2f03fa460c0b81cfc3",
+    "files": {
+      "LAWS.bend": 9055,
+      "LICENSE": 1098,
+      "PROOF.bend": 100724,
+      "array.bend": 2580,
+      "check.bend": 1361,
+      "package.bend": 257
+    },
+    "name": "bend-osdev-array",
+    "version": "0.1.0.0",
+    "desc": "bend-osdev-array: every file of the package, so that bend --publish sends",
+    "ts": 1792439260568,
+    "dependents": 1
+  },
+  "0xd04c3185dce130521497bf85ab03f249": {
+    "hash": "0xd04c3185dce130521497bf85ab03f249",
+    "files": {
+      "LAWS.bend": 24626,
+      "LICENSE": 1098,
+      "PROOF.bend": 18166,
+      "check.bend": 23540,
+      "hashes.bend": 10061,
+      "md4.bend": 5933,
+      "md5.bend": 7720,
+      "michael.bend": 3424,
+      "package.bend": 444,
+      "ripemd160.bend": 22250,
+      "sha1.bend": 19782,
+      "sm3.bend": 34821,
+      "streebog.bend": 87486
+    },
+    "name": "bend-osdev-hashes",
+    "version": "0.1.0.0",
+    "desc": "bend-osdev-hashes: every file of the package, so that bend --publish sends",
+    "ts": 1792439253125,
+    "dependents": 0
+  },
+  "0xeaa58f996c50eb57673f63c368c1de92": {
+    "hash": "0xeaa58f996c50eb57673f63c368c1de92",
+    "files": {
+      "LAWS.bend": 9770,
+      "LICENSE": 1098,
+      "PROOF.bend": 308038,
+      "check.bend": 3015,
+      "gf.bend": 6040,
+      "gf128.bend": 6835,
+      "gfm.bend": 3715,
+      "package.bend": 328,
+      "tables.bend": 4157
+    },
+    "name": "bend-osdev-gf",
+    "version": "0.1.0.0",
+    "desc": "bend-osdev-gf: every file of the package, so that bend --publish sends",
+    "ts": 1792439220881,
+    "dependents": 0
+  },
+  "0x7a77d751f1a239b5a366af461ab7f041": {
+    "hash": "0x7a77d751f1a239b5a366af461ab7f041",
+    "files": {
+      "LAWS.bend": 4507,
+      "LICENSE": 1098,
+      "PROOF.bend": 5994,
+      "check.bend": 2354,
+      "crc.bend": 11929,
+      "package.bend": 279,
+      "table.bend": 5622
+    },
+    "name": "bend-osdev-crc",
+    "version": "0.1.0.0",
+    "desc": "bend-osdev-crc: every file of the package, so that bend --publish sends",
+    "ts": 1792439122690,
+    "dependents": 0
+  },
   "0x64fa56d727e0f10ecea03da203932306": {
     "hash": "0x64fa56d727e0f10ecea03da203932306",
     "files": {
@@ -551,8 +646,8 @@
       "seccomp.bend": 11638,
       "validate.bend": 11039
     },
-    "name": null,
-    "version": null,
+    "name": "bend-osdev-bpf",
+    "version": "0.1.0.0",
     "desc": "bend-osdev-bpf: every file of the package, so that bend --publish sends",
     "ts": 1792329237056,
     "dependents": 0
@@ -672,7 +767,7 @@
     "version": "0.1.0.0",
     "desc": "bend-osdev-bytes: every file of the package, so that bend --publish sends",
     "ts": 1792329169262,
-    "dependents": 3
+    "dependents": 6
   },
   "0x44cf1401f78136bfc15c4c5be1cd20f0": {
     "hash": "0x44cf1401f78136bfc15c4c5be1cd20f0",
@@ -688,7 +783,7 @@
     "version": "0.1.0.0",
     "desc": "bend-osdev-word64: every file of the package, so that bend --publish sends",
     "ts": 1792329152194,
-    "dependents": 4
+    "dependents": 7
   },
   "0xb00297062e21c56b88008f0c5387c0a0": {
     "hash": "0xb00297062e21c56b88008f0c5387c0a0",
