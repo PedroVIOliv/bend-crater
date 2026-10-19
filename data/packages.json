@@ -1,4 +1,64 @@
 {
+  "0x64fa56d727e0f10ecea03da203932306": {
+    "hash": "0x64fa56d727e0f10ecea03da203932306",
+    "files": {
+      "LICENSE": 1100,
+      "gzip.bend": 4331
+    },
+    "name": null,
+    "version": null,
+    "desc": "gralha-gzip-frame: the RFC 1952 gzip container around gralha-deflate.",
+    "ts": 1792407720901,
+    "dependents": 0
+  },
+  "0x4aebc9c35d542fdd4ecdfb1af73440f8": {
+    "hash": "0x4aebc9c35d542fdd4ecdfb1af73440f8",
+    "files": {
+      "LICENSE": 1100,
+      "font.bend": 39033
+    },
+    "name": "gralha-truetype",
+    "version": "0.1.0.0",
+    "desc": "Font book: glyph outlines, advances, kerning and metrics.",
+    "ts": 1792407717305,
+    "dependents": 0
+  },
+  "0xbc5ce1714d35cca674c4b05a77ac392b": {
+    "hash": "0xbc5ce1714d35cca674c4b05a77ac392b",
+    "files": {
+      "LICENSE": 1100,
+      "jpeg.bend": 46713
+    },
+    "name": "gralha-jpeg-decode",
+    "version": "0.1.0.0",
+    "desc": "JPEG decoder: baseline and progressive Huffman, subsampling, color transforms.",
+    "ts": 1792407715209,
+    "dependents": 0
+  },
+  "0x56e1ef7bd140cbf61805307579bda290": {
+    "hash": "0x56e1ef7bd140cbf61805307579bda290",
+    "files": {
+      "LICENSE": 1100,
+      "png.bend": 13063
+    },
+    "name": "gralha-png-decode",
+    "version": "0.1.0.0",
+    "desc": "PNG decoder: chunks, filters, interlacing, palettes and bit depths.",
+    "ts": 1792407707688,
+    "dependents": 0
+  },
+  "0x168fe27434c48ca085336d8a0b5c31d0": {
+    "hash": "0x168fe27434c48ca085336d8a0b5c31d0",
+    "files": {
+      "LICENSE": 1100,
+      "css.bend": 23391
+    },
+    "name": "gralha-css-style",
+    "version": "0.1.0.0",
+    "desc": "CSS: stylesheets, selectors, specificity, media queries and the cascade onto an XML tree.",
+    "ts": 1792407696924,
+    "dependents": 0
+  },
   "0x579cfefafb80e6d25852d085feffef66": {
     "hash": "0x579cfefafb80e6d25852d085feffef66",
     "files": {
@@ -902,8 +962,8 @@
       "LICENSE": 1100,
       "ustar.bend": 15529
     },
-    "name": null,
-    "version": null,
+    "name": "gralha-ustar",
+    "version": "0.1.0.0",
     "desc": "gralha-ustar: POSIX ustar archives over gralha-byte-words. header builds",
     "ts": 1792172255717,
     "dependents": 0
@@ -918,7 +978,7 @@
     "version": "0.1.0.0",
     "desc": "gralha-deflate: RFC 1951 DEFLATE over gralha-byte-words packed arrays.",
     "ts": 1792172205248,
-    "dependents": 0
+    "dependents": 1
   },
   "0x8ba6f756b9429dce8795c1d22eb97549": {
     "hash": "0x8ba6f756b9429dce8795c1d22eb97549",
@@ -942,7 +1002,7 @@
     "version": "0.1.0.0",
     "desc": "Premultiplied colors and quadtree pixel buffers shared by the decoders and the renderer.",
     "ts": 1792172142242,
-    "dependents": 0
+    "dependents": 2
   },
   "0xb4c178c822e0e37d625a581d728097d3": {
     "hash": "0xb4c178c822e0e37d625a581d728097d3",
@@ -956,7 +1016,7 @@
     "version": "0.1.0.0",
     "desc": "Bytes, bit streams, Huffman codes, DEFLATE/zlib, checksums, base64 and percent decoding.",
     "ts": 1792172095385,
-    "dependents": 0
+    "dependents": 3
   },
   "0x823f0d97991344accc44fe457a33356a": {
     "hash": "0x823f0d97991344accc44fe457a33356a",
@@ -968,7 +1028,7 @@
     "version": "0.1.0.0",
     "desc": "XML: tokens, element tree, entities, attributes and serialization.",
     "ts": 1792172042731,
-    "dependents": 0
+    "dependents": 1
   },
   "0x6f51b0319916bc200dd5f3949f31668e": {
     "hash": "0x6f51b0319916bc200dd5f3949f31668e",
@@ -1013,7 +1073,7 @@
     "version": "0.1.0.0",
     "desc": "gralha-crc32: the IEEE CRC-32 (gzip's, zip's, PNG's) over bytes packed",
     "ts": 1792172028675,
-    "dependents": 0
+    "dependents": 1
   },
   "0x365c60316ea66a6c80658fc03b4eeac5": {
     "hash": "0x365c60316ea66a6c80658fc03b4eeac5",
@@ -1041,7 +1101,7 @@
     "version": "0.1.0.0",
     "desc": "gralha-byte-words: bytes packed four to a U32 word, little-endian, in an",
     "ts": 1792172018000,
-    "dependents": 2
+    "dependents": 3
   },
   "0xaff2b2d0565125a37b5df94a39451ef8": {
     "hash": "0xaff2b2d0565125a37b5df94a39451ef8",
@@ -1053,7 +1113,7 @@
     "version": "0.1.0.0",
     "desc": "Text scanning, number parsing (the SVG/CSS number grammar, units, hex) and",
     "ts": 1792171970145,
-    "dependents": 4
+    "dependents": 8
   },
   "0xcd90bcc8501745cf08bdce89fc915900": {
     "hash": "0xcd90bcc8501745cf08bdce89fc915900",
