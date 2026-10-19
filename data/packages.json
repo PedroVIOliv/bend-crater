@@ -1,4 +1,28 @@
 {
+  "0xbd1b4cc5d2844d9d24fe4ccd14752506": {
+    "hash": "0xbd1b4cc5d2844d9d24fe4ccd14752506",
+    "files": {
+      "admission.bend": 13286,
+      "completion.bend": 1805,
+      "http.bend": 268749
+    },
+    "name": "bend-kit-http",
+    "version": "0.36.0.0",
+    "desc": "HTTP/1.1 and HTTP/2 client, with an HTTP/1.1 server. Source: https://github.com/paymog/bend-kit/tree/main/http",
+    "ts": 1792372999589,
+    "dependents": 0
+  },
+  "0x01311e71c862efd59bf9884b77a5a867": {
+    "hash": "0x01311e71c862efd59bf9884b77a5a867",
+    "files": {
+      "jwt.bend": 33018
+    },
+    "name": "bend-kit-jwt",
+    "version": "0.7.1.0",
+    "desc": "JSON Web Tokens: HS256/384/512, RS256, and ES256 compact JWS sign and verify, claim checks, and JWKS keys over Hairpin. Source: https://github.com/paymog/bend-kit/tree/main/jwt",
+    "ts": 1792372403724,
+    "dependents": 0
+  },
   "0x454d8eb5320624d5b121fdc9d78ee0a6": {
     "hash": "0x454d8eb5320624d5b121fdc9d78ee0a6",
     "files": {
@@ -137,7 +161,7 @@
     "version": "0.8.0.0",
     "desc": "Hairpin: an HTTP client with a base URL, default headers, a pool, cookies, mTLS, redirects, and proven retries. Source: https://github.com/paymog/bend-kit/tree/main/hairpin",
     "ts": 1792353022503,
-    "dependents": 5
+    "dependents": 6
   },
   "0x80a6f1a0beef7d6b1dbe0e5a1d196f0b": {
     "hash": "0x80a6f1a0beef7d6b1dbe0e5a1d196f0b",
@@ -161,7 +185,7 @@
     "version": "0.35.0.0",
     "desc": "HTTP/1.1 and HTTP/2 client, with an HTTP/1.1 server. Source: https://github.com/paymog/bend-kit/tree/main/http",
     "ts": 1792352132847,
-    "dependents": 7
+    "dependents": 8
   },
   "0x355167368b46de39ede21286fd4d9a78": {
     "hash": "0x355167368b46de39ede21286fd4d9a78",
@@ -185,7 +209,7 @@
     "version": "0.6.1.1",
     "desc": "JSON values, parsed and encoded as RFC 8259. Source: https://github.com/paymog/bend-kit/tree/main/json",
     "ts": 1792350008619,
-    "dependents": 6
+    "dependents": 8
   },
   "0x45ef2efe873a6c667f11706c0d2c8c7e": {
     "hash": "0x45ef2efe873a6c667f11706c0d2c8c7e",
@@ -1370,7 +1394,7 @@
     "version": "0.3.0.0",
     "desc": "DEFLATE, gzip, and zlib encoding and decoding (RFC 1951, 1952, 1950) over byte strings, plus gzip, zstd, and brotli through the C libraries. Source: https://github.com/paymog/bend-kit/tree/main/zlib",
     "ts": 1791836709730,
-    "dependents": 4
+    "dependents": 5
   },
   "0xfa8b1ffd075ee48f371a87df77a7fadb": {
     "hash": "0xfa8b1ffd075ee48f371a87df77a7fadb",
@@ -1442,7 +1466,7 @@
     "version": "0.2.0.0",
     "desc": "Clocks, Duration and Instant, Gregorian dates, RFC 3339 and HTTP-date text, and TZif time zones. Source: https://github.com/paymog/bend-kit/tree/main/time",
     "ts": 1791835564784,
-    "dependents": 24
+    "dependents": 25
   },
   "0xe19ca060a437acd0d1970a44d51ba18e": {
     "hash": "0xe19ca060a437acd0d1970a44d51ba18e",
@@ -1488,7 +1512,7 @@
     "version": "0.3.0.0",
     "desc": "RFC 9113 HTTP/2 client and frames, with RFC 7541 HPACK over packed Bytes.",
     "ts": 1791835514737,
-    "dependents": 3
+    "dependents": 4
   },
   "0x3979161cdac065f4d7fc0e807196e138": {
     "hash": "0x3979161cdac065f4d7fc0e807196e138",
@@ -1521,7 +1545,7 @@
     "version": "0.4.0.0",
     "desc": "UTF-8 encoding and decoding between text and Bytes. Source: https://github.com/paymog/bend-kit/tree/main/encoding",
     "ts": 1791835468694,
-    "dependents": 16
+    "dependents": 17
   },
   "0xb7ebb22f935b2eea9628935547ea026e": {
     "hash": "0xb7ebb22f935b2eea9628935547ea026e",
@@ -2216,7 +2240,7 @@
     "version": "0.2.0.0",
     "desc": "Parallel map and reduce over lists and arrays, a worker pool, select over channels, and timeouts.",
     "ts": 1791573863162,
-    "dependents": 4
+    "dependents": 5
   },
   "0x6eaf476c39756d18630510c519770168": {
     "hash": "0x6eaf476c39756d18630510c519770168",
@@ -2252,7 +2276,7 @@
     "version": "0.6.0.2",
     "desc": "DNS codec and host lookup. Source: https://github.com/paymog/bend-kit/tree/main/dns",
     "ts": 1791573096469,
-    "dependents": 8
+    "dependents": 9
   },
   "0x37dffd823fd9cfaa0f8d0b8861238158": {
     "hash": "0x37dffd823fd9cfaa0f8d0b8861238158",
@@ -2395,7 +2419,7 @@
     "version": "0.2.2.1",
     "desc": "Hashes, HMAC, HKDF, RSA and ECDSA signatures, and secure random bytes through OpenSSL 3 libcrypto. Source: https://github.com/paymog/bend-kit/tree/main/crypto",
     "ts": 1791572003688,
-    "dependents": 26
+    "dependents": 27
   },
   "0x7843fdc3c5ff57acbb79e7e7c945fec9": {
     "hash": "0x7843fdc3c5ff57acbb79e7e7c945fec9",
@@ -2462,7 +2486,7 @@
     "version": "0.4.6.1",
     "desc": "Byte-exact TCP, UDP, and TLS sockets. Source: https://github.com/paymog/bend-kit/tree/main/wire",
     "ts": 1791571961430,
-    "dependents": 12
+    "dependents": 13
   },
   "0x32bd867a107b63c50365cf1c4612ace5": {
     "hash": "0x32bd867a107b63c50365cf1c4612ace5",
@@ -2560,7 +2584,7 @@
     "version": "0.1.0.0",
     "desc": "Bounded capacity pools with affine reservations: reserve, release, split, and combine.",
     "ts": 1791511862755,
-    "dependents": 14
+    "dependents": 15
   },
   "0xeaee3c88886bfae971db9dcf3cde0759": {
     "hash": "0xeaee3c88886bfae971db9dcf3cde0759",
@@ -5465,7 +5489,7 @@
     "version": "0.3.2.0",
     "desc": "Byte buffers packed four bytes to a U32, with bounds-checked access. Source: https://github.com/paymog/bend-kit/tree/main/bytes",
     "ts": 1790737289169,
-    "dependents": 57
+    "dependents": 59
   },
   "0x1165a11c4b59570a35a777cf76f3a6f4": {
     "hash": "0x1165a11c4b59570a35a777cf76f3a6f4",
@@ -7101,7 +7125,7 @@
     "version": "0.4.1.0",
     "desc": "URL parsing, resolution, and percent-encoding (RFC 3986). Source: https://github.com/paymog/bend-kit/tree/main/url",
     "ts": 1790526635864,
-    "dependents": 67
+    "dependents": 68
   },
   "0xa3dc0f6e3963608e4608a1017272cf4f": {
     "hash": "0xa3dc0f6e3963608e4608a1017272cf4f",
@@ -7398,7 +7422,7 @@
     "version": "0.2.0.0",
     "desc": "Fixed-width integers U8, U16, U64, I32 and I64: wrapping, checked and saturating arithmetic, and text in radix 2 to 36.",
     "ts": 1790516996356,
-    "dependents": 52
+    "dependents": 53
   },
   "0xea2956cd4e05ac318643319cb7fb3c29": {
     "hash": "0xea2956cd4e05ac318643319cb7fb3c29",
