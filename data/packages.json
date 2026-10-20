@@ -1,4 +1,57 @@
 {
+  "0xea59fa0bb59ac9b4259dbd0992004d9e": {
+    "hash": "0xea59fa0bb59ac9b4259dbd0992004d9e",
+    "files": {
+      "LICENSE": 1103,
+      "language/decreasing_call.bend": 10768,
+      "language/forward_reference.bend": 4475,
+      "language/reused_binder.bend": 8020,
+      "language/unneeded_plus.bend": 6612,
+      "layout/canon_import_path.bend": 4079,
+      "layout/case.bend": 10500,
+      "layout/directive_order.bend": 5783,
+      "layout/format.bend": 64982,
+      "layout/imports.bend": 7773,
+      "lib/linter/directives.bend": 32950,
+      "lib/text/main.bend": 12594,
+      "no_unused/imports.bend": 1691,
+      "performance/append_in_loop.bend": 8162,
+      "performance/bang_after_fork.bend": 6121,
+      "performance/dead_accumulator.bend": 5419,
+      "performance/deep_call_in_fork.bend": 9022,
+      "performance/drop_in_bang.bend": 3027,
+      "performance/eager_branch.bend": 6641,
+      "performance/gpu_fit.bend": 17281,
+      "performance/list_index_loop.bend": 10466,
+      "performance/loop_invariant_call.bend": 9692,
+      "performance/missed_fork.bend": 17701,
+      "performance/repeated_call.bend": 10930,
+      "performance/template_value_field.bend": 6872,
+      "performance/unused_result.bend": 6635,
+      "rules.bend": 1112
+    },
+    "name": "bend-lint-rules",
+    "version": "0.1.1.0",
+    "desc": "",
+    "ts": 1792450602250,
+    "dependents": 0
+  },
+  "0xbf17cd8a773b73dcdd93291552ca53f8": {
+    "hash": "0xbf17cd8a773b73dcdd93291552ca53f8",
+    "files": {
+      "linter/LICENSE": 1103,
+      "linter/lint.bend": 33401,
+      "shared/lists.bend": 3576,
+      "shared/names.bend": 2320,
+      "shared/strings.bend": 2706,
+      "shared/tables.bend": 2186
+    },
+    "name": "bend-lint-api",
+    "version": "0.1.1.0",
+    "desc": "What a rule sees. A rule file imports this file, and defines `rule()`.",
+    "ts": 1792450587244,
+    "dependents": 1
+  },
   "0xaca75f7679c88e3442b04b98baf3b711": {
     "hash": "0xaca75f7679c88e3442b04b98baf3b711",
     "files": {
