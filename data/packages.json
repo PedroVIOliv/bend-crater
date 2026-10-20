@@ -1,4 +1,56 @@
 {
+  "0xe3a7f78ee5245da17fe27e3556f94e74": {
+    "hash": "0xe3a7f78ee5245da17fe27e3556f94e74",
+    "files": {
+      "LICENSE": 1112,
+      "bend_visgraph.bend": 10449,
+      "parallel.bend": 8589,
+      "src/report.bend": 3918,
+      "src/series.bend": 4135,
+      "visgraph.bend": 41243
+    },
+    "name": "bend-visgraph",
+    "version": "2.0.0.0",
+    "desc": "ts2vg's visibility graphs of time series, in Bend2, on every CPU thread.",
+    "ts": 1792460515865,
+    "dependents": 0
+  },
+  "0xa7606adc225be7b0e88389ca594e0d14": {
+    "hash": "0xa7606adc225be7b0e88389ca594e0d14",
+    "files": {
+      "LICENSE": 1112,
+      "bend_visgraph.bend": 10368,
+      "src/graph.bend": 21841,
+      "src/parallel.bend": 8270,
+      "src/penetrable.bend": 10071,
+      "src/report.bend": 4496,
+      "src/series.bend": 4135,
+      "src/vg.bend": 8470
+    },
+    "name": "bend-visgraph",
+    "version": "1.0.1.0",
+    "desc": "ts2vg's visibility graphs of time series, in Bend2, on every CPU thread.",
+    "ts": 1792458532330,
+    "dependents": 0
+  },
+  "0xe3f5cb14a0b4bd4d5826a0042d3c3d23": {
+    "hash": "0xe3f5cb14a0b4bd4d5826a0042d3c3d23",
+    "files": {
+      "LICENSE": 1112,
+      "bend_vg.bend": 10276,
+      "src/graph.bend": 21841,
+      "src/parallel.bend": 8270,
+      "src/penetrable.bend": 10071,
+      "src/report.bend": 4496,
+      "src/series.bend": 4135,
+      "src/vg.bend": 8464
+    },
+    "name": "bend-visgraph",
+    "version": "1.0.0.0",
+    "desc": "ts2vg's visibility graphs of time series, in Bend2, on every CPU thread.",
+    "ts": 1792457394183,
+    "dependents": 0
+  },
   "0xea59fa0bb59ac9b4259dbd0992004d9e": {
     "hash": "0xea59fa0bb59ac9b4259dbd0992004d9e",
     "files": {
