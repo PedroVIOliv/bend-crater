@@ -1,4 +1,51 @@
 {
+  "0xfbae09b27ff064ae28a2dd82f08f4391": {
+    "hash": "0xfbae09b27ff064ae28a2dd82f08f4391",
+    "files": {
+      "LICENSE": 1100,
+      "server.bend": 7555
+    },
+    "name": "gralha-http-server",
+    "version": "0.1.0.0",
+    "desc": "An HTTP/1.1 server over Base's TCP: one request per connection, answered",
+    "ts": 1792513849937,
+    "dependents": 0
+  },
+  "0x59279b68893c8c86cbcf854fcfc9db2f": {
+    "hash": "0x59279b68893c8c86cbcf854fcfc9db2f",
+    "files": {
+      "LICENSE": 1100,
+      "http.bend": 13552
+    },
+    "name": "gralha-http-core",
+    "version": "0.1.0.0",
+    "desc": "HTTP/1.1 messages: requests parsed from text, responses serialized to it.",
+    "ts": 1792513845280,
+    "dependents": 1
+  },
+  "0x7f742f88d400d7dfabd2906476966aa4": {
+    "hash": "0x7f742f88d400d7dfabd2906476966aa4",
+    "files": {
+      "LICENSE": 1100,
+      "svg.bend": 344916
+    },
+    "name": "gralha-svg-render",
+    "version": "0.1.0.0",
+    "desc": "SVG parsing, geometry, painting and rasterization. No foreign code.",
+    "ts": 1792513834753,
+    "dependents": 0
+  },
+  "0x73559c52763964eec984bb79177885e9": {
+    "hash": "0x73559c52763964eec984bb79177885e9",
+    "files": {
+      "runner.bend": 57970
+    },
+    "name": "bend-kit-runner",
+    "version": "0.7.0.0",
+    "desc": "Durable job runner: a journaled scheduler queue, bounded by a resources pool, with retry and a breaker per target. Source: https://github.com/paymog/bend-kit/tree/main/runner",
+    "ts": 1792510681696,
+    "dependents": 0
+  },
   "0xe3a7f78ee5245da17fe27e3556f94e74": {
     "hash": "0xe3a7f78ee5245da17fe27e3556f94e74",
     "files": {
@@ -205,8 +252,8 @@
       "LICENSE": 1100,
       "gzip.bend": 4331
     },
-    "name": null,
-    "version": null,
+    "name": "gralha-gzip-frame",
+    "version": "0.1.0.0",
     "desc": "gralha-gzip-frame: the RFC 1952 gzip container around gralha-deflate.",
     "ts": 1792407720901,
     "dependents": 0
@@ -221,7 +268,7 @@
     "version": "0.1.0.0",
     "desc": "Font book: glyph outlines, advances, kerning and metrics.",
     "ts": 1792407717305,
-    "dependents": 0
+    "dependents": 1
   },
   "0xbc5ce1714d35cca674c4b05a77ac392b": {
     "hash": "0xbc5ce1714d35cca674c4b05a77ac392b",
@@ -233,7 +280,7 @@
     "version": "0.1.0.0",
     "desc": "JPEG decoder: baseline and progressive Huffman, subsampling, color transforms.",
     "ts": 1792407715209,
-    "dependents": 0
+    "dependents": 1
   },
   "0x56e1ef7bd140cbf61805307579bda290": {
     "hash": "0x56e1ef7bd140cbf61805307579bda290",
@@ -245,7 +292,7 @@
     "version": "0.1.0.0",
     "desc": "PNG decoder: chunks, filters, interlacing, palettes and bit depths.",
     "ts": 1792407707688,
-    "dependents": 0
+    "dependents": 1
   },
   "0x168fe27434c48ca085336d8a0b5c31d0": {
     "hash": "0x168fe27434c48ca085336d8a0b5c31d0",
@@ -257,7 +304,7 @@
     "version": "0.1.0.0",
     "desc": "CSS: stylesheets, selectors, specificity, media queries and the cascade onto an XML tree.",
     "ts": 1792407696924,
-    "dependents": 0
+    "dependents": 1
   },
   "0x579cfefafb80e6d25852d085feffef66": {
     "hash": "0x579cfefafb80e6d25852d085feffef66",
@@ -583,7 +630,7 @@
     "version": "0.3.0.0",
     "desc": "Pure deadline queues and bounded fixed-rate/fixed-delay recurrence over exact clock ticks.",
     "ts": 1792350818716,
-    "dependents": 4
+    "dependents": 5
   },
   "0x040b6c79c72da50288552227f006b061": {
     "hash": "0x040b6c79c72da50288552227f006b061",
@@ -1190,7 +1237,7 @@
     "version": "0.1.0.0",
     "desc": "Analytic coverage: line lists in pixel space are scan-converted with a winding",
     "ts": 1792172186010,
-    "dependents": 0
+    "dependents": 1
   },
   "0x6053821c66ad4107092f3cff65679fc6": {
     "hash": "0x6053821c66ad4107092f3cff65679fc6",
@@ -1202,7 +1249,7 @@
     "version": "0.1.0.0",
     "desc": "Premultiplied colors and quadtree pixel buffers shared by the decoders and the renderer.",
     "ts": 1792172142242,
-    "dependents": 2
+    "dependents": 3
   },
   "0xb4c178c822e0e37d625a581d728097d3": {
     "hash": "0xb4c178c822e0e37d625a581d728097d3",
@@ -1216,7 +1263,7 @@
     "version": "0.1.0.0",
     "desc": "Bytes, bit streams, Huffman codes, DEFLATE/zlib, checksums, base64 and percent decoding.",
     "ts": 1792172095385,
-    "dependents": 3
+    "dependents": 4
   },
   "0x823f0d97991344accc44fe457a33356a": {
     "hash": "0x823f0d97991344accc44fe457a33356a",
@@ -1228,7 +1275,7 @@
     "version": "0.1.0.0",
     "desc": "XML: tokens, element tree, entities, attributes and serialization.",
     "ts": 1792172042731,
-    "dependents": 1
+    "dependents": 2
   },
   "0x6f51b0319916bc200dd5f3949f31668e": {
     "hash": "0x6f51b0319916bc200dd5f3949f31668e",
@@ -1313,7 +1360,7 @@
     "version": "0.1.0.0",
     "desc": "Text scanning, number parsing (the SVG/CSS number grammar, units, hex) and",
     "ts": 1792171970145,
-    "dependents": 8
+    "dependents": 9
   },
   "0xcd90bcc8501745cf08bdce89fc915900": {
     "hash": "0xcd90bcc8501745cf08bdce89fc915900",
@@ -1562,7 +1609,7 @@
     "version": "0.1.3.0",
     "desc": "Generic collections: maps, a vector, a deque and a priority queue. Source: https://github.com/paymog/bend-kit/tree/main/collections",
     "ts": 1791911657849,
-    "dependents": 10
+    "dependents": 11
   },
   "0x7a4f6479e786b51d0ee5c2f915fe0a00": {
     "hash": "0x7a4f6479e786b51d0ee5c2f915fe0a00",
@@ -1803,7 +1850,7 @@
     "version": "0.2.0.0",
     "desc": "Append-only journal: checksummed frames, fsync'd appends, and crash recovery of the committed prefix. Source: https://github.com/paymog/bend-kit/tree/main/journal",
     "ts": 1791836527022,
-    "dependents": 5
+    "dependents": 6
   },
   "0xfd5835adf423bce2b49e1ed92b0a030e": {
     "hash": "0xfd5835adf423bce2b49e1ed92b0a030e",
@@ -1851,7 +1898,7 @@
     "version": "0.2.0.0",
     "desc": "Clocks, Duration and Instant, Gregorian dates, RFC 3339 and HTTP-date text, and TZif time zones. Source: https://github.com/paymog/bend-kit/tree/main/time",
     "ts": 1791835564784,
-    "dependents": 32
+    "dependents": 33
   },
   "0xe19ca060a437acd0d1970a44d51ba18e": {
     "hash": "0xe19ca060a437acd0d1970a44d51ba18e",
@@ -1956,7 +2003,7 @@
     "version": "0.2.0.0",
     "desc": "POSIX paths plus directory and metadata effects. Source: https://github.com/paymog/bend-kit/tree/main/files",
     "ts": 1791835462091,
-    "dependents": 4
+    "dependents": 5
   },
   "0x1ab394b06520ad11584bde1d8d187794": {
     "hash": "0x1ab394b06520ad11584bde1d8d187794",
@@ -2205,7 +2252,7 @@
     "version": "0.1.0.0",
     "desc": "Retry policy: a shared attempt budget, an operation deadline, bounded backoff, and a circuit breaker.",
     "ts": 1791767675276,
-    "dependents": 30
+    "dependents": 31
   },
   "0xd5d0bc5368c1bc2a6fbc863a812e64a1": {
     "hash": "0xd5d0bc5368c1bc2a6fbc863a812e64a1",
@@ -2969,7 +3016,7 @@
     "version": "0.1.0.0",
     "desc": "Bounded capacity pools with affine reservations: reserve, release, split, and combine.",
     "ts": 1791511862755,
-    "dependents": 18
+    "dependents": 19
   },
   "0xeaee3c88886bfae971db9dcf3cde0759": {
     "hash": "0xeaee3c88886bfae971db9dcf3cde0759",
@@ -5874,7 +5921,7 @@
     "version": "0.3.2.0",
     "desc": "Byte buffers packed four bytes to a U32, with bounds-checked access. Source: https://github.com/paymog/bend-kit/tree/main/bytes",
     "ts": 1790737289169,
-    "dependents": 69
+    "dependents": 70
   },
   "0x1165a11c4b59570a35a777cf76f3a6f4": {
     "hash": "0x1165a11c4b59570a35a777cf76f3a6f4",
