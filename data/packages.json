@@ -1,4 +1,101 @@
 {
+  "0xad30062b0524c338451286e334fa0726": {
+    "hash": "0xad30062b0524c338451286e334fa0726",
+    "files": {
+      "LICENSE": 1072,
+      "main.bend": 6405
+    },
+    "name": "mlbend-datasets",
+    "version": "0.1.2.0",
+    "desc": "mlbend-datasets: the datasets of scikit-learn, fetched from the hub.",
+    "ts": 1792572224256,
+    "dependents": 0
+  },
+  "0x9f97047b6ffb57443a7a2a2f0adefcbd": {
+    "hash": "0x9f97047b6ffb57443a7a2a2f0adefcbd",
+    "files": {
+      "LICENSE": 1072,
+      "main.bend": 9681
+    },
+    "name": "mlbend-huggingface",
+    "version": "0.1.1.0",
+    "desc": "mlbend-huggingface: a HuggingFace client for Bend 2.",
+    "ts": 1792572116382,
+    "dependents": 1
+  },
+  "0x9afaa60ee4d17706cb14d6ec20d1d4ae": {
+    "hash": "0x9afaa60ee4d17706cb14d6ec20d1d4ae",
+    "files": {
+      "LICENSE": 1072,
+      "main.bend": 10128
+    },
+    "name": "mlbend-metrics",
+    "version": "0.1.0.0",
+    "desc": "mlbend-metrics: the evaluation surface of machine learning, natively in Bend 2.",
+    "ts": 1792572078837,
+    "dependents": 0
+  },
+  "0x8c96353d3ca49c6a162373dab83cd9f4": {
+    "hash": "0x8c96353d3ca49c6a162373dab83cd9f4",
+    "files": {
+      "LICENSE": 1072,
+      "main.bend": 6405
+    },
+    "name": "mlbend-datasets",
+    "version": "0.1.1.0",
+    "desc": "mlbend-datasets: the datasets of scikit-learn, fetched from the hub.",
+    "ts": 1792571737208,
+    "dependents": 0
+  },
+  "0x69412f1bc0bfab2689141f5caec128a5": {
+    "hash": "0x69412f1bc0bfab2689141f5caec128a5",
+    "files": {
+      "datasets/LICENSE": 1072,
+      "datasets/main.bend": 6384,
+      "hf/LICENSE": 1072,
+      "hf/main.bend": 9672
+    },
+    "name": "mlbend-datasets",
+    "version": "0.1.0.0",
+    "desc": "mlbend-datasets: the datasets of scikit-learn, fetched from the hub.",
+    "ts": 1792567814989,
+    "dependents": 0
+  },
+  "0xd6b5ccf2ca01896fada1dfd4c0b34f31": {
+    "hash": "0xd6b5ccf2ca01896fada1dfd4c0b34f31",
+    "files": {
+      "LICENSE": 4,
+      "main.bend": 23
+    },
+    "name": null,
+    "version": null,
+    "desc": "",
+    "ts": 1792567676407,
+    "dependents": 0
+  },
+  "0x778e6cbc1a6e1821244a2df531d5db2f": {
+    "hash": "0x778e6cbc1a6e1821244a2df531d5db2f",
+    "files": {
+      "LICENSE": 4
+    },
+    "name": null,
+    "version": null,
+    "desc": "",
+    "ts": 1792567669892,
+    "dependents": 0
+  },
+  "0xeb7d1be9a5e941fbb49616e152f5e5f1": {
+    "hash": "0xeb7d1be9a5e941fbb49616e152f5e5f1",
+    "files": {
+      "LICENSE": 1072,
+      "main.bend": 9672
+    },
+    "name": "mlbend-huggingface",
+    "version": "0.1.0.0",
+    "desc": "mlbend-hf: a HuggingFace client for Bend 2.",
+    "ts": 1792567463269,
+    "dependents": 1
+  },
   "0x846aad52831f8111f93a9c322d7de83c": {
     "hash": "0x846aad52831f8111f93a9c322d7de83c",
     "files": {
@@ -1211,7 +1308,7 @@
     "version": "0.36.0.0",
     "desc": "HTTP/1.1 and HTTP/2 client, with an HTTP/1.1 server. Source: https://github.com/paymog/bend-kit/tree/main/http",
     "ts": 1792372999589,
-    "dependents": 7
+    "dependents": 10
   },
   "0x01311e71c862efd59bf9884b77a5a867": {
     "hash": "0x01311e71c862efd59bf9884b77a5a867",
@@ -1270,7 +1367,7 @@
     "version": "0.1.14.0",
     "desc": "bend-ml-tensor-array: tensors over a flat Array<F32>, with the shape in the type.",
     "ts": 1792358363340,
-    "dependents": 3
+    "dependents": 6
   },
   "0x4cb3232f7d188b565aa061ff4a63f466": {
     "hash": "0x4cb3232f7d188b565aa061ff4a63f466",
@@ -1410,7 +1507,7 @@
     "version": "0.6.1.1",
     "desc": "JSON values, parsed and encoded as RFC 8259. Source: https://github.com/paymog/bend-kit/tree/main/json",
     "ts": 1792350008619,
-    "dependents": 13
+    "dependents": 16
   },
   "0x45ef2efe873a6c667f11706c0d2c8c7e": {
     "hash": "0x45ef2efe873a6c667f11706c0d2c8c7e",
@@ -4665,7 +4762,7 @@
     "version": "0.1.1.0",
     "desc": "bend-ml-nat-lemmas: Nat and List lemmas, proved, that Bend's Base does not have.",
     "ts": 1791095984744,
-    "dependents": 0
+    "dependents": 1
   },
   "0xbce52aed55d81f3c75dfd6518c9bcbdd": {
     "hash": "0xbce52aed55d81f3c75dfd6518c9bcbdd",
@@ -6690,7 +6787,7 @@
     "version": "0.3.2.0",
     "desc": "Byte buffers packed four bytes to a U32, with bounds-checked access. Source: https://github.com/paymog/bend-kit/tree/main/bytes",
     "ts": 1790737289169,
-    "dependents": 70
+    "dependents": 73
   },
   "0x1165a11c4b59570a35a777cf76f3a6f4": {
     "hash": "0x1165a11c4b59570a35a777cf76f3a6f4",
