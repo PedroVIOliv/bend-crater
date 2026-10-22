@@ -1,4 +1,16 @@
 {
+  "0xa8182854f375cd61135ccd32993993cc": {
+    "hash": "0xa8182854f375cd61135ccd32993993cc",
+    "files": {
+      "LICENSE": 1072,
+      "main.bend": 10734
+    },
+    "name": "mlbend-preprocess",
+    "version": "0.1.0.0",
+    "desc": "mlbend-preprocess: the transformers of scikit-learn, over bend-ml's matrix.",
+    "ts": 1792654441360,
+    "dependents": 0
+  },
   "0x7ac61588953ec1faa925002b4f879bcf": {
     "hash": "0x7ac61588953ec1faa925002b4f879bcf",
     "files": {
@@ -5377,7 +5389,7 @@
     "version": "0.1.0.0",
     "desc": "bend-ml-tensor: tensores com a shape no TIPO. Erro de shape é erro de tipo.",
     "ts": 1791073586106,
-    "dependents": 2
+    "dependents": 3
   },
   "0x3333bd5274f4ce66fdf8fe0c26c6b532": {
     "hash": "0x3333bd5274f4ce66fdf8fe0c26c6b532",
