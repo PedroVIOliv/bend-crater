@@ -1,4 +1,28 @@
 {
+  "0x6b42a2d27a3a99709ca78f46668ec19a": {
+    "hash": "0x6b42a2d27a3a99709ca78f46668ec19a",
+    "files": {
+      "f/secret.c": 22,
+      "f/sub/x.bend": 144
+    },
+    "name": null,
+    "version": null,
+    "desc": "",
+    "ts": 1792698406266,
+    "dependents": 0
+  },
+  "0x0c4fbc7d44d2e3e47247a6c1f12c05e0": {
+    "hash": "0x0c4fbc7d44d2e3e47247a6c1f12c05e0",
+    "files": {
+      "LICENSE": 1072,
+      "main.bend": 8973
+    },
+    "name": "mlbend-cluster",
+    "version": "0.1.0.0",
+    "desc": "mlbend-cluster: k-means, functional.",
+    "ts": 1792696974311,
+    "dependents": 0
+  },
   "0xf6594aa2392363c8ab774bc81fb20b9d": {
     "hash": "0xf6594aa2392363c8ab774bc81fb20b9d",
     "files": {
