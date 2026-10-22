@@ -1,4 +1,26 @@
 {
+  "0xcd4682caa53da19986acd472c2181473": {
+    "hash": "0xcd4682caa53da19986acd472c2181473",
+    "files": {
+      "LICENSE": 11381,
+      "algebra.bend": 21014,
+      "all.bend": 564,
+      "bool.bend": 18892,
+      "equal.bend": 1237,
+      "list.bend": 124180,
+      "maybe.bend": 11847,
+      "nat.bend": 142367,
+      "order.bend": 4858,
+      "perm.bend": 17154,
+      "sort.bend": 19685,
+      "string.bend": 28366
+    },
+    "name": "bend-mathlib",
+    "version": "0.7.5.0",
+    "desc": "bend-mathlib: machine-checked lemmas for Bend 2 (Nat, Bool, List, String, Maybe, equality, order, algebra, permutations, sorting); import one module, e.g. bend-mathlib@0.7.5.0/nat.bend.",
+    "ts": 1792702730169,
+    "dependents": 0
+  },
   "0x6b42a2d27a3a99709ca78f46668ec19a": {
     "hash": "0x6b42a2d27a3a99709ca78f46668ec19a",
     "files": {
@@ -11384,7 +11406,7 @@
     "version": "1.0.0.0",
     "desc": "bendlib-kernel-list: frozen step-list permutations over List, generic over -A: Data.",
     "ts": 1790347513536,
-    "dependents": 9
+    "dependents": 10
   },
   "0x0a372da4a053652f70ded7d6e0d19330": {
     "hash": "0x0a372da4a053652f70ded7d6e0d19330",
