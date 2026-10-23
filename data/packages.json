@@ -1,4 +1,53 @@
 {
+  "0xa81e161008ecc2f297c0a3065cb9b188": {
+    "hash": "0xa81e161008ecc2f297c0a3065cb9b188",
+    "files": {
+      "LICENSE": 1074,
+      "main.bend": 3887,
+      "src/lazy.bend": 301,
+      "src/lex.bend": 13531,
+      "src/parse.bend": 7943,
+      "src/print.bend": 4991,
+      "src/pull.bend": 50076,
+      "src/value.bend": 13377
+    },
+    "name": "emerging-ezjson",
+    "version": "1.2.0.0",
+    "desc": "ezjson: JSON for Bend 2, with a parser, a printer and a pull cursor",
+    "ts": 1792731679104,
+    "dependents": 0
+  },
+  "0xa4d47e5f0f6044ac1a983d1b051fa47a": {
+    "hash": "0xa4d47e5f0f6044ac1a983d1b051fa47a",
+    "files": {
+      "LICENSE": 1074,
+      "main.bend": 9088,
+      "src/auth.bend": 560,
+      "src/b64.bend": 2564,
+      "src/body.bend": 1482,
+      "src/cache.bend": 5277,
+      "src/client.bend": 6563,
+      "src/cookie.bend": 17153,
+      "src/cors.bend": 10591,
+      "src/effs/wire.c": 19710,
+      "src/effs/wire.js": 13890,
+      "src/form.bend": 8020,
+      "src/html.bend": 1819,
+      "src/http.bend": 41713,
+      "src/pct.bend": 3133,
+      "src/redirect.bend": 9979,
+      "src/server.bend": 11953,
+      "src/step.bend": 1650,
+      "src/url.bend": 5374,
+      "src/wire.bend": 3591,
+      "src/wirespec.bend": 10056
+    },
+    "name": "emerging-ezhttp",
+    "version": "0.14.0.0",
+    "desc": "ezhttp: HTTP/1.1 client and server for Bend 2, with auth, cookie and CORS helpers.",
+    "ts": 1792731522349,
+    "dependents": 0
+  },
   "0xd9eedaedd82ad7ac346aadcc1f92c7fb": {
     "hash": "0xd9eedaedd82ad7ac346aadcc1f92c7fb",
     "files": {
