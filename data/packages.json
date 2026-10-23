@@ -1,4 +1,405 @@
 {
+  "0x85f96738e2e5df65cc133af1d12bd747": {
+    "hash": "0x85f96738e2e5df65cc133af1d12bd747",
+    "files": {
+      "runner.bend": 66518
+    },
+    "name": "bend-kit-runner",
+    "version": "0.9.0.0",
+    "desc": "Durable job runner: a journaled scheduler queue, bounded by a resources pool, with retry and a breaker per target. Source: https://github.com/paymog/bend-kit/tree/main/runner",
+    "ts": 1792782488774,
+    "dependents": 0
+  },
+  "0x1bc703ea4a56a6a52e1e55a730d0f693": {
+    "hash": "0x1bc703ea4a56a6a52e1e55a730d0f693",
+    "files": {
+      "admission.bend": 13286,
+      "completion.bend": 1805,
+      "http.bend": 269833
+    },
+    "name": "bend-kit-http",
+    "version": "0.36.1.0",
+    "desc": "HTTP/1.1 and HTTP/2 client, with an HTTP/1.1 server. Source: https://github.com/paymog/bend-kit/tree/main/http",
+    "ts": 1792782310164,
+    "dependents": 0
+  },
+  "0x89ee5caa98a5bc518a443a0b698cdac3": {
+    "hash": "0x89ee5caa98a5bc518a443a0b698cdac3",
+    "files": {
+      "admission.bend": 13286,
+      "completion.bend": 1805,
+      "http.bend": 268749
+    },
+    "name": "bend-kit-http",
+    "version": "0.36.0.1",
+    "desc": "HTTP/1.1 and HTTP/2 client, with an HTTP/1.1 server. Source: https://github.com/paymog/bend-kit/tree/main/http",
+    "ts": 1792781721433,
+    "dependents": 0
+  },
+  "0x0929b94b20c41e41522475b356a77634": {
+    "hash": "0x0929b94b20c41e41522475b356a77634",
+    "files": {
+      "codec.bend": 26237,
+      "postgres.bend": 26901,
+      "scram.bend": 11012
+    },
+    "name": "bend-kit-postgres",
+    "version": "0.2.0.1",
+    "desc": "Postgres client: protocol 3.0 over TCP or TLS, SCRAM-SHA-256, prepared queries, and a pool. Source: https://github.com/paymog/bend-kit/tree/main/postgres",
+    "ts": 1792781553230,
+    "dependents": 0
+  },
+  "0x4090998f71ed7b363f9b8db8f108e9b6": {
+    "hash": "0x4090998f71ed7b363f9b8db8f108e9b6",
+    "files": {
+      "hairpin.bend": 24572
+    },
+    "name": "bend-kit-hairpin",
+    "version": "0.11.0.0",
+    "desc": "Hairpin: an HTTP client with a base URL, default headers, a pool, cookies, mTLS, redirects, and proven retries. Source: https://github.com/paymog/bend-kit/tree/main/hairpin",
+    "ts": 1792781470899,
+    "dependents": 0
+  },
+  "0x3bc30dd7588bcfd43c5515b83f981c27": {
+    "hash": "0x3bc30dd7588bcfd43c5515b83f981c27",
+    "files": {
+      "redis.bend": 36956
+    },
+    "name": "bend-kit-redis",
+    "version": "0.2.0.1",
+    "desc": "Redis and Valkey client: RESP3 over TCP or TLS, with pipelining and a pool. Source: https://github.com/paymog/bend-kit/tree/main/redis",
+    "ts": 1792781306927,
+    "dependents": 0
+  },
+  "0xd3a8227bb088fbb88eaf453ee7cd660a": {
+    "hash": "0xd3a8227bb088fbb88eaf453ee7cd660a",
+    "files": {
+      "websocket.bend": 47502
+    },
+    "name": "bend-kit-websocket",
+    "version": "0.3.0.1",
+    "desc": "RFC 6455 WebSocket client: opening handshake, frames over packed Bytes, and messages over Wire. Source: https://github.com/paymog/bend-kit/tree/main/websocket",
+    "ts": 1792780576867,
+    "dependents": 0
+  },
+  "0xe6fabfab2664455db7f9fe3e8a545b77": {
+    "hash": "0xe6fabfab2664455db7f9fe3e8a545b77",
+    "files": {
+      "stream.bend": 7065
+    },
+    "name": "bend-kit-stream",
+    "version": "0.2.0.1",
+    "desc": "Bounded packed-byte transfers between files and TCP/TLS sockets.",
+    "ts": 1792780492683,
+    "dependents": 0
+  },
+  "0x05a09f98d96d56a0c035bd422b4c5cdd": {
+    "hash": "0x05a09f98d96d56a0c035bd422b4c5cdd",
+    "files": {
+      "dns.bend": 22752,
+      "effs/dns.c": 2758,
+      "effs/dns.js": 2699
+    },
+    "name": "bend-kit-dns",
+    "version": "0.6.0.3",
+    "desc": "DNS codec and host lookup. Source: https://github.com/paymog/bend-kit/tree/main/dns",
+    "ts": 1792780442184,
+    "dependents": 4
+  },
+  "0xd485ef60af155080904f7d8f1e47cfe8": {
+    "hash": "0xd485ef60af155080904f7d8f1e47cfe8",
+    "files": {
+      "effs/wire.c": 34252,
+      "effs/wire.js": 21291,
+      "wire.bend": 5670
+    },
+    "name": "bend-kit-wire",
+    "version": "0.4.6.2",
+    "desc": "Byte-exact TCP, UDP, and TLS sockets. Source: https://github.com/paymog/bend-kit/tree/main/wire",
+    "ts": 1792780062749,
+    "dependents": 7
+  },
+  "0xc44d63498d00973a6a41e91a42b58416": {
+    "hash": "0xc44d63498d00973a6a41e91a42b58416",
+    "files": {
+      "LICENSE": 11389,
+      "main.bend": 1096,
+      "src/b64.bend": 2303,
+      "src/code.bend": 3656,
+      "src/envelope.bend": 4950,
+      "src/error.bend": 13707,
+      "src/metadata.bend": 2593,
+      "src/pb.bend": 27849,
+      "src/pbjson.bend": 30210,
+      "src/protocol.bend": 19407,
+      "src/transport/client.bend": 15570,
+      "src/transport/rpc.bend": 12873,
+      "src/transport/server.bend": 14395
+    },
+    "name": "bendonnect-rpc",
+    "version": "0.1.0.0",
+    "desc": "Bendonnect: the Connect RPC protocol (https://connectrpc.com/docs/protocol/) for Bend 2.",
+    "ts": 1792777202294,
+    "dependents": 0
+  },
+  "0xedb2120a04a47dc18c3a756ec7c62750": {
+    "hash": "0xedb2120a04a47dc18c3a756ec7c62750",
+    "files": {
+      "LICENSE": 1074,
+      "main.bend": 15988,
+      "src/auth.bend": 560,
+      "src/b64.bend": 2564,
+      "src/body.bend": 2053,
+      "src/cache.bend": 5277,
+      "src/client.bend": 8020,
+      "src/cookie.bend": 17153,
+      "src/cors.bend": 10591,
+      "src/echo.bend": 4753,
+      "src/entities.bend": 66700,
+      "src/form.bend": 11752,
+      "src/html.bend": 1819,
+      "src/http.bend": 59333,
+      "src/packed.bend": 8319,
+      "src/pct.bend": 3133,
+      "src/qs.bend": 12996,
+      "src/redirect.bend": 9979,
+      "src/server.bend": 22331,
+      "src/step.bend": 4227,
+      "src/unescape.bend": 10968,
+      "src/url.bend": 5374,
+      "src/wire.bend": 12077,
+      "src/wirespec.bend": 13229
+    },
+    "name": "emerging-ezhttp",
+    "version": "0.21.0.0",
+    "desc": "ezhttp: HTTP/1.1 client and server for Bend 2, with auth, cookie and CORS helpers.",
+    "ts": 1792776945681,
+    "dependents": 0
+  },
+  "0x5a44d8a54be79db966199d0fa91fe8e6": {
+    "hash": "0x5a44d8a54be79db966199d0fa91fe8e6",
+    "files": {
+      "LICENSE": 1074,
+      "main.bend": 10566,
+      "src/args.bend": 1913,
+      "src/check.bend": 10233,
+      "src/cli.bend": 74309
+    },
+    "name": "shake",
+    "version": "0.7.0.0",
+    "desc": "shake: a proven command-line argument parser for Bend 2, with subcommands and help.",
+    "ts": 1792775533746,
+    "dependents": 0
+  },
+  "0x64bbf235e9a99d31fff160a5d739d76f": {
+    "hash": "0x64bbf235e9a99d31fff160a5d739d76f",
+    "files": {
+      "migrate.bend": 22946
+    },
+    "name": "bend-kit-migrate",
+    "version": "0.2.0.0",
+    "desc": "Versioned subscription records: validated JSON decode, proved migrations, and encode. Source: https://github.com/paymog/bend-kit/tree/main/migrate",
+    "ts": 1792775079132,
+    "dependents": 0
+  },
+  "0xdc8b9e3a3b68c4b632d5e290f8608324": {
+    "hash": "0xdc8b9e3a3b68c4b632d5e290f8608324",
+    "files": {
+      "LICENSE": 1074,
+      "main.bend": 15754,
+      "src/auth.bend": 560,
+      "src/b64.bend": 2564,
+      "src/body.bend": 2053,
+      "src/cache.bend": 5277,
+      "src/client.bend": 7799,
+      "src/cookie.bend": 17153,
+      "src/cors.bend": 10591,
+      "src/echo.bend": 4753,
+      "src/entities.bend": 66700,
+      "src/form.bend": 11752,
+      "src/html.bend": 1819,
+      "src/http.bend": 54172,
+      "src/pct.bend": 3133,
+      "src/qs.bend": 12996,
+      "src/redirect.bend": 9979,
+      "src/server.bend": 22331,
+      "src/step.bend": 4227,
+      "src/unescape.bend": 10968,
+      "src/url.bend": 5374,
+      "src/wire.bend": 10419,
+      "src/wirespec.bend": 12888
+    },
+    "name": "emerging-ezhttp",
+    "version": "0.20.0.0",
+    "desc": "ezhttp: HTTP/1.1 client and server for Bend 2, with auth, cookie and CORS helpers.",
+    "ts": 1792774997600,
+    "dependents": 0
+  },
+  "0x309d32ca05d5f636f2fa8ceda3071bc1": {
+    "hash": "0x309d32ca05d5f636f2fa8ceda3071bc1",
+    "files": {
+      "crdt.bend": 5795
+    },
+    "name": "bend-kit-crdt",
+    "version": "0.1.0.0",
+    "desc": "Replicated data types: a grow-only counter with a proved merge. Source: https://github.com/paymog/bend-kit/tree/main/crdt",
+    "ts": 1792774204148,
+    "dependents": 0
+  },
+  "0x60f672946f1b37cf58e2c05154bec295": {
+    "hash": "0x60f672946f1b37cf58e2c05154bec295",
+    "files": {
+      "LICENSE": 1074,
+      "main.bend": 13794,
+      "src/auth.bend": 560,
+      "src/b64.bend": 2564,
+      "src/body.bend": 2053,
+      "src/cache.bend": 5277,
+      "src/client.bend": 7799,
+      "src/cookie.bend": 17153,
+      "src/cors.bend": 10591,
+      "src/echo.bend": 4753,
+      "src/entities.bend": 66700,
+      "src/form.bend": 11752,
+      "src/html.bend": 1819,
+      "src/http.bend": 51996,
+      "src/pct.bend": 3133,
+      "src/qs.bend": 12996,
+      "src/redirect.bend": 9979,
+      "src/server.bend": 13050,
+      "src/step.bend": 2129,
+      "src/unescape.bend": 10968,
+      "src/url.bend": 5374,
+      "src/wire.bend": 10419,
+      "src/wirespec.bend": 12888
+    },
+    "name": "emerging-ezhttp",
+    "version": "0.19.0.0",
+    "desc": "ezhttp: HTTP/1.1 client and server for Bend 2, with auth, cookie and CORS helpers.",
+    "ts": 1792773733949,
+    "dependents": 0
+  },
+  "0x5ec377f85ba0d099c65e72579a481a8e": {
+    "hash": "0x5ec377f85ba0d099c65e72579a481a8e",
+    "files": {
+      "migrate.bend": 12573
+    },
+    "name": "bend-kit-migrate",
+    "version": "0.1.0.0",
+    "desc": "Versioned subscription records: validated JSON decode, proved migrations, and encode. Source: https://github.com/paymog/bend-kit/tree/main/migrate",
+    "ts": 1792773525497,
+    "dependents": 0
+  },
+  "0x835485f417d4c052139893274f69e1d9": {
+    "hash": "0x835485f417d4c052139893274f69e1d9",
+    "files": {
+      "runner.bend": 59482
+    },
+    "name": "bend-kit-runner",
+    "version": "0.8.1.0",
+    "desc": "Durable job runner: a journaled scheduler queue, bounded by a resources pool, with retry and a breaker per target. Source: https://github.com/paymog/bend-kit/tree/main/runner",
+    "ts": 1792772855589,
+    "dependents": 0
+  },
+  "0x9aad1f0de4523b34b9bfb69ebb80e11a": {
+    "hash": "0x9aad1f0de4523b34b9bfb69ebb80e11a",
+    "files": {
+      "LICENSE": 1074,
+      "main.bend": 13467,
+      "src/auth.bend": 560,
+      "src/b64.bend": 2564,
+      "src/body.bend": 1482,
+      "src/cache.bend": 5277,
+      "src/client.bend": 6841,
+      "src/cookie.bend": 17153,
+      "src/cors.bend": 10591,
+      "src/echo.bend": 4753,
+      "src/entities.bend": 66700,
+      "src/form.bend": 8020,
+      "src/html.bend": 1819,
+      "src/http.bend": 51611,
+      "src/pct.bend": 3133,
+      "src/qs.bend": 12272,
+      "src/redirect.bend": 9979,
+      "src/server.bend": 11953,
+      "src/step.bend": 1650,
+      "src/unescape.bend": 10968,
+      "src/url.bend": 5374,
+      "src/wire.bend": 12248,
+      "src/wirespec.bend": 15294
+    },
+    "name": "emerging-ezhttp",
+    "version": "0.18.0.0",
+    "desc": "ezhttp: HTTP/1.1 client and server for Bend 2, with auth, cookie and CORS helpers.",
+    "ts": 1792772297660,
+    "dependents": 0
+  },
+  "0xea73a86e2118529cadd597fb3727979b": {
+    "hash": "0xea73a86e2118529cadd597fb3727979b",
+    "files": {
+      "LICENSE": 1072,
+      "main.bend": 6384
+    },
+    "name": "mlbend-pipeline",
+    "version": "0.1.0.0",
+    "desc": "mlbend-pipeline: fit on the training rows, transform both sides.",
+    "ts": 1792770356169,
+    "dependents": 0
+  },
+  "0xd81dbae31742e38f426cc4b4700c9e51": {
+    "hash": "0xd81dbae31742e38f426cc4b4700c9e51",
+    "files": {
+      "LICENSE": 1102,
+      "main.bend": 3633
+    },
+    "name": "bendtorch-load",
+    "version": "1.0.1.0",
+    "desc": "Temporary loading-only exception: bend-ml-binary-read is foreign C/JavaScript. No file with laws imports this module.",
+    "ts": 1792768922043,
+    "dependents": 0
+  },
+  "0x357d99c3e9fc95428e11c1d5f106e0a4": {
+    "hash": "0x357d99c3e9fc95428e11c1d5f106e0a4",
+    "files": {
+      "LICENSE": 1102,
+      "main.bend": 75199
+    },
+    "name": "bendtorch-gpu",
+    "version": "1.0.1.0",
+    "desc": "BendTorch's layers with their work on the GPU (bend-ml-tensor-gpu): the same layers, types and bits as",
+    "ts": 1792768919062,
+    "dependents": 0
+  },
+  "0xb91744a472860b4a9d4321aff37d6994": {
+    "hash": "0xb91744a472860b4a9d4321aff37d6994",
+    "files": {
+      "LICENSE": 1102,
+      "main.bend": 15421
+    },
+    "name": "bendtorch-fast",
+    "version": "1.0.1.0",
+    "desc": "BendTorch's layers over bend-ml-tensor-fork: the same layers, types and bits as torch/main.bend's, faster where the",
+    "ts": 1792768914398,
+    "dependents": 0
+  },
+  "0xfc8448b10655d3efdb72c022131382f2": {
+    "hash": "0xfc8448b10655d3efdb72c022131382f2",
+    "files": {
+      "LAWS.bend": 12329,
+      "LICENSE": 1102,
+      "PROOF.bend": 67386,
+      "dtype.bend": 27642,
+      "main.bend": 153516,
+      "package.bend": 434,
+      "spec.bend": 6681,
+      "tensor.bend": 29887
+    },
+    "name": "bendtorch",
+    "version": "1.0.1.0",
+    "desc": "The entry to publish: `bend package.bend --publish <name>@<version>` sends this file and everything it imports, so",
+    "ts": 1792768901132,
+    "dependents": 3
+  },
   "0xeb25eff332574f4f1d48668b83cdda30": {
     "hash": "0xeb25eff332574f4f1d48668b83cdda30",
     "files": {
@@ -1426,7 +1827,7 @@
     "version": "0.2.0.0",
     "desc": "Retry policy: a shared attempt budget, an operation deadline, bounded backoff, and a circuit breaker.",
     "ts": 1792597674611,
-    "dependents": 5
+    "dependents": 8
   },
   "0x805aa9d73de5385dd9f66c3249152265": {
     "hash": "0x805aa9d73de5385dd9f66c3249152265",
@@ -2936,7 +3337,7 @@
     "version": "0.36.0.0",
     "desc": "HTTP/1.1 and HTTP/2 client, with an HTTP/1.1 server. Source: https://github.com/paymog/bend-kit/tree/main/http",
     "ts": 1792372999589,
-    "dependents": 17
+    "dependents": 19
   },
   "0x01311e71c862efd59bf9884b77a5a867": {
     "hash": "0x01311e71c862efd59bf9884b77a5a867",
@@ -2959,7 +3360,7 @@
     "version": "0.1.2.1",
     "desc": "bend-ml-tensor-gpu: tensor-array's products on the GPU, with tensor-array's bits.",
     "ts": 1792364521971,
-    "dependents": 1
+    "dependents": 2
   },
   "0xb9e60d53a545944cea5862de7643d281": {
     "hash": "0xb9e60d53a545944cea5862de7643d281",
@@ -2983,7 +3384,7 @@
     "version": "0.1.2.0",
     "desc": "bend-ml-tensor-fork: bend-ml-tensor-array's products, with the parallel blocks sharing their operands; and par1..par4,",
     "ts": 1792358382208,
-    "dependents": 1
+    "dependents": 2
   },
   "0x0f6479f09ada7ae614e64e31e8f5a730": {
     "hash": "0x0f6479f09ada7ae614e64e31e8f5a730",
@@ -2995,7 +3396,7 @@
     "version": "0.1.14.0",
     "desc": "bend-ml-tensor-array: tensors over a flat Array<F32>, with the shape in the type.",
     "ts": 1792358363340,
-    "dependents": 10
+    "dependents": 13
   },
   "0x4cb3232f7d188b565aa061ff4a63f466": {
     "hash": "0x4cb3232f7d188b565aa061ff4a63f466",
@@ -3124,7 +3525,7 @@
     "version": "0.3.0.0",
     "desc": "Pure deadline queues and bounded fixed-rate/fixed-delay recurrence over exact clock ticks.",
     "ts": 1792350818716,
-    "dependents": 6
+    "dependents": 8
   },
   "0x040b6c79c72da50288552227f006b061": {
     "hash": "0x040b6c79c72da50288552227f006b061",
@@ -3135,7 +3536,7 @@
     "version": "0.6.1.1",
     "desc": "JSON values, parsed and encoded as RFC 8259. Source: https://github.com/paymog/bend-kit/tree/main/json",
     "ts": 1792350008619,
-    "dependents": 23
+    "dependents": 29
   },
   "0x45ef2efe873a6c667f11706c0d2c8c7e": {
     "hash": "0x45ef2efe873a6c667f11706c0d2c8c7e",
@@ -3892,7 +4293,7 @@
     "version": "0.1.0.0",
     "desc": "bend-ml-binary-read: little-endian F32 numbers from a file, read straight into an Array<F32>.",
     "ts": 1792151685238,
-    "dependents": 1
+    "dependents": 2
   },
   "0xbb78793a12728b7aa5a6f9756c65086a": {
     "hash": "0xbb78793a12728b7aa5a6f9756c65086a",
@@ -4103,7 +4504,7 @@
     "version": "0.1.3.0",
     "desc": "Generic collections: maps, a vector, a deque and a priority queue. Source: https://github.com/paymog/bend-kit/tree/main/collections",
     "ts": 1791911657849,
-    "dependents": 13
+    "dependents": 15
   },
   "0x7a4f6479e786b51d0ee5c2f915fe0a00": {
     "hash": "0x7a4f6479e786b51d0ee5c2f915fe0a00",
@@ -4320,7 +4721,7 @@
     "version": "0.3.0.0",
     "desc": "DEFLATE, gzip, and zlib encoding and decoding (RFC 1951, 1952, 1950) over byte strings, plus gzip, zstd, and brotli through the C libraries. Source: https://github.com/paymog/bend-kit/tree/main/zlib",
     "ts": 1791836709730,
-    "dependents": 5
+    "dependents": 7
   },
   "0xfa8b1ffd075ee48f371a87df77a7fadb": {
     "hash": "0xfa8b1ffd075ee48f371a87df77a7fadb",
@@ -4344,7 +4745,7 @@
     "version": "0.2.0.0",
     "desc": "Append-only journal: checksummed frames, fsync'd appends, and crash recovery of the committed prefix. Source: https://github.com/paymog/bend-kit/tree/main/journal",
     "ts": 1791836527022,
-    "dependents": 7
+    "dependents": 9
   },
   "0xfd5835adf423bce2b49e1ed92b0a030e": {
     "hash": "0xfd5835adf423bce2b49e1ed92b0a030e",
@@ -4392,7 +4793,7 @@
     "version": "0.2.0.0",
     "desc": "Clocks, Duration and Instant, Gregorian dates, RFC 3339 and HTTP-date text, and TZif time zones. Source: https://github.com/paymog/bend-kit/tree/main/time",
     "ts": 1791835564784,
-    "dependents": 41
+    "dependents": 46
   },
   "0xe19ca060a437acd0d1970a44d51ba18e": {
     "hash": "0xe19ca060a437acd0d1970a44d51ba18e",
@@ -4438,7 +4839,7 @@
     "version": "0.3.0.0",
     "desc": "RFC 9113 HTTP/2 client and frames, with RFC 7541 HPACK over packed Bytes.",
     "ts": 1791835514737,
-    "dependents": 4
+    "dependents": 6
   },
   "0x3979161cdac065f4d7fc0e807196e138": {
     "hash": "0x3979161cdac065f4d7fc0e807196e138",
@@ -4460,7 +4861,7 @@
     "version": "0.2.0.0",
     "desc": "CBOR (RFC 8949) values encoded and decoded over Bytes. Source: https://github.com/paymog/bend-kit/tree/main/cbor",
     "ts": 1791835471594,
-    "dependents": 0
+    "dependents": 1
   },
   "0x0468714c0982fd44530e6d9c4e7b5ec4": {
     "hash": "0x0468714c0982fd44530e6d9c4e7b5ec4",
@@ -4471,7 +4872,7 @@
     "version": "0.4.0.0",
     "desc": "UTF-8 encoding and decoding between text and Bytes. Source: https://github.com/paymog/bend-kit/tree/main/encoding",
     "ts": 1791835468694,
-    "dependents": 25
+    "dependents": 29
   },
   "0xb7ebb22f935b2eea9628935547ea026e": {
     "hash": "0xb7ebb22f935b2eea9628935547ea026e",
@@ -4497,7 +4898,7 @@
     "version": "0.2.0.0",
     "desc": "POSIX paths plus directory and metadata effects. Source: https://github.com/paymog/bend-kit/tree/main/files",
     "ts": 1791835462091,
-    "dependents": 6
+    "dependents": 9
   },
   "0x1ab394b06520ad11584bde1d8d187794": {
     "hash": "0x1ab394b06520ad11584bde1d8d187794",
@@ -5166,7 +5567,7 @@
     "version": "0.2.0.0",
     "desc": "Parallel map and reduce over lists and arrays, a worker pool, select over channels, and timeouts.",
     "ts": 1791573863162,
-    "dependents": 5
+    "dependents": 7
   },
   "0x6eaf476c39756d18630510c519770168": {
     "hash": "0x6eaf476c39756d18630510c519770168",
@@ -5202,7 +5603,7 @@
     "version": "0.6.0.2",
     "desc": "DNS codec and host lookup. Source: https://github.com/paymog/bend-kit/tree/main/dns",
     "ts": 1791573096469,
-    "dependents": 9
+    "dependents": 13
   },
   "0x37dffd823fd9cfaa0f8d0b8861238158": {
     "hash": "0x37dffd823fd9cfaa0f8d0b8861238158",
@@ -5345,7 +5746,7 @@
     "version": "0.2.2.1",
     "desc": "Hashes, HMAC, HKDF, RSA and ECDSA signatures, and secure random bytes through OpenSSL 3 libcrypto. Source: https://github.com/paymog/bend-kit/tree/main/crypto",
     "ts": 1791572003688,
-    "dependents": 37
+    "dependents": 39
   },
   "0x7843fdc3c5ff57acbb79e7e7c945fec9": {
     "hash": "0x7843fdc3c5ff57acbb79e7e7c945fec9",
@@ -5412,7 +5813,7 @@
     "version": "0.4.6.1",
     "desc": "Byte-exact TCP, UDP, and TLS sockets. Source: https://github.com/paymog/bend-kit/tree/main/wire",
     "ts": 1791571961430,
-    "dependents": 14
+    "dependents": 18
   },
   "0x32bd867a107b63c50365cf1c4612ace5": {
     "hash": "0x32bd867a107b63c50365cf1c4612ace5",
@@ -5510,7 +5911,7 @@
     "version": "0.1.0.0",
     "desc": "Bounded capacity pools with affine reservations: reserve, release, split, and combine.",
     "ts": 1791511862755,
-    "dependents": 21
+    "dependents": 25
   },
   "0xeaee3c88886bfae971db9dcf3cde0759": {
     "hash": "0xeaee3c88886bfae971db9dcf3cde0759",
@@ -5668,7 +6069,7 @@
     "version": "0.1.0.0",
     "desc": "Pure bounded protobuf wire codec over Bytes. https://github.com/paymog/bend-kit/tree/main/protobuf",
     "ts": 1791395903135,
-    "dependents": 0
+    "dependents": 1
   },
   "0x737bc789819508f0aebd4ad15d19e26f": {
     "hash": "0x737bc789819508f0aebd4ad15d19e26f",
@@ -6390,7 +6791,7 @@
     "version": "0.1.1.0",
     "desc": "bend-ml-nat-lemmas: Nat and List lemmas, proved, that Bend's Base does not have.",
     "ts": 1791095984744,
-    "dependents": 2
+    "dependents": 3
   },
   "0xbce52aed55d81f3c75dfd6518c9bcbdd": {
     "hash": "0xbce52aed55d81f3c75dfd6518c9bcbdd",
@@ -8415,7 +8816,7 @@
     "version": "0.3.2.0",
     "desc": "Byte buffers packed four bytes to a U32, with bounds-checked access. Source: https://github.com/paymog/bend-kit/tree/main/bytes",
     "ts": 1790737289169,
-    "dependents": 84
+    "dependents": 101
   },
   "0x1165a11c4b59570a35a777cf76f3a6f4": {
     "hash": "0x1165a11c4b59570a35a777cf76f3a6f4",
@@ -10051,7 +10452,7 @@
     "version": "0.4.1.0",
     "desc": "URL parsing, resolution, and percent-encoding (RFC 3986). Source: https://github.com/paymog/bend-kit/tree/main/url",
     "ts": 1790526635864,
-    "dependents": 80
+    "dependents": 84
   },
   "0xa3dc0f6e3963608e4608a1017272cf4f": {
     "hash": "0xa3dc0f6e3963608e4608a1017272cf4f",
@@ -10348,7 +10749,7 @@
     "version": "0.2.0.0",
     "desc": "Fixed-width integers U8, U16, U64, I32 and I64: wrapping, checked and saturating arithmetic, and text in radix 2 to 36.",
     "ts": 1790516996356,
-    "dependents": 58
+    "dependents": 60
   },
   "0xea2956cd4e05ac318643319cb7fb3c29": {
     "hash": "0xea2956cd4e05ac318643319cb7fb3c29",
