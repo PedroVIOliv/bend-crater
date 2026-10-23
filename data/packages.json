@@ -1,4 +1,610 @@
 {
+  "0xeb25eff332574f4f1d48668b83cdda30": {
+    "hash": "0xeb25eff332574f4f1d48668b83cdda30",
+    "files": {
+      "LAWS.bend": 4950,
+      "LICENSE": 1098,
+      "PROOF.bend": 2046,
+      "asn1.bend": 19014,
+      "bits.bend": 5183,
+      "build.bend": 3565,
+      "check.bend": 20283,
+      "conform.bend": 3245,
+      "encode.bend": 3655,
+      "error.bend": 2144,
+      "length.bend": 2705,
+      "node.bend": 1744,
+      "number.bend": 4472,
+      "oidval.bend": 5006,
+      "package.bend": 974,
+      "prim.bend": 13703,
+      "proof_byte.bend": 143968,
+      "proof_canon.bend": 55014,
+      "proof_enc.bend": 29233,
+      "proof_head.bend": 22229,
+      "proof_list.bend": 8272,
+      "proof_nat.bend": 13221,
+      "proof_num.bend": 20959,
+      "proof_oid.bend": 24014,
+      "proof_u32.bend": 3913,
+      "proof_within.bend": 40546,
+      "rules.bend": 4558,
+      "schema.bend": 16659,
+      "string.bend": 12285,
+      "tag.bend": 5201,
+      "time.bend": 16755
+    },
+    "name": null,
+    "version": null,
+    "desc": "bend-osdev-asn1: every file of the package, so that bend --publish sends",
+    "ts": 1792767499311,
+    "dependents": 0
+  },
+  "0x7fac88c9586171e58e205ceb355ebac1": {
+    "hash": "0x7fac88c9586171e58e205ceb355ebac1",
+    "files": {
+      "LAWS.bend": 10895,
+      "LICENSE": 1098,
+      "PROOF.bend": 33219,
+      "aead.bend": 1564,
+      "aegis128.bend": 12309,
+      "aesround.bend": 6519,
+      "authenc.bend": 7339,
+      "check.bend": 17564,
+      "echainiv.bend": 5187,
+      "essiv.bend": 6344,
+      "ivcipher.bend": 3190,
+      "package.bend": 452,
+      "seqiv.bend": 4841
+    },
+    "name": "bend-osdev-aead",
+    "version": "0.1.0.0",
+    "desc": "bend-osdev-aead: every file of the package, so that bend --publish sends",
+    "ts": 1792767474817,
+    "dependents": 0
+  },
+  "0x01313a4f070f7ffd2bd276fcd2143eda": {
+    "hash": "0x01313a4f070f7ffd2bd276fcd2143eda",
+    "files": {
+      "LAWS.bend": 80501,
+      "LICENSE": 1098,
+      "PROOF.bend": 192464,
+      "aead.bend": 2606,
+      "block.bend": 3376,
+      "check.bend": 55974,
+      "crypto.bend": 2171,
+      "cts.bend": 5837,
+      "hash.bend": 2238,
+      "hkdf.bend": 3071,
+      "hmac.bend": 3358,
+      "inst_aes.bend": 1457,
+      "inst_ccm.bend": 1297,
+      "inst_cm.bend": 3423,
+      "inst_cmac.bend": 1124,
+      "inst_crc.bend": 1946,
+      "inst_kbkdf.bend": 1229,
+      "inst_lc.bend": 1646,
+      "inst_michael.bend": 1082,
+      "inst_pbkdf2.bend": 1399,
+      "inst_rc4.bend": 1422,
+      "inst_sha2.bend": 1947,
+      "inst_sha3.bend": 1518,
+      "kbkdf.bend": 7666,
+      "kdf.bend": 1240,
+      "kex.bend": 2363,
+      "lrw.bend": 7644,
+      "mac.bend": 1820,
+      "modes.bend": 12528,
+      "octets.bend": 2845,
+      "package.bend": 1121,
+      "pbkdf2.bend": 5388,
+      "pcbc.bend": 4470,
+      "sign.bend": 2515,
+      "stream.bend": 4680,
+      "vmac.bend": 19577,
+      "xcbc.bend": 5126
+    },
+    "name": "bend-osdev-crypto",
+    "version": "0.1.0.0",
+    "desc": "bend-osdev-crypto: every file of the package, so that bend --publish sends",
+    "ts": 1792767456216,
+    "dependents": 1
+  },
+  "0x7d16ec09f99b830428c8e2852af315f6": {
+    "hash": "0x7d16ec09f99b830428c8e2852af315f6",
+    "files": {
+      "LAWS.bend": 16596,
+      "LICENSE": 1098,
+      "PROOF.bend": 477904,
+      "aria.bend": 325253,
+      "blowfish.bend": 21420,
+      "camellia.bend": 14848,
+      "cast5.bend": 35950,
+      "cast6.bend": 6940,
+      "check.bend": 24311,
+      "des.bend": 13661,
+      "fcrypt.bend": 8885,
+      "legacy_ciphers.bend": 11578,
+      "modes64.bend": 7806,
+      "package.bend": 676,
+      "rc4.bend": 6950,
+      "serpent.bend": 12677,
+      "sm4.bend": 5963,
+      "tdes.bend": 2581,
+      "tea.bend": 6216,
+      "twofish.bend": 14246,
+      "xtea.bend": 2819
+    },
+    "name": "bend-osdev-legacy-ciphers",
+    "version": "0.1.0.0",
+    "desc": "bend-osdev-legacy-ciphers: every file of the package, so that bend --publish sends",
+    "ts": 1792767366533,
+    "dependents": 1
+  },
+  "0xf4b936e0e6b2608080d2f02bb3ce9abe": {
+    "hash": "0xf4b936e0e6b2608080d2f02bb3ce9abe",
+    "files": {
+      "LAWS.bend": 10398,
+      "LICENSE": 1098,
+      "PROOF.bend": 237240,
+      "aes.bend": 11127,
+      "aes_modes.bend": 3709,
+      "cbc.bend": 7512,
+      "ccm.bend": 13648,
+      "check.bend": 17635,
+      "cipher_modes.bend": 10175,
+      "cmac.bend": 3956,
+      "package.bend": 449,
+      "pkcs7.bend": 3158,
+      "xts.bend": 13718
+    },
+    "name": "bend-osdev-cipher-modes",
+    "version": "0.1.0.0",
+    "desc": "bend-osdev-cipher-modes: every file of the package, so that bend --publish sends",
+    "ts": 1792767352763,
+    "dependents": 3
+  },
+  "0x4490025e819484fce79cfe7c28a0963b": {
+    "hash": "0x4490025e819484fce79cfe7c28a0963b",
+    "files": {
+      "LICENSE": 1069,
+      "main.bend": 729,
+      "src/add/hub.bend": 16277,
+      "src/add/plan.bend": 27258,
+      "src/add/run.bend": 3300,
+      "src/add/world.bend": 5956,
+      "src/doctor/plan.bend": 35535,
+      "src/doctor/run.bend": 5439,
+      "src/doctor/world.bend": 4934,
+      "src/ez/clock.bend": 1324,
+      "src/ez/cmd.bend": 7165,
+      "src/ez/ends.bend": 3385,
+      "src/ez/gate.bend": 877,
+      "src/ez/key.bend": 2288,
+      "src/ez/line.bend": 8879,
+      "src/ez/main.bend": 4457,
+      "src/ez/named.bend": 9647,
+      "src/ez/prove.bend": 6359,
+      "src/ez/quiet.bend": 3709,
+      "src/ez/sorted.bend": 1480,
+      "src/ez/start.bend": 3893,
+      "src/ez/target.bend": 13471,
+      "src/ez/test.bend": 5314,
+      "src/ez/timer.bend": 2002,
+      "src/fetch/plan.bend": 29888,
+      "src/fetch/run.bend": 4900,
+      "src/fetch/world.bend": 4600,
+      "src/git/exec.bend": 6377,
+      "src/git/git.bend": 23741,
+      "src/hub/get.bend": 2205,
+      "src/hub/hub.bend": 2097,
+      "src/init/plan.bend": 11173,
+      "src/init/run.bend": 970,
+      "src/io/file.bend": 4307,
+      "src/ledger/ignore.bend": 13647,
+      "src/ledger/manifest.bend": 15399,
+      "src/ledger/render.bend": 8490,
+      "src/ledger/upgrade.bend": 7459,
+      "src/lock/lock.bend": 26481,
+      "src/lock/plan.bend": 47829,
+      "src/lock/run.bend": 26953,
+      "src/lock/up.bend": 46419,
+      "src/lock/world.bend": 21615,
+      "src/pkg/path.bend": 6889,
+      "src/pkg/pkg.bend": 49298,
+      "src/pub/blurb.bend": 4152,
+      "src/pub/plan.bend": 43766,
+      "src/pub/run.bend": 4669,
+      "src/pub/world.bend": 3644,
+      "src/remove/plan.bend": 7157,
+      "src/remove/run.bend": 716,
+      "src/run/bend.bend": 1322,
+      "src/sha/dump.bend": 4069,
+      "src/sha/nar.bend": 14543,
+      "src/share/args.bend": 5463,
+      "src/share/cap.bend": 3676,
+      "src/share/env.bend": 2019,
+      "src/share/exec.bend": 995,
+      "src/share/pass.bend": 993,
+      "src/share/pass.c": 1763,
+      "src/share/pass.js": 595,
+      "src/share/pin.bend": 2032,
+      "src/share/say.bend": 7829,
+      "src/share/sha.bend": 5355,
+      "src/share/spin.bend": 2718,
+      "src/toml/toml.bend": 11466,
+      "src/tool/plan.bend": 42590,
+      "src/tool/run.bend": 13174,
+      "src/tool/world.bend": 8029
+    },
+    "name": "ezx",
+    "version": "1.8.0.0",
+    "desc": "ezx: ez, the package manager for Bend 2.",
+    "ts": 1792765700367,
+    "dependents": 0
+  },
+  "0x2c3360c0ff9d38b16f7c5d3da25532d7": {
+    "hash": "0x2c3360c0ff9d38b16f7c5d3da25532d7",
+    "files": {
+      "LICENSE": 1074,
+      "main.bend": 11939,
+      "src/auth.bend": 560,
+      "src/b64.bend": 2564,
+      "src/body.bend": 1482,
+      "src/cache.bend": 5277,
+      "src/client.bend": 6757,
+      "src/cookie.bend": 17153,
+      "src/cors.bend": 10591,
+      "src/echo.bend": 4753,
+      "src/effs/wire.c": 24673,
+      "src/effs/wire.js": 16892,
+      "src/entities.bend": 66700,
+      "src/form.bend": 8020,
+      "src/html.bend": 1819,
+      "src/http.bend": 51611,
+      "src/pct.bend": 3133,
+      "src/qs.bend": 12272,
+      "src/redirect.bend": 9979,
+      "src/server.bend": 11953,
+      "src/step.bend": 1650,
+      "src/unescape.bend": 10968,
+      "src/url.bend": 5374,
+      "src/wire.bend": 3581,
+      "src/wirespec.bend": 11327
+    },
+    "name": "emerging-ezhttp",
+    "version": "0.17.0.0",
+    "desc": "ezhttp: HTTP/1.1 client and server for Bend 2, with auth, cookie and CORS helpers.",
+    "ts": 1792765590076,
+    "dependents": 0
+  },
+  "0x35f17b35555be5fc1e2ec2480b52b92a": {
+    "hash": "0x35f17b35555be5fc1e2ec2480b52b92a",
+    "files": {
+      "LICENSE": 1074,
+      "main.bend": 1951,
+      "src/args.bend": 6679,
+      "src/build_rev.bend": 140,
+      "src/check.bend": 4034,
+      "src/codes.bend": 3508,
+      "src/config.bend": 10020,
+      "src/finding.bend": 1120,
+      "src/lazy/lazy.bend": 1608,
+      "src/lint.bend": 4161,
+      "src/lint/plan.bend": 19158,
+      "src/lint/world.bend": 3837,
+      "src/lsp/checker/answer.bend": 2300,
+      "src/lsp/checker/argv.bend": 1655,
+      "src/lsp/checker/bend.bend": 2705,
+      "src/lsp/checker/exec.c": 5932,
+      "src/lsp/checker/exec.js": 723,
+      "src/lsp/checker/names.bend": 2404,
+      "src/lsp/docs.bend": 1742,
+      "src/lsp/enc.bend": 6228,
+      "src/lsp/files/disk.bend": 2755,
+      "src/lsp/files/service.bend": 1208,
+      "src/lsp/frame.bend": 9374,
+      "src/lsp/nav.bend": 15204,
+      "src/lsp/path.bend": 902,
+      "src/lsp/proto.bend": 12391,
+      "src/lsp/report.bend": 6594,
+      "src/lsp/run.bend": 526,
+      "src/lsp/semantic.bend": 14231,
+      "src/lsp/server.bend": 21361,
+      "src/lsp/transport/fd.c": 430,
+      "src/lsp/transport/fd.js": 151,
+      "src/lsp/transport/service.bend": 750,
+      "src/lsp/transport/stdio.bend": 3434,
+      "src/noqa.bend": 8181,
+      "src/paths.bend": 1337,
+      "src/rchars.bend": 567,
+      "src/rules.bend": 5227,
+      "src/rules/calls.bend": 8520,
+      "src/rules/correctness/arms.bend": 5324,
+      "src/rules/correctness/chars.bend": 3051,
+      "src/rules/correctness/escape.bend": 4512,
+      "src/rules/correctness/foreign.bend": 3984,
+      "src/rules/correctness/hole.bend": 2393,
+      "src/rules/correctness/pick.bend": 5205,
+      "src/rules/correctness/put.bend": 2811,
+      "src/rules/correctness/setting.bend": 1800,
+      "src/rules/correctness/strings.bend": 4219,
+      "src/rules/correctness/twice.bend": 3888,
+      "src/rules/digest.bend": 14787,
+      "src/rules/imports.bend": 7803,
+      "src/rules/laws/closed.bend": 1790,
+      "src/rules/laws/law.bend": 7446,
+      "src/rules/laws/trace.bend": 16477,
+      "src/rules/laws/unsafe.bend": 5615,
+      "src/rules/pedantic/tail.bend": 3453,
+      "src/rules/style/doc.bend": 3798,
+      "src/rules/style/noqa.bend": 3908,
+      "src/rules/style/param.bend": 2450,
+      "src/rules/style/space.bend": 3106,
+      "src/rules/style/wrap.bend": 29557,
+      "src/rules/suspicious/concat.bend": 8948,
+      "src/rules/suspicious/eager.bend": 7685,
+      "src/rules/suspicious/fromrev.bend": 2357,
+      "src/rules/suspicious/fuel.bend": 8393,
+      "src/rules/suspicious/hoist.bend": 23397,
+      "src/rules/suspicious/index.bend": 3940,
+      "src/rules/suspicious/rewalk.bend": 30466,
+      "src/rules/suspicious/ring.bend": 11900,
+      "src/rules/suspicious/scan.bend": 13423,
+      "src/rules/suspicious/strict.bend": 5580,
+      "src/rules/suspicious/table.bend": 11443,
+      "src/rules/suspicious/thunk.bend": 7552,
+      "src/rules/suspicious/unit.bend": 8280,
+      "src/rules/suspicious/unused.bend": 8242,
+      "src/rules/tokens.bend": 2997,
+      "src/src.bend": 894,
+      "src/status.bend": 593,
+      "src/stop.bend": 781,
+      "src/syntax/bind.bend": 36245,
+      "src/syntax/lex.bend": 10373,
+      "src/syntax/outline.bend": 19961,
+      "src/syntax/tree.bend": 15422,
+      "src/syntax/word.bend": 5304,
+      "src/version.bend": 174,
+      "src/walk/cwd.c": 515,
+      "src/walk/cwd.js": 264,
+      "src/walk/dir.c": 1736,
+      "src/walk/dir.js": 609,
+      "src/walk/disk.bend": 2821
+    },
+    "name": "bolt",
+    "version": "1.18.0.0",
+    "desc": "bolt: a linter, checker and language server for Bend 2.",
+    "ts": 1792765415333,
+    "dependents": 0
+  },
+  "0x1bc4d92e7c1f4dd1a49d87ad449b730b": {
+    "hash": "0x1bc4d92e7c1f4dd1a49d87ad449b730b",
+    "files": {
+      "LICENSE": 1074,
+      "main.bend": 9315,
+      "src/auth.bend": 560,
+      "src/b64.bend": 2564,
+      "src/body.bend": 1482,
+      "src/cache.bend": 5277,
+      "src/client.bend": 6757,
+      "src/cookie.bend": 17153,
+      "src/cors.bend": 10591,
+      "src/effs/wire.c": 24673,
+      "src/effs/wire.js": 16892,
+      "src/form.bend": 8020,
+      "src/html.bend": 1819,
+      "src/http.bend": 51611,
+      "src/pct.bend": 3133,
+      "src/redirect.bend": 9979,
+      "src/server.bend": 11953,
+      "src/step.bend": 1650,
+      "src/url.bend": 5374,
+      "src/wire.bend": 3581,
+      "src/wirespec.bend": 11327
+    },
+    "name": "emerging-ezhttp",
+    "version": "0.16.0.0",
+    "desc": "ezhttp: HTTP/1.1 client and server for Bend 2, with auth, cookie and CORS helpers.",
+    "ts": 1792765229653,
+    "dependents": 0
+  },
+  "0x1f543f6efa42f1e63aa3ace2f0eddab7": {
+    "hash": "0x1f543f6efa42f1e63aa3ace2f0eddab7",
+    "files": {
+      "LICENSE": 1074,
+      "main.bend": 9088,
+      "src/auth.bend": 560,
+      "src/b64.bend": 2564,
+      "src/body.bend": 1482,
+      "src/cache.bend": 5277,
+      "src/client.bend": 6563,
+      "src/cookie.bend": 17153,
+      "src/cors.bend": 10591,
+      "src/effs/wire.c": 19710,
+      "src/effs/wire.js": 13890,
+      "src/form.bend": 8020,
+      "src/html.bend": 1819,
+      "src/http.bend": 49314,
+      "src/pct.bend": 3133,
+      "src/redirect.bend": 9979,
+      "src/server.bend": 11953,
+      "src/step.bend": 1650,
+      "src/url.bend": 5374,
+      "src/wire.bend": 3581,
+      "src/wirespec.bend": 11108
+    },
+    "name": "emerging-ezhttp",
+    "version": "0.15.0.0",
+    "desc": "ezhttp: HTTP/1.1 client and server for Bend 2, with auth, cookie and CORS helpers.",
+    "ts": 1792765049118,
+    "dependents": 0
+  },
+  "0xdab377b48b4edd8247427c10e2120805": {
+    "hash": "0xdab377b48b4edd8247427c10e2120805",
+    "files": {
+      "LICENSE": 1074,
+      "main.bend": 4322,
+      "src/fixed.bend": 8890,
+      "src/lazy.bend": 301,
+      "src/lex.bend": 13531,
+      "src/parse.bend": 7943,
+      "src/print.bend": 4991,
+      "src/pull.bend": 50076,
+      "src/value.bend": 13377
+    },
+    "name": "emerging-ezjson",
+    "version": "1.3.0.0",
+    "desc": "ezjson: JSON for Bend 2, with a parser, a printer and a pull cursor",
+    "ts": 1792764127445,
+    "dependents": 0
+  },
+  "0x4b10c00f8a6d14867fd1eceea3e8dfc2": {
+    "hash": "0x4b10c00f8a6d14867fd1eceea3e8dfc2",
+    "files": {
+      "helper1probe.bend": 25
+    },
+    "name": null,
+    "version": null,
+    "desc": "",
+    "ts": 1792759710597,
+    "dependents": 0
+  },
+  "0x3ba41c050ed77fea39afbb6cabb06e98": {
+    "hash": "0x3ba41c050ed77fea39afbb6cabb06e98",
+    "files": {
+      "p2909c.bend": 36
+    },
+    "name": null,
+    "version": null,
+    "desc": "intent 2909 probe C metadata keys",
+    "ts": 1792759642741,
+    "dependents": 0
+  },
+  "0x12f999ada320a7bea091744591457c0e": {
+    "hash": "0x12f999ada320a7bea091744591457c0e",
+    "files": {
+      "__proto__/pp.bend": 10,
+      "constructor/cc.bend": 10,
+      "p2909b.bend": 39,
+      "prototype/pr.bend": 10,
+      "toString.bend": 10
+    },
+    "name": null,
+    "version": null,
+    "desc": "pp 2909",
+    "ts": 1792759627826,
+    "dependents": 0
+  },
+  "0xd9ce20e8ecfc32a842f51a9b5fa1b1fc": {
+    "hash": "0xd9ce20e8ecfc32a842f51a9b5fa1b1fc",
+    "files": {
+      "p2909a.bend": 61
+    },
+    "name": null,
+    "version": null,
+    "desc": "intent 2909 probe A: top-level prototype payload; harmless",
+    "ts": 1792759620703,
+    "dependents": 0
+  },
+  "0x13679fe15eb8d9c2ba383ca1c28500e2": {
+    "hash": "0x13679fe15eb8d9c2ba383ca1c28500e2",
+    "files": {
+      "aaa.bend": 98,
+      "zzz.bend": 5
+    },
+    "name": null,
+    "version": null,
+    "desc": "x'||(SELECT group_concat(name) FROM sqlite_master)||'",
+    "ts": 1792758653110,
+    "dependents": 0
+  },
+  "0x8947fffee0049f5ad019cde59ee85f49": {
+    "hash": "0x8947fffee0049f5ad019cde59ee85f49",
+    "files": {
+      "a_miss.bend": 24,
+      "b_dotdot.bend": 40,
+      "c_absbend.bend": 29,
+      "d_abs.bend": 26,
+      "e_0xtrav.bend": 70,
+      "f_proc.bend": 31,
+      "g_relup.bend": 28
+    },
+    "name": null,
+    "version": null,
+    "desc": "",
+    "ts": 1792758578427,
+    "dependents": 0
+  },
+  "0x83672278b5d9f1e7dc3aea38c485282b": {
+    "hash": "0x83672278b5d9f1e7dc3aea38c485282b",
+    "files": {
+      "t0_ctl.bend": 42,
+      "t1_ntaut.bend": 44,
+      "t2_vtaut.bend": 53,
+      "t4_short.bend": 33,
+      "t5_upper.bend": 57,
+      "t6_fake.bend": 54,
+      "t7_long.bend": 81,
+      "t8_badpath.bend": 59,
+      "t9_badver.bend": 42
+    },
+    "name": null,
+    "version": null,
+    "desc": "",
+    "ts": 1792758540841,
+    "dependents": 0
+  },
+  "0x620817c98527a8266f3d358cbccd59ca": {
+    "hash": "0x620817c98527a8266f3d358cbccd59ca",
+    "files": {
+      "p2.bend": 140
+    },
+    "name": null,
+    "version": null,
+    "desc": "",
+    "ts": 1792758425918,
+    "dependents": 0
+  },
+  "0x126d2c113aee2b33720381d2f5938a4b": {
+    "hash": "0x126d2c113aee2b33720381d2f5938a4b",
+    "files": {
+      "p1.bend": 111,
+      "p1.js": 52,
+      "p1c.c": 44,
+      "p1sub/s.bend": 42
+    },
+    "name": null,
+    "version": null,
+    "desc": "",
+    "ts": 1792758386245,
+    "dependents": 0
+  },
+  "0x343159cc9db2af3283812fbc4e2b4667": {
+    "hash": "0x343159cc9db2af3283812fbc4e2b4667",
+    "files": {
+      "LICENSE": 12,
+      "probe2896.js": 34,
+      "sub/LICENSE": 12,
+      "sub/probe.bend": 17
+    },
+    "name": null,
+    "version": null,
+    "desc": "sub probe 2896",
+    "ts": 1792756595774,
+    "dependents": 0
+  },
+  "0x9eff48008b00051424f986458d3db328": {
+    "hash": "0x9eff48008b00051424f986458d3db328",
+    "files": {
+      "probe2896.bend": 31
+    },
+    "name": null,
+    "version": null,
+    "desc": "probe 2896 harmless; no code",
+    "ts": 1792756523751,
+    "dependents": 0
+  },
   "0xa81e161008ecc2f297c0a3065cb9b188": {
     "hash": "0xa81e161008ecc2f297c0a3065cb9b188",
     "files": {
@@ -15,7 +621,7 @@
     "version": "1.2.0.0",
     "desc": "ezjson: JSON for Bend 2, with a parser, a printer and a pull cursor",
     "ts": 1792731679104,
-    "dependents": 0
+    "dependents": 1
   },
   "0xa4d47e5f0f6044ac1a983d1b051fa47a": {
     "hash": "0xa4d47e5f0f6044ac1a983d1b051fa47a",
@@ -46,7 +652,7 @@
     "version": "0.14.0.0",
     "desc": "ezhttp: HTTP/1.1 client and server for Bend 2, with auth, cookie and CORS helpers.",
     "ts": 1792731522349,
-    "dependents": 0
+    "dependents": 1
   },
   "0xd9eedaedd82ad7ac346aadcc1f92c7fb": {
     "hash": "0xd9eedaedd82ad7ac346aadcc1f92c7fb",
@@ -418,7 +1024,7 @@
     "version": "0.9.0.0",
     "desc": "eztoml: TOML for Bend 2, a proven parser and renderer for TOML documents.",
     "ts": 1792727139034,
-    "dependents": 1
+    "dependents": 2
   },
   "0xa22bee008c725452ca25c990ed2e8867": {
     "hash": "0xa22bee008c725452ca25c990ed2e8867",
@@ -461,7 +1067,7 @@
     "version": "0.6.0.0",
     "desc": "shake: a proven command-line argument parser for Bend 2, with subcommands and help.",
     "ts": 1792726867616,
-    "dependents": 2
+    "dependents": 4
   },
   "0xead4c7939c9eaca8d47da53b4496b731": {
     "hash": "0xead4c7939c9eaca8d47da53b4496b731",
@@ -484,7 +1090,7 @@
     "version": "1.3.0.0",
     "desc": "snap: run programs from Bend 2 with argv as a list of strings, no shell.",
     "ts": 1792726826966,
-    "dependents": 2
+    "dependents": 3
   },
   "0xf0cabef12a69d5a23f62f89a75e1a7ba": {
     "hash": "0xf0cabef12a69d5a23f62f89a75e1a7ba",
@@ -2053,8 +2659,8 @@
       "proof_bsearch.bend": 15449,
       "proof_u32.bend": 28942
     },
-    "name": null,
-    "version": null,
+    "name": "bend-osdev-algo",
+    "version": "0.1.0.0",
     "desc": "bend-osdev-algo: every file of the package, so that bend --publish sends",
     "ts": 1792439267450,
     "dependents": 0
@@ -2096,7 +2702,7 @@
     "version": "0.1.0.0",
     "desc": "bend-osdev-hashes: every file of the package, so that bend --publish sends",
     "ts": 1792439253125,
-    "dependents": 0
+    "dependents": 1
   },
   "0xeaa58f996c50eb57673f63c368c1de92": {
     "hash": "0xeaa58f996c50eb57673f63c368c1de92",
@@ -2115,7 +2721,7 @@
     "version": "0.1.0.0",
     "desc": "bend-osdev-gf: every file of the package, so that bend --publish sends",
     "ts": 1792439220881,
-    "dependents": 0
+    "dependents": 1
   },
   "0x7a77d751f1a239b5a366af461ab7f041": {
     "hash": "0x7a77d751f1a239b5a366af461ab7f041",
@@ -2132,7 +2738,7 @@
     "version": "0.1.0.0",
     "desc": "bend-osdev-crc: every file of the package, so that bend --publish sends",
     "ts": 1792439122690,
-    "dependents": 0
+    "dependents": 1
   },
   "0x64fa56d727e0f10ecea03da203932306": {
     "hash": "0x64fa56d727e0f10ecea03da203932306",
@@ -2529,7 +3135,7 @@
     "version": "0.6.1.1",
     "desc": "JSON values, parsed and encoded as RFC 8259. Source: https://github.com/paymog/bend-kit/tree/main/json",
     "ts": 1792350008619,
-    "dependents": 21
+    "dependents": 23
   },
   "0x45ef2efe873a6c667f11706c0d2c8c7e": {
     "hash": "0x45ef2efe873a6c667f11706c0d2c8c7e",
@@ -2807,7 +3413,7 @@
     "version": "0.1.0.0",
     "desc": "bend-osdev-bytes: every file of the package, so that bend --publish sends",
     "ts": 1792329169262,
-    "dependents": 6
+    "dependents": 11
   },
   "0x44cf1401f78136bfc15c4c5be1cd20f0": {
     "hash": "0x44cf1401f78136bfc15c4c5be1cd20f0",
@@ -2823,7 +3429,7 @@
     "version": "0.1.0.0",
     "desc": "bend-osdev-word64: every file of the package, so that bend --publish sends",
     "ts": 1792329152194,
-    "dependents": 7
+    "dependents": 11
   },
   "0xb00297062e21c56b88008f0c5387c0a0": {
     "hash": "0xb00297062e21c56b88008f0c5387c0a0",
@@ -3786,7 +4392,7 @@
     "version": "0.2.0.0",
     "desc": "Clocks, Duration and Instant, Gregorian dates, RFC 3339 and HTTP-date text, and TZif time zones. Source: https://github.com/paymog/bend-kit/tree/main/time",
     "ts": 1791835564784,
-    "dependents": 40
+    "dependents": 41
   },
   "0xe19ca060a437acd0d1970a44d51ba18e": {
     "hash": "0xe19ca060a437acd0d1970a44d51ba18e",
@@ -6738,7 +7344,7 @@
     "version": "1.0.0.0",
     "desc": "",
     "ts": 1790755846782,
-    "dependents": 2
+    "dependents": 3
   },
   "0xa2f9d6ef8c474468bf1de15ebe70c512": {
     "hash": "0xa2f9d6ef8c474468bf1de15ebe70c512",
@@ -7739,7 +8345,7 @@
     "version": "1.0.0.0",
     "desc": "",
     "ts": 1790749366540,
-    "dependents": 0
+    "dependents": 1
   },
   "0x64aa7934c3659ee6a818595494b38921": {
     "hash": "0x64aa7934c3659ee6a818595494b38921",
@@ -8031,7 +8637,7 @@
     "version": null,
     "desc": "",
     "ts": 1790731044421,
-    "dependents": 4
+    "dependents": 5
   },
   "0x582b4b0fdf3dafdeecc8c3bfddc5e4db": {
     "hash": "0x582b4b0fdf3dafdeecc8c3bfddc5e4db",
@@ -9445,7 +10051,7 @@
     "version": "0.4.1.0",
     "desc": "URL parsing, resolution, and percent-encoding (RFC 3986). Source: https://github.com/paymog/bend-kit/tree/main/url",
     "ts": 1790526635864,
-    "dependents": 76
+    "dependents": 80
   },
   "0xa3dc0f6e3963608e4608a1017272cf4f": {
     "hash": "0xa3dc0f6e3963608e4608a1017272cf4f",
@@ -9742,7 +10348,7 @@
     "version": "0.2.0.0",
     "desc": "Fixed-width integers U8, U16, U64, I32 and I64: wrapping, checked and saturating arithmetic, and text in radix 2 to 36.",
     "ts": 1790516996356,
-    "dependents": 57
+    "dependents": 58
   },
   "0xea2956cd4e05ac318643319cb7fb3c29": {
     "hash": "0xea2956cd4e05ac318643319cb7fb3c29",
