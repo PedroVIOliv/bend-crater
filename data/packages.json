@@ -1,4 +1,49 @@
 {
+  "0xf69b5709595602b3833766a07c0f52f2": {
+    "hash": "0xf69b5709595602b3833766a07c0f52f2",
+    "files": {
+      "__proto__/pp.bend": 14,
+      "toString.bend": 11
+    },
+    "name": null,
+    "version": null,
+    "desc": "proto probe",
+    "ts": 1792805819344,
+    "dependents": 0
+  },
+  "0x79033ea0e16c66b295864bb15f33bdf1": {
+    "hash": "0x79033ea0e16c66b295864bb15f33bdf1",
+    "files": {
+      "hello.bend": 38
+    },
+    "name": null,
+    "version": null,
+    "desc": "",
+    "ts": 1792804655918,
+    "dependents": 0
+  },
+  "0x5b4664e58cd817ccdaf533e87356d041": {
+    "hash": "0x5b4664e58cd817ccdaf533e87356d041",
+    "files": {
+      "probe.js": 16
+    },
+    "name": null,
+    "version": null,
+    "desc": "",
+    "ts": 1792804554078,
+    "dependents": 0
+  },
+  "0xcb9902663d945544a844d2d3070a4e9f": {
+    "hash": "0xcb9902663d945544a844d2d3070a4e9f",
+    "files": {
+      "hello.bend": 17
+    },
+    "name": null,
+    "version": null,
+    "desc": "",
+    "ts": 1792804457443,
+    "dependents": 0
+  },
   "0x13c5100779ac0d3f227664502e7ad677": {
     "hash": "0x13c5100779ac0d3f227664502e7ad677",
     "files": {
