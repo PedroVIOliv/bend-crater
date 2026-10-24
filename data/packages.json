@@ -1,4 +1,19 @@
 {
+  "0xb6e6ecbad123cebebba6b71d5258ad0f": {
+    "hash": "0xb6e6ecbad123cebebba6b71d5258ad0f",
+    "files": {
+      "LICENSE": 35149,
+      "main.bend": 7925,
+      "src/diff.bend": 5871,
+      "src/law.bend": 10285,
+      "src/text.bend": 7380
+    },
+    "name": null,
+    "version": null,
+    "desc": "",
+    "ts": 1792831466023,
+    "dependents": 0
+  },
   "0xf69b5709595602b3833766a07c0f52f2": {
     "hash": "0xf69b5709595602b3833766a07c0f52f2",
     "files": {
