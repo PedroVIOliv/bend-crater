@@ -1,4 +1,16 @@
 {
+  "0x508fc33b44130576819939e645eba7da": {
+    "hash": "0x508fc33b44130576819939e645eba7da",
+    "files": {
+      "LICENSE": 1072,
+      "main.bend": 10723
+    },
+    "name": "mlbend-datasets",
+    "version": "0.1.5.0",
+    "desc": "mlbend-datasets: the datasets of scikit-learn, fetched from the hub.",
+    "ts": 1792851997102,
+    "dependents": 0
+  },
   "0xb6e6ecbad123cebebba6b71d5258ad0f": {
     "hash": "0xb6e6ecbad123cebebba6b71d5258ad0f",
     "files": {
@@ -2216,7 +2228,7 @@
     "version": "0.1.1.0",
     "desc": "mlbend-huggingface: a HuggingFace client for Bend 2.",
     "ts": 1792572116382,
-    "dependents": 3
+    "dependents": 4
   },
   "0x9afaa60ee4d17706cb14d6ec20d1d4ae": {
     "hash": "0x9afaa60ee4d17706cb14d6ec20d1d4ae",
