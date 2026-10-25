@@ -1,4 +1,70 @@
 {
+  "0x4922dce2dd59be0648ebd8f3643975ae": {
+    "hash": "0x4922dce2dd59be0648ebd8f3643975ae",
+    "files": {
+      "LICENSE": 1102,
+      "main.bend": 29277
+    },
+    "name": "bendtorch-load",
+    "version": "1.1.0.0",
+    "desc": "Temporary loading-only exception: bend-ml-binary-read is foreign C/JavaScript. No file with laws imports this module.",
+    "ts": 1792886546246,
+    "dependents": 0
+  },
+  "0xd450835bf87b8ebe49fc7baf18bdbc46": {
+    "hash": "0xd450835bf87b8ebe49fc7baf18bdbc46",
+    "files": {
+      "LICENSE": 1102,
+      "main.bend": 75336
+    },
+    "name": "bendtorch-gpu",
+    "version": "1.1.0.0",
+    "desc": "BendTorch's layers with their work on the GPU (bend-ml-tensor-gpu): the same layers, types and bits as",
+    "ts": 1792886541446,
+    "dependents": 0
+  },
+  "0x154ce8ea744f0491f3a42ae0881fc224": {
+    "hash": "0x154ce8ea744f0491f3a42ae0881fc224",
+    "files": {
+      "LICENSE": 1102,
+      "main.bend": 15558
+    },
+    "name": "bendtorch-fast",
+    "version": "1.1.0.0",
+    "desc": "BendTorch's layers over bend-ml-tensor-fork: the same layers, types and bits as torch/main.bend's, faster where the",
+    "ts": 1792886535975,
+    "dependents": 0
+  },
+  "0x88d35bdf07184f57aa5174c6f06ab791": {
+    "hash": "0x88d35bdf07184f57aa5174c6f06ab791",
+    "files": {
+      "LAWS.bend": 12329,
+      "LICENSE": 1102,
+      "PROOF.bend": 65525,
+      "dtype.bend": 27642,
+      "main.bend": 170678,
+      "package.bend": 434,
+      "spec.bend": 6681,
+      "tensor.bend": 29887
+    },
+    "name": "bendtorch",
+    "version": "1.1.0.0",
+    "desc": "The entry to publish: `bend package.bend --publish <name>@<version>` sends this file and everything it imports, so",
+    "ts": 1792886518911,
+    "dependents": 3
+  },
+  "0x09966385f3a8541fb22fd49450cdf477": {
+    "hash": "0x09966385f3a8541fb22fd49450cdf477",
+    "files": {
+      "LICENSE": 1102,
+      "main.bend": 9135
+    },
+    "name": "bend-ml-nat-lemmas",
+    "version": "0.1.2.0",
+    "desc": "bend-ml-nat-lemmas: Nat and List lemmas, proved, that Bend's Base does not have.",
+    "ts": 1792884639901,
+    "dependents": 1
+  },
   "0x5240900a1da5d0b346237e15fbea87a9": {
     "hash": "0x5240900a1da5d0b346237e15fbea87a9",
     "files": {
@@ -13,7 +79,7 @@
     "version": "0.2.0.0",
     "desc": "bend-ml-binary-read: little-endian F32 numbers from a file, read straight into an Array<F32>.",
     "ts": 1792880526566,
-    "dependents": 0
+    "dependents": 1
   },
   "0xa75de0623b4b308c27d8fdf1abe399cb": {
     "hash": "0xa75de0623b4b308c27d8fdf1abe399cb",
@@ -3884,7 +3950,7 @@
     "version": "0.1.2.1",
     "desc": "bend-ml-tensor-gpu: tensor-array's products on the GPU, with tensor-array's bits.",
     "ts": 1792364521971,
-    "dependents": 2
+    "dependents": 3
   },
   "0xb9e60d53a545944cea5862de7643d281": {
     "hash": "0xb9e60d53a545944cea5862de7643d281",
@@ -3908,7 +3974,7 @@
     "version": "0.1.2.0",
     "desc": "bend-ml-tensor-fork: bend-ml-tensor-array's products, with the parallel blocks sharing their operands; and par1..par4,",
     "ts": 1792358382208,
-    "dependents": 2
+    "dependents": 3
   },
   "0x0f6479f09ada7ae614e64e31e8f5a730": {
     "hash": "0x0f6479f09ada7ae614e64e31e8f5a730",
@@ -3920,7 +3986,7 @@
     "version": "0.1.14.0",
     "desc": "bend-ml-tensor-array: tensors over a flat Array<F32>, with the shape in the type.",
     "ts": 1792358363340,
-    "dependents": 13
+    "dependents": 16
   },
   "0x4cb3232f7d188b565aa061ff4a63f466": {
     "hash": "0x4cb3232f7d188b565aa061ff4a63f466",
