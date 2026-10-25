@@ -1,4 +1,317 @@
 {
+  "0x3d4f2512cce00e5099d03d9e1b3b9ae1": {
+    "hash": "0x3d4f2512cce00e5099d03d9e1b3b9ae1",
+    "files": {
+      "LICENSE": 11381,
+      "winref.bend": 1221,
+      "winref.c": 1024,
+      "winref.js": 361
+    },
+    "name": "bend-window-ref",
+    "version": "0.1.0.1",
+    "desc": "Export a Bend-owned window's X11 display name and resource ID without transferring ownership.",
+    "ts": 1792944970551,
+    "dependents": 0
+  },
+  "0x0b2d574934489d8cf85589b273567833": {
+    "hash": "0x0b2d574934489d8cf85589b273567833",
+    "files": {
+      "LICENSE": 1102,
+      "main.bend": 29277
+    },
+    "name": "bendtorch-load",
+    "version": "1.1.1.0",
+    "desc": "Temporary loading-only exception: bend-ml-binary-read is foreign C/JavaScript. No file with laws imports this module.",
+    "ts": 1792942754403,
+    "dependents": 0
+  },
+  "0x3c22148d676c2988827dae103c18f499": {
+    "hash": "0x3c22148d676c2988827dae103c18f499",
+    "files": {
+      "LICENSE": 1102,
+      "main.bend": 75336
+    },
+    "name": "bendtorch-gpu",
+    "version": "1.1.1.0",
+    "desc": "BendTorch's layers with their work on the GPU (bend-ml-tensor-gpu): the same layers, types and bits as",
+    "ts": 1792942750921,
+    "dependents": 0
+  },
+  "0x7185f5844710249c5ac77956f6514eb7": {
+    "hash": "0x7185f5844710249c5ac77956f6514eb7",
+    "files": {
+      "LICENSE": 1102,
+      "main.bend": 15558
+    },
+    "name": "bendtorch-fast",
+    "version": "1.1.1.0",
+    "desc": "BendTorch's layers over bend-ml-tensor-fork: the same layers, types and bits as torch/main.bend's, faster where the",
+    "ts": 1792942746856,
+    "dependents": 0
+  },
+  "0xe1214263ebd97956a02f4f3ea7544c84": {
+    "hash": "0xe1214263ebd97956a02f4f3ea7544c84",
+    "files": {
+      "LAWS.bend": 12329,
+      "LICENSE": 1102,
+      "PROOF.bend": 65525,
+      "dtype.bend": 27642,
+      "main.bend": 175108,
+      "package.bend": 434,
+      "spec.bend": 6681,
+      "tensor.bend": 29887
+    },
+    "name": "bendtorch",
+    "version": "1.1.1.0",
+    "desc": "The entry to publish: `bend package.bend --publish <name>@<version>` sends this file and everything it imports, so",
+    "ts": 1792942742133,
+    "dependents": 3
+  },
+  "0x493e83fed22415cb35e84da752fefdef": {
+    "hash": "0x493e83fed22415cb35e84da752fefdef",
+    "files": {
+      "LICENSE": 11381,
+      "capture.bend": 1289,
+      "capture.c": 5373,
+      "capture.js": 359
+    },
+    "name": "bend-window-capture",
+    "version": "0.1.0.1",
+    "desc": "Read a Bend-owned X11 window's client pixels into an affine RGB array.",
+    "ts": 1792942515875,
+    "dependents": 0
+  },
+  "0x5c26418ab13c9e565c5b1309d2f085a0": {
+    "hash": "0x5c26418ab13c9e565c5b1309d2f085a0",
+    "files": {
+      "LAWS.bend": 4959,
+      "LICENSE": 1098,
+      "PROOF.bend": 26933,
+      "check.bend": 4349,
+      "cipher_core.bend": 11403,
+      "modes64.bend": 7815,
+      "package.bend": 297
+    },
+    "name": null,
+    "version": null,
+    "desc": "bend-osdev-cipher-core: every file of the package, so that bend --publish sends",
+    "ts": 1792940273813,
+    "dependents": 0
+  },
+  "0x4ff94cd9a03eee1d38142effbcc617fb": {
+    "hash": "0x4ff94cd9a03eee1d38142effbcc617fb",
+    "files": {
+      "LAWS.bend": 1945,
+      "LAWS_padded.bend": 1183,
+      "LICENSE": 1098,
+      "PROOF.bend": 27529,
+      "PROOF_padded.bend": 7701,
+      "cbc.bend": 7556,
+      "check.bend": 5612,
+      "package.bend": 318
+    },
+    "name": "bend-osdev-cbc",
+    "version": "0.1.0.0",
+    "desc": "bend-osdev-cbc: every file of the package, so that bend --publish sends",
+    "ts": 1792940266122,
+    "dependents": 0
+  },
+  "0x17768ee6992327a9e94940296270eb23": {
+    "hash": "0x17768ee6992327a9e94940296270eb23",
+    "files": {
+      "LAWS.bend": 2530,
+      "LICENSE": 1098,
+      "PROOF.bend": 103606,
+      "check.bend": 3165,
+      "package.bend": 257,
+      "pkcs7.bend": 3182
+    },
+    "name": "bend-osdev-pkcs7",
+    "version": "0.1.0.0",
+    "desc": "bend-osdev-pkcs7: every file of the package, so that bend --publish sends",
+    "ts": 1792940258194,
+    "dependents": 1
+  },
+  "0xd84f91a0afea422022cbb4f397ca1abb": {
+    "hash": "0xd84f91a0afea422022cbb4f397ca1abb",
+    "files": {
+      "LAWS.bend": 1480,
+      "LICENSE": 1098,
+      "PROOF.bend": 285978,
+      "aes.bend": 9131,
+      "check.bend": 3149,
+      "package.bend": 253
+    },
+    "name": "bend-osdev-aes",
+    "version": "0.1.0.0",
+    "desc": "bend-osdev-aes: every file of the package, so that bend --publish sends",
+    "ts": 1792940237444,
+    "dependents": 0
+  },
+  "0x999adc34209a88c2495b3a5407a5ad25": {
+    "hash": "0x999adc34209a88c2495b3a5407a5ad25",
+    "files": {
+      "LAWS.bend": 7059,
+      "LICENSE": 1098,
+      "PROOF.bend": 68895,
+      "check.bend": 2512,
+      "mode_core.bend": 10737,
+      "package.bend": 265
+    },
+    "name": "bend-osdev-mode-core",
+    "version": "0.1.0.0",
+    "desc": "bend-osdev-mode-core: every file of the package, so that bend --publish sends",
+    "ts": 1792940046533,
+    "dependents": 3
+  },
+  "0x783d0fad62351acb750d929ab748bb90": {
+    "hash": "0x783d0fad62351acb750d929ab748bb90",
+    "files": {
+      "LAWS.bend": 11156,
+      "LICENSE": 1098,
+      "PROOF.bend": 321780,
+      "check.bend": 3015,
+      "gf.bend": 6040,
+      "gf128.bend": 6835,
+      "gfm.bend": 3715,
+      "package.bend": 394,
+      "proof_tab.bend": 18320,
+      "proof_tab_cases.bend": 163362,
+      "tables.bend": 4157
+    },
+    "name": "bend-osdev-gf",
+    "version": "0.1.1.0",
+    "desc": "bend-osdev-gf: every file of the package, so that bend --publish sends",
+    "ts": 1792940037753,
+    "dependents": 1
+  },
+  "0xf8d2948fe25df08ae8d37c3c80a363ba": {
+    "hash": "0xf8d2948fe25df08ae8d37c3c80a363ba",
+    "files": {
+      "LAWS.bend": 9055,
+      "LICENSE": 1098,
+      "PROOF.bend": 96625,
+      "array.bend": 2580,
+      "check.bend": 1361,
+      "package.bend": 257
+    },
+    "name": "bend-osdev-array",
+    "version": "0.1.0.1",
+    "desc": "bend-osdev-array: every file of the package, so that bend --publish sends",
+    "ts": 1792939889865,
+    "dependents": 1
+  },
+  "0x62173b4e9e82dde7465c7018262f0baa": {
+    "hash": "0x62173b4e9e82dde7465c7018262f0baa",
+    "files": {
+      "LAWS.bend": 9009,
+      "LAWS_tables.bend": 7401,
+      "LICENSE": 1098,
+      "PROOF.bend": 126417,
+      "PROOF_tables.bend": 111165,
+      "acpi.bend": 11002,
+      "aml.bend": 8914,
+      "aml_device.bend": 7063,
+      "aml_field.bend": 16672,
+      "aml_host.bend": 5514,
+      "aml_interp.bend": 114903,
+      "aml_name.bend": 12197,
+      "aml_ns.bend": 7599,
+      "aml_pkglength.bend": 7170,
+      "aml_resource.bend": 11606,
+      "aml_term.bend": 15061,
+      "aml_value.bend": 12200,
+      "bgrt.bend": 2094,
+      "check.bend": 13014,
+      "checksum.bend": 1472,
+      "dsdt.bend": 1764,
+      "entries.bend": 2908,
+      "error.bend": 2854,
+      "example.bend": 11760,
+      "facs.bend": 2428,
+      "fadt.bend": 13409,
+      "fields.bend": 1912,
+      "gas.bend": 2351,
+      "header.bend": 10160,
+      "hpet.bend": 2968,
+      "madt.bend": 12497,
+      "mcfg.bend": 4379,
+      "package.bend": 1192,
+      "registry.bend": 7432,
+      "rsdp.bend": 5954,
+      "rsdt.bend": 3819,
+      "show.bend": 10973,
+      "slit.bend": 2871,
+      "srat.bend": 7626
+    },
+    "name": "bend-osdev-acpi",
+    "version": "0.1.1.0",
+    "desc": "bend-osdev-acpi: every file of the package, so that bend --publish sends",
+    "ts": 1792939885104,
+    "dependents": 0
+  },
+  "0xe0217e1ab38629fddf738452c1f2a82e": {
+    "hash": "0xe0217e1ab38629fddf738452c1f2a82e",
+    "files": {
+      "LAWS.bend": 18689,
+      "LICENSE": 1098,
+      "PROOF.bend": 83430,
+      "bytes.bend": 19594,
+      "check.bend": 1808,
+      "package.bend": 257
+    },
+    "name": "bend-osdev-bytes",
+    "version": "0.1.1.0",
+    "desc": "bend-osdev-bytes: every file of the package, so that bend --publish sends",
+    "ts": 1792939871020,
+    "dependents": 7
+  },
+  "0xea9c6e6209a3ac3fb21596f70f09f650": {
+    "hash": "0xea9c6e6209a3ac3fb21596f70f09f650",
+    "files": {
+      "LAWS.bend": 6249,
+      "LAWS_bits.bend": 1577,
+      "LAWS_div.bend": 1000,
+      "LAWS_mul.bend": 1462,
+      "LAWS_text.bend": 459,
+      "LICENSE": 1098,
+      "PROOF.bend": 19557,
+      "PROOF_bits.bend": 41670,
+      "PROOF_div.bend": 162082,
+      "PROOF_mul.bend": 173012,
+      "PROOF_text.bend": 169373,
+      "check.bend": 1793,
+      "package.bend": 567,
+      "proof_shift.bend": 70819,
+      "proof_value.bend": 47045,
+      "word64.bend": 10799
+    },
+    "name": "bend-osdev-word64",
+    "version": "0.1.1.0",
+    "desc": "bend-osdev-word64: every file of the package, so that bend --publish sends",
+    "ts": 1792939862116,
+    "dependents": 4
+  },
+  "0xab9c812df432dacce3e8b343e9fd7ab7": {
+    "hash": "0xab9c812df432dacce3e8b343e9fd7ab7",
+    "files": {
+      "LAWS.bend": 20947,
+      "LAWS_div.bend": 1014,
+      "LAWS_order.bend": 3677,
+      "LICENSE": 1098,
+      "PROOF.bend": 304821,
+      "PROOF_div.bend": 8941,
+      "PROOF_order.bend": 18245,
+      "check.bend": 1064,
+      "package.bend": 375,
+      "u32.bend": 2163
+    },
+    "name": "bend-osdev-u32",
+    "version": "0.1.0.0",
+    "desc": "bend-osdev-u32: every file of the package, so that bend --publish sends",
+    "ts": 1792939856193,
+    "dependents": 7
+  },
   "0x6a4b8944ce74c49ba240bff44915995a": {
     "hash": "0x6a4b8944ce74c49ba240bff44915995a",
     "files": {
@@ -135,7 +448,7 @@
     "version": "0.1.2.0",
     "desc": "bend-ml-nat-lemmas: Nat and List lemmas, proved, that Bend's Base does not have.",
     "ts": 1792884639901,
-    "dependents": 1
+    "dependents": 2
   },
   "0x5240900a1da5d0b346237e15fbea87a9": {
     "hash": "0x5240900a1da5d0b346237e15fbea87a9",
@@ -151,7 +464,7 @@
     "version": "0.2.0.0",
     "desc": "bend-ml-binary-read: little-endian F32 numbers from a file, read straight into an Array<F32>.",
     "ts": 1792880526566,
-    "dependents": 1
+    "dependents": 2
   },
   "0xa75de0623b4b308c27d8fdf1abe399cb": {
     "hash": "0xa75de0623b4b308c27d8fdf1abe399cb",
@@ -4022,7 +4335,7 @@
     "version": "0.1.2.1",
     "desc": "bend-ml-tensor-gpu: tensor-array's products on the GPU, with tensor-array's bits.",
     "ts": 1792364521971,
-    "dependents": 3
+    "dependents": 4
   },
   "0xb9e60d53a545944cea5862de7643d281": {
     "hash": "0xb9e60d53a545944cea5862de7643d281",
@@ -4046,7 +4359,7 @@
     "version": "0.1.2.0",
     "desc": "bend-ml-tensor-fork: bend-ml-tensor-array's products, with the parallel blocks sharing their operands; and par1..par4,",
     "ts": 1792358382208,
-    "dependents": 3
+    "dependents": 4
   },
   "0x0f6479f09ada7ae614e64e31e8f5a730": {
     "hash": "0x0f6479f09ada7ae614e64e31e8f5a730",
@@ -4058,7 +4371,7 @@
     "version": "0.1.14.0",
     "desc": "bend-ml-tensor-array: tensors over a flat Array<F32>, with the shape in the type.",
     "ts": 1792358363340,
-    "dependents": 16
+    "dependents": 19
   },
   "0x4cb3232f7d188b565aa061ff4a63f466": {
     "hash": "0x4cb3232f7d188b565aa061ff4a63f466",
@@ -9408,7 +9721,7 @@
     "version": "1.0.0.0",
     "desc": "",
     "ts": 1790749366540,
-    "dependents": 1
+    "dependents": 2
   },
   "0x64aa7934c3659ee6a818595494b38921": {
     "hash": "0x64aa7934c3659ee6a818595494b38921",
