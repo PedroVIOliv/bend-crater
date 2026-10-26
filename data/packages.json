@@ -1,4 +1,28 @@
 {
+  "0xa51d4d9fa3661462984f336054bbc146": {
+    "hash": "0xa51d4d9fa3661462984f336054bbc146",
+    "files": {
+      "LICENSE": 1072,
+      "main.bend": 9467
+    },
+    "name": "mlbend-generative",
+    "version": "0.1.0.0",
+    "desc": "mlbend-generative: the generative skeleton, natively in Bend 2.",
+    "ts": 1793029999298,
+    "dependents": 0
+  },
+  "0x97687e0483c49ddb64fe1ee5f5244927": {
+    "hash": "0x97687e0483c49ddb64fe1ee5f5244927",
+    "files": {
+      "LICENSE": 1072,
+      "main.bend": 8381
+    },
+    "name": "mlbend-report",
+    "version": "0.1.0.0",
+    "desc": "mlbend-report: the confusion matrix and the per-class report, natively in Bend 2.",
+    "ts": 1793029981120,
+    "dependents": 0
+  },
   "0xda0a79228db9e23e2b16a2d1327feab5": {
     "hash": "0xda0a79228db9e23e2b16a2d1327feab5",
     "files": {
@@ -4356,7 +4380,7 @@
     "version": "0.1.0.0",
     "desc": "mlbend-metrics: the evaluation surface of machine learning, natively in Bend 2.",
     "ts": 1792572078837,
-    "dependents": 0
+    "dependents": 1
   },
   "0x8c96353d3ca49c6a162373dab83cd9f4": {
     "hash": "0x8c96353d3ca49c6a162373dab83cd9f4",
