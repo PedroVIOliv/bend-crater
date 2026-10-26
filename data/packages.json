@@ -1,4 +1,24 @@
 {
+  "0x7294c9a1db4be6346e88202032984e02": {
+    "hash": "0x7294c9a1db4be6346e88202032984e02",
+    "files": {
+      "LICENSE": 35149,
+      "all.bend": 668,
+      "common.bend": 13962,
+      "complexity/cognitive.bend": 4328,
+      "complexity/cyclomatic.bend": 3492,
+      "dead/def.bend": 6122,
+      "graph/fan_in.bend": 2389,
+      "graph/fan_out.bend": 2354,
+      "vendor/effects.js": 4313,
+      "vendor/lint.bend": 7058
+    },
+    "name": "bend-lint-pack",
+    "version": "0.1.1.0",
+    "desc": "bend-lint-rules: BendHub entry. Importing this file publishes all five rules and their helpers",
+    "ts": 1792971932559,
+    "dependents": 0
+  },
   "0xe4f42cd2ab82ae9f041f8a07d4b4eec8": {
     "hash": "0xe4f42cd2ab82ae9f041f8a07d4b4eec8",
     "files": {
@@ -1119,8 +1139,8 @@
       "src/law.bend": 10285,
       "src/text.bend": 7380
     },
-    "name": null,
-    "version": null,
+    "name": "bend-semver-checks",
+    "version": "0.1.0.0",
     "desc": "",
     "ts": 1792831466023,
     "dependents": 0
