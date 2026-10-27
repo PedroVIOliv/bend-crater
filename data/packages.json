@@ -1,4 +1,101 @@
 {
+  "0x581b7b5abb55b3363cb439c0fb72d761": {
+    "hash": "0x581b7b5abb55b3363cb439c0fb72d761",
+    "files": {
+      "LAWS.bend": 22094,
+      "LICENSE": 1069,
+      "PROOF.bend": 12274,
+      "board.bend": 4073,
+      "game.bend": 18679,
+      "proof_assist.bend": 17370,
+      "proof_base.bend": 18055,
+      "proof_cells.bend": 21212,
+      "proof_copy.bend": 10430,
+      "proof_display.bend": 16586,
+      "proof_flood.bend": 27785,
+      "proof_gen.bend": 49617,
+      "proof_grid.bend": 11823,
+      "proof_inv.bend": 39186,
+      "proof_laws.bend": 45167,
+      "proof_lists.bend": 20755,
+      "proof_solver.bend": 134042,
+      "proof_speed.bend": 25659,
+      "proof_sums.bend": 11625,
+      "proof_walk.bend": 6989,
+      "solver.bend": 17398,
+      "types.bend": 1602
+    },
+    "name": "minebender-game",
+    "version": "1.0.0.0",
+    "desc": "",
+    "ts": 1793132502098,
+    "dependents": 0
+  },
+  "0xa6af449466db11bf10f3a82bbeddb622": {
+    "hash": "0xa6af449466db11bf10f3a82bbeddb622",
+    "files": {
+      "LICENSE": 1102,
+      "main.bend": 29277
+    },
+    "name": "bendtorch-load",
+    "version": "1.2.0.0",
+    "desc": "Temporary loading-only exception: bend-ml-binary-read is foreign C/JavaScript. No file with laws imports this module.",
+    "ts": 1793131399928,
+    "dependents": 0
+  },
+  "0x2687dd9704f52182e1ea4e66472c6fcd": {
+    "hash": "0x2687dd9704f52182e1ea4e66472c6fcd",
+    "files": {
+      "LICENSE": 1102,
+      "main.bend": 76008
+    },
+    "name": "bendtorch-gpu",
+    "version": "1.2.0.0",
+    "desc": "BendTorch's layers with their work on the GPU (bend-ml-tensor-gpu): the same layers, types and bits as",
+    "ts": 1793131391264,
+    "dependents": 0
+  },
+  "0x89b3380e86f5a59734944cc2f327badb": {
+    "hash": "0x89b3380e86f5a59734944cc2f327badb",
+    "files": {
+      "LICENSE": 1102,
+      "main.bend": 20207
+    },
+    "name": "bendtorch-fast",
+    "version": "1.2.0.0",
+    "desc": "BendTorch's layers over bend-ml-tensor-fork: the same layers, types and bits as torch/main.bend's, faster where the",
+    "ts": 1793131386257,
+    "dependents": 0
+  },
+  "0xea477ac4399d6f3f46b9d25d99c1900c": {
+    "hash": "0xea477ac4399d6f3f46b9d25d99c1900c",
+    "files": {
+      "LAWS.bend": 15719,
+      "LICENSE": 1102,
+      "PROOF.bend": 67809,
+      "dtype.bend": 27642,
+      "main.bend": 175505,
+      "package.bend": 434,
+      "spec.bend": 8068,
+      "tensor.bend": 29887
+    },
+    "name": "bendtorch",
+    "version": "1.2.0.0",
+    "desc": "The entry to publish: `bend package.bend --publish <name>@<version>` sends this file and everything it imports, so",
+    "ts": 1793131374597,
+    "dependents": 3
+  },
+  "0xc59d21f627dae931ca66d2dd6b5027e9": {
+    "hash": "0xc59d21f627dae931ca66d2dd6b5027e9",
+    "files": {
+      "hash.bend": 15616
+    },
+    "name": "bend-kit-hash",
+    "version": "0.3.0.1",
+    "desc": "Non-cryptographic hashes over Bytes: FNV-1a, xxHash, SipHash-1-3, CRC-32, and Adler-32. Source: https://github.com/paymog/bend-kit/tree/main/hash",
+    "ts": 1793126775658,
+    "dependents": 0
+  },
   "0x6538b6a56d11b5a4d65ef7d8b18c1f9f": {
     "hash": "0x6538b6a56d11b5a4d65ef7d8b18c1f9f",
     "files": {
@@ -2651,7 +2748,7 @@
     "version": "0.1.2.0",
     "desc": "bend-ml-nat-lemmas: Nat and List lemmas, proved, that Bend's Base does not have.",
     "ts": 1792884639901,
-    "dependents": 2
+    "dependents": 3
   },
   "0x5240900a1da5d0b346237e15fbea87a9": {
     "hash": "0x5240900a1da5d0b346237e15fbea87a9",
@@ -2667,7 +2764,7 @@
     "version": "0.2.0.0",
     "desc": "bend-ml-binary-read: little-endian F32 numbers from a file, read straight into an Array<F32>.",
     "ts": 1792880526566,
-    "dependents": 2
+    "dependents": 3
   },
   "0xa75de0623b4b308c27d8fdf1abe399cb": {
     "hash": "0xa75de0623b4b308c27d8fdf1abe399cb",
@@ -2986,7 +3083,7 @@
     "version": "0.3.3.0",
     "desc": "Byte buffers packed four bytes to a U32, with bounds-checked access. Source: https://github.com/paymog/bend-kit/tree/main/bytes",
     "ts": 1792861333765,
-    "dependents": 34
+    "dependents": 35
   },
   "0xa1e169a6235d40fa5888b83468e4c857": {
     "hash": "0xa1e169a6235d40fa5888b83468e4c857",
@@ -6538,7 +6635,7 @@
     "version": "0.1.2.1",
     "desc": "bend-ml-tensor-gpu: tensor-array's products on the GPU, with tensor-array's bits.",
     "ts": 1792364521971,
-    "dependents": 4
+    "dependents": 5
   },
   "0xb9e60d53a545944cea5862de7643d281": {
     "hash": "0xb9e60d53a545944cea5862de7643d281",
@@ -6562,7 +6659,7 @@
     "version": "0.1.2.0",
     "desc": "bend-ml-tensor-fork: bend-ml-tensor-array's products, with the parallel blocks sharing their operands; and par1..par4,",
     "ts": 1792358382208,
-    "dependents": 4
+    "dependents": 5
   },
   "0x0f6479f09ada7ae614e64e31e8f5a730": {
     "hash": "0x0f6479f09ada7ae614e64e31e8f5a730",
@@ -6574,7 +6671,7 @@
     "version": "0.1.14.0",
     "desc": "bend-ml-tensor-array: tensors over a flat Array<F32>, with the shape in the type.",
     "ts": 1792358363340,
-    "dependents": 19
+    "dependents": 22
   },
   "0x4cb3232f7d188b565aa061ff4a63f466": {
     "hash": "0x4cb3232f7d188b565aa061ff4a63f466",
