@@ -1,4 +1,41 @@
 {
+  "0xa8e971a3ca0e87fbac9a0efbc1306f8d": {
+    "hash": "0xa8e971a3ca0e87fbac9a0efbc1306f8d",
+    "files": {
+      "LICENSE": 1103,
+      "language/decreasing_call.bend": 10730,
+      "language/forward_reference.bend": 4475,
+      "language/reused_binder.bend": 8020,
+      "language/unneeded_plus.bend": 6612,
+      "layout/canon_import_path.bend": 4079,
+      "layout/case.bend": 10500,
+      "layout/directive_order.bend": 5783,
+      "layout/format.bend": 64982,
+      "layout/imports.bend": 7773,
+      "lib/linter/directives.bend": 32950,
+      "lib/text/main.bend": 12594,
+      "no_unused/imports.bend": 1691,
+      "performance/append_in_loop.bend": 8162,
+      "performance/bang_after_fork.bend": 7269,
+      "performance/dead_accumulator.bend": 5419,
+      "performance/deep_call_in_fork.bend": 9419,
+      "performance/drop_in_bang.bend": 3019,
+      "performance/eager_branch.bend": 10898,
+      "performance/gpu_fit.bend": 12991,
+      "performance/list_index_loop.bend": 10466,
+      "performance/loop_invariant_call.bend": 10192,
+      "performance/missed_fork.bend": 17701,
+      "performance/repeated_call.bend": 10914,
+      "performance/template_value_field.bend": 6872,
+      "performance/unused_result.bend": 6635,
+      "rules.bend": 1112
+    },
+    "name": "bend-lint-rules",
+    "version": "0.2.2.0",
+    "desc": "",
+    "ts": 1793102309039,
+    "dependents": 0
+  },
   "0x856d414a32087762da315b6efc605eaa": {
     "hash": "0x856d414a32087762da315b6efc605eaa",
     "files": {
@@ -2154,10 +2191,10 @@
       "shared/tables.bend": 2186
     },
     "name": "bend-lint-api",
-    "version": "0.2.1.0",
+    "version": "0.2.2.0",
     "desc": "",
     "ts": 1792871475573,
-    "dependents": 2
+    "dependents": 3
   },
   "0xf3d145d639153c61b826e4f60d3c0dcd": {
     "hash": "0xf3d145d639153c61b826e4f60d3c0dcd",
@@ -2691,7 +2728,7 @@
       "src/wire.bend": 12077,
       "src/wirespec.bend": 13229
     },
-    "name": "emerging-ezhttp",
+    "name": "ezhttp",
     "version": "0.22.0.0",
     "desc": "ezhttp: HTTP/1.1 client and server for Bend 2, with auth, cookie and CORS helpers.",
     "ts": 1792776945681,
@@ -3375,7 +3412,7 @@
       "src/pull.bend": 50076,
       "src/value.bend": 13377
     },
-    "name": "emerging-ezjson",
+    "name": "ezjson",
     "version": "1.4.0.0",
     "desc": "ezjson: JSON for Bend 2, with a parser, a printer and a pull cursor",
     "ts": 1792764127445,
@@ -3539,7 +3576,7 @@
       "src/pull.bend": 50076,
       "src/value.bend": 13377
     },
-    "name": "emerging-ezjson",
+    "name": "ezjson",
     "version": "1.2.0.0",
     "desc": "ezjson: JSON for Bend 2, with a parser, a printer and a pull cursor",
     "ts": 1792731679104,
