@@ -1,4 +1,126 @@
 {
+  "0xa695057c6a3562ac094940eedd9649df": {
+    "hash": "0xa695057c6a3562ac094940eedd9649df",
+    "files": {
+      "LICENSE": 1100,
+      "svg.bend": 344916
+    },
+    "name": "gralha-svg-render",
+    "version": "0.1.0.1",
+    "desc": "SVG parsing, geometry, painting and rasterization. No foreign code.",
+    "ts": 1793048165460,
+    "dependents": 0
+  },
+  "0xfda746bab180ec022a2db21d512cc32c": {
+    "hash": "0xfda746bab180ec022a2db21d512cc32c",
+    "files": {
+      "LICENSE": 1100,
+      "font.bend": 39033
+    },
+    "name": "gralha-truetype",
+    "version": "0.1.0.1",
+    "desc": "Font book: glyph outlines, advances, kerning and metrics.",
+    "ts": 1793048158089,
+    "dependents": 1
+  },
+  "0x9fc02d2d396c1f8a4b0d87b5fba17c5f": {
+    "hash": "0x9fc02d2d396c1f8a4b0d87b5fba17c5f",
+    "files": {
+      "LICENSE": 1100,
+      "jpeg.bend": 46713
+    },
+    "name": "gralha-jpeg-decode",
+    "version": "0.1.0.1",
+    "desc": "JPEG decoder: baseline and progressive Huffman, subsampling, color transforms.",
+    "ts": 1793048153402,
+    "dependents": 1
+  },
+  "0x0991d016599aa987991ea598de6d2a81": {
+    "hash": "0x0991d016599aa987991ea598de6d2a81",
+    "files": {
+      "LICENSE": 1100,
+      "png.bend": 13063
+    },
+    "name": "gralha-png-decode",
+    "version": "0.1.0.1",
+    "desc": "PNG decoder: chunks, filters, interlacing, palettes and bit depths.",
+    "ts": 1793048150854,
+    "dependents": 1
+  },
+  "0xcb1037dffa3f9df9a6eb28d07cb17072": {
+    "hash": "0xcb1037dffa3f9df9a6eb28d07cb17072",
+    "files": {
+      "LICENSE": 1100,
+      "css.bend": 23391
+    },
+    "name": "gralha-css-style",
+    "version": "0.1.0.1",
+    "desc": "CSS: stylesheets, selectors, specificity, media queries and the cascade onto an XML tree.",
+    "ts": 1793048144883,
+    "dependents": 1
+  },
+  "0xe732782c490292c188a9095f67f89d02": {
+    "hash": "0xe732782c490292c188a9095f67f89d02",
+    "files": {
+      "LICENSE": 1100,
+      "cover.bend": 60942
+    },
+    "name": "gralha-coverage",
+    "version": "0.1.0.1",
+    "desc": "Analytic coverage: line lists in pixel space are scan-converted with a winding",
+    "ts": 1793048139921,
+    "dependents": 1
+  },
+  "0x2c63b99c875a43494881cedcbf2f440f": {
+    "hash": "0x2c63b99c875a43494881cedcbf2f440f",
+    "files": {
+      "LICENSE": 1100,
+      "image.bend": 2727
+    },
+    "name": "gralha-image",
+    "version": "0.1.0.1",
+    "desc": "Premultiplied colors and quadtree pixel buffers shared by the decoders and the renderer.",
+    "ts": 1793048136903,
+    "dependents": 3
+  },
+  "0xb55e70f19b053017c63b38dc937ac6e6": {
+    "hash": "0xb55e70f19b053017c63b38dc937ac6e6",
+    "files": {
+      "LICENSE": 1100,
+      "bytes.bend": 22593,
+      "effs/bytes_read.c": 1935,
+      "effs/bytes_read.js": 1038
+    },
+    "name": "gralha-bytes",
+    "version": "0.1.0.1",
+    "desc": "Bytes, bit streams, Huffman codes, DEFLATE/zlib, checksums, base64 and percent decoding.",
+    "ts": 1793048134812,
+    "dependents": 4
+  },
+  "0x083872843a8a55fa2adcfae9f7ed7d1e": {
+    "hash": "0x083872843a8a55fa2adcfae9f7ed7d1e",
+    "files": {
+      "LICENSE": 1100,
+      "xml.bend": 18125
+    },
+    "name": "gralha-xml-doc",
+    "version": "0.1.0.1",
+    "desc": "XML: tokens, element tree, entities, attributes and serialization.",
+    "ts": 1793048131546,
+    "dependents": 2
+  },
+  "0x2370002bb215388f2e71cae632c87c34": {
+    "hash": "0x2370002bb215388f2e71cae632c87c34",
+    "files": {
+      "LICENSE": 1100,
+      "scan.bend": 10864
+    },
+    "name": "gralha-text-scan",
+    "version": "0.1.0.1",
+    "desc": "Text scanning, number parsing (the SVG/CSS number grammar, units, hex) and",
+    "ts": 1793048097032,
+    "dependents": 9
+  },
   "0xa51d4d9fa3661462984f336054bbc146": {
     "hash": "0xa51d4d9fa3661462984f336054bbc146",
     "files": {
