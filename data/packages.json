@@ -1,4 +1,156 @@
 {
+  "0x598a1293fb2cca49a1f1ad2f1a06d1ef": {
+    "hash": "0x598a1293fb2cca49a1f1ad2f1a06d1ef",
+    "files": {
+      "archive.bend": 17182
+    },
+    "name": "bend-kit-archive",
+    "version": "0.5.0.2",
+    "desc": "ZIP archives read over Bytes: stored and DEFLATE entries, checked against their CRC-32 and sizes. Source: https://github.com/paymog/bend-kit/tree/main/archive",
+    "ts": 1793152218596,
+    "dependents": 0
+  },
+  "0x5c2aff493cbb85be4373637bf403b4f6": {
+    "hash": "0x5c2aff493cbb85be4373637bf403b4f6",
+    "files": {
+      "admission.bend": 13286,
+      "completion.bend": 1805,
+      "http.bend": 281240
+    },
+    "name": "bend-kit-http",
+    "version": "0.38.1.0",
+    "desc": "HTTP/1.1 and HTTP/2 client, with an HTTP/1.1 server. Source: https://github.com/paymog/bend-kit/tree/main/http",
+    "ts": 1793151875089,
+    "dependents": 0
+  },
+  "0xa3cff66158b5b1820363721823ad9877": {
+    "hash": "0xa3cff66158b5b1820363721823ad9877",
+    "files": {
+      "effs/zlib.c": 19659,
+      "effs/zlib.js": 14884,
+      "zlib.bend": 35409
+    },
+    "name": "bend-kit-zlib",
+    "version": "0.5.0.0",
+    "desc": "DEFLATE, gzip, and zlib encoding and decoding (RFC 1951, 1952, 1950) over Bytes, plus gzip, zstd, and brotli through the C libraries. Source: https://github.com/paymog/bend-kit/tree/main/zlib",
+    "ts": 1793151603559,
+    "dependents": 1
+  },
+  "0xef1fd5e854c3200ca063c9b6f8691de7": {
+    "hash": "0xef1fd5e854c3200ca063c9b6f8691de7",
+    "files": {
+      "runner.bend": 72438
+    },
+    "name": "bend-kit-runner",
+    "version": "0.12.0.0",
+    "desc": "Durable job runner: a journaled scheduler queue, bounded by a resources pool, with retry and a breaker per target. Source: https://github.com/paymog/bend-kit/tree/main/runner",
+    "ts": 1793151024133,
+    "dependents": 0
+  },
+  "0xddf158a45b677a352eef521b11c25f57": {
+    "hash": "0xddf158a45b677a352eef521b11c25f57",
+    "files": {
+      "LAWS.bend": 138,
+      "PROOF.bend": 107,
+      "queue.bend": 5565,
+      "queue_laws.bend": 8823,
+      "queue_proof.bend": 22294,
+      "recurrence.bend": 1831,
+      "recurrence_laws.bend": 3155,
+      "recurrence_proof.bend": 4321,
+      "scheduler.bend": 272
+    },
+    "name": "bend-kit-scheduler",
+    "version": "0.4.1.0",
+    "desc": "Pure deadline queues and bounded fixed-rate/fixed-delay recurrence over exact clock ticks.",
+    "ts": 1793150401549,
+    "dependents": 1
+  },
+  "0x20ad1e903f7e4d23c18051594e10a4f2": {
+    "hash": "0x20ad1e903f7e4d23c18051594e10a4f2",
+    "files": {
+      "effs/wire.c": 34796,
+      "effs/wire.js": 21623,
+      "wire.bend": 5915
+    },
+    "name": "bend-kit-wire",
+    "version": "0.4.7.0",
+    "desc": "Byte-exact TCP, UDP, and TLS sockets. Source: https://github.com/paymog/bend-kit/tree/main/wire",
+    "ts": 1793150006222,
+    "dependents": 1
+  },
+  "0xcf01954bfd429a5caf3bc264b85d149c": {
+    "hash": "0xcf01954bfd429a5caf3bc264b85d149c",
+    "files": {
+      "crypto.bend": 5992,
+      "effs/crypto.c": 33766,
+      "effs/crypto.js": 22739
+    },
+    "name": "bend-kit-crypto",
+    "version": "0.2.2.2",
+    "desc": "Digests, HMAC, HKDF, PBKDF2, scrypt, AEAD, and RSA and ECDSA signatures through OpenSSL 3 libcrypto, plus OS secure random bytes. Source: https://github.com/paymog/bend-kit/tree/main/crypto",
+    "ts": 1793149766450,
+    "dependents": 0
+  },
+  "0xa5b0f53eaf9c9d7c9694e326ca453a91": {
+    "hash": "0xa5b0f53eaf9c9d7c9694e326ca453a91",
+    "files": {
+      "bits.bend": 12774
+    },
+    "name": "bend-kit-bits",
+    "version": "0.1.0.0",
+    "desc": "Bit readers and writers over Bytes, LSB-first (DEFLATE) or MSB-first (JPEG), and canonical Huffman decode tables. Source: https://github.com/paymog/bend-kit/tree/main/bits",
+    "ts": 1793148785759,
+    "dependents": 1
+  },
+  "0x4607e4e3426b9d873fd4253dc81dd8b5": {
+    "hash": "0x4607e4e3426b9d873fd4253dc81dd8b5",
+    "files": {
+      "runner.bend": 72438
+    },
+    "name": "bend-kit-runner",
+    "version": "0.11.0.1",
+    "desc": "Durable job runner: a journaled scheduler queue, bounded by a resources pool, with retry and a breaker per target. Source: https://github.com/paymog/bend-kit/tree/main/runner",
+    "ts": 1793147543568,
+    "dependents": 0
+  },
+  "0xd3058c375b178593eab6a5a3a751f7ad": {
+    "hash": "0xd3058c375b178593eab6a5a3a751f7ad",
+    "files": {
+      "archive.bend": 17247
+    },
+    "name": "bend-kit-archive",
+    "version": "0.5.0.1",
+    "desc": "ZIP archives read over Bytes: stored and DEFLATE entries, checked against their CRC-32 and sizes. Source: https://github.com/paymog/bend-kit/tree/main/archive",
+    "ts": 1793147500422,
+    "dependents": 0
+  },
+  "0xe5d0a585cffc5fcbf26663e9a92c6b76": {
+    "hash": "0xe5d0a585cffc5fcbf26663e9a92c6b76",
+    "files": {
+      "effs/zlib.c": 19659,
+      "effs/zlib.js": 14884,
+      "zlib.bend": 38388
+    },
+    "name": "bend-kit-zlib",
+    "version": "0.4.0.1",
+    "desc": "DEFLATE, gzip, and zlib encoding and decoding (RFC 1951, 1952, 1950) over byte strings, plus gzip, zstd, and brotli through the C libraries. Source: https://github.com/paymog/bend-kit/tree/main/zlib",
+    "ts": 1793147095550,
+    "dependents": 1
+  },
+  "0x5ea9815b576b1e930ae6bea0244356b4": {
+    "hash": "0x5ea9815b576b1e930ae6bea0244356b4",
+    "files": {
+      "effs/journal.c": 5449,
+      "effs/journal.js": 2469,
+      "journal.bend": 19549
+    },
+    "name": "bend-kit-journal",
+    "version": "0.3.0.1",
+    "desc": "Append-only journal: checksummed frames, fsync'd appends, and crash recovery of the committed prefix. Source: https://github.com/paymog/bend-kit/tree/main/journal",
+    "ts": 1793146897013,
+    "dependents": 2
+  },
   "0x581b7b5abb55b3363cb439c0fb72d761": {
     "hash": "0x581b7b5abb55b3363cb439c0fb72d761",
     "files": {
@@ -94,7 +246,7 @@
     "version": "0.3.0.1",
     "desc": "Non-cryptographic hashes over Bytes: FNV-1a, xxHash, SipHash-1-3, CRC-32, and Adler-32. Source: https://github.com/paymog/bend-kit/tree/main/hash",
     "ts": 1793126775658,
-    "dependents": 0
+    "dependents": 5
   },
   "0x6538b6a56d11b5a4d65ef7d8b18c1f9f": {
     "hash": "0x6538b6a56d11b5a4d65ef7d8b18c1f9f",
@@ -398,7 +550,7 @@
     "version": "0.7.0.0",
     "desc": "DNS codec and host lookup. Source: https://github.com/paymog/bend-kit/tree/main/dns",
     "ts": 1793112820275,
-    "dependents": 3
+    "dependents": 4
   },
   "0xe3a38695c12f855a9b789f2ccc68c54d": {
     "hash": "0xe3a38695c12f855a9b789f2ccc68c54d",
@@ -411,7 +563,7 @@
     "version": "0.4.0.0",
     "desc": "DEFLATE, gzip, and zlib encoding and decoding (RFC 1951, 1952, 1950) over byte strings, plus gzip, zstd, and brotli through the C libraries. Source: https://github.com/paymog/bend-kit/tree/main/zlib",
     "ts": 1793112664478,
-    "dependents": 2
+    "dependents": 3
   },
   "0x509ae92f1a46e8598177a2eea991493f": {
     "hash": "0x509ae92f1a46e8598177a2eea991493f",
@@ -492,7 +644,7 @@
     "version": "0.4.0.0",
     "desc": "Pure deadline queues and bounded fixed-rate/fixed-delay recurrence over exact clock ticks.",
     "ts": 1793112545086,
-    "dependents": 1
+    "dependents": 2
   },
   "0xce226e215fd8376197a24b17bdc4cb2b": {
     "hash": "0xce226e215fd8376197a24b17bdc4cb2b",
@@ -516,7 +668,7 @@
     "version": "0.4.0.0",
     "desc": "RFC 9113 HTTP/2 client and frames, with RFC 7541 HPACK over packed Bytes.",
     "ts": 1793112019347,
-    "dependents": 1
+    "dependents": 2
   },
   "0x2e75a06e0acd57f098569f07516e8aae": {
     "hash": "0x2e75a06e0acd57f098569f07516e8aae",
@@ -536,7 +688,7 @@
     "version": "0.1.4.1",
     "desc": "Generic collections: maps, a vector, a deque and a priority queue. Source: https://github.com/paymog/bend-kit/tree/main/collections",
     "ts": 1793111988547,
-    "dependents": 4
+    "dependents": 7
   },
   "0x5a0c8a3aeaac23c8e192c48890b1d961": {
     "hash": "0x5a0c8a3aeaac23c8e192c48890b1d961",
@@ -560,7 +712,7 @@
     "version": "0.3.0.0",
     "desc": "Clocks, Duration and Instant, Gregorian dates, RFC 3339 and HTTP-date text, and TZif time zones. Source: https://github.com/paymog/bend-kit/tree/main/time",
     "ts": 1793111985027,
-    "dependents": 8
+    "dependents": 11
   },
   "0xb81a9224a089a51162673b096aa917db": {
     "hash": "0xb81a9224a089a51162673b096aa917db",
@@ -573,7 +725,7 @@
     "version": "0.3.0.0",
     "desc": "POSIX paths plus directory and metadata effects. Source: https://github.com/paymog/bend-kit/tree/main/files",
     "ts": 1793111977959,
-    "dependents": 2
+    "dependents": 4
   },
   "0x7360992382668ebdebfec6904817673f": {
     "hash": "0x7360992382668ebdebfec6904817673f",
@@ -3048,7 +3200,7 @@
     "version": "0.7.0.0",
     "desc": "JSON values, parsed and encoded as RFC 8259. Source: https://github.com/paymog/bend-kit/tree/main/json",
     "ts": 1792861708334,
-    "dependents": 7
+    "dependents": 8
   },
   "0xd467fe9d46bdf49ca4040e12ad976043": {
     "hash": "0xd467fe9d46bdf49ca4040e12ad976043",
@@ -3059,7 +3211,7 @@
     "version": "0.5.0.0",
     "desc": "UTF-8 encoding and decoding between text and Bytes. Source: https://github.com/paymog/bend-kit/tree/main/encoding",
     "ts": 1792861630329,
-    "dependents": 5
+    "dependents": 6
   },
   "0xac8010b37d14ff08858877ea88da2fba": {
     "hash": "0xac8010b37d14ff08858877ea88da2fba",
@@ -3083,7 +3235,7 @@
     "version": "0.3.3.0",
     "desc": "Byte buffers packed four bytes to a U32, with bounds-checked access. Source: https://github.com/paymog/bend-kit/tree/main/bytes",
     "ts": 1792861333765,
-    "dependents": 35
+    "dependents": 43
   },
   "0xa1e169a6235d40fa5888b83468e4c857": {
     "hash": "0xa1e169a6235d40fa5888b83468e4c857",
@@ -5102,7 +5254,7 @@
     "version": "0.2.0.0",
     "desc": "Retry policy: a shared attempt budget, an operation deadline, bounded backoff, and a circuit breaker.",
     "ts": 1792597674611,
-    "dependents": 20
+    "dependents": 22
   },
   "0x805aa9d73de5385dd9f66c3249152265": {
     "hash": "0x805aa9d73de5385dd9f66c3249152265",
@@ -5148,7 +5300,7 @@
     "version": "0.7.4.0",
     "desc": "bend-mathlib: machine-checked lemmas for Bend 2 (Nat, Bool, List, String, Maybe, equality, order, algebra, permutations, sorting); import one module, e.g. bend-mathlib@0.7.4.0/nat.bend.",
     "ts": 1792586556269,
-    "dependents": 3
+    "dependents": 4
   },
   "0xd6aaab858a4fbd1461bd0fee27b97184": {
     "hash": "0xd6aaab858a4fbd1461bd0fee27b97184",
@@ -8842,7 +8994,7 @@
     "version": "0.2.0.0",
     "desc": "Parallel map and reduce over lists and arrays, a worker pool, select over channels, and timeouts.",
     "ts": 1791573863162,
-    "dependents": 9
+    "dependents": 10
   },
   "0x6eaf476c39756d18630510c519770168": {
     "hash": "0x6eaf476c39756d18630510c519770168",
@@ -9186,7 +9338,7 @@
     "version": "0.1.0.0",
     "desc": "Bounded capacity pools with affine reservations: reserve, release, split, and combine.",
     "ts": 1791511862755,
-    "dependents": 33
+    "dependents": 36
   },
   "0xeaee3c88886bfae971db9dcf3cde0759": {
     "hash": "0xeaee3c88886bfae971db9dcf3cde0759",
@@ -13727,7 +13879,7 @@
     "version": "0.4.1.0",
     "desc": "URL parsing, resolution, and percent-encoding (RFC 3986). Source: https://github.com/paymog/bend-kit/tree/main/url",
     "ts": 1790526635864,
-    "dependents": 94
+    "dependents": 95
   },
   "0xa3dc0f6e3963608e4608a1017272cf4f": {
     "hash": "0xa3dc0f6e3963608e4608a1017272cf4f",
@@ -14024,7 +14176,7 @@
     "version": "0.2.0.0",
     "desc": "Fixed-width integers U8, U16, U64, I32 and I64: wrapping, checked and saturating arithmetic, and text in radix 2 to 36.",
     "ts": 1790516996356,
-    "dependents": 68
+    "dependents": 69
   },
   "0xea2956cd4e05ac318643319cb7fb3c29": {
     "hash": "0xea2956cd4e05ac318643319cb7fb3c29",
