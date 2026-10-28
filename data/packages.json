@@ -1,4 +1,56 @@
 {
+  "0x5c7c6b74577e42dff11295308f4f8e90": {
+    "hash": "0x5c7c6b74577e42dff11295308f4f8e90",
+    "files": {
+      "impl.bend": 9210
+    },
+    "name": "bend-pipe-session",
+    "version": "0.2.0.0",
+    "desc": "Talks in lines to a started program, over pipes, with or without a deadline.",
+    "ts": 1793221966260,
+    "dependents": 0
+  },
+  "0xb78514d61afc4e796fd06df1830e0f32": {
+    "hash": "0xb78514d61afc4e796fd06df1830e0f32",
+    "files": {
+      "impl.bend": 3807,
+      "open.c": 9947,
+      "open.js": 2260,
+      "std.c": 224,
+      "std.js": 48
+    },
+    "name": "bend-stdio-pipes",
+    "version": "0.2.0.0",
+    "desc": "Pipes to a started program, and this program's stdin, as Files of UTF-8 lines.",
+    "ts": 1793221893671,
+    "dependents": 1
+  },
+  "0xd529d46f09a2ffa96a7a9e5754713137": {
+    "hash": "0xd529d46f09a2ffa96a7a9e5754713137",
+    "files": {
+      "impl.bend": 6758
+    },
+    "name": "bend-pipe-session",
+    "version": "0.1.0.0",
+    "desc": "THIS MODULE IS PROJECT-AGNOSTIC. KEEP IT THAT WAY.",
+    "ts": 1793217985053,
+    "dependents": 0
+  },
+  "0x5533bfabb087cd4e9415732799f27f8f": {
+    "hash": "0x5533bfabb087cd4e9415732799f27f8f",
+    "files": {
+      "impl.bend": 3560,
+      "open.c": 6800,
+      "open.js": 1688,
+      "std.c": 236,
+      "std.js": 52
+    },
+    "name": "bend-stdio-pipes",
+    "version": "0.1.0.0",
+    "desc": "THIS MODULE IS PROJECT-AGNOSTIC. KEEP IT THAT WAY.",
+    "ts": 1793215730613,
+    "dependents": 1
+  },
   "0x78e347bf8d0582a322c01b02c727566f": {
     "hash": "0x78e347bf8d0582a322c01b02c727566f",
     "files": {
