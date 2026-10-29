@@ -1,4 +1,19 @@
 {
+  "0xa67b4e5d151887b6bff62a913c86b60d": {
+    "hash": "0xa67b4e5d151887b6bff62a913c86b60d",
+    "files": {
+      "LICENSE": 1108,
+      "cli.bend": 289660,
+      "run.bend": 4757,
+      "sys.c": 893,
+      "sys.js": 566
+    },
+    "name": "cli",
+    "version": "0.2.0.0",
+    "desc": "Purpose: the public IO shell: probes the host, runs Cli.eval, writes its",
+    "ts": 1793233596599,
+    "dependents": 0
+  },
   "0x5c7c6b74577e42dff11295308f4f8e90": {
     "hash": "0x5c7c6b74577e42dff11295308f4f8e90",
     "files": {
