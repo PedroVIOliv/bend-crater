@@ -1,4 +1,114 @@
 {
+  "0x7c3e9469664fbd34c188709d61f7e109": {
+    "hash": "0x7c3e9469664fbd34c188709d61f7e109",
+    "files": {
+      "LAWS.bend": 6652,
+      "LICENSE": 1069,
+      "PROOF.bend": 9451,
+      "defs.bend": 5480,
+      "fields.bend": 4101,
+      "proof_cut.bend": 45091,
+      "proof_digits.bend": 33312,
+      "proof_list.bend": 17910,
+      "proof_num.bend": 27746
+    },
+    "name": "lawful-fields",
+    "version": "0.1.0.0",
+    "desc": "",
+    "ts": 1793355311514,
+    "dependents": 0
+  },
+  "0xc018b2b7a70e32edf065f462beb7dcfd": {
+    "hash": "0xc018b2b7a70e32edf065f462beb7dcfd",
+    "files": {
+      "LAWS.bend": 16313,
+      "LICENSE": 1069,
+      "PROOF.bend": 30602,
+      "bytes.bend": 7848,
+      "defs.bend": 3582,
+      "fast.bend": 6215,
+      "proof_append.bend": 16155,
+      "proof_core.bend": 23321,
+      "proof_fast_append.bend": 83441,
+      "proof_fast_find.bend": 53364,
+      "proof_fast_find2.bend": 44047,
+      "proof_fast_w1.bend": 63738,
+      "proof_fast_w2.bend": 57646,
+      "proof_fast_word.bend": 23423,
+      "proof_find.bend": 18815,
+      "proof_grow.bend": 21881,
+      "proof_list.bend": 17322,
+      "proof_ops.bend": 12008,
+      "proof_same.bend": 23536,
+      "proof_seq.bend": 6883,
+      "proof_shift.bend": 24019
+    },
+    "name": "lawful-bytes",
+    "version": "0.1.0.0",
+    "desc": "",
+    "ts": 1793355288775,
+    "dependents": 1
+  },
+  "0x13527df86b638e4649c15a58682c998e": {
+    "hash": "0x13527df86b638e4649c15a58682c998e",
+    "files": {
+      "LAWS.bend": 6590,
+      "LICENSE": 1069,
+      "PROOF.bend": 7973,
+      "defs.bend": 1263,
+      "proof_base.bend": 13172,
+      "proof_index.bend": 31637,
+      "proof_shape.bend": 8159,
+      "proof_tree.bend": 19440,
+      "proof_words.bend": 2322
+    },
+    "name": "lawful-arrays",
+    "version": "0.1.0.0",
+    "desc": "",
+    "ts": 1793354864590,
+    "dependents": 2
+  },
+  "0x4491e44095d47e1e063354e32a033566": {
+    "hash": "0x4491e44095d47e1e063354e32a033566",
+    "files": {
+      "LAWS.bend": 4753,
+      "LICENSE": 1069,
+      "PROOF.bend": 1935,
+      "defs.bend": 2432,
+      "halves.bend": 4568,
+      "proof_all.bend": 7799,
+      "proof_count.bend": 4568,
+      "proof_force.bend": 2043,
+      "proof_nat.bend": 4258,
+      "proof_run.bend": 5154,
+      "proof_shape.bend": 4321,
+      "proof_tree.bend": 18486
+    },
+    "name": "lawful-halves",
+    "version": "0.1.0.0",
+    "desc": "",
+    "ts": 1793354820893,
+    "dependents": 0
+  },
+  "0x5845906e4d684390fe5255aea46f9808": {
+    "hash": "0x5845906e4d684390fe5255aea46f9808",
+    "files": {
+      "LAWS.bend": 17721,
+      "LICENSE": 1069,
+      "PROOF.bend": 5541,
+      "defs.bend": 2423,
+      "proof_bytes.bend": 79604,
+      "proof_nat.bend": 43814,
+      "proof_u32.bend": 53472,
+      "proof_word.bend": 50566,
+      "proof_zb.bend": 129329
+    },
+    "name": "lawful-words",
+    "version": "0.1.0.0",
+    "desc": "",
+    "ts": 1793354810558,
+    "dependents": 3
+  },
   "0x3e7c8cdf5aa942d4279f8d34c4f1be54": {
     "hash": "0x3e7c8cdf5aa942d4279f8d34c4f1be54",
     "files": {
