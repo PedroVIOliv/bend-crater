@@ -11,13 +11,25 @@ const title = (p) => (p.name ? `${p.name}@${p.version}` : p.hash.slice(0, 12) + 
 
 async function load() {
   const get = (f) => fetch(base + f).then((r) => { if (!r.ok) throw new Error(`${f}: ${r.status}`); return r; });
-  const [pkgs, releases, text] = await Promise.all([
+  const [pkgs, releases] = await Promise.all([
     get("packages.json").then((r) => r.json()),
     get("releases.json").then((r) => r.json()),
-    get("results.jsonl").then((r) => r.text()),
   ]);
-  const cells = text.split("\n").filter((l) => l.trim()).map((l) => JSON.parse(l));
+  const texts = await Promise.all(releases.map((r) => loadShard(`${base}results/${r.version}.jsonl.gz`)));
+  const cells = texts.flatMap((t) => t.split("\n").filter((l) => l.trim()).map((l) => JSON.parse(l)));
   return { pkgs, releases, latest: latestCells(cells) };
+}
+
+// A release with no shard yet has no results. A host that serves .gz with Content-Encoding
+// hands fetch already-inflated bytes, so only inflate when the gzip magic is present.
+async function loadShard(url) {
+  const r = await fetch(url);
+  if (r.status === 404) return "";
+  if (!r.ok) throw new Error(`${url}: ${r.status}`);
+  const bytes = new Uint8Array(await r.arrayBuffer());
+  if (bytes[0] !== 0x1f || bytes[1] !== 0x8b) return new TextDecoder().decode(bytes);
+  const stream = new Blob([bytes]).stream().pipeThrough(new DecompressionStream("gzip"));
+  return new Response(stream).text();
 }
 
 function renderNews({ pkgs, releases, latest }) {

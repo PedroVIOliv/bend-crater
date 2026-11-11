@@ -17,10 +17,10 @@ const { values: a } = parseArgs({ options: {
 } });
 const data = resolve(a.data!), cache = resolve(a.cache!);
 const deadline = Date.now() + Number(a["budget-min"]) * 60_000;
-const resultsPath = join(data, "results.jsonl");
+const resultsDir = join(data, "results");
 
 const [pkgs, releases] = await Promise.all([fetchPackages(), listReleases()]);
-const results = await readResults(resultsPath);
+const results = await readResults(resultsDir);
 let todos = planCells(pkgs, releases, results, new Date());
 if (a.limit) todos = todos.slice(0, Number(a.limit));
 console.log(`${pkgs.length} packages, ${releases.length} releases, ${todos.length} cells to check`);
@@ -33,8 +33,11 @@ await writeJSON(join(data, "packages.json"), Object.fromEntries(pkgs.map((p) => 
 await writeJSON(join(data, "releases.json"),
   releases.map(({ version, published_at }) => ({ version, published_at })));
 
-let batch: Cell[] = [], done = 0, dropped = 0;
-const flush = async () => { const out = batch; batch = []; await appendResults(resultsPath, out); };
+let batch: Cell[] = [], done = 0, dropped = 0, writing = Promise.resolve();
+const flush = () => {
+  const out = batch; batch = [];
+  return (writing = writing.then(() => appendResults(resultsDir, out)));
+};
 const started = await runPool(todos, Number(a.jobs), deadline,
   (t) => checkCell(t, { bin: bins.get(t.bend)!, libDir: join(cache, "lib"), timeoutMs: 60_000 }),
   (c) => {

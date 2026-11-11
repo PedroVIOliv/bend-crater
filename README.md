@@ -29,8 +29,10 @@ Passing here does not mean a package works at runtime.
     bun serve.ts                         # http://localhost:8080
     CRATER_INTEGRATION=1 bun test        # also check real releases
 
-`data/` is the contract between the runner and the page: `results.jsonl`
-(one cell per line, later lines win), `packages.json`, `releases.json`.
+`data/` is the contract between the runner and the page:
+`results/<release>.jsonl.gz` (gzipped, one cell per line, later lines win),
+`packages.json`, `releases.json`. Results are split per release to stay far
+below GitHub's 100 MB file limit.
 `data/fixtures/` is a small hand-written set; open the page with
 `?data=fixtures`.
 

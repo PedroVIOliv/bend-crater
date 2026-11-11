@@ -59,7 +59,7 @@ runner/        TypeScript on Bun; produces data/
   plan.ts      missing cells, ordered
   main.ts      load -> plan -> run with a pool and a time budget -> write
 data/          committed; the only interface between runner and site
-  results.jsonl
+  results/<release>.jsonl.gz
   packages.json
   releases.json
 site/          static; reads data/, never writes it
@@ -69,7 +69,8 @@ site/          static; reads data/, never writes it
 
 ## Data
 
-`results.jsonl`, one line per cell, append-only:
+`results/<release>.jsonl.gz`, one gzipped shard per `bend` release, one line
+per cell, append-only:
 
 ```json
 {"pkg":"0x0bc6...","file":"json.bend","bend":"2.0.27","status":"fail",
