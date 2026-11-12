@@ -1,4 +1,70 @@
 {
+  "0xdf85bddbf607a038b8692c68051ac5f2": {
+    "hash": "0xdf85bddbf607a038b8692c68051ac5f2",
+    "files": {
+      "README.md": 3372,
+      "cublas.bend": 4987,
+      "effs/gemm_f32.c": 5031,
+      "effs/gemm_f32.js": 134,
+      "effs/gemm_f32o.js": 138,
+      "effs/gemm_i8.c": 3841,
+      "effs/gemm_i8.js": 217,
+      "effs/gemm_tf32o.js": 142,
+      "effs/weights.c": 12851,
+      "effs/weights_free.js": 117,
+      "effs/weights_gemm.js": 115,
+      "effs/weights_gemm_f32.js": 129,
+      "effs/weights_load.js": 111,
+      "effs/weights_load_bf16.js": 137,
+      "effs/weights_load_f16.js": 133
+    },
+    "name": "bend-gpu-cublas",
+    "version": "0.1.2.0",
+    "desc": "bend-gpu-cublas: cuBLAS GEMMs on Bend arrays, as foreign effects, plus a weight store in GPU memory outside Bend's heap.",
+    "ts": 1794511848660,
+    "dependents": 0
+  },
+  "0x76496238d3c67141a5c47e05479a213a": {
+    "hash": "0x76496238d3c67141a5c47e05479a213a",
+    "files": {
+      "README.md": 4572,
+      "attention.bend": 1904,
+      "effs/attn.c": 35769,
+      "effs/attn.js": 134,
+      "package.bend": 500,
+      "test/attn_test.bend": 10726
+    },
+    "name": "bend-gpu-attention",
+    "version": "0.2.0.0",
+    "desc": "bend-gpu-attention: fused FlashAttention-style attention on Bend arrays: one foreign call for all heads, FP16 tensor cores, no score matrix.",
+    "ts": 1794510417202,
+    "dependents": 0
+  },
+  "0x0c46c789483b48a99efa2c996652d510": {
+    "hash": "0x0c46c789483b48a99efa2c996652d510",
+    "files": {
+      "LAWS.bend": 8858,
+      "PROOF.bend": 10335,
+      "README.md": 6674,
+      "bpe.bend": 5382,
+      "hmap.bend": 3065,
+      "json.bend": 18188,
+      "nfc.bend": 6381,
+      "package.bend": 547,
+      "specials.bend": 4156,
+      "split.bend": 7459,
+      "tables.bend": 163359,
+      "test/encode.bend": 3263,
+      "tok.bend": 18599,
+      "tree.bend": 2717,
+      "utf8.bend": 4248
+    },
+    "name": null,
+    "version": null,
+    "desc": "bend-bpe-tokenizer: Hugging Face byte-level BPE tokenizers (Qwen2/3, Qwen3.5+, Llama 3, GPT-2) in Bend, id for id with `tokenizers`, with laws.",
+    "ts": 1794507014242,
+    "dependents": 0
+  },
   "0x558ff3ef0e2c670a7a9a529b0d91fc45": {
     "hash": "0x558ff3ef0e2c670a7a9a529b0d91fc45",
     "files": {
@@ -5890,7 +5956,7 @@
     "version": "0.8.1.0",
     "desc": "bend-mathlib: machine-checked lemmas for Bend 2 (Nat, Bool, List, String, Maybe, equality, order, algebra, permutations, sorting, machine words); import one module, e.g. bend-mathlib@0.8.1.0/nat.bend.",
     "ts": 1793413010099,
-    "dependents": 0
+    "dependents": 1
   },
   "0x476832d338c78d06c0da54e8958c113f": {
     "hash": "0x476832d338c78d06c0da54e8958c113f",
