@@ -1,4 +1,69 @@
 {
+  "0x14d9426453cf55b5b9fcf9573b684c63": {
+    "hash": "0x14d9426453cf55b5b9fcf9573b684c63",
+    "files": {
+      "README.md": 5741,
+      "cublas.bend": 7023,
+      "effs/gemm_f32.c": 5031,
+      "effs/gemm_f32.js": 134,
+      "effs/gemm_f32o.js": 138,
+      "effs/gemm_i8.c": 3841,
+      "effs/gemm_i8.js": 217,
+      "effs/gemm_tf32o.js": 142,
+      "effs/weights.c": 19914,
+      "effs/weights_budget.js": 125,
+      "effs/weights_drop.js": 117,
+      "effs/weights_fetch.js": 121,
+      "effs/weights_free.js": 117,
+      "effs/weights_gemm.js": 115,
+      "effs/weights_gemm_f32.js": 129,
+      "effs/weights_load.js": 111,
+      "effs/weights_load_bf16.js": 137,
+      "effs/weights_load_f16.js": 133,
+      "effs/weights_park.js": 117,
+      "effs/weights_park_bf16.js": 137,
+      "effs/weights_park_f16.js": 133,
+      "effs/weights_ready.js": 121
+    },
+    "name": "bend-gpu-cublas",
+    "version": "0.1.3.0",
+    "desc": "bend-gpu-cublas: cuBLAS GEMMs on Bend arrays, as foreign effects, plus a weight store in GPU memory outside Bend's heap.",
+    "ts": 1794525890282,
+    "dependents": 0
+  },
+  "0x621abe5eeea88964fb9e63176ef6aa9c": {
+    "hash": "0x621abe5eeea88964fb9e63176ef6aa9c",
+    "files": {
+      "README.md": 2106,
+      "effs/heap.c": 1506,
+      "effs/heap.js": 138,
+      "heap.bend": 1249,
+      "package.bend": 411,
+      "test/heap_test.bend": 613
+    },
+    "name": "bend-gpu-heap",
+    "version": "0.1.0.0",
+    "desc": "bend-gpu-heap: move Bend's GPU heap (CUDA managed memory) back to the CPU in one bulk prefetch, so new arrays in memory GPU kernels used are cheap.",
+    "ts": 1794515570430,
+    "dependents": 0
+  },
+  "0xdb7ead7808cddecc8d658f3c4c06390d": {
+    "hash": "0xdb7ead7808cddecc8d658f3c4c06390d",
+    "files": {
+      "README.md": 6598,
+      "attention.bend": 2733,
+      "effs/attn.c": 46109,
+      "effs/attn.js": 134,
+      "effs/attn_i8.js": 130,
+      "package.bend": 508,
+      "test/attn_test.bend": 11657
+    },
+    "name": "bend-gpu-attention",
+    "version": "0.3.0.0",
+    "desc": "bend-gpu-attention: fused FlashAttention-style attention on Bend arrays: one foreign call for all heads, FP16 or int8 tensor cores, no score matrix.",
+    "ts": 1794514109850,
+    "dependents": 0
+  },
   "0xdf85bddbf607a038b8692c68051ac5f2": {
     "hash": "0xdf85bddbf607a038b8692c68051ac5f2",
     "files": {
@@ -59,8 +124,8 @@
       "tree.bend": 2717,
       "utf8.bend": 4248
     },
-    "name": null,
-    "version": null,
+    "name": "bend-bpe-tokenizer",
+    "version": "0.1.0.0",
     "desc": "bend-bpe-tokenizer: Hugging Face byte-level BPE tokenizers (Qwen2/3, Qwen3.5+, Llama 3, GPT-2) in Bend, id for id with `tokenizers`, with laws.",
     "ts": 1794507014242,
     "dependents": 0
@@ -124,8 +189,8 @@
       "package.bend": 474,
       "test/cuda_test.bend": 9669
     },
-    "name": null,
-    "version": null,
+    "name": "bend-cuda-launcher",
+    "version": "0.1.0.0",
     "desc": "bend-cuda-launcher: write CUDA kernels as source text in Bend, compile them at run time (NVRTC), launch them on Bend arrays.",
     "ts": 1794443351633,
     "dependents": 0
