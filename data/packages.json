@@ -1,4 +1,16 @@
 {
+  "0x49badae9cbaf2477ef71e81cecae54c7": {
+    "hash": "0x49badae9cbaf2477ef71e81cecae54c7",
+    "files": {
+      "LICENSE": 11350,
+      "stats.bend": 13468
+    },
+    "name": "bend-kit-stats",
+    "version": "0.1.6.0",
+    "desc": "Descriptive statistics over F64 lists, and U32 gcd, lcm, and integer square root. Source: https://github.com/paymog/bend-kit/tree/main/stats",
+    "ts": 1794788647644,
+    "dependents": 0
+  },
   "0x46aec0354ee1c03a604bf6c5411d4c19": {
     "hash": "0x46aec0354ee1c03a604bf6c5411d4c19",
     "files": {
@@ -4000,7 +4012,7 @@
     "version": "0.1.3.0",
     "desc": "IEEE 754 binary64 arithmetic and square root. Source: https://github.com/paymog/bend-kit/tree/main/f64",
     "ts": 1794592547631,
-    "dependents": 7
+    "dependents": 8
   },
   "0x75fe3f17e84b61b6da22079fa6674983": {
     "hash": "0x75fe3f17e84b61b6da22079fa6674983",
