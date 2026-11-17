@@ -1,4 +1,43 @@
 {
+  "0x26c311b091a0485a6f76dfacfab92957": {
+    "hash": "0x26c311b091a0485a6f76dfacfab92957",
+    "files": {
+      "LICENSE": 1103,
+      "language/decreasing_call.bend": 10851,
+      "language/forward_reference.bend": 4494,
+      "language/reused_binder.bend": 8167,
+      "language/unneeded_plus.bend": 6694,
+      "layout/canon_import_path.bend": 4147,
+      "layout/case.bend": 10747,
+      "layout/directive_order.bend": 5916,
+      "layout/format.bend": 65074,
+      "layout/imports.bend": 7894,
+      "lib/linter/directives/impl.bend": 32681,
+      "lib/linter/directives/spec.bend": 2603,
+      "lib/linter/shared/text/impl.bend": 11853,
+      "lib/linter/shared/text/spec.bend": 2090,
+      "no_unused/imports.bend": 3792,
+      "performance/append_in_loop.bend": 8275,
+      "performance/bang_after_fork.bend": 7280,
+      "performance/dead_accumulator.bend": 5487,
+      "performance/deep_call_in_fork.bend": 9508,
+      "performance/drop_in_bang.bend": 3087,
+      "performance/eager_branch.bend": 11014,
+      "performance/gpu_fit.bend": 13044,
+      "performance/list_index_loop.bend": 10647,
+      "performance/loop_invariant_call.bend": 10288,
+      "performance/missed_fork.bend": 17882,
+      "performance/repeated_call.bend": 10933,
+      "performance/template_value_field.bend": 7023,
+      "performance/unused_result.bend": 6710,
+      "rules.bend": 1112
+    },
+    "name": "bend-lint-rules",
+    "version": "0.3.2.0",
+    "desc": "",
+    "ts": 1794879177047,
+    "dependents": 0
+  },
   "0x2414c9622cab2353684d02a392804eb1": {
     "hash": "0x2414c9622cab2353684d02a392804eb1",
     "files": {
@@ -10921,10 +10960,10 @@
       "shared.bend": 12297
     },
     "name": "bend-lint-api",
-    "version": "0.3.1.0",
+    "version": "0.3.2.0",
     "desc": "",
     "ts": 1793925518877,
-    "dependents": 2
+    "dependents": 3
   },
   "0xca121451e07e108916294b5ba3a15228": {
     "hash": "0xca121451e07e108916294b5ba3a15228",
