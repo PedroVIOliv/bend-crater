@@ -1,4 +1,34 @@
 {
+  "0x10a054003f9647d4e93c2ae59fdb197a": {
+    "hash": "0x10a054003f9647d4e93c2ae59fdb197a",
+    "files": {
+      "LICENSE": 11350,
+      "f32array.bend": 21662,
+      "io.bend": 8131,
+      "parallel.bend": 3702,
+      "publish.bend": 271
+    },
+    "name": "bend-kit-f32array",
+    "version": "0.2.1.0",
+    "desc": "Packed F32 arrays: get, set, slice, concat, map, fold, zip, dot, sum, max, and little- or big-endian Bytes and files. Source: https://github.com/paymog/bend-kit/tree/main/f32array",
+    "ts": 1795231881027,
+    "dependents": 0
+  },
+  "0x0fe59af595d11753cb2b2a81171ef957": {
+    "hash": "0x0fe59af595d11753cb2b2a81171ef957",
+    "files": {
+      "LICENSE": 11350,
+      "f32array.bend": 21662,
+      "io.bend": 3597,
+      "parallel.bend": 3702,
+      "publish.bend": 271
+    },
+    "name": "bend-kit-f32array",
+    "version": "0.2.0.0",
+    "desc": "Packed F32 arrays: get, set, slice, concat, map, fold, zip, dot, sum, max, and little- or big-endian Bytes and files. Source: https://github.com/paymog/bend-kit/tree/main/f32array",
+    "ts": 1795229847859,
+    "dependents": 0
+  },
   "0x3034a2ecf21fb363d51f51da08ca38e6": {
     "hash": "0x3034a2ecf21fb363d51f51da08ca38e6",
     "files": {
@@ -909,7 +939,7 @@
     "version": "0.4.0.0",
     "desc": "POSIX paths plus directory and metadata effects. Source: https://github.com/paymog/bend-kit/tree/main/files",
     "ts": 1795144676606,
-    "dependents": 12
+    "dependents": 14
   },
   "0xc9001321cdb64a759a36ee574d54cd94": {
     "hash": "0xc9001321cdb64a759a36ee574d54cd94",
@@ -19168,7 +19198,7 @@
     "version": "0.3.3.0",
     "desc": "Byte buffers packed four bytes to a U32, with bounds-checked access. Source: https://github.com/paymog/bend-kit/tree/main/bytes",
     "ts": 1792861333765,
-    "dependents": 143
+    "dependents": 145
   },
   "0xa1e169a6235d40fa5888b83468e4c857": {
     "hash": "0xa1e169a6235d40fa5888b83468e4c857",
