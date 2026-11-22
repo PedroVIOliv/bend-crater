@@ -1,4 +1,83 @@
 {
+  "0xd3c21b1503c33db114a039d3c48c81ba": {
+    "hash": "0xd3c21b1503c33db114a039d3c48c81ba",
+    "files": {
+      "LICENSE": 11350,
+      "effs/journal.c": 5449,
+      "effs/journal.js": 2469,
+      "journal.bend": 19125
+    },
+    "name": "bend-kit-journal",
+    "version": "0.3.1.2",
+    "desc": "Append-only journal: checksummed frames, fsync'd appends, and crash recovery of the committed prefix. Source: https://github.com/paymog/bend-kit/tree/main/journal",
+    "ts": 1795301346810,
+    "dependents": 0
+  },
+  "0x4a330d49f7c2d1a4815d66388bf4b844": {
+    "hash": "0x4a330d49f7c2d1a4815d66388bf4b844",
+    "files": {
+      "LICENSE": 11350,
+      "effs/zlib.c": 19659,
+      "effs/zlib.js": 14884,
+      "encode.bend": 8516,
+      "zlib.bend": 39814
+    },
+    "name": "bend-kit-zlib",
+    "version": "0.5.2.0",
+    "desc": "DEFLATE, gzip, and zlib encoding and decoding (RFC 1951, 1952, 1950) over Bytes, plus gzip, zstd, and brotli through the C libraries. Source: https://github.com/paymog/bend-kit/tree/main/zlib",
+    "ts": 1795300449702,
+    "dependents": 0
+  },
+  "0xf3e92994e5069fa8528bf158dfe510aa": {
+    "hash": "0xf3e92994e5069fa8528bf158dfe510aa",
+    "files": {
+      "LICENSE": 11350,
+      "bits.bend": 21100
+    },
+    "name": "bend-kit-bits",
+    "version": "0.3.0.0",
+    "desc": "Bit readers and writers over Bytes, LSB-first (DEFLATE) or MSB-first (JPEG), and canonical Huffman codes and decode tables. Source: https://github.com/paymog/bend-kit/tree/main/bits",
+    "ts": 1795297389728,
+    "dependents": 1
+  },
+  "0x3ec0b4a1f282ffc5db0a2d46048194fa": {
+    "hash": "0x3ec0b4a1f282ffc5db0a2d46048194fa",
+    "files": {
+      "LICENSE": 11350,
+      "bits.bend": 20521
+    },
+    "name": "bend-kit-bits",
+    "version": "0.2.1.1",
+    "desc": "Bit readers and writers over Bytes, LSB-first (DEFLATE) or MSB-first (JPEG), and canonical Huffman codes and decode tables. Source: https://github.com/paymog/bend-kit/tree/main/bits",
+    "ts": 1795294107967,
+    "dependents": 0
+  },
+  "0x71a0355ffb13f43f2f0a7ef818d7d93d": {
+    "hash": "0x71a0355ffb13f43f2f0a7ef818d7d93d",
+    "files": {
+      "LICENSE": 11350,
+      "hpack.bend": 23344,
+      "http2.bend": 59925,
+      "huffman.bend": 26339
+    },
+    "name": "bend-kit-http2",
+    "version": "0.5.0.1",
+    "desc": "RFC 9113 HTTP/2 client and frames, with RFC 7541 HPACK over packed Bytes.",
+    "ts": 1795286650013,
+    "dependents": 0
+  },
+  "0x97f8ef26474b8f0ffc35a38012d67e1f": {
+    "hash": "0x97f8ef26474b8f0ffc35a38012d67e1f",
+    "files": {
+      "LICENSE": 11350,
+      "bits.bend": 20585
+    },
+    "name": "bend-kit-bits",
+    "version": "0.2.1.0",
+    "desc": "Bit readers and writers over Bytes, LSB-first (DEFLATE) or MSB-first (JPEG), and canonical Huffman codes and decode tables. Source: https://github.com/paymog/bend-kit/tree/main/bits",
+    "ts": 1795286291810,
+    "dependents": 0
+  },
   "0xa2af805348d03b11eb853850859654f6": {
     "hash": "0xa2af805348d03b11eb853850859654f6",
     "files": {
@@ -183,7 +262,7 @@
     "version": "0.3.2.0",
     "desc": "Non-cryptographic hashes over Bytes: FNV-1a, xxHash, SipHash-1-3 and SipHash-2-4, CRC-32, and Adler-32. Source: https://github.com/paymog/bend-kit/tree/main/hash",
     "ts": 1795219182027,
-    "dependents": 0
+    "dependents": 1
   },
   "0xf2d7cb1a9430297a3b3a391c6ca42bf2": {
     "hash": "0xf2d7cb1a9430297a3b3a391c6ca42bf2",
@@ -8316,7 +8395,7 @@
     "version": "0.3.0.4",
     "desc": "Non-cryptographic hashes over Bytes: FNV-1a, xxHash, SipHash-1-3, CRC-32, and Adler-32. Source: https://github.com/paymog/bend-kit/tree/main/hash",
     "ts": 1794587736657,
-    "dependents": 10
+    "dependents": 11
   },
   "0xe2a576a925a38b8ab216e6d41f3358a6": {
     "hash": "0xe2a576a925a38b8ab216e6d41f3358a6",
@@ -19318,7 +19397,7 @@
     "version": "0.3.3.0",
     "desc": "Byte buffers packed four bytes to a U32, with bounds-checked access. Source: https://github.com/paymog/bend-kit/tree/main/bytes",
     "ts": 1792861333765,
-    "dependents": 145
+    "dependents": 151
   },
   "0xa1e169a6235d40fa5888b83468e4c857": {
     "hash": "0xa1e169a6235d40fa5888b83468e4c857",
