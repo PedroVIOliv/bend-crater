@@ -1,4 +1,1420 @@
 {
+  "0xb1bc80cf32bb755b62bb1de2cfc8153a": {
+    "hash": "0xb1bc80cf32bb755b62bb1de2cfc8153a",
+    "files": {
+      "LICENSE": 11350,
+      "llm.bend": 24589,
+      "sse.bend": 10910
+    },
+    "name": "bend-kit-llm",
+    "version": "0.16.0.0",
+    "desc": "LLM client for the Anthropic Messages and OpenAI Chat Completions APIs, with SSE streaming. Source: https://github.com/paymog/bend-kit/tree/main/llm",
+    "ts": 1795395684304,
+    "dependents": 0
+  },
+  "0xaa43cfaebdf5aeee9e849240898085a6": {
+    "hash": "0xaa43cfaebdf5aeee9e849240898085a6",
+    "files": {
+      "LICENSE": 11350,
+      "sigv4.bend": 48899
+    },
+    "name": "bend-kit-sigv4",
+    "version": "0.14.0.0",
+    "desc": "AWS Signature V4 signing and S3 object storage over Hairpin. Source: https://github.com/paymog/bend-kit/tree/main/sigv4",
+    "ts": 1795395659421,
+    "dependents": 0
+  },
+  "0x932cb5bd087a801626915e1028771b20": {
+    "hash": "0x932cb5bd087a801626915e1028771b20",
+    "files": {
+      "LICENSE": 11350,
+      "webhooks.bend": 21582
+    },
+    "name": "bend-kit-webhooks",
+    "version": "0.14.0.0",
+    "desc": "Webhook signatures: Standard Webhooks sign and verify, Stripe and GitHub verify, over the raw body. Source: https://github.com/paymog/bend-kit/tree/main/webhooks",
+    "ts": 1795395629840,
+    "dependents": 0
+  },
+  "0x29d461bae29657b4b529e5f65a3fec26": {
+    "hash": "0x29d461bae29657b4b529e5f65a3fec26",
+    "files": {
+      "LICENSE": 11350,
+      "jwt.bend": 33019
+    },
+    "name": "bend-kit-jwt",
+    "version": "0.14.0.0",
+    "desc": "JSON Web Tokens: HS256/384/512, RS256, and ES256 compact JWS sign and verify, claim checks, and JWKS keys over Hairpin. Source: https://github.com/paymog/bend-kit/tree/main/jwt",
+    "ts": 1795395622581,
+    "dependents": 0
+  },
+  "0x8b2505b7801f189c3f5d22bdc6fb3cce": {
+    "hash": "0x8b2505b7801f189c3f5d22bdc6fb3cce",
+    "files": {
+      "LICENSE": 11350,
+      "oauth2.bend": 14777
+    },
+    "name": "bend-kit-oauth2",
+    "version": "0.14.0.0",
+    "desc": "OAuth 2.0 client credentials, refresh, and authorization code with PKCE over Hairpin. Source: https://github.com/paymog/bend-kit/tree/main/oauth2",
+    "ts": 1795395586794,
+    "dependents": 0
+  },
+  "0x270d95aa997250ae153e5c016cdf3e0b": {
+    "hash": "0x270d95aa997250ae153e5c016cdf3e0b",
+    "files": {
+      "LICENSE": 11350,
+      "hairpin.bend": 24297
+    },
+    "name": "bend-kit-hairpin",
+    "version": "0.16.0.0",
+    "desc": "Hairpin: an HTTP client with a base URL, default headers, a pool, cookies, mTLS, redirects, and proven retries. Source: https://github.com/paymog/bend-kit/tree/main/hairpin",
+    "ts": 1795394593589,
+    "dependents": 5
+  },
+  "0x91d0bae5dad5097ef014dbcd9e369c02": {
+    "hash": "0x91d0bae5dad5097ef014dbcd9e369c02",
+    "files": {
+      "LICENSE": 11350,
+      "effs/storage.c": 3368,
+      "effs/storage.js": 2237,
+      "http.bend": 5050,
+      "publish.bend": 219,
+      "storage.bend": 46160
+    },
+    "name": "bend-kit-storage",
+    "version": "0.6.0.0",
+    "desc": "Content-addressed object store: Merkle trees, sync plans, and reachability GC with proved laws. Source: https://github.com/paymog/bend-kit/tree/main/storage",
+    "ts": 1795394351279,
+    "dependents": 0
+  },
+  "0xcb57e61ee8342688c3d0222ac6da222d": {
+    "hash": "0xcb57e61ee8342688c3d0222ac6da222d",
+    "files": {
+      "LICENSE": 11350,
+      "camber.bend": 61848,
+      "input.bend": 9990,
+      "ledger.bend": 2104,
+      "notices.bend": 1471,
+      "response.bend": 2107
+    },
+    "name": "bend-kit-camber",
+    "version": "0.17.0.0",
+    "desc": "Fixed prepared HTTP applications and bounded affine dependency bundles.",
+    "ts": 1795394307141,
+    "dependents": 0
+  },
+  "0x7e321819d0ff210531780719c7674cef": {
+    "hash": "0x7e321819d0ff210531780719c7674cef",
+    "files": {
+      "LICENSE": 11360,
+      "README.md": 2271,
+      "bendvy.bend": 16320,
+      "bundle_batch.bend": 10457,
+      "bundle_canonical_construction.bend": 3284,
+      "bundle_component_install.bend": 4468,
+      "bundle_construction.bend": 2559,
+      "bundle_delivery.bend": 1731,
+      "bundle_insert_adapter.bend": 2223,
+      "bundle_install.bend": 3205,
+      "bundle_pack.bend": 159,
+      "bundle_provider.bend": 711,
+      "bundle_recovery.bend": 653,
+      "bundle_requests.bend": 3210,
+      "capabilities.bend": 8915,
+      "capture_query.bend": 9388,
+      "captured_column.bend": 11188,
+      "captured_schedule.bend": 6564,
+      "captured_schedule_composition.bend": 5150,
+      "captured_schedule_condition.bend": 11963,
+      "captured_schedule_local.bend": 3266,
+      "captured_schedule_query.bend": 4246,
+      "captures.bend": 2577,
+      "change_tick.bend": 3812,
+      "check.bend": 6819,
+      "check_relation_projection.bend": 4587,
+      "checked_condition_schedule.bend": 15996,
+      "clock_state.bend": 2562,
+      "column.bend": 46782,
+      "commands.bend": 16154,
+      "component.bend": 39615,
+      "compose.bend": 38200,
+      "declared_family.bend": 2042,
+      "decode.bend": 855,
+      "decode_capabilities.bend": 1987,
+      "decode_constructed_requests.bend": 2594,
+      "decode_constructed_resource.bend": 1903,
+      "decode_construction.bend": 6893,
+      "decode_data.bend": 11579,
+      "decode_declaration.bend": 6716,
+      "decode_fallible_constructed_requests.bend": 2926,
+      "decode_fallible_constructed_resource.bend": 2216,
+      "decode_frame.bend": 11092,
+      "decode_immediate.bend": 5178,
+      "decode_local.bend": 5911,
+      "decode_owned_component.bend": 2977,
+      "decode_owned_journal.bend": 3271,
+      "decode_requests.bend": 6848,
+      "decode_size.bend": 771,
+      "decode_traversal.bend": 4324,
+      "decode_utf16.bend": 1307,
+      "decode_validated_resource.bend": 2102,
+      "deferred_command.bend": 620,
+      "entity_allocator.bend": 10176,
+      "entity_key.bend": 980,
+      "entity_key_render.bend": 171,
+      "event_family_routing.bend": 38636,
+      "event_family_runtime.bend": 7130,
+      "event_notice_runtime.bend": 18633,
+      "event_publication.bend": 8730,
+      "event_runtime.bend": 30874,
+      "event_stream.bend": 6669,
+      "events.bend": 2929,
+      "execution_context.bend": 343,
+      "execution_trace.bend": 4713,
+      "feature.bend": 10939,
+      "feature_provision.bend": 1905,
+      "hierarchy_provider.bend": 3612,
+      "hierarchy_traversal.bend": 3252,
+      "hierarchy_traversal_provider.bend": 5420,
+      "indexed_lifecycle.bend": 4336,
+      "inspector.bend": 9412,
+      "inspector_declaration.bend": 1195,
+      "inspector_definition.bend": 2046,
+      "inspector_event_value.bend": 3063,
+      "inspector_failure_projection.bend": 3679,
+      "inspector_machine_projection.bend": 1991,
+      "inspector_metadata.bend": 2639,
+      "inspector_query.bend": 23207,
+      "inspector_query_families.bend": 9815,
+      "inspector_query_frame_world.bend": 2354,
+      "inspector_query_projection.bend": 10937,
+      "inspector_query_world.bend": 2354,
+      "inspector_relation_projection.bend": 4704,
+      "inspector_runtime.bend": 8614,
+      "inspector_stream_frame.bend": 396,
+      "inspector_transition_projection.bend": 2740,
+      "internal/compact_operational_frame.bend": 4660,
+      "internal/ordinary_component_runner.bend": 37835,
+      "internal/query_read_session.bend": 5232,
+      "internal/relation_failures/barrier.bend": 2435,
+      "internal/relation_failures/domains.bend": 2668,
+      "internal/relation_failures/queue.bend": 3682,
+      "internal/relation_failures/readings.bend": 1655,
+      "internal/relation_failures/routing.bend": 3710,
+      "lifecycle.bend": 2792,
+      "lifetime_scope.bend": 11618,
+      "lifetime_scope_world_spawn.bend": 5313,
+      "local.bend": 12671,
+      "machine.bend": 10136,
+      "machine_conditions.bend": 1487,
+      "machine_handler_bundle.bend": 19916,
+      "machine_handler_context.bend": 8474,
+      "machine_handler_engine.bend": 11852,
+      "machine_handler_phases.bend": 22516,
+      "machine_handler_phases_context.bend": 4933,
+      "machine_handler_trace.bend": 3487,
+      "machine_handlers.bend": 6651,
+      "machine_queue.bend": 3354,
+      "machine_stream.bend": 6377,
+      "machine_stream_queue.bend": 4821,
+      "machine_world.bend": 1864,
+      "optimized_compose.bend": 1929,
+      "optional_resource_binding.bend": 941,
+      "ordinary_app_access.bend": 6700,
+      "ordinary_app_capture_query.bend": 23121,
+      "ordinary_app_capture_query_fields.bend": 4401,
+      "ordinary_app_checked_family_schedule.bend": 9995,
+      "ordinary_app_checked_schedule.bend": 20736,
+      "ordinary_app_component.bend": 30731,
+      "ordinary_app_composer.bend": 4568,
+      "ordinary_app_condition_schedule.bend": 10654,
+      "ordinary_app_description.bend": 1538,
+      "ordinary_app_dispatch_result.bend": 870,
+      "ordinary_app_dump.bend": 12312,
+      "ordinary_app_event.bend": 7163,
+      "ordinary_app_event_family_dump.bend": 1723,
+      "ordinary_app_event_family_reader.bend": 16823,
+      "ordinary_app_event_family_runtime.bend": 7575,
+      "ordinary_app_event_notice_runtime.bend": 3436,
+      "ordinary_app_event_runtime.bend": 26873,
+      "ordinary_app_execution.bend": 27286,
+      "ordinary_app_execution_recipe.bend": 9951,
+      "ordinary_app_execution_run.bend": 9300,
+      "ordinary_app_existing_adoption.bend": 6486,
+      "ordinary_app_existing_execution.bend": 10849,
+      "ordinary_app_focus.bend": 1069,
+      "ordinary_app_hierarchy.bend": 8988,
+      "ordinary_app_hierarchy_query.bend": 7083,
+      "ordinary_app_leaf_run.bend": 3124,
+      "ordinary_app_linked_cleanup.bend": 10138,
+      "ordinary_app_linked_cleanup_system.bend": 10346,
+      "ordinary_app_local_fields.bend": 31773,
+      "ordinary_app_machine.bend": 16026,
+      "ordinary_app_machine_handler.bend": 7170,
+      "ordinary_app_machine_handler_field.bend": 8735,
+      "ordinary_app_machine_initialization_field.bend": 8025,
+      "ordinary_app_machine_value_dump.bend": 2587,
+      "ordinary_app_observation.bend": 1985,
+      "ordinary_app_observation_data.bend": 2551,
+      "ordinary_app_optional_resource.bend": 6480,
+      "ordinary_app_optional_resource_run.bend": 5358,
+      "ordinary_app_owned_event_publisher.bend": 5784,
+      "ordinary_app_population.bend": 7371,
+      "ordinary_app_reader_fields.bend": 10541,
+      "ordinary_app_reader_parameter.bend": 7090,
+      "ordinary_app_recipe.bend": 1016,
+      "ordinary_app_records.bend": 2390,
+      "ordinary_app_recovery.bend": 11200,
+      "ordinary_app_registration_fields.bend": 5812,
+      "ordinary_app_registration_run.bend": 5993,
+      "ordinary_app_relation.bend": 21275,
+      "ordinary_app_relation_failure_reader.bend": 10491,
+      "ordinary_app_relation_schedule.bend": 10708,
+      "ordinary_app_relation_system.bend": 4385,
+      "ordinary_app_resource.bend": 6753,
+      "ordinary_app_resource_declaration.bend": 4727,
+      "ordinary_app_resource_field.bend": 7248,
+      "ordinary_app_resource_field_declaration.bend": 11722,
+      "ordinary_app_resource_field_observation.bend": 1096,
+      "ordinary_app_run.bend": 19386,
+      "ordinary_app_schedule.bend": 21480,
+      "ordinary_app_schedule_access.bend": 4230,
+      "ordinary_app_schedule_description.bend": 8326,
+      "ordinary_app_schedules.bend": 16446,
+      "ordinary_app_schema.bend": 4221,
+      "ordinary_app_schema_product.bend": 3981,
+      "ordinary_app_service.bend": 12746,
+      "ordinary_app_service_registration.bend": 27211,
+      "ordinary_app_stream.bend": 8003,
+      "ordinary_binding_provision.bend": 17190,
+      "ordinary_bundle.bend": 3262,
+      "ordinary_capture_query.bend": 9510,
+      "ordinary_captures.bend": 1060,
+      "ordinary_check_declaration.bend": 4949,
+      "ordinary_check_machine.bend": 1698,
+      "ordinary_check_query.bend": 5433,
+      "ordinary_check_relation.bend": 2660,
+      "ordinary_checked_bindings.bend": 4887,
+      "ordinary_checked_condition.bend": 7623,
+      "ordinary_component_binding.bend": 2164,
+      "ordinary_component_clear_declaration.bend": 1814,
+      "ordinary_component_despawn.bend": 2889,
+      "ordinary_component_removal.bend": 1203,
+      "ordinary_condition_composition.bend": 25968,
+      "ordinary_condition_declaration.bend": 8141,
+      "ordinary_declaration.bend": 965,
+      "ordinary_dump_builtin.bend": 703,
+      "ordinary_dump_eligibility.bend": 2662,
+      "ordinary_dump_filter.bend": 2478,
+      "ordinary_dump_render.bend": 1743,
+      "ordinary_event_declaration.bend": 5354,
+      "ordinary_event_family.bend": 13806,
+      "ordinary_inspector_declaration.bend": 4987,
+      "ordinary_inspector_event.bend": 1088,
+      "ordinary_inspector_relation.bend": 3470,
+      "ordinary_inspector_removal.bend": 3631,
+      "ordinary_inspector_resource.bend": 1782,
+      "ordinary_lifetime_scope.bend": 16146,
+      "ordinary_lifetime_scope_io.bend": 2637,
+      "ordinary_machine_condition.bend": 4701,
+      "ordinary_machine_declaration.bend": 4875,
+      "ordinary_machine_handler_bundle.bend": 10950,
+      "ordinary_machine_handler_bundle_context.bend": 26802,
+      "ordinary_machine_initialization.bend": 6743,
+      "ordinary_machine_initialization_marker.bend": 49735,
+      "ordinary_machine_operations.bend": 2998,
+      "ordinary_machine_schedule.bend": 3315,
+      "ordinary_machine_transition_reader.bend": 15812,
+      "ordinary_optional_resource.bend": 3962,
+      "ordinary_optional_resource_declaration.bend": 4564,
+      "ordinary_optional_resource_observation.bend": 806,
+      "ordinary_optional_resource_system.bend": 2827,
+      "ordinary_owned_event.bend": 6895,
+      "ordinary_owned_event_binding.bend": 3844,
+      "ordinary_owned_event_declaration.bend": 7997,
+      "ordinary_owned_event_family_publisher.bend": 7390,
+      "ordinary_owned_event_family_query.bend": 7526,
+      "ordinary_owned_event_family_reader.bend": 22519,
+      "ordinary_owned_event_family_reader_binding.bend": 6872,
+      "ordinary_owned_event_family_reader_query.bend": 26182,
+      "ordinary_owned_event_family_resource.bend": 2908,
+      "ordinary_owned_event_family_write.bend": 2701,
+      "ordinary_owned_event_query.bend": 6974,
+      "ordinary_owned_event_resource.bend": 2492,
+      "ordinary_query_builder.bend": 6004,
+      "ordinary_query_declaration.bend": 19275,
+      "ordinary_query_observable.bend": 12027,
+      "ordinary_query_selections.bend": 3821,
+      "ordinary_reader_query_parameter.bend": 4820,
+      "ordinary_reader_stream_parameter.bend": 45806,
+      "ordinary_reader_system.bend": 77230,
+      "ordinary_recoverable_array_resource.bend": 8759,
+      "ordinary_recoverable_component_capture.bend": 15275,
+      "ordinary_recovery_capture.bend": 4207,
+      "ordinary_recovery_component.bend": 6496,
+      "ordinary_recovery_declaration.bend": 6741,
+      "ordinary_recovery_resource.bend": 5155,
+      "ordinary_recovery_resource_field.bend": 6580,
+      "ordinary_recovery_system.bend": 12391,
+      "ordinary_removal_provision.bend": 2860,
+      "ordinary_resource_field_system.bend": 9924,
+      "ordinary_resource_system.bend": 9252,
+      "ordinary_schema.bend": 6679,
+      "ordinary_schema_dump.bend": 8312,
+      "ordinary_schema_provision.bend": 8342,
+      "ordinary_service_declaration.bend": 9348,
+      "ordinary_service_request.bend": 9111,
+      "ordinary_system.bend": 14247,
+      "owned_compose.bend": 16739,
+      "owned_event_family_catalog.bend": 2658,
+      "owned_event_family_lifecycle.bend": 7045,
+      "owned_event_family_maintenance.bend": 4478,
+      "owned_event_family_reader_query.bend": 29052,
+      "owned_event_family_reader_runtime.bend": 10886,
+      "owned_event_family_storage.bend": 4586,
+      "owned_event_journal.bend": 3237,
+      "owned_event_key_route.bend": 1092,
+      "owned_event_log.bend": 5545,
+      "owned_event_runtime.bend": 7194,
+      "owned_event_scope.bend": 700,
+      "owned_event_storage.bend": 6686,
+      "owned_family.bend": 11106,
+      "owned_optimized_compose.bend": 2531,
+      "owner_handoff.bend": 6475,
+      "owner_product.bend": 2429,
+      "persistence_declaration.bend": 3205,
+      "provider.bend": 11308,
+      "query.bend": 28548,
+      "query_contract.bend": 9821,
+      "reader_domains.bend": 7009,
+      "reader_parameter.bend": 13110,
+      "recognized_app_component.bend": 36693,
+      "recognized_query_declaration.bend": 7229,
+      "recognized_system.bend": 6784,
+      "recoverable_array.bend": 631,
+      "recoverable_array_owner.bend": 5808,
+      "recoverable_component.bend": 5313,
+      "recoverable_component_family.bend": 5043,
+      "recoverable_owner.bend": 1036,
+      "recovery_journal.bend": 776,
+      "recovery_use.bend": 710,
+      "registration.bend": 1660,
+      "relation_cleanup.bend": 12985,
+      "relation_commands.bend": 12277,
+      "relation_failure_disposal.bend": 3052,
+      "relation_failure_reader.bend": 1602,
+      "relation_failure_runtime.bend": 17490,
+      "relation_graph.bend": 9287,
+      "relation_providers.bend": 6665,
+      "relation_query.bend": 12456,
+      "relation_reorder.bend": 8658,
+      "relation_reorder_core.bend": 3816,
+      "relation_types.bend": 1993,
+      "removals.bend": 8696,
+      "resource.bend": 1767,
+      "resource_field.bend": 5490,
+      "resource_field_binding.bend": 3492,
+      "restore_apply.bend": 7793,
+      "restore_clear.bend": 3606,
+      "restore_data.bend": 1586,
+      "restore_events.bend": 3575,
+      "restore_graph_data.bend": 671,
+      "restore_graph_machine.bend": 8519,
+      "restore_graph_mapping.bend": 1501,
+      "restore_graph_public.bend": 20649,
+      "restore_graph_raw.bend": 7808,
+      "restore_graph_raw_owner.bend": 977,
+      "restore_graph_runtime.bend": 10061,
+      "restore_graph_runtime_engine.bend": 16729,
+      "restore_graph_runtime_state.bend": 5242,
+      "restore_graph_save.bend": 5356,
+      "restore_graph_schema.bend": 4343,
+      "restore_graph_validation.bend": 4316,
+      "restore_graph_world.bend": 2957,
+      "restore_leaf.bend": 5886,
+      "restore_lifecycle.bend": 3311,
+      "restore_prepare.bend": 4415,
+      "restore_product.bend": 3979,
+      "restore_public.bend": 9790,
+      "restore_raw.bend": 6938,
+      "restore_raw_number.bend": 1422,
+      "restore_raw_owner.bend": 1556,
+      "restore_runtime.bend": 12936,
+      "restore_save.bend": 1664,
+      "restore_schema.bend": 16239,
+      "restore_storage.bend": 6516,
+      "restore_transient.bend": 1195,
+      "restore_world.bend": 1800,
+      "restored_row.bend": 2627,
+      "row_column.bend": 3803,
+      "schedule.bend": 18431,
+      "schedule_checked.bend": 4888,
+      "schedule_provision.bend": 7439,
+      "schedule_with_barrier.bend": 4042,
+      "schema_fragments.bend": 11965,
+      "snapshot.bend": 2246,
+      "snapshot_data.bend": 4752,
+      "snapshot_gate.bend": 1336,
+      "snapshot_leaf.bend": 4111,
+      "snapshot_product.bend": 2630,
+      "snapshot_schema.bend": 3045,
+      "state.bend": 4602,
+      "string_equality.bend": 897,
+      "structural.bend": 9326,
+      "system.bend": 20969,
+      "system_cleanup.bend": 3850,
+      "system_instance.bend": 8785,
+      "trace_facts.bend": 4857,
+      "trace_relation.bend": 3782,
+      "trace_world.bend": 1233,
+      "transaction.bend": 8245,
+      "world.bend": 31163,
+      "world_io.bend": 2082,
+      "world_namespace.bend": 174,
+      "world_namespace.c": 645,
+      "world_namespace.js": 645,
+      "world_resource_owner.bend": 1139
+    },
+    "name": "bendvy-ecs-core",
+    "version": "0.1.0.7",
+    "desc": "Bendvy 0.1.0.6: typed ECS, events, schedules, inspection and persistence.",
+    "ts": 1795392904209,
+    "dependents": 0
+  },
+  "0x36a62c4384dc663f4eb29437db6b727f": {
+    "hash": "0x36a62c4384dc663f4eb29437db6b727f",
+    "files": {
+      "LICENSE": 11350,
+      "effs/storage.c": 3368,
+      "effs/storage.js": 2237,
+      "http.bend": 5050,
+      "publish.bend": 219,
+      "storage.bend": 46160
+    },
+    "name": "bend-kit-storage",
+    "version": "0.5.2.0",
+    "desc": "Content-addressed object store: Merkle trees, sync plans, and reachability GC with proved laws. Source: https://github.com/paymog/bend-kit/tree/main/storage",
+    "ts": 1795389579927,
+    "dependents": 0
+  },
+  "0x354b3c2ee5a660bddb313748129f568d": {
+    "hash": "0x354b3c2ee5a660bddb313748129f568d",
+    "files": {
+      "LICENSE": 11350,
+      "admission.bend": 13306,
+      "completion.bend": 1805,
+      "http.bend": 293444
+    },
+    "name": "bend-kit-http",
+    "version": "0.40.0.0",
+    "desc": "HTTP/1.1 and HTTP/2 client, with an HTTP/1.1 server. Source: https://github.com/paymog/bend-kit/tree/main/http",
+    "ts": 1795384933166,
+    "dependents": 8
+  },
+  "0x573d2a3c4a90e7d9cb33bbaba0fc7621": {
+    "hash": "0x573d2a3c4a90e7d9cb33bbaba0fc7621",
+    "files": {
+      "LICENSE": 11350,
+      "archive.bend": 17184
+    },
+    "name": "bend-kit-archive",
+    "version": "0.6.0.0",
+    "desc": "ZIP archives read over Bytes: stored and DEFLATE entries, checked against their CRC-32 and sizes. Source: https://github.com/paymog/bend-kit/tree/main/archive",
+    "ts": 1795384490879,
+    "dependents": 0
+  },
+  "0xfd122c6a1b806ddf6ed65c24d5ff4e42": {
+    "hash": "0xfd122c6a1b806ddf6ed65c24d5ff4e42",
+    "files": {
+      "LICENSE": 11350,
+      "effs/zlib.c": 19659,
+      "effs/zlib.js": 14884,
+      "encode.bend": 8516,
+      "native.bend": 4605,
+      "publish.bend": 199,
+      "zlib.bend": 35262
+    },
+    "name": "bend-kit-zlib",
+    "version": "0.6.0.0",
+    "desc": "DEFLATE, gzip, and zlib encoding and decoding (RFC 1951, 1952, 1950) over Bytes. Source: https://github.com/paymog/bend-kit/tree/main/zlib",
+    "ts": 1795383420859,
+    "dependents": 2
+  },
+  "0xde97c39e30f0296db8f98a72655e1b53": {
+    "hash": "0xde97c39e30f0296db8f98a72655e1b53",
+    "files": {
+      "LICENSE": 11350,
+      "effs/storage.c": 3368,
+      "effs/storage.js": 2237,
+      "http.bend": 5050,
+      "publish.bend": 219,
+      "storage.bend": 45635
+    },
+    "name": "bend-kit-storage",
+    "version": "0.5.1.1",
+    "desc": "Content-addressed object store: Merkle trees, sync plans, and reachability GC with proved laws. Source: https://github.com/paymog/bend-kit/tree/main/storage",
+    "ts": 1795377101019,
+    "dependents": 0
+  },
+  "0xa6a4f095f3ec4909f649f11e56aa207c": {
+    "hash": "0xa6a4f095f3ec4909f649f11e56aa207c",
+    "files": {
+      "LICENSE": 1095,
+      "Md.bend": 72055,
+      "PROOF.bend": 14781,
+      "PROPOSED.bend": 726,
+      "Package.bend": 257
+    },
+    "name": null,
+    "version": null,
+    "desc": "bend-md on the Bend hub: every module of it, so that an import of",
+    "ts": 1795361780161,
+    "dependents": 0
+  },
+  "0x5448dabcbe0822c3bf353ad2ca933826": {
+    "hash": "0x5448dabcbe0822c3bf353ad2ca933826",
+    "files": {
+      "LAWS.bend": 12786,
+      "LICENSE": 1098,
+      "PROOF.bend": 15476,
+      "README.md": 11403,
+      "io.bend": 1605,
+      "publish.bend": 329,
+      "ranks_proof.bend": 44700,
+      "signal.bend": 28938,
+      "sort_proof.bend": 56627
+    },
+    "name": "bend-quant-signal",
+    "version": "0.1.0.0",
+    "desc": "Cross-sectional signal evaluation: rank IC, IC, their summary and a Newey-West t over a T x N float32 panel, with proved alignment, causality and rank laws. Source: https://github.com/robinmarin/bend-quant/tree/main/signal",
+    "ts": 1795345713252,
+    "dependents": 0
+  },
+  "0x757e1f5e30d63fef12bb889151ca1574": {
+    "hash": "0x757e1f5e30d63fef12bb889151ca1574",
+    "files": {
+      "LICENSE": 11350,
+      "llm.bend": 24589,
+      "sse.bend": 10910
+    },
+    "name": "bend-kit-llm",
+    "version": "0.15.0.1",
+    "desc": "LLM client for the Anthropic Messages and OpenAI Chat Completions APIs, with SSE streaming. Source: https://github.com/paymog/bend-kit/tree/main/llm",
+    "ts": 1795332069011,
+    "dependents": 0
+  },
+  "0x8f7d7df9d4605699db47cf41a3c9941c": {
+    "hash": "0x8f7d7df9d4605699db47cf41a3c9941c",
+    "files": {
+      "LICENSE": 11350,
+      "camber.bend": 61848,
+      "input.bend": 9990,
+      "ledger.bend": 2104,
+      "notices.bend": 1471,
+      "response.bend": 2107
+    },
+    "name": "bend-kit-camber",
+    "version": "0.16.1.1",
+    "desc": "Fixed prepared HTTP applications and bounded affine dependency bundles.",
+    "ts": 1795331976495,
+    "dependents": 0
+  },
+  "0xfdfa1bd0e55846c1e77720b33fca8def": {
+    "hash": "0xfdfa1bd0e55846c1e77720b33fca8def",
+    "files": {
+      "LAWS.bend": 1967,
+      "LICENSE": 1095,
+      "PROOF.bend": 2024,
+      "Package.bend": 282,
+      "Serve.bend": 16268,
+      "Wire.bend": 20409,
+      "effs/wire.c": 1319
+    },
+    "name": null,
+    "version": null,
+    "desc": "bend-wire on the Bend hub: every module of it, so that an import of",
+    "ts": 1795331950404,
+    "dependents": 0
+  },
+  "0x344dda79a6778dd4cf91ebdb4288bc16": {
+    "hash": "0x344dda79a6778dd4cf91ebdb4288bc16",
+    "files": {
+      "Bucket.bend": 6036,
+      "LAWS.bend": 2589,
+      "LICENSE": 1095,
+      "PROOF.bend": 4850,
+      "Package.bend": 263
+    },
+    "name": null,
+    "version": null,
+    "desc": "bend-bucket on the Bend hub: every module of it, so that an import of",
+    "ts": 1795331915136,
+    "dependents": 0
+  },
+  "0x9e60cf5f65843e6569fdd2141ef6a717": {
+    "hash": "0x9e60cf5f65843e6569fdd2141ef6a717",
+    "files": {
+      "Bcrypt.bend": 14068,
+      "LICENSE": 1095,
+      "Package.bend": 230,
+      "Pi.bend": 12596
+    },
+    "name": null,
+    "version": null,
+    "desc": "bend-bcrypt on the Bend hub: every module of it, so that an import of",
+    "ts": 1795331907658,
+    "dependents": 0
+  },
+  "0x6c83f750e96a9f15a6f1f53c4af9521e": {
+    "hash": "0x6c83f750e96a9f15a6f1f53c4af9521e",
+    "files": {
+      "Entropy.bend": 1237,
+      "LICENSE": 1095
+    },
+    "name": null,
+    "version": null,
+    "desc": "",
+    "ts": 1795331905668,
+    "dependents": 0
+  },
+  "0x626ab1802f5b21fc5e2ae6566d88347a": {
+    "hash": "0x626ab1802f5b21fc5e2ae6566d88347a",
+    "files": {
+      "LICENSE": 1095,
+      "Sha2.bend": 6933
+    },
+    "name": "hhefesto-sha2",
+    "version": "1.0.0.0",
+    "desc": "",
+    "ts": 1795331897402,
+    "dependents": 0
+  },
+  "0x7c4a9991ecb5a4f22ed5a8334c9ac2ec": {
+    "hash": "0x7c4a9991ecb5a4f22ed5a8334c9ac2ec",
+    "files": {
+      "LICENSE": 1095,
+      "Radix.bend": 5958
+    },
+    "name": "hhefesto-radix",
+    "version": "1.0.0.0",
+    "desc": "",
+    "ts": 1795331871048,
+    "dependents": 0
+  },
+  "0x4eda0ae51bfbf915c9435fed3792a104": {
+    "hash": "0x4eda0ae51bfbf915c9435fed3792a104",
+    "files": {
+      "LICENSE": 1095,
+      "Time.bend": 5861
+    },
+    "name": "hhefesto-time",
+    "version": "1.0.0.0",
+    "desc": "",
+    "ts": 1795331859340,
+    "dependents": 0
+  },
+  "0xd8afce72fe33721bc84d5535590f151d": {
+    "hash": "0xd8afce72fe33721bc84d5535590f151d",
+    "files": {
+      "Codec.bend": 6101,
+      "Json.bend": 36313,
+      "LICENSE": 1095,
+      "PROOF.bend": 366,
+      "PROPOSED.bend": 485,
+      "Package.bend": 317,
+      "Real.bend": 6817
+    },
+    "name": "hhefesto-json",
+    "version": "1.0.0.0",
+    "desc": "bend-json on the Bend hub: every module of it, so that an import of",
+    "ts": 1795331858627,
+    "dependents": 0
+  },
+  "0x55b8d1266f49d25f847b58f9466c3721": {
+    "hash": "0x55b8d1266f49d25f847b58f9466c3721",
+    "files": {
+      "LICENSE": 1095,
+      "Text.bend": 5818
+    },
+    "name": "hhefesto-text",
+    "version": "1.0.0.0",
+    "desc": "",
+    "ts": 1795331817498,
+    "dependents": 1
+  },
+  "0x8e0116e485ceeef5dac1230894379961": {
+    "hash": "0x8e0116e485ceeef5dac1230894379961",
+    "files": {
+      "LICENSE": 11350,
+      "model.bend": 42721,
+      "runner.bend": 37146
+    },
+    "name": "bend-kit-runner",
+    "version": "0.20.0.0",
+    "desc": "Durable job runner: a journaled scheduler queue, bounded by a resources pool, with retry and a breaker per target. Source: https://github.com/paymog/bend-kit/tree/main/runner",
+    "ts": 1795330113729,
+    "dependents": 0
+  },
+  "0x9aa5cf63f9cadca1f47dd83c6a439234": {
+    "hash": "0x9aa5cf63f9cadca1f47dd83c6a439234",
+    "files": {
+      "LICENSE": 11350,
+      "gateway.bend": 4777
+    },
+    "name": "bend-kit-gateway",
+    "version": "0.5.0.0",
+    "desc": "A guarded read-through gateway: authorize, admit, serve from cache, and fetch on a miss. Source: https://github.com/paymog/bend-kit/tree/main/gateway",
+    "ts": 1795330032413,
+    "dependents": 0
+  },
+  "0x72b6bcd075f51c97a9dbd6ca3d8ac9e4": {
+    "hash": "0x72b6bcd075f51c97a9dbd6ca3d8ac9e4",
+    "files": {
+      "LICENSE": 11350,
+      "webhooks.bend": 21582
+    },
+    "name": "bend-kit-webhooks",
+    "version": "0.13.0.0",
+    "desc": "Webhook signatures: Standard Webhooks sign and verify, Stripe and GitHub verify, over the raw body. Source: https://github.com/paymog/bend-kit/tree/main/webhooks",
+    "ts": 1795329024467,
+    "dependents": 0
+  },
+  "0xc24c5bb199e1c3372f6247686dfd45a1": {
+    "hash": "0xc24c5bb199e1c3372f6247686dfd45a1",
+    "files": {
+      "LICENSE": 11350,
+      "jwt.bend": 33019
+    },
+    "name": "bend-kit-jwt",
+    "version": "0.13.0.0",
+    "desc": "JSON Web Tokens: HS256/384/512, RS256, and ES256 compact JWS sign and verify, claim checks, and JWKS keys over Hairpin. Source: https://github.com/paymog/bend-kit/tree/main/jwt",
+    "ts": 1795328968214,
+    "dependents": 0
+  },
+  "0xd78086cacdc8cba40734d08e2f2cd72f": {
+    "hash": "0xd78086cacdc8cba40734d08e2f2cd72f",
+    "files": {
+      "LICENSE": 11350,
+      "oauth2.bend": 14777
+    },
+    "name": "bend-kit-oauth2",
+    "version": "0.13.0.0",
+    "desc": "OAuth 2.0 client credentials, refresh, and authorization code with PKCE over Hairpin. Source: https://github.com/paymog/bend-kit/tree/main/oauth2",
+    "ts": 1795328956018,
+    "dependents": 0
+  },
+  "0x5cebe4326f2cbc09ae7d69e7299d3257": {
+    "hash": "0x5cebe4326f2cbc09ae7d69e7299d3257",
+    "files": {
+      "LICENSE": 11350,
+      "llm.bend": 24602,
+      "sse.bend": 10910
+    },
+    "name": "bend-kit-llm",
+    "version": "0.15.0.0",
+    "desc": "LLM client for the Anthropic Messages and OpenAI Chat Completions APIs, with SSE streaming. Source: https://github.com/paymog/bend-kit/tree/main/llm",
+    "ts": 1795328925185,
+    "dependents": 0
+  },
+  "0x6f7a65b7327686492af7785f17b49024": {
+    "hash": "0x6f7a65b7327686492af7785f17b49024",
+    "files": {
+      "LICENSE": 11350,
+      "sigv4.bend": 48899
+    },
+    "name": "bend-kit-sigv4",
+    "version": "0.13.0.0",
+    "desc": "AWS Signature V4 signing and S3 object storage over Hairpin. Source: https://github.com/paymog/bend-kit/tree/main/sigv4",
+    "ts": 1795328879473,
+    "dependents": 0
+  },
+  "0xc4e34def1933b85a360919d3b5a45ec1": {
+    "hash": "0xc4e34def1933b85a360919d3b5a45ec1",
+    "files": {
+      "LICENSE": 11350,
+      "hairpin.bend": 24297
+    },
+    "name": "bend-kit-hairpin",
+    "version": "0.15.0.0",
+    "desc": "Hairpin: an HTTP client with a base URL, default headers, a pool, cookies, mTLS, redirects, and proven retries. Source: https://github.com/paymog/bend-kit/tree/main/hairpin",
+    "ts": 1795327892745,
+    "dependents": 6
+  },
+  "0x7f06ff6866d75620cdc9ffc9838a4488": {
+    "hash": "0x7f06ff6866d75620cdc9ffc9838a4488",
+    "files": {
+      "LICENSE": 11350,
+      "effs/storage.c": 2540,
+      "effs/storage.js": 1779,
+      "http.bend": 5050,
+      "publish.bend": 219,
+      "storage.bend": 44517
+    },
+    "name": "bend-kit-storage",
+    "version": "0.5.1.0",
+    "desc": "Content-addressed object store: Merkle trees, sync plans, and reachability GC with proved laws. Source: https://github.com/paymog/bend-kit/tree/main/storage",
+    "ts": 1795327846558,
+    "dependents": 0
+  },
+  "0xba91f9cd61b8c7b584fbd5f43df85b24": {
+    "hash": "0xba91f9cd61b8c7b584fbd5f43df85b24",
+    "files": {
+      "LICENSE": 11350,
+      "camber.bend": 61803,
+      "input.bend": 9990,
+      "ledger.bend": 2104,
+      "notices.bend": 1471,
+      "response.bend": 2107
+    },
+    "name": "bend-kit-camber",
+    "version": "0.16.1.0",
+    "desc": "Fixed prepared HTTP applications and bounded affine dependency bundles.",
+    "ts": 1795327757650,
+    "dependents": 0
+  },
+  "0x38a6a43217c5976ca9d95ed542a22e7a": {
+    "hash": "0x38a6a43217c5976ca9d95ed542a22e7a",
+    "files": {
+      "LICENSE": 11350,
+      "admission.bend": 13306,
+      "completion.bend": 1805,
+      "http.bend": 293296
+    },
+    "name": "bend-kit-http",
+    "version": "0.39.2.0",
+    "desc": "HTTP/1.1 and HTTP/2 client, with an HTTP/1.1 server. Source: https://github.com/paymog/bend-kit/tree/main/http",
+    "ts": 1795326877809,
+    "dependents": 12
+  },
+  "0x4f62c320285ad29681b9c63a137e5a30": {
+    "hash": "0x4f62c320285ad29681b9c63a137e5a30",
+    "files": {
+      "LICENSE": 11350,
+      "codec.bend": 26237,
+      "postgres.bend": 26901,
+      "scram.bend": 11012
+    },
+    "name": "bend-kit-postgres",
+    "version": "0.3.1.1",
+    "desc": "Postgres client: protocol 3.0 over TCP or TLS, SCRAM-SHA-256, prepared queries, and a pool. Source: https://github.com/paymog/bend-kit/tree/main/postgres",
+    "ts": 1795326694330,
+    "dependents": 0
+  },
+  "0xf3980d2e7b28e36617f29887ff86dadb": {
+    "hash": "0xf3980d2e7b28e36617f29887ff86dadb",
+    "files": {
+      "LICENSE": 11350,
+      "redis.bend": 36956
+    },
+    "name": "bend-kit-redis",
+    "version": "0.3.1.1",
+    "desc": "Redis and Valkey client: RESP3 over TCP or TLS, with pipelining and a pool. Source: https://github.com/paymog/bend-kit/tree/main/redis",
+    "ts": 1795326555633,
+    "dependents": 0
+  },
+  "0x0eb9bf1d49fe63f999176bc420c5a04d": {
+    "hash": "0x0eb9bf1d49fe63f999176bc420c5a04d",
+    "files": {
+      "LICENSE": 11350,
+      "archive.bend": 17182
+    },
+    "name": "bend-kit-archive",
+    "version": "0.5.2.0",
+    "desc": "ZIP archives read over Bytes: stored and DEFLATE entries, checked against their CRC-32 and sizes. Source: https://github.com/paymog/bend-kit/tree/main/archive",
+    "ts": 1795326505309,
+    "dependents": 0
+  },
+  "0x489b865d72ab38fd5e4858cad0d11a04": {
+    "hash": "0x489b865d72ab38fd5e4858cad0d11a04",
+    "files": {
+      "LICENSE": 11350,
+      "stream.bend": 7065
+    },
+    "name": "bend-kit-stream",
+    "version": "0.4.1.0",
+    "desc": "Bounded packed-byte transfers between files and TCP/TLS sockets.",
+    "ts": 1795326423137,
+    "dependents": 0
+  },
+  "0xe48df2a5d906c87ee14da6454f9d32d8": {
+    "hash": "0xe48df2a5d906c87ee14da6454f9d32d8",
+    "files": {
+      "LICENSE": 11350,
+      "effs/zlib.c": 19659,
+      "effs/zlib.js": 14884,
+      "encode.bend": 8516,
+      "zlib.bend": 39814
+    },
+    "name": "bend-kit-zlib",
+    "version": "0.5.3.0",
+    "desc": "DEFLATE, gzip, and zlib encoding and decoding (RFC 1951, 1952, 1950) over Bytes, plus gzip, zstd, and brotli through the C libraries. Source: https://github.com/paymog/bend-kit/tree/main/zlib",
+    "ts": 1795325225453,
+    "dependents": 2
+  },
+  "0xea5958c4b1eace15f18f0607b2d582f0": {
+    "hash": "0xea5958c4b1eace15f18f0607b2d582f0",
+    "files": {
+      "LAWS.bend": 138,
+      "LICENSE": 11350,
+      "PROOF.bend": 107,
+      "queue.bend": 5565,
+      "queue_laws.bend": 8823,
+      "queue_proof.bend": 22294,
+      "recurrence.bend": 1831,
+      "recurrence_laws.bend": 3155,
+      "recurrence_proof.bend": 4321,
+      "scheduler.bend": 272
+    },
+    "name": "bend-kit-scheduler",
+    "version": "0.4.4.0",
+    "desc": "Pure deadline queues and bounded fixed-rate/fixed-delay recurrence over exact clock ticks.",
+    "ts": 1795324888704,
+    "dependents": 1
+  },
+  "0x8467cd20471d28e9b48b4b6b0dcdcd3f": {
+    "hash": "0x8467cd20471d28e9b48b4b6b0dcdcd3f",
+    "files": {
+      "LICENSE": 11350,
+      "fold.bend": 89990,
+      "regex.bend": 156935
+    },
+    "name": "bend-kit-regex",
+    "version": "0.9.0.1",
+    "desc": "Linear-time regular expressions: RE2 syntax, Pike VM, capture groups. Source: https://github.com/paymog/bend-kit/tree/main/regex",
+    "ts": 1795324880858,
+    "dependents": 0
+  },
+  "0xc9ba0c170bcd77734686dd1e721bb034": {
+    "hash": "0xc9ba0c170bcd77734686dd1e721bb034",
+    "files": {
+      "LICENSE": 11350,
+      "protobuf.bend": 28909
+    },
+    "name": "bend-kit-protobuf",
+    "version": "0.2.2.0",
+    "desc": "Pure bounded protobuf wire codec over Bytes. https://github.com/paymog/bend-kit/tree/main/protobuf",
+    "ts": 1795324827205,
+    "dependents": 0
+  },
+  "0x35b944d5d0085a902386d84a3c62a1e8": {
+    "hash": "0x35b944d5d0085a902386d84a3c62a1e8",
+    "files": {
+      "LICENSE": 11350,
+      "crdt.bend": 16210
+    },
+    "name": "bend-kit-crdt",
+    "version": "0.2.1.1",
+    "desc": "Replicated data types: grow-only and positive-negative counters with proved merges. Source: https://github.com/paymog/bend-kit/tree/main/crdt",
+    "ts": 1795324818260,
+    "dependents": 0
+  },
+  "0x6b30b4afb8bf789efdbb92b6cfecfbbf": {
+    "hash": "0x6b30b4afb8bf789efdbb92b6cfecfbbf",
+    "files": {
+      "LICENSE": 11350,
+      "f32array.bend": 21662,
+      "io.bend": 8131,
+      "parallel.bend": 3702,
+      "publish.bend": 271
+    },
+    "name": "bend-kit-f32array",
+    "version": "0.2.1.1",
+    "desc": "Packed F32 arrays: get, set, slice, concat, map, fold, zip, dot, sum, max, and little- or big-endian Bytes and files. Source: https://github.com/paymog/bend-kit/tree/main/f32array",
+    "ts": 1795324804619,
+    "dependents": 0
+  },
+  "0x1976ec2a45ae56e2c10ab21d9ca5c4b8": {
+    "hash": "0x1976ec2a45ae56e2c10ab21d9ca5c4b8",
+    "files": {
+      "LICENSE": 11350,
+      "planner.bend": 44828
+    },
+    "name": "bend-kit-planner",
+    "version": "0.5.1.0",
+    "desc": "Dependency plans with proved order and closure, incremental invalidation, and a build runner.",
+    "ts": 1795324803867,
+    "dependents": 0
+  },
+  "0xb9c6a8952912eecb2aa814630cbfa908": {
+    "hash": "0xb9c6a8952912eecb2aa814630cbfa908",
+    "files": {
+      "LICENSE": 11350,
+      "effs/journal.c": 5449,
+      "effs/journal.js": 2469,
+      "journal.bend": 19125
+    },
+    "name": "bend-kit-journal",
+    "version": "0.3.1.3",
+    "desc": "Append-only journal: checksummed frames, fsync'd appends, and crash recovery of the committed prefix. Source: https://github.com/paymog/bend-kit/tree/main/journal",
+    "ts": 1795324785603,
+    "dependents": 1
+  },
+  "0x3c688b65f147e5cd1ccc5501924baddc": {
+    "hash": "0x3c688b65f147e5cd1ccc5501924baddc",
+    "files": {
+      "LICENSE": 11350,
+      "commands.bend": 16274,
+      "model.bend": 2481
+    },
+    "name": "bend-kit-commands",
+    "version": "0.5.1.0",
+    "desc": "Retry-safe commands: deduplicate by command id, replay recorded results, and commit keyed rows, record, and outbox in one SQLite transaction. Source: https://github.com/paymog/bend-kit/tree/main/commands",
+    "ts": 1795324784648,
+    "dependents": 0
+  },
+  "0x0ae6c8c83c9b954a208cb719871679b4": {
+    "hash": "0x0ae6c8c83c9b954a208cb719871679b4",
+    "files": {
+      "LICENSE": 11350,
+      "notch.bend": 7796
+    },
+    "name": "bend-kit-notch",
+    "version": "0.4.0.1",
+    "desc": "Leveled, structured logging: a logger value, key-value fields, and logfmt or JSON-lines output. Source: https://github.com/paymog/bend-kit/tree/main/notch",
+    "ts": 1795324770107,
+    "dependents": 3
+  },
+  "0x13299c55e536ab9ecfbb9a813bc1ec10": {
+    "hash": "0x13299c55e536ab9ecfbb9a813bc1ec10",
+    "files": {
+      "LICENSE": 11350,
+      "migrate.bend": 21603
+    },
+    "name": "bend-kit-migrate",
+    "version": "0.4.1.0",
+    "desc": "Versioned subscription records: validated JSON decode, proved migrations, and encode. Source: https://github.com/paymog/bend-kit/tree/main/migrate",
+    "ts": 1795324763345,
+    "dependents": 0
+  },
+  "0x874f22564c9f7947263463f6904f7d44": {
+    "hash": "0x874f22564c9f7947263463f6904f7d44",
+    "files": {
+      "LICENSE": 11350,
+      "cache.bend": 5303
+    },
+    "name": "bend-kit-cache",
+    "version": "0.3.2.0",
+    "desc": "Cache validity: expiry, negative results, invalidation, and generation-safe fetch completion. Source: https://github.com/paymog/bend-kit/tree/main/cache",
+    "ts": 1795324738040,
+    "dependents": 1
+  },
+  "0x84f0f27e1c7e07c0d8867bb0a8bfece9": {
+    "hash": "0x84f0f27e1c7e07c0d8867bb0a8bfece9",
+    "files": {
+      "LICENSE": 11350,
+      "bits.bend": 21100
+    },
+    "name": "bend-kit-bits",
+    "version": "0.3.0.1",
+    "desc": "Bit readers and writers over Bytes, LSB-first (DEFLATE) or MSB-first (JPEG), and canonical Huffman codes and decode tables. Source: https://github.com/paymog/bend-kit/tree/main/bits",
+    "ts": 1795323457929,
+    "dependents": 2
+  },
+  "0xecb50fea9cd03aa7157ce5820854cf7c": {
+    "hash": "0xecb50fea9cd03aa7157ce5820854cf7c",
+    "files": {
+      "LICENSE": 11350,
+      "websocket.bend": 47706
+    },
+    "name": "bend-kit-websocket",
+    "version": "0.4.1.3",
+    "desc": "RFC 6455 WebSocket client: opening handshake, frames over packed Bytes, and messages over Wire. Source: https://github.com/paymog/bend-kit/tree/main/websocket",
+    "ts": 1795323417153,
+    "dependents": 0
+  },
+  "0x5fea041be86f1677bfed779e7579233f": {
+    "hash": "0x5fea041be86f1677bfed779e7579233f",
+    "files": {
+      "LICENSE": 11350,
+      "effs/files.c": 10600,
+      "effs/files.js": 4298,
+      "files.bend": 10229
+    },
+    "name": "bend-kit-files",
+    "version": "0.4.0.1",
+    "desc": "POSIX paths plus directory and metadata effects. Source: https://github.com/paymog/bend-kit/tree/main/files",
+    "ts": 1795323407903,
+    "dependents": 8
+  },
+  "0xbfcf01f5908bfcd8a7e6b4ce550a378b": {
+    "hash": "0xbfcf01f5908bfcd8a7e6b4ce550a378b",
+    "files": {
+      "LICENSE": 11350,
+      "hpack.bend": 23344,
+      "http2.bend": 59925,
+      "huffman.bend": 26339
+    },
+    "name": "bend-kit-http2",
+    "version": "0.5.0.2",
+    "desc": "RFC 9113 HTTP/2 client and frames, with RFC 7541 HPACK over packed Bytes.",
+    "ts": 1795323402865,
+    "dependents": 2
+  },
+  "0x74ee321e7f7c3659a70d134ed118de01": {
+    "hash": "0x74ee321e7f7c3659a70d134ed118de01",
+    "files": {
+      "LICENSE": 11350,
+      "csv.bend": 10394
+    },
+    "name": "bend-kit-csv",
+    "version": "0.3.0.1",
+    "desc": "CSV (RFC 4180) over bytes: a record cursor, a whole-document parse, and an encoder. Source: https://github.com/paymog/bend-kit/tree/main/csv",
+    "ts": 1795323383170,
+    "dependents": 0
+  },
+  "0x4cb6078a1b9c468ba8ff25e48817a6de": {
+    "hash": "0x4cb6078a1b9c468ba8ff25e48817a6de",
+    "files": {
+      "LICENSE": 11350,
+      "tar.bend": 27507
+    },
+    "name": "bend-kit-tar",
+    "version": "0.3.0.1",
+    "desc": "tar archives (POSIX ustar with PAX path and size records) of regular files and directories over Bytes. Source: https://github.com/paymog/bend-kit/tree/main/tar",
+    "ts": 1795323380750,
+    "dependents": 0
+  },
+  "0x92957abd83651a4f5b5d352560a37e03": {
+    "hash": "0x92957abd83651a4f5b5d352560a37e03",
+    "files": {
+      "LICENSE": 11350,
+      "effs/process.c": 28668,
+      "effs/process.js": 22341,
+      "process.bend": 5529
+    },
+    "name": "bend-kit-process",
+    "version": "0.5.2.1",
+    "desc": "Subprocesses and process-level OS access, with byte-exact input and output.",
+    "ts": 1795323367188,
+    "dependents": 1
+  },
+  "0x8ed6fcae06bf1a414d09d56fe0ada5c3": {
+    "hash": "0x8ed6fcae06bf1a414d09d56fe0ada5c3",
+    "files": {
+      "LICENSE": 11350,
+      "cbor.bend": 26360
+    },
+    "name": "bend-kit-cbor",
+    "version": "0.3.0.1",
+    "desc": "CBOR (RFC 8949) values encoded and decoded over Bytes. Source: https://github.com/paymog/bend-kit/tree/main/cbor",
+    "ts": 1795323365766,
+    "dependents": 1
+  },
+  "0x0d2a146cd1cbaedf76cc532bcd3594b0": {
+    "hash": "0x0d2a146cd1cbaedf76cc532bcd3594b0",
+    "files": {
+      "LICENSE": 11350,
+      "effs/time.c": 1029,
+      "effs/time.js": 672,
+      "time.bend": 38994
+    },
+    "name": "bend-kit-time",
+    "version": "0.3.0.1",
+    "desc": "Clocks, Duration and Instant, Gregorian dates, RFC 3339 and HTTP-date text, and TZif time zones. Source: https://github.com/paymog/bend-kit/tree/main/time",
+    "ts": 1795323348315,
+    "dependents": 15
+  },
+  "0x467a97f928a10d894d21823f411aa58e": {
+    "hash": "0x467a97f928a10d894d21823f411aa58e",
+    "files": {
+      "LICENSE": 11350,
+      "stats.bend": 14447
+    },
+    "name": "bend-kit-stats",
+    "version": "0.1.8.0",
+    "desc": "Descriptive statistics over F64 lists, and U32 gcd, lcm, and integer square root. Source: https://github.com/paymog/bend-kit/tree/main/stats",
+    "ts": 1795323343590,
+    "dependents": 0
+  },
+  "0xfb297b4fb1f291d2589bfbf2f5a0b5d3": {
+    "hash": "0xfb297b4fb1f291d2589bfbf2f5a0b5d3",
+    "files": {
+      "LICENSE": 11350,
+      "multipart.bend": 25363
+    },
+    "name": "bend-kit-multipart",
+    "version": "0.3.0.2",
+    "desc": "multipart/form-data (RFC 7578): an encoder with a secure random boundary and a streaming decoder over Bytes. Source: https://github.com/paymog/bend-kit/tree/main/multipart",
+    "ts": 1795323342975,
+    "dependents": 0
+  },
+  "0xf6f1c5d869b9d7d2f1ac9e3e58eb4716": {
+    "hash": "0xf6f1c5d869b9d7d2f1ac9e3e58eb4716",
+    "files": {
+      "LICENSE": 11350,
+      "hash.bend": 118408
+    },
+    "name": "bend-kit-hash",
+    "version": "0.3.2.2",
+    "desc": "Non-cryptographic hashes over Bytes: FNV-1a, xxHash, SipHash-1-3 and SipHash-2-4, CRC-32, and Adler-32. Source: https://github.com/paymog/bend-kit/tree/main/hash",
+    "ts": 1795323334699,
+    "dependents": 6
+  },
+  "0x419ec39802735c4664960ab4b9d962e5": {
+    "hash": "0x419ec39802735c4664960ab4b9d962e5",
+    "files": {
+      "LICENSE": 11350,
+      "json.bend": 39277
+    },
+    "name": "bend-kit-json",
+    "version": "0.7.3.0",
+    "desc": "JSON values, parsed and encoded as RFC 8259. Source: https://github.com/paymog/bend-kit/tree/main/json",
+    "ts": 1795323313856,
+    "dependents": 15
+  },
+  "0xcb49218c6a354d080bcff793a688eccc": {
+    "hash": "0xcb49218c6a354d080bcff793a688eccc",
+    "files": {
+      "LICENSE": 11350,
+      "generate.bend": 5617,
+      "property.bend": 4676,
+      "shrink.bend": 5553
+    },
+    "name": "bend-kit-property",
+    "version": "0.4.0.1",
+    "desc": "Reproducible property checks with generated inputs and greedy shrinking.",
+    "ts": 1795323309275,
+    "dependents": 0
+  },
+  "0x97a511a39006616a3ecbc78f99e54f24": {
+    "hash": "0x97a511a39006616a3ecbc78f99e54f24",
+    "files": {
+      "LICENSE": 11350,
+      "dns.bend": 22882,
+      "effs/dns.c": 2758,
+      "effs/dns.js": 2699
+    },
+    "name": "bend-kit-dns",
+    "version": "0.7.1.1",
+    "desc": "DNS codec and host lookup. Source: https://github.com/paymog/bend-kit/tree/main/dns",
+    "ts": 1795323306393,
+    "dependents": 4
+  },
+  "0x034ad33e6e642e290d3cb69b55b1977f": {
+    "hash": "0x034ad33e6e642e290d3cb69b55b1977f",
+    "files": {
+      "LICENSE": 11350,
+      "camber.bend": 61803,
+      "input.bend": 9990,
+      "ledger.bend": 2104,
+      "notices.bend": 1471,
+      "response.bend": 2107
+    },
+    "name": "bend-kit-camber",
+    "version": "0.16.0.3",
+    "desc": "Fixed prepared HTTP applications and bounded affine dependency bundles.",
+    "ts": 1795319010142,
+    "dependents": 0
+  },
+  "0x90ae486dd8dd7cc6f997dd8abb36dbd8": {
+    "hash": "0x90ae486dd8dd7cc6f997dd8abb36dbd8",
+    "files": {
+      "LICENSE": 11350,
+      "admission.bend": 13306,
+      "completion.bend": 1805,
+      "http.bend": 293296
+    },
+    "name": "bend-kit-http",
+    "version": "0.39.1.0",
+    "desc": "HTTP/1.1 and HTTP/2 client, with an HTTP/1.1 server. Source: https://github.com/paymog/bend-kit/tree/main/http",
+    "ts": 1795317788136,
+    "dependents": 1
+  },
+  "0x492532781be516636b127b5a62e13985": {
+    "hash": "0x492532781be516636b127b5a62e13985",
+    "files": {
+      "LICENSE": 11350,
+      "template.bend": 17245
+    },
+    "name": "bend-kit-template",
+    "version": "0.3.0.0",
+    "desc": "Mustache templates: variables, sections, inverted sections, comments, partials, and set delimiters, with HTML escaping on by default.",
+    "ts": 1795314711936,
+    "dependents": 0
+  },
+  "0x6b7a5cda8f5677b671c33a1c4784171e": {
+    "hash": "0x6b7a5cda8f5677b671c33a1c4784171e",
+    "files": {
+      "LICENSE": 11350,
+      "entities.bend": 596351,
+      "markdown.bend": 94892
+    },
+    "name": "bend-kit-markdown",
+    "version": "0.3.10.0",
+    "desc": "CommonMark 0.31.2: Markdown to HTML.",
+    "ts": 1795313915022,
+    "dependents": 0
+  },
+  "0xe7640806746753f930e1c1bd478bc8a5": {
+    "hash": "0xe7640806746753f930e1c1bd478bc8a5",
+    "files": {
+      "LICENSE": 11350,
+      "effs/process.c": 28668,
+      "effs/process.js": 22341,
+      "process.bend": 5529
+    },
+    "name": "bend-kit-process",
+    "version": "0.5.2.0",
+    "desc": "Subprocesses and process-level OS access, with byte-exact input and output.",
+    "ts": 1795312061740,
+    "dependents": 0
+  },
+  "0x9e25cc95c8e7ea99b39586c41fa3b5a7": {
+    "hash": "0x9e25cc95c8e7ea99b39586c41fa3b5a7",
+    "files": {
+      "LICENSE": 11350,
+      "hash.bend": 118408
+    },
+    "name": "bend-kit-hash",
+    "version": "0.3.2.1",
+    "desc": "Non-cryptographic hashes over Bytes: FNV-1a, xxHash, SipHash-1-3 and SipHash-2-4, CRC-32, and Adler-32. Source: https://github.com/paymog/bend-kit/tree/main/hash",
+    "ts": 1795311159814,
+    "dependents": 0
+  },
+  "0xde2d1598f0f2de84848965fdc6058c00": {
+    "hash": "0xde2d1598f0f2de84848965fdc6058c00",
+    "files": {
+      "LICENSE": 11350,
+      "effs/storage.c": 2540,
+      "effs/storage.js": 1779,
+      "http.bend": 5050,
+      "publish.bend": 219,
+      "storage.bend": 44517
+    },
+    "name": "bend-kit-storage",
+    "version": "0.5.0.0",
+    "desc": "Content-addressed object store: Merkle trees, sync plans, and reachability GC with proved laws. Source: https://github.com/paymog/bend-kit/tree/main/storage",
+    "ts": 1795309780727,
+    "dependents": 0
+  },
+  "0x5eb40ff91b54d04ca8d44189421891b9": {
+    "hash": "0x5eb40ff91b54d04ca8d44189421891b9",
+    "files": {
+      "LICENSE": 11350,
+      "f64.bend": 62619,
+      "powers.bend": 64073
+    },
+    "name": "bend-kit-f64",
+    "version": "0.1.4.0",
+    "desc": "IEEE 754 binary64 arithmetic and square root. Source: https://github.com/paymog/bend-kit/tree/main/f64",
+    "ts": 1795306017547,
+    "dependents": 3
+  },
+  "0x6b1194cc1193c5eafee91a6c19ea71b6": {
+    "hash": "0x6b1194cc1193c5eafee91a6c19ea71b6",
+    "files": {
+      "LICENSE": 11350,
+      "http.bend": 5050,
+      "publish.bend": 219,
+      "storage.bend": 43241
+    },
+    "name": "bend-kit-storage",
+    "version": "0.4.1.0",
+    "desc": "Content-addressed object store: Merkle trees, sync plans, and reachability GC with proved laws. Source: https://github.com/paymog/bend-kit/tree/main/storage",
+    "ts": 1795304279806,
+    "dependents": 0
+  },
   "0xd3c21b1503c33db114a039d3c48c81ba": {
     "hash": "0xd3c21b1503c33db114a039d3c48c81ba",
     "files": {
@@ -211,7 +1627,7 @@
     "version": "0.2.1.0",
     "desc": "Packed F32 arrays: get, set, slice, concat, map, fold, zip, dot, sum, max, and little- or big-endian Bytes and files. Source: https://github.com/paymog/bend-kit/tree/main/f32array",
     "ts": 1795231881027,
-    "dependents": 0
+    "dependents": 1
   },
   "0x0fe59af595d11753cb2b2a81171ef957": {
     "hash": "0x0fe59af595d11753cb2b2a81171ef957",
@@ -308,7 +1724,7 @@
     "version": "0.1.6.0",
     "desc": "Generic collections: maps, a vector, a deque and a priority queue. Source: https://github.com/paymog/bend-kit/tree/main/collections",
     "ts": 1795215816771,
-    "dependents": 0
+    "dependents": 10
   },
   "0xdbb8f0e6f7815a8e55eae3129b6e3659": {
     "hash": "0xdbb8f0e6f7815a8e55eae3129b6e3659",
@@ -349,7 +1765,7 @@
     "version": "0.39.0.0",
     "desc": "HTTP/1.1 and HTTP/2 client, with an HTTP/1.1 server. Source: https://github.com/paymog/bend-kit/tree/main/http",
     "ts": 1795212006448,
-    "dependents": 0
+    "dependents": 2
   },
   "0x5466226a66573d337d76c147c564ad05": {
     "hash": "0x5466226a66573d337d76c147c564ad05",
@@ -363,7 +1779,7 @@
     "version": "0.5.0.0",
     "desc": "RFC 9113 HTTP/2 client and frames, with RFC 7541 HPACK over packed Bytes.",
     "ts": 1795209314065,
-    "dependents": 1
+    "dependents": 2
   },
   "0x93b55640cccb9195b4b71fdc6bb0e097": {
     "hash": "0x93b55640cccb9195b4b71fdc6bb0e097",
@@ -413,7 +1829,7 @@
     "version": "0.5.0.1",
     "desc": "UTF-8 encoding and decoding between text and Bytes. Source: https://github.com/paymog/bend-kit/tree/main/encoding",
     "ts": 1795203421573,
-    "dependents": 0
+    "dependents": 12
   },
   "0x3b8b529737016d7cc85d4d3a065cef0e": {
     "hash": "0x3b8b529737016d7cc85d4d3a065cef0e",
@@ -445,7 +1861,7 @@
     "version": "0.3.3.1",
     "desc": "Byte buffers packed four bytes to a U32, with bounds-checked access. Source: https://github.com/paymog/bend-kit/tree/main/bytes",
     "ts": 1795202204677,
-    "dependents": 3
+    "dependents": 54
   },
   "0xd8f70327683b21776ccf8aa205a4e092": {
     "hash": "0xd8f70327683b21776ccf8aa205a4e092",
@@ -1138,7 +2554,7 @@
     "version": "0.4.0.0",
     "desc": "POSIX paths plus directory and metadata effects. Source: https://github.com/paymog/bend-kit/tree/main/files",
     "ts": 1795144676606,
-    "dependents": 14
+    "dependents": 16
   },
   "0xc9001321cdb64a759a36ee574d54cd94": {
     "hash": "0xc9001321cdb64a759a36ee574d54cd94",
@@ -8146,7 +9562,7 @@
     "version": "0.7.2.0",
     "desc": "JSON values, parsed and encoded as RFC 8259. Source: https://github.com/paymog/bend-kit/tree/main/json",
     "ts": 1794593519624,
-    "dependents": 17
+    "dependents": 19
   },
   "0x2af7cc185335f8334dbe36e7f7b2f83d": {
     "hash": "0x2af7cc185335f8334dbe36e7f7b2f83d",
@@ -8336,7 +9752,7 @@
     "version": "0.5.1.1",
     "desc": "DEFLATE, gzip, and zlib encoding and decoding (RFC 1951, 1952, 1950) over Bytes, plus gzip, zstd, and brotli through the C libraries. Source: https://github.com/paymog/bend-kit/tree/main/zlib",
     "ts": 1794589220035,
-    "dependents": 4
+    "dependents": 5
   },
   "0x67e4e1344805cb419bb08fd62348d5e5": {
     "hash": "0x67e4e1344805cb419bb08fd62348d5e5",
@@ -8617,7 +10033,7 @@
     "version": "0.1.5.0",
     "desc": "Generic collections: maps, a vector, a deque and a priority queue. Source: https://github.com/paymog/bend-kit/tree/main/collections",
     "ts": 1794579994782,
-    "dependents": 24
+    "dependents": 26
   },
   "0x2b4eb91a76a70816d22bee0d99e7d13a": {
     "hash": "0x2b4eb91a76a70816d22bee0d99e7d13a",
@@ -14021,7 +15437,7 @@
     "version": "0.7.1.0",
     "desc": "DNS codec and host lookup. Source: https://github.com/paymog/bend-kit/tree/main/dns",
     "ts": 1793633803243,
-    "dependents": 7
+    "dependents": 8
   },
   "0xa73d0cd6339f5bcf8617592b1b629b33": {
     "hash": "0xa73d0cd6339f5bcf8617592b1b629b33",
@@ -15423,7 +16839,7 @@
     "version": "0.4.8.0",
     "desc": "Byte-exact TCP, UDP, and TLS sockets. Source: https://github.com/paymog/bend-kit/tree/main/wire",
     "ts": 1793410672342,
-    "dependents": 14
+    "dependents": 22
   },
   "0xd69d0935f61b6b857f19d03d9f46fddc": {
     "hash": "0xd69d0935f61b6b857f19d03d9f46fddc",
@@ -15959,7 +17375,7 @@
     "version": "0.8.0.0",
     "desc": "bend-mathlib: machine-checked lemmas for Bend 2 (Nat, Bool, List, String, Maybe, equality, order, algebra, permutations, sorting, machine words); import one module, e.g. bend-mathlib@0.8.0.0/nat.bend.",
     "ts": 1793204092513,
-    "dependents": 10
+    "dependents": 11
   },
   "0x4205241c820f278e5d2fb5255c89a6a1": {
     "hash": "0x4205241c820f278e5d2fb5255c89a6a1",
@@ -16054,7 +17470,7 @@
     "version": "0.3.0.0",
     "desc": "Retry policy: a shared attempt budget, an operation deadline, bounded backoff, and a circuit breaker.",
     "ts": 1793193233530,
-    "dependents": 25
+    "dependents": 35
   },
   "0x92a0303baba9178f097241191a0ae2fb": {
     "hash": "0x92a0303baba9178f097241191a0ae2fb",
@@ -16252,7 +17668,7 @@
     "version": "0.2.2.2",
     "desc": "Digests, HMAC, HKDF, PBKDF2, scrypt, AEAD, and RSA and ECDSA signatures through OpenSSL 3 libcrypto, plus OS secure random bytes. Source: https://github.com/paymog/bend-kit/tree/main/crypto",
     "ts": 1793149766450,
-    "dependents": 24
+    "dependents": 41
   },
   "0xa5b0f53eaf9c9d7c9694e326ca453a91": {
     "hash": "0xa5b0f53eaf9c9d7c9694e326ca453a91",
@@ -16782,7 +18198,7 @@
     "version": "0.4.0.0",
     "desc": "Leveled, structured logging: a logger value, key-value fields, and logfmt or JSON-lines output. Source: https://github.com/paymog/bend-kit/tree/main/notch",
     "ts": 1793112581835,
-    "dependents": 6
+    "dependents": 7
   },
   "0xde6cf0d1fc0b3a3ad4eeb8380d10f3c7": {
     "hash": "0xde6cf0d1fc0b3a3ad4eeb8380d10f3c7",
@@ -16874,7 +18290,7 @@
     "version": "0.3.0.0",
     "desc": "Clocks, Duration and Instant, Gregorian dates, RFC 3339 and HTTP-date text, and TZif time zones. Source: https://github.com/paymog/bend-kit/tree/main/time",
     "ts": 1793111985027,
-    "dependents": 54
+    "dependents": 56
   },
   "0xb81a9224a089a51162673b096aa917db": {
     "hash": "0xb81a9224a089a51162673b096aa917db",
@@ -19373,7 +20789,7 @@
     "version": "0.5.0.0",
     "desc": "UTF-8 encoding and decoding between text and Bytes. Source: https://github.com/paymog/bend-kit/tree/main/encoding",
     "ts": 1792861630329,
-    "dependents": 29
+    "dependents": 30
   },
   "0xac8010b37d14ff08858877ea88da2fba": {
     "hash": "0xac8010b37d14ff08858877ea88da2fba",
@@ -19397,7 +20813,7 @@
     "version": "0.3.3.0",
     "desc": "Byte buffers packed four bytes to a U32, with bounds-checked access. Source: https://github.com/paymog/bend-kit/tree/main/bytes",
     "ts": 1792861333765,
-    "dependents": 151
+    "dependents": 157
   },
   "0xa1e169a6235d40fa5888b83468e4c857": {
     "hash": "0xa1e169a6235d40fa5888b83468e4c857",
@@ -24772,7 +26188,7 @@
     "version": "0.1.0.0",
     "desc": "Pure authorization policies: deny-overrides, default deny, intersection, and fail-closed missing context.",
     "ts": 1791747849628,
-    "dependents": 4
+    "dependents": 5
   },
   "0x801060290904d418c14ffa544e867442": {
     "hash": "0x801060290904d418c14ffa544e867442",
@@ -25156,7 +26572,7 @@
     "version": "0.2.0.0",
     "desc": "Parallel map and reduce over lists and arrays, a worker pool, select over channels, and timeouts.",
     "ts": 1791573863162,
-    "dependents": 18
+    "dependents": 21
   },
   "0x6eaf476c39756d18630510c519770168": {
     "hash": "0x6eaf476c39756d18630510c519770168",
@@ -25309,7 +26725,7 @@
     "version": "0.1.0.1",
     "desc": "Prepared SQLite statements through libsqlite3. Source: https://github.com/paymog/bend-kit/tree/main/sqlite",
     "ts": 1791572010532,
-    "dependents": 6
+    "dependents": 7
   },
   "0x46b9429cbffa7a8c1111ce19c60a3d6a": {
     "hash": "0x46b9429cbffa7a8c1111ce19c60a3d6a",
@@ -25322,7 +26738,7 @@
     "version": "0.1.0.1",
     "desc": "Seeded pseudo-random numbers: xoshiro128**, unbiased ranges, floats and shuffles. Not for cryptography.",
     "ts": 1791572006093,
-    "dependents": 5
+    "dependents": 6
   },
   "0xf33eec520d9fe4851fd0d1e29eaf0166": {
     "hash": "0xf33eec520d9fe4851fd0d1e29eaf0166",
@@ -25500,7 +26916,7 @@
     "version": "0.1.0.0",
     "desc": "Bounded capacity pools with affine reservations: reserve, release, split, and combine.",
     "ts": 1791511862755,
-    "dependents": 66
+    "dependents": 75
   },
   "0xeaee3c88886bfae971db9dcf3cde0759": {
     "hash": "0xeaee3c88886bfae971db9dcf3cde0759",
@@ -26545,7 +27961,7 @@
     "version": "0.2.0.0",
     "desc": "Prepared HTTP routes with exact paths, validated registration, and path-first method selection. Source: https://github.com/paymog/bend-kit/tree/main/router",
     "ts": 1791074936903,
-    "dependents": 20
+    "dependents": 24
   },
   "0xdbe1000ee6707b4d38c0ad7eb1287363": {
     "hash": "0xdbe1000ee6707b4d38c0ad7eb1287363",
@@ -30041,7 +31457,7 @@
     "version": "0.4.1.0",
     "desc": "URL parsing, resolution, and percent-encoding (RFC 3986). Source: https://github.com/paymog/bend-kit/tree/main/url",
     "ts": 1790526635864,
-    "dependents": 119
+    "dependents": 132
   },
   "0xa3dc0f6e3963608e4608a1017272cf4f": {
     "hash": "0xa3dc0f6e3963608e4608a1017272cf4f",
@@ -30338,7 +31754,7 @@
     "version": "0.2.0.0",
     "desc": "Fixed-width integers U8, U16, U64, I32 and I64: wrapping, checked and saturating arithmetic, and text in radix 2 to 36.",
     "ts": 1790516996356,
-    "dependents": 86
+    "dependents": 96
   },
   "0xea2956cd4e05ac318643319cb7fb3c29": {
     "hash": "0xea2956cd4e05ac318643319cb7fb3c29",
@@ -30349,7 +31765,7 @@
     "version": "0.1.0.0",
     "desc": "Text formatting: a string builder, format, padding, and shortest F32 printing.",
     "ts": 1790516925033,
-    "dependents": 7
+    "dependents": 8
   },
   "0xa32ae93500a5dfaef6edb45d6e7bcc3b": {
     "hash": "0xa32ae93500a5dfaef6edb45d6e7bcc3b",
@@ -32130,7 +33546,7 @@
     "version": "0.1.0.0",
     "desc": "Generated by gen.py from UCD 17.0.0. Do not edit.",
     "ts": 1790362349414,
-    "dependents": 32
+    "dependents": 34
   },
   "0x675b00007c6529c96bc50fe604cbdba2": {
     "hash": "0x675b00007c6529c96bc50fe604cbdba2",
